@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo SFIA - Starting Application
+echo SFIA - Starting Application (Simple)
 echo ========================================
 echo.
 
@@ -15,54 +15,37 @@ if not exist ".venv" (
 REM Activate virtual environment
 echo Activating virtual environment...
 call .venv\Scripts\activate.bat
-if errorlevel 1 (
-    echo ERROR: Failed to activate virtual environment
-    pause
-    exit /b 1
-)
 
 echo Virtual environment activated successfully!
 echo.
 
-REM Check if Ollama is running
-echo Checking Ollama server status...
-curl -s http://localhost:11434/api/tags >nul 2>&1
-if errorlevel 1 (
+REM Start the application
+echo Starting application...
+
+REM Check if arguments were provided
+if "%1"=="" (
+    echo Starting interactive mode...
+    echo Type 'quit' or 'exit' to close the application.
     echo.
-    echo WARNING: Ollama server does not appear to be running.
-    echo Please start Ollama server with: ollama serve
+    
+    :loop
+    set /p question="Enter your question: "
+    if /i "%question%"=="quit" goto :end
+    if /i "%question%"=="exit" goto :end
+    if "%question%"=="" goto :loop
+    
     echo.
-    echo Do you want to continue anyway? (y/n)
-    set /p choice=
-    if /i not "%choice%"=="y" (
-        echo Application startup cancelled.
-        pause
-        exit /b 1
-    )
+    .venv\Scripts\python.exe main.py "%question%" --doc-folder ".\doc"
+    echo.
+    goto :loop
+    
+    :end
+    echo Application closed.
 ) else (
-    echo Ollama server is running.
+    echo Running with provided arguments...
+    .venv\Scripts\python.exe main.py %*
+    echo.
+    echo Application closed.
 )
 
-echo.
-echo ========================================
-echo SFIA - Semantic File Information Assistant
-echo ========================================
-echo.
-echo Usage examples:
-echo   python main.py
-echo   python main.py "What is machine learning?"
-echo   python main.py "Explain AI" --doc-folder ./documents
-echo   python main.py "Hello" --debug
-echo.
-echo Type 'python main.py --help' for all options.
-echo.
-echo Press Ctrl+C to exit.
-echo ========================================
-echo.
-
-REM Start the application with default question
-python main.py
-
-echo.
-echo Application closed.
 pause 

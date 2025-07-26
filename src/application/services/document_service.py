@@ -68,15 +68,21 @@ class DocumentService:
                 engine='openpyxl' if file_path.endswith('.xlsx') else None
             )
             
-            # Use the first column for content
-            first_column = df.columns[0]
-            for value in df[first_column]:
-                content = str(value).strip()
-                if content and content.lower() != 'nan':
-                    documents.append(Document(
-                        content=content,
-                        metadata={"source": file_path, "type": "excel"}
-                    ))
+            # Combine all non-empty content into one document
+            all_content = []
+            for column in df.columns:
+                for value in df[column]:
+                    content = str(value).strip()
+                    if content and content.lower() != 'nan':
+                        all_content.append(content)
+            
+            if all_content:
+                # Create one document with all content combined
+                combined_content = "\n".join(all_content)
+                documents.append(Document(
+                    content=combined_content,
+                    metadata={"source": file_path, "type": "excel", "rows_processed": len(df)}
+                ))
         except Exception as e:
             print(f"Failed to read {file_path}: {e}")
         
