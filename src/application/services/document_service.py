@@ -93,6 +93,6 @@ class DocumentService:
         # This is a simplified implementation - in a real scenario,
         # you might want to implement pagination or filtering
         return self._document_repository.search(
-            Query(""), 
+            Query("all"), 
             top_k=1000  # Large number to get all documents
         ) 
