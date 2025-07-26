@@ -63,12 +63,56 @@ class DocumentService:
         """Load content from an Excel file."""
         documents = []
         try:
-            df = pd.read_excel(
-                file_path, 
-                engine='openpyxl' if file_path.endswith('.xlsx') else None
-            )
+            # Read all sheets from the Excel file
+            excel_file = pd.ExcelFile(file_path)
             
-            # Combine all non-empty content into one document
+            for sheet_name in excel_file.sheet_names:
+                # Skip sheets that are not relevant for SFIA skills
+                if sheet_name.lower() in ['read me notes', 'terms of use']:
+                    continue
+                
+                df = pd.read_excel(
+                    file_path, 
+                    sheet_name=sheet_name,
+                    engine='openpyxl' if file_path.endswith('.xlsx') else None
+                )
+                
+                # For Skills sheet, create individual documents for each skill
+                if sheet_name.lower() == 'skills':
+                    documents.extend(self._process_skills_sheet(df, file_path, sheet_name))
+                else:
+                    # For other sheets, combine all content
+                    all_content = []
+                    for column in df.columns:
+                        for value in df[column]:
+                            content = str(value).strip()
+                            if content and content.lower() != 'nan':
+                                all_content.append(content)
+                    
+                    if all_content:
+                        combined_content = "\n".join(all_content)
+                        documents.append(Document(
+                            content=combined_content,
+                            metadata={"source": file_path, "type": "excel", "sheet": sheet_name, "rows_processed": len(df)}
+                        ))
+        except Exception as e:
+            print(f"Failed to read {file_path}: {e}")
+        
+        return documents
+    
+    def _process_skills_sheet(self, df: pd.DataFrame, file_path: str, sheet_name: str) -> List[Document]:
+        """Process the Skills sheet to create individual documents for each skill."""
+        documents = []
+        
+        # Look for the Skill column
+        skill_column = None
+        for col in df.columns:
+            if 'skill' in str(col).lower():
+                skill_column = col
+                break
+        
+        if skill_column is None:
+            # If no skill column found, process as regular sheet
             all_content = []
             for column in df.columns:
                 for value in df[column]:
@@ -77,14 +121,45 @@ class DocumentService:
                         all_content.append(content)
             
             if all_content:
-                # Create one document with all content combined
                 combined_content = "\n".join(all_content)
                 documents.append(Document(
                     content=combined_content,
-                    metadata={"source": file_path, "type": "excel", "rows_processed": len(df)}
+                    metadata={"source": file_path, "type": "excel", "sheet": sheet_name, "rows_processed": len(df)}
                 ))
-        except Exception as e:
-            print(f"Failed to read {file_path}: {e}")
+            return documents
+        
+        # Process each skill row
+        for index, row in df.iterrows():
+            skill_name = str(row[skill_column]).strip()
+            if skill_name and skill_name.lower() != 'nan' and skill_name != 'Skill':
+                # Create content for this skill
+                skill_content = f"Skill: {skill_name}\n"
+                
+                # Add level descriptions if available
+                for col in df.columns:
+                    if 'level' in str(col).lower() and 'description' in str(col).lower():
+                        level_desc = str(row[col]).strip()
+                        if level_desc and level_desc.lower() != 'nan':
+                            skill_content += f"{col}: {level_desc}\n"
+                
+                # Add overall description if available
+                for col in df.columns:
+                    if 'overall description' in str(col).lower():
+                        overall_desc = str(row[col]).strip()
+                        if overall_desc and overall_desc.lower() != 'nan':
+                            skill_content += f"Overall description: {overall_desc}\n"
+                
+                # Add other relevant columns
+                for col in df.columns:
+                    if col not in [skill_column] and 'level' not in str(col).lower():
+                        value = str(row[col]).strip()
+                        if value and value.lower() != 'nan':
+                            skill_content += f"{col}: {value}\n"
+                
+                documents.append(Document(
+                    content=skill_content,
+                    metadata={"source": file_path, "type": "excel", "sheet": sheet_name, "skill": skill_name, "row": index}
+                ))
         
         return documents
     

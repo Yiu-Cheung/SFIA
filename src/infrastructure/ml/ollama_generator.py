@@ -20,7 +20,7 @@ class OllamaGenerator:
     
     def __init__(
         self,
-        model: str = "llama3.2:latest",
+        model: str = "deepseek-r1:1.5b",
         url: str = "http://localhost:11434",
         generation_kwargs: Dict[str, Any] = None
     ) -> None:
@@ -63,10 +63,13 @@ class OllamaGenerator:
     
     def _build_prompt(self, query: str, context: str) -> str:
         """Build the prompt for the LLM."""
-        return f"""Answer the following question as naturally and conversationally as possible, using the information below as your main source. 
-If the answer is not found, use your knowledge.
+        return f"""You are a helpful assistant that answers questions based on the provided context. 
+Please answer the following question using ONLY the information provided in the context below.
+If the exact answer is not found in the context, say "I cannot find the specific information in the provided context."
 
 Context:
 {context}
 
-Question: {query}?""" 
+Question: {query}
+
+Answer:""" 

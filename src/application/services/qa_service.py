@@ -3,10 +3,11 @@
 # Ticket: SFIA-001
 
 # Layer: application
-# Responsibility: Orchestrate Q&A operations using document retrieval and LLM generation
-# Public API: QAService.ask_question()
+# Responsibility: Orchestrate Q&A operations
+# Public API: QAService.ask_question(), QAService.get_retrieved_documents()
 
-from typing import List
+import pandas as pd
+from typing import List, Dict, Any
 
 from ...domain.models.document import Document
 from ...domain.models.query import Query
@@ -18,33 +19,270 @@ from ...infrastructure.ml.ollama_generator import OllamaGenerator
 class QAService:
     """Application service for Q&A operations."""
     
-    def __init__(
-        self, 
-        document_repository: DocumentRepository,
-        llm_generator: OllamaGenerator
-    ) -> None:
+    def __init__(self, document_repository: DocumentRepository, llm_generator: OllamaGenerator) -> None:
         """Initialize the Q&A service."""
         self._document_repository = document_repository
         self._llm_generator = llm_generator
     
-    def ask_question(
-        self, 
-        question: str, 
-        top_k: int = 10
-    ) -> Response:
-        """Ask a question and get an answer based on stored documents."""
-        # Create domain query
+    def ask_question(self, question: str, top_k: int = 5) -> Response:
+        """Ask a question and get a response."""
         query = Query(question)
         
-        # Retrieve relevant documents
+        # Get relevant documents
         documents = self._document_repository.search(query, top_k=top_k)
         
-        # Generate response using LLM
-        response = self._llm_generator.generate(query, documents)
-        
-        return response
+        # Generate response
+        return self._llm_generator.generate(query, documents)
     
-    def get_retrieved_documents(self, question: str, top_k: int = 10) -> List[Document]:
-        """Get documents retrieved for a question (for debugging)."""
+    def get_retrieved_documents(self, question: str, top_k: int = 5) -> List[Document]:
+        """Get documents retrieved for a question."""
         query = Query(question)
-        return self._document_repository.search(query, top_k=top_k) 
+        return self._document_repository.search(query, top_k=top_k)
+    
+    def ask_question_excel_page_by_page(self, question: str, excel_file_path: str) -> Response:
+        """Ask a question by processing Excel file page by page."""
+        try:
+            # First, try to find specific skill information
+            skill_response = self._find_specific_skill(question, excel_file_path)
+            if skill_response:
+                return skill_response
+            
+            # Fallback to general page-by-page processing
+            excel_file = pd.ExcelFile(excel_file_path)
+            all_responses = []
+            
+            for sheet_name in excel_file.sheet_names:
+                # Skip irrelevant sheets
+                if sheet_name.lower() in ['read me notes', 'terms of use']:
+                    continue
+                
+                # Read the sheet
+                df = pd.read_excel(excel_file_path, sheet_name=sheet_name)
+                
+                # Create a document for this sheet
+                sheet_content = self._dataframe_to_text(df, sheet_name)
+                sheet_document = Document(
+                    content=sheet_content,
+                    metadata={"source": excel_file_path, "type": "excel", "sheet": sheet_name}
+                )
+                
+                # Ask the question for this sheet
+                query = Query(question)
+                try:
+                    response = self._llm_generator.generate(query, [sheet_document])
+                    if response.content and "cannot find" not in response.content.lower():
+                        all_responses.append({
+                            "sheet": sheet_name,
+                            "response": response.content,
+                            "metadata": response.metadata
+                        })
+                except Exception as e:
+                    print(f"Error processing sheet {sheet_name}: {e}")
+                    continue
+            
+            # Combine all responses
+            if all_responses:
+                combined_content = self._combine_responses(all_responses, question)
+                
+                # Get final accurate answer from LLM
+                final_answer = self._get_final_answer(question, combined_content)
+                
+                return Response(
+                    content=final_answer,
+                    metadata={
+                        "model": "ollama",
+                        "sheets_processed": len(all_responses),
+                        "total_sheets": len(excel_file.sheet_names),
+                        "final_answer_processed": True
+                    }
+                )
+            else:
+                return Response(
+                    content="I could not find any relevant information in the Excel file for your question.",
+                    metadata={"model": "ollama", "sheets_processed": 0}
+                )
+                
+        except Exception as e:
+            return Response(
+                content=f"Error processing Excel file: {str(e)}",
+                metadata={"model": "ollama", "error": str(e)}
+            )
+    
+    def _find_specific_skill(self, question: str, excel_file_path: str) -> Response:
+        """Find specific skill information from the Skills sheet."""
+        try:
+            # Read the Skills sheet
+            df = pd.read_excel(excel_file_path, sheet_name='Skills')
+            
+            # Extract skill names from the question
+            skill_keywords = self._extract_skill_keywords(question)
+            
+            # Search for matching skills
+            matching_skills = []
+            for keyword in skill_keywords:
+                matches = df[df['Skill'].str.contains(keyword, case=False, na=False)]
+                if not matches.empty:
+                    matching_skills.extend(matches.to_dict('records'))
+            
+            if matching_skills:
+                # Create detailed content for matching skills
+                skill_content = ""
+                for skill_data in matching_skills:
+                    skill_content += f"Skill: {skill_data['Skill']}\n"
+                    
+                    # Add all level descriptions
+                    for col in df.columns:
+                        if 'level' in str(col).lower() and 'description' in str(col).lower():
+                            level_desc = str(skill_data.get(col, '')).strip()
+                            if level_desc and level_desc.lower() != 'nan':
+                                skill_content += f"{col}: {level_desc}\n"
+                    
+                    # Add overall description
+                    for col in df.columns:
+                        if 'overall description' in str(col).lower():
+                            overall_desc = str(skill_data.get(col, '')).strip()
+                            if overall_desc and overall_desc.lower() != 'nan':
+                                skill_content += f"Overall description: {overall_desc}\n"
+                    
+                    skill_content += "\n"
+                
+                # Create document and get response
+                skill_document = Document(
+                    content=skill_content,
+                    metadata={"source": excel_file_path, "type": "excel", "sheet": "Skills", "skills_found": len(matching_skills)}
+                )
+                
+                query = Query(question)
+                response = self._llm_generator.generate(query, [skill_document])
+                
+                return Response(
+                    content=response.content,
+                    metadata={
+                        "model": "ollama",
+                        "skills_found": len(matching_skills),
+                        "direct_skill_match": True
+                    }
+                )
+            
+            return None
+            
+        except Exception as e:
+            print(f"Error finding specific skill: {e}")
+            return None
+    
+    def _extract_skill_keywords(self, question: str) -> List[str]:
+        """Extract skill keywords from the question."""
+        question_lower = question.lower()
+        keywords = []
+        
+        # Common skill patterns
+        if "certification scheme operation" in question_lower:
+            keywords.append("Certification scheme operation")
+        if "certification" in question_lower and "scheme" in question_lower:
+            keywords.append("Certification scheme operation")
+        
+        # Add more skill patterns as needed
+        # You can expand this to handle other skills
+        
+        return keywords
+    
+    def _dataframe_to_text(self, df: pd.DataFrame, sheet_name: str) -> str:
+        """Convert DataFrame to text format."""
+        if sheet_name.lower() == 'skills':
+            return self._skills_dataframe_to_text(df)
+        else:
+            return self._general_dataframe_to_text(df, sheet_name)
+    
+    def _skills_dataframe_to_text(self, df: pd.DataFrame) -> str:
+        """Convert Skills DataFrame to structured text."""
+        text_lines = []
+        
+        # Find the Skill column
+        skill_column = None
+        for col in df.columns:
+            if 'skill' in str(col).lower():
+                skill_column = col
+                break
+        
+        if skill_column is None:
+            return self._general_dataframe_to_text(df, "Skills")
+        
+        # Process each skill row
+        for index, row in df.iterrows():
+            skill_name = str(row[skill_column]).strip()
+            if skill_name and skill_name.lower() != 'nan' and skill_name != 'Skill':
+                skill_text = f"Skill: {skill_name}\n"
+                
+                # Add level descriptions
+                for col in df.columns:
+                    if 'level' in str(col).lower() and 'description' in str(col).lower():
+                        level_desc = str(row[col]).strip()
+                        if level_desc and level_desc.lower() != 'nan':
+                            skill_text += f"{col}: {level_desc}\n"
+                
+                # Add overall description
+                for col in df.columns:
+                    if 'overall description' in str(col).lower():
+                        overall_desc = str(row[col]).strip()
+                        if overall_desc and overall_desc.lower() != 'nan':
+                            skill_text += f"Overall description: {overall_desc}\n"
+                
+                text_lines.append(skill_text)
+        
+        return "\n".join(text_lines)
+    
+    def _general_dataframe_to_text(self, df: pd.DataFrame, sheet_name: str) -> str:
+        """Convert general DataFrame to text."""
+        text_lines = [f"Sheet: {sheet_name}"]
+        
+        # Add column headers
+        headers = [str(col) for col in df.columns if str(col).lower() != 'nan']
+        text_lines.append(f"Columns: {', '.join(headers)}")
+        
+        # Add data rows
+        for index, row in df.iterrows():
+            row_data = []
+            for col in df.columns:
+                value = str(row[col]).strip()
+                if value and value.lower() != 'nan':
+                    row_data.append(f"{col}: {value}")
+            
+            if row_data:
+                text_lines.append(f"Row {index + 1}: {' | '.join(row_data)}")
+        
+        return "\n".join(text_lines)
+    
+    def _combine_responses(self, responses: List[Dict[str, Any]], question: str) -> str:
+        """Combine responses from multiple sheets into a final answer."""
+        if len(responses) == 1:
+            return f"Answer: {responses[0]['response']}"
+        
+        # Multiple responses - create a summary
+        combined = f"Based on analysis of {len(responses)} sheets in the Excel file:\n\n"
+        
+        for i, response in enumerate(responses, 1):
+            combined += f"From sheet '{response['sheet']}':\n{response['response']}\n\n"
+        
+        # Add a final summary
+        combined += f"Summary: The information above was found across {len(responses)} different sheets in the Excel file."
+        
+        return combined
+    
+    def _get_final_answer(self, question: str, combined_responses: str) -> str:
+        """Send combined responses back to LLM for final accurate answer."""
+        try:
+            # Create a document with the combined responses
+            combined_document = Document(
+                content=combined_responses,
+                metadata={"type": "combined_responses", "source": "excel_analysis"}
+            )
+            
+            # Ask the LLM to provide a final, accurate answer
+            query = Query(f"Based on the following analysis, provide a clear and accurate answer to: {question}")
+            response = self._llm_generator.generate(query, [combined_document])
+            
+            return response.content
+            
+        except Exception as e:
+            print(f"Error getting final answer: {e}")
+            return combined_responses 

@@ -7,6 +7,7 @@
 # Public API: main()
 
 import sys
+import os
 import argparse
 from typing import Optional
 
@@ -70,7 +71,27 @@ def main() -> None:
         document_service = DocumentService(document_store)
         qa_service = QAService(document_store, llm_generator)
         
-        # Load documents if folder specified
+        # Check if we should use page-by-page Excel processing
+        if args.doc_folder and any(f.endswith(('.xlsx', '.xls')) for f in os.listdir(args.doc_folder)):
+            excel_files = [f for f in os.listdir(args.doc_folder) if f.endswith(('.xlsx', '.xls'))]
+            if excel_files:
+                excel_file_path = os.path.join(args.doc_folder, excel_files[0])
+                print(f"Processing Excel file page by page: {excel_files[0]}")
+                print()
+                
+                # Use page-by-page processing
+                response = qa_service.ask_question_excel_page_by_page(args.query, excel_file_path)
+                
+                # Handle debug mode
+                if args.debug:
+                    print(f"\n[DEBUG] Sheets processed: {response.metadata.get('sheets_processed', 0)}")
+                    print(f"[DEBUG] Total sheets: {response.metadata.get('total_sheets', 0)}")
+                
+                # Print response
+                print(f"\nAnswer: {response.content}")
+                return
+        
+        # Fallback to regular document processing
         if args.doc_folder:
             documents = document_service.load_from_folder(args.doc_folder)
             if not documents:
