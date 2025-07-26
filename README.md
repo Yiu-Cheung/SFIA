@@ -63,6 +63,18 @@ python main.py "Hello" --url http://localhost:11434
 
 ## Installation
 
+### Windows Users (Recommended)
+1. **Setup Environment**: Double-click `setup_env.bat` or run:
+   ```cmd
+   setup_env.bat
+   ```
+
+2. **Start Application**: Double-click `start_app.bat` or run:
+   ```cmd
+   start_app.bat
+   ```
+
+### Manual Installation
 1. Install dependencies:
 ```bash
 pip install -r requirements.txt

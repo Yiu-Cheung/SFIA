@@ -177,4 +177,8 @@ ehthumbs.db
 Desktop.ini
 
 # Project specific
-ollama_v1_original.py 
+ollama_v1_original.py
+
+# Keep batch files for Windows users
+# setup_env.bat
+# start_app.bat 
