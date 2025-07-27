@@ -172,19 +172,8 @@ class QAService:
     
     def _extract_skill_keywords(self, question: str) -> List[str]:
         """Extract skill keywords from the question."""
-        question_lower = question.lower()
-        keywords = []
-        
-        # Common skill patterns
-        if "certification scheme operation" in question_lower:
-            keywords.append("Certification scheme operation")
-        if "certification" in question_lower and "scheme" in question_lower:
-            keywords.append("Certification scheme operation")
-        
-        # Add more skill patterns as needed
-        # You can expand this to handle other skills
-        
-        return keywords
+        # Remove static keyword set; return empty list for now
+        return []
     
     def _dataframe_to_text(self, df: pd.DataFrame, sheet_name: str) -> str:
         """Convert DataFrame to text format."""
