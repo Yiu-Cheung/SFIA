@@ -14,8 +14,8 @@ from typing import Optional
 from ..application.services.document_service import DocumentService
 from ..application.services.qa_service import QAService
 from ..application.services.excel_structure_service import ExcelStructureService
+from ..application.services.content_validation_service import ContentValidationService
 from ..infrastructure.persistence.haystack_document_store import HaystackDocumentStore
-from ..infrastructure.ml.ollama_generator import OllamaGenerator
 
 
 def main() -> None:
@@ -24,38 +24,33 @@ def main() -> None:
         description="SFIA - Semantic File Information Assistant"
     )
     parser.add_argument(
-        "query", 
-        nargs="?", 
-        default="What is your favorite season?",
-        help="Question to ask (default: 'What is your favorite season?')"
+        "query",
+        help="The question to ask about the documents"
     )
     parser.add_argument(
-        "--doc-folder", 
-        type=str,
-        help="Folder containing documents to load (.txt and .xlsx files)"
+        "--doc-folder",
+        help="Path to folder containing documents"
     )
     parser.add_argument(
-        "--debug", 
-        action="store_true",
-        help="Enable debug mode to show retrieved documents"
-    )
-    parser.add_argument(
-        "--model", 
-        type=str,
+        "--model",
         default="llama3.2:latest",
-        help="Ollama model to use (default: llama3.2:latest)"
+        help="Ollama or Gemini model to use (default: llama3.2:latest or gemini-2.0-flash)"
     )
     parser.add_argument(
-        "--url", 
-        type=str,
+        "--url",
         default="http://localhost:11434",
         help="Ollama server URL (default: http://localhost:11434)"
     )
     parser.add_argument(
-        "--top-k", 
-        type=int,
-        default=10,
-        help="Number of documents to retrieve (default: 10)"
+        "--llm-backend",
+        choices=["ollama", "google"],
+        default="ollama",
+        help="LLM backend to use: 'ollama' or 'google' (default: ollama)"
+    )
+    parser.add_argument(
+        "--google-api-key",
+        default=None,
+        help="Google Gemini API key (or set GOOGLE_API_KEY env var)"
     )
     parser.add_argument(
         "--use-haystack", 
@@ -68,24 +63,69 @@ def main() -> None:
         action="store_true",
         help="Disable Haystack converter and use legacy Excel processing"
     )
+    parser.add_argument(
+        "--use-enhanced",
+        action="store_true",
+        default=True,
+        help="Use enhanced Excel converter for better AI consumption (default: True)"
+    )
+    parser.add_argument(
+        "--no-enhanced",
+        action="store_true",
+        help="Disable enhanced converter and use Haystack or legacy processing"
+    )
+    parser.add_argument(
+        "--use-direct-validation",
+        action="store_true",
+        default=True,
+        help="Use direct validation for specific questions (default: True)"
+    )
+    parser.add_argument(
+        "--no-direct-validation",
+        action="store_true",
+        help="Disable direct validation and use AI for all questions"
+    )
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Enable debug mode to show retrieved documents"
+    )
     
     args = parser.parse_args()
     
     try:
         # Initialize infrastructure components
         document_store = HaystackDocumentStore()
-        llm_generator = OllamaGenerator(
-            model=args.model,
-            url=args.url
-        )
         
-        # Determine Haystack usage
+        # Select LLM backend with conditional import
+        if args.llm_backend == "google":
+            from ..infrastructure.ml.google_gemini_generator import GoogleGeminiGenerator
+            llm_generator = GoogleGeminiGenerator(
+                model=args.model if args.model else "gemini-2.0-flash",
+                api_key=args.google_api_key or os.environ.get("GOOGLE_API_KEY")
+            )
+            print("Using Google Gemini as LLM backend.")
+        else:
+            from ..infrastructure.ml.ollama_generator import OllamaGenerator
+            llm_generator = OllamaGenerator(
+                model=args.model,
+                url=args.url
+            )
+            print("Using Ollama as LLM backend.")
+        
+        # Determine converter usage
         use_haystack = args.use_haystack and not args.no_haystack
+        use_enhanced = args.use_enhanced and not args.no_enhanced
+        use_direct_validation = args.use_direct_validation and not args.no_direct_validation
         
         # Initialize application services
-        document_service = DocumentService(document_store, use_haystack=use_haystack)
+        document_service = DocumentService(
+            document_store, 
+            use_haystack=use_haystack
+        )
         qa_service = QAService(document_store, llm_generator)
         excel_structure_service = ExcelStructureService()
+        content_validation_service = ContentValidationService()
         
         # Check if we should use page-by-page Excel processing
         if args.doc_folder and any(f.endswith(('.xlsx', '.xls')) for f in os.listdir(args.doc_folder)):
@@ -93,6 +133,9 @@ def main() -> None:
             if excel_files:
                 excel_file_path = os.path.join(args.doc_folder, excel_files[0])
                 print(f"Processing Excel file: {excel_files[0]}")
+                print(f"Using enhanced converter: {use_enhanced}")
+                print(f"Using Haystack converter: {use_haystack}")
+                print(f"Using direct validation: {use_direct_validation}")
                 print()
                 
                 # Check if this is a sheet count question and use direct approach
@@ -102,42 +145,67 @@ def main() -> None:
                         print(f"\nAnswer: {direct_answer}")
                         return
                 
+                # Check if this is a content validation question
+                if use_direct_validation:
+                    direct_answer = content_validation_service.get_direct_answer(args.query, excel_file_path)
+                    if direct_answer:
+                        print(f"\nDirect Answer: {direct_answer}")
+                        
+                        # Also get AI answer for comparison
+                        response = qa_service.ask_question_excel_page_by_page(args.query, excel_file_path)
+                        
+                        if args.debug:
+                            # Validate AI answer
+                            validation = content_validation_service.validate_ai_answer(
+                                response.content, args.query, excel_file_path
+                            )
+                            
+                            if validation.get("validation_available"):
+                                print(f"\nAI Answer: {validation['ai_answer']}")
+                                print(f"Validation: {'✅ CORRECT' if validation['is_correct'] else '❌ INCORRECT'}")
+                                if not validation['is_correct']:
+                                    print(f"Expected: {validation['direct_key']}")
+                                    print(f"Got: {validation['ai_key']}")
+                            else:
+                                print(f"\nAI Answer: {response.content}")
+                        else:
+                            print(f"\nAI Answer: {response.content}")
+                        
+                        return
+                
                 # Use page-by-page processing for other questions
                 response = qa_service.ask_question_excel_page_by_page(args.query, excel_file_path)
                 
-                # Handle debug mode
                 if args.debug:
-                    print(f"\n[DEBUG] Sheets processed: {response.metadata.get('sheets_processed', 0)}")
-                    print(f"[DEBUG] Total sheets: {response.metadata.get('total_sheets', 0)}")
+                    print(f"\nDebug - Response metadata: {response.metadata}")
                 
-                # Print response
                 print(f"\nAnswer: {response.content}")
                 return
         
-        # Fallback to regular document processing
+        # Standard document processing
         if args.doc_folder:
-            documents = document_service.load_from_folder(args.doc_folder, use_haystack=use_haystack)
-            if not documents:
-                print(f"No .txt or Excel files found in {args.doc_folder}")
-                return
-            print(f"Loaded {len(documents)} documents from {args.doc_folder}")
+            documents = document_service.load_from_folder(args.doc_folder)
+            print(f"Loaded {len(documents)} documents")
+            
+            if args.debug:
+                print("\nDebug - Retrieved documents:")
+                for i, doc in enumerate(documents):
+                    print(f"Document {i+1}: {doc.metadata.get('source', 'Unknown')}")
+                    if 'sheet_name' in doc.metadata:
+                        print(f"  Sheet: {doc.metadata['sheet_name']}")
+                    print(f"  Content preview: {doc.content[:100]}...")
+                    print()
         
         # Ask question
-        response = qa_service.ask_question(args.query, top_k=args.top_k)
+        response = qa_service.ask_question(args.query)
         
-        # Handle debug mode
         if args.debug:
-            retrieved_docs = qa_service.get_retrieved_documents(args.query, top_k=args.top_k)
-            print("\n[DEBUG] Retrieved Documents:")
-            for i, doc in enumerate(retrieved_docs, 1):
-                print(f"{i}. {doc.content[:100]}...")
-            print(f"\n[DEBUG] Response metadata: {response.metadata}")
+            print(f"\nDebug - Response metadata: {response.metadata}")
         
-        # Print response
         print(f"\nAnswer: {response.content}")
         
     except Exception as e:
-        print(f"Error: {e}", file=sys.stderr)
+        print(f"Error: {e}")
         sys.exit(1)
 
 
