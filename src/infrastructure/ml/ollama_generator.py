@@ -20,7 +20,7 @@ class OllamaGenerator:
     
     def __init__(
         self,
-        model: str = "deepseek-r1:1.5b",
+        model: str = "llama3.2:latest",
         url: str = "http://localhost:11434",
         generation_kwargs: Dict[str, Any] = None
     ) -> None:
