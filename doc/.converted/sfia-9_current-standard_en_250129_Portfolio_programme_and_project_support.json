@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Portfolio, programme and project support', 'row': 34, 'skill_code': 'PROF', 'category': 'Change and transformation', 'subcategory': 'Change implementation'}
+# Content Length: 3336 characters
+
+================================================================================
+
+{
+  "skill_name": "Portfolio, programme and project support",
+  "code": "PROF",
+  "url": "https://sfia-online.org/en/skillcode/9/PROF",
+  "category": "Change and transformation",
+  "subcategory": "Change implementation",
+  "overall_description": "Providing support and guidance on portfolio, programme and project management processes, procedures, tools and techniques.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nsupport the definition of portfolios, programmes and projects\ncultivating and applying new or changed working practices across a portfolio\nmanaging the rate at which new projects are started to fit the available capacity\nadvising on the development, production and maintenance of business cases time, resource, cost and exception plans\nadvising on the use of software tools\ntracking and reporting progress and performance \nfacilitating portfolio/programme/project meetings and workshops\nadvising and sharing knowledge on standards and how to comply.",
+  "level_descriptions": {
+    "level_2": "Assists with the compilation of reports for projects, programmes, or portfolios. \nMaintains programme and project files from supplied actual and forecast data.\nWorks under supervision to support the administrative needs of project teams, contributing to routine project activities.",
+    "level_3": "Provides foundational support for projects, programmes, or portfolios. \nAssists with planning, scheduling, tracking and reporting using established tools and processes. Follows recommended solutions to ensure accurate documentation and communication of project progress. \nCollaborates closely with project teams and stakeholders, gathering updates and information to maintain project records and ensure alignment with project objectives.\nParticipates in project boards, assurance teams and quality review meetings when necessary.",
+    "level_4": "Supports programme or project control boards, project assurance teams and quality review meetings.\nTakes responsibility for the provision of support services to projects. Uses project control solutions for planning, scheduling and tracking. Sets up and provides guidance on project management software, procedures, processes, tools and techniques.\nProvides basic guidance on project proposals. May provide views across projects on topics such as risk, quality, finance, or configuration management.\nWorks closely with project boards and review meetings, contributing actively to discussions and decisions.",
+    "level_5": "Takes responsibility for the provision of portfolio, programme and project support. \nAdvises on the available standards, procedures, methods, tools and techniques. \nEvaluates project and/or programme performance and recommends changes where necessary. \nContributes to reviews and audits of project and programme management to ensure conformance to standards.",
+    "level_6": "Leads implementation and delivery of portfolio, programme and project office services. \nDefines the approach/policy and sets standards for the support provided for managing and monitoring portfolios, programmes, and projects. \nManages resources to ensure delivery of effective services/resources in line with current and planned demand. \nReviews and improves the delivery portfolio, programme and project office services."
+  }
+}

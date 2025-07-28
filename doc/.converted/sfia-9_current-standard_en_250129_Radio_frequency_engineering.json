@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Radio frequency engineering', 'row': 64, 'skill_code': 'RFEN', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 3481 characters
+
+================================================================================
+
+{
+  "skill_name": "Radio frequency engineering",
+  "code": "RFEN",
+  "url": "https://sfia-online.org/en/skillcode/9/RFEN",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Designing, installing and maintaining radio frequency based devices and software.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nevaluating and selecting devices and software\nintegrating radio frequency (RF) sub-systems into larger systems\ncalibrating, tuning and maintaining devices and software\nreceiving, transmitting and converting data between analogue and digital devices, in accordance with industry and regulatory standards\ndeveloping, integrating and configuring antennas, readers and transmitters in hardware or software forms, including software-defined radio (SDR), radio frequency identification (RFID), near field communication (NFC), Bluetooth and Wi-Fi\nadhering to established safety, security and quality standards.\n\nApplications of this skill include, but are not limited to:\n\nwireless local area networks\nwireless communication systems for voice, data and image, cellular radio systems, global positioning systems and military communications networks\nnavigation and sensor systems.",
+  "level_descriptions": {
+    "level_2": "Assists with setting up, tuning and functional checks of radio frequency devices and software. \nResolves faults down to line replaceable unit level or escalates according to given procedures. \nCarries out user confidence checks and escalates faults according to given procedures. \nIntegrates RF devices with software applications using static configurations.",
+    "level_3": "Deploys, sets up, tunes and calibrates RF devices and software following maintenance schedules and using appropriate tools and test equipment. \nIncorporates hardware/firmware modifications. Interprets automatic fault/performance indications and resolves faults down to discrete component level or escalates according to given procedures. \nImplements communication protocols between system elements in accordance with defined standards. \nIntegrates RF devices with software applications, incorporating dynamic reconfiguration of elements under software control to optimise their operational performance.",
+    "level_4": "Investigates and resolves system-wide fault conditions using a wide range of diagnostic tools and techniques. \nReconfigures equipment to circumvent temporary outages. Specifies, selects and integrates RF devices in a system. \nDefines internal communication protocols for transmission over the available frequencies. \nReconfigures devices and software to optimise performance.",
+    "level_5": "Monitors system performance, recommends equipment modifications and changes to operating procedures, servicing methods and schedules. \nDevelops maintenance schedules and procedures. Approves equipment upgrades and modifications. \nReviews industry and national standards on relevant RF protocols and regulations. \nMeasures and evaluates the effectiveness of RF devices and software.",
+    "level_6": "Provides overall direction and leadership for the use of RF based devices and software. \nSpecifies requirements for radio frequency equipment performance and sets maintenance policy. \nIdentifies opportunities to exploit new technologies and improve existing technologies and practices.\nDevelops effective implementation and procurement strategies."
+  }
+}

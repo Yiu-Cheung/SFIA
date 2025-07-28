@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'User experience evaluation', 'row': 80, 'skill_code': 'USEV', 'category': 'Development and implementation', 'subcategory': 'User centred design'}
+# Content Length: 4047 characters
+
+================================================================================
+
+{
+  "skill_name": "User experience evaluation",
+  "code": "USEV",
+  "url": "https://sfia-online.org/en/skillcode/9/USEV",
+  "category": "Development and implementation",
+  "subcategory": "User centred design",
+  "overall_description": "Validating systems, products or services against user experience goals, metrics and targets.",
+  "guidance_notes": "This skill is inclusive of a full range of user tasks not just digital tasks. The skill can be applied in various contexts, such as, but not limited to customer experience, products, services, applications, devices, learning experience and employee experience.\nEvaluation is typically part of an iterative user experience design process and contributes to the improvement of the product or service. An evaluation can also be the starting point if an existing system, product or service is to be replaced or improved. Methods include user trials, expert review, survey and analysis.\nActivities may include, but are not limited to:\n\nproviding assurance that user stories or requirements have been met and required practice has been followed to address accessibility, usability, security, health and safety\napplying a range of qualitative and quantitative evaluation techniques\nselecting from lightweight/rapid techniques or more thorough and resource-intensive approaches\nselecting appropriate use of formative or summative evaluations\nfacilitating both moderated and unmoderated tests.",
+  "level_descriptions": {
+    "level_2": "Assists in preparing and operating the environment, facilities and tools needed to evaluate systems, products, services or devices. \nAssists in the collection of feedback on prototypes and designs from users and others.",
+    "level_3": "Evaluates design options and prototypes to obtain user feedback on requirements of developing systems, products, services or devices.\nTests the usability and accessibility of components and alternative designs. Administers a range of evaluations, recording data and feedback. Analyses evaluation data and recommends actions. Identifies areas for future user research.\nChecks systems, products, services or devices for adherence to applicable standards, guidelines, style guides and legislation. \nEvaluates the usability of existing or competitor systems to provide benchmark values and as input to design.",
+    "level_4": "Selects appropriate tools and techniques to evaluate user experiences of systems, products,  services or devices.\nValidates that security, usability and accessibility requirements have been met. \nChecks operational systems, products, services or devices for changes in usability and accessibility needs. \nInterprets and presents results of evaluations, prioritises issues and reports on remedial actions. Collates input for future user research.",
+    "level_5": "Manages user experience evaluation of systems, products, services or devices.\nAssures that the security, usability and accessibility requirements are met and required practices have been followed.\nAdvises on what to evaluate, type of evaluation to use and the extent of user involvement required. Works iteratively with design teams to ensure feedback from the evaluation is understood and acted upon. \nAdvises on the achievement of required usability and accessibility levels of specific designs or prototypes. Prioritises input for future user research.",
+    "level_6": "Champions high standards in user interaction with the organisation’s systems, products and services including involvement of users in evaluation activities. \nSpecifies standards and methods for security, usability and accessibility and ensure this is addressed in future designs. \nDevelops or sources resources and capabilities to conduct effective user experience evaluation, including specialist user-centred facilities and communities of users. Leads the provision of input and resources for future user research.\nCollaborates with internal and external partners to facilitate an effective evaluation of systems, products and services."
+  }
+}

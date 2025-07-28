@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Business process improvement', 'row': 41, 'skill_code': 'BPRE', 'category': 'Change and transformation', 'subcategory': 'Change planning'}
+# Content Length: 3868 characters
+
+================================================================================
+
+{
+  "skill_name": "Business process improvement",
+  "code": "BPRE",
+  "url": "https://sfia-online.org/en/skillcode/9/BPRE",
+  "category": "Change and transformation",
+  "subcategory": "Change planning",
+  "overall_description": "Creating new and potentially disruptive approaches to performing business activities.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nanalysing and designing business processes to improve business performance, create business opportunities, deliver new or improved products/services, or improve product/service value chains. Including the adoption and exploitation of data, information, new or existing technologies and cloud-based services\nusing process mapping, value stream mapping, process mining and analytics, root cause analysis and visual modelling \nidentifying and implementing improvements to business models, business operations and services with improved processes\nexploiting technologies, such as robotic process automation, artificial intelligence and machine learning\nassessing the costs and potential benefits of new approaches to the organisation and all stakeholders\ndeveloping enterprise business process management capabilities to increase organisational agility and responsiveness to change.",
+  "level_descriptions": {
+    "level_2": "Assists in gathering data and documenting current business processes under routine supervision. \nParticipates in process mapping exercises and helps identify areas for potential improvement.\nAssists in creating process documentation.\nSupports the implementation of minor process changes and improvements.",
+    "level_3": "Applies standard techniques to analyse existing business processes and identifies opportunities for improvement.  \nCollaborates with stakeholders to ensure process changes align with business objectives. Proposes and implements process improvements that enhance efficiency, effectiveness and quality. \nDevelops and maintains process documentation. \nSupports the adoption of new technologies and tools to enable process automation and optimisation.",
+    "level_4": "Analyses and designs business processes to identify alternative solutions to improve efficiency, effectiveness and exploit new technologies and automation.\nDevelops graphical models of business processes to facilitate understanding and decision-making.\nRecommends implementation approaches for process improvement initiatives.",
+    "level_5": "Manages the execution of business process improvements. \nAssesses the feasibility of business process changes and recommends alternative approaches. \nSelects, tailors and implements methods and tools for improving business processes at programme, project or team level. \nContributes to the definition of organisational policies, standards and guidelines for business process improvement.",
+    "level_6": "Plans and leads strategic, large and complex business process improvement activities aligned with automation, or exploiting existing or new technologies.\nDevelops organisational policies, standards and guidelines for business process improvement. \nLeads the introduction of techniques, methodologies and tools to meet business requirements, ensuring consistency across all user groups.\nLeads the development of organisational capabilities for business process improvement and ensures adoption and adherence to policies and standards.",
+    "level_7": "Directs the identification, evaluation and adoption of new or existing technologies to improve business processes. \nAligns business strategies, enterprise transformation and technology strategies. \nEmbeds strategic business process improvement into the governance and leadership of the organisation. \nDirects the creation and review of a cross-functional, enterprise-wide approach and culture for embracing business process management."
+  }
+}

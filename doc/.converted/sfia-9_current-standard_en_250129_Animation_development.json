@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Animation development', 'row': 65, 'skill_code': 'ADEV', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 3137 characters
+
+================================================================================
+
+{
+  "skill_name": "Animation development",
+  "code": "ADEV",
+  "url": "https://sfia-online.org/en/skillcode/9/ADEV",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Designing and developing animated and interactive systems such as games, simulations and virtual environments.",
+  "guidance_notes": "Animation development enables the creation of visually engaging and interactive experiences for various industries, such as gaming, training, scientific research and engineering, as well as virtual reality and augmented reality applications.\nComponents of animation systems include game engine or framework, visual assets (3D models, 2D artwork, animations), audio assets, user interface and user experience components, game logic, data and configuration files, tools and pipelines, documentation and design documents\nActivities may include, but are not limited to:\n\nemploying animation techniques, including keyframe animation, motion capture, procedural animation and skeletal animation\nusing specialised software for rigging, skinning and animation editing\ncreating and integrating animations into interactive systems\nensuring integration of animations with game logic, physics and artificial intelligence systems\noptimising animations for performance and adhering to consistency and quality standards.",
+  "level_descriptions": {
+    "level_2": "Assists in the creation of basic visual and audio components for animations under routine supervision. \nFollows established procedures and guidelines and contributes to the development of simple animations using standard tools. \nHelps create and maintain documentation.",
+    "level_3": "Builds visual and audio components using animation software. \nUses design tools to evolve rapid prototypes of interactive systems and user interfaces.\nUses visual design tools and organic modelling techniques to create and animate virtual characters within a game or system design.",
+    "level_4": "Builds visual and audio components and integrates them into the system structure.\nUses design tools to evolve rapid prototypes and assess the viability of design concepts for interactive systems and user interfaces. \nUses complex visual design tools and organic modelling techniques to create and animate virtual characters within a game or system design.",
+    "level_5": "Manages iterations of level design and storytelling, documenting the overall flow and architecture of a game or similar system. \nDevelops conceptual structures into design blueprints to create high-level structures and runtime architectures for websites and virtual environments.\nOversees the integration of animations with game logic, physics and artificial intelligence systems.",
+    "level_6": "Provides overall creative direction in the conception and design of animation products such as games and simulations.\nEstablishes animation development strategies, pipelines and quality assurance processes. \nAdapts or develops new methods and organisational capabilities and drives adoption of, and adherence to, policies and standards."
+  }
+}

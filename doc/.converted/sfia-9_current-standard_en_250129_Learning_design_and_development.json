@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Learning design and development', 'row': 126, 'skill_code': 'TMCR', 'category': 'People and skills', 'subcategory': 'Skills management'}
+# Content Length: 2437 characters
+
+================================================================================
+
+{
+  "skill_name": "Learning design and development",
+  "code": "TMCR",
+  "url": "https://sfia-online.org/en/skillcode/9/TMCR",
+  "category": "People and skills",
+  "subcategory": "Skills management",
+  "overall_description": "Designing and developing resources to transfer knowledge, develop skills and change behaviours.",
+  "guidance_notes": "Includes instructional design, content development, configuration and testing of learning environments, and use of appropriate current technologies such as audio, video, simulation and assessment.\nScope includes learning and development activities for the workplace, for all levels of education and blended models such as apprenticeships and work placements.\nActivities may include, but are not limited to:\n\nspecifying, designing, creating, packaging and maintaining materials and resources\nassimilating information from existing sources\nselecting and presenting material in a form suitable to the intended purpose and audience\nsecuring third-party accreditation\ncreating simulated data and replicating external systems, interfaces, and assessment systems to support simulated learning environments.",
+  "level_descriptions": {
+    "level_2": "Assists with learning design and development tasks under routine supervision.\nSupports the creation and maintenance of learning materials and resources.\nHelps document and organise learning content and environments.",
+    "level_3": "Designs, creates, customises and maintains learning materials and resources to deliver agreed outcomes, and meet accreditation requirements when appropriate. \nContributes to the design, configuration and testing of learning environments.",
+    "level_4": "Specifies the content and structure of learning and development materials. \nTakes responsibility for design, creation, packaging and maintenance. Manages development to deliver agreed outcomes. \nWhere required, designs, configures and tests learning environments. \nSecures external accreditations as appropriate.",
+    "level_5": "Specifies solutions for use in learning and development programmes in the workplace or in compulsory, further or higher education.\nCommissions the development of learning materials, allocates resources to learning teams and defines learning outcomes. \nLeads learning programmes, recommends and specifies learning interventions for design, development and deployment according to agreed learning outcomes."
+  }
+}

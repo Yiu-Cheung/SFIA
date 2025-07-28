@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Learning and development management', 'row': 125, 'skill_code': 'ETMG', 'category': 'People and skills', 'subcategory': 'Skills management'}
+# Content Length: 3217 characters
+
+================================================================================
+
+{
+  "skill_name": "Learning and development management",
+  "code": "ETMG",
+  "url": "https://sfia-online.org/en/skillcode/9/ETMG",
+  "category": "People and skills",
+  "subcategory": "Skills management",
+  "overall_description": "Delivering management, advisory and administrative services to support the development of knowledge, skills and competencies.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndeveloping the full range of professional, business or technical capabilities required by the organisation\ndeveloping learning and development strategies and policies\nidentifying appropriate learning and development solutions, accreditations and qualifications\nselecting, tailoring and adopting skills and competency frameworks\nselecting and operating learning management systems\nadministering, documenting, tracking and reporting on learning and development activities.",
+  "level_descriptions": {
+    "level_2": "Supports learning and development activities under routine supervision. \nAssists in maintaining training records and documenting learning and development activities. \nHelps organise learning events and track attendance.",
+    "level_3": "Contributes to the maintenance of training records and the catalogue of learning and development resources.\nSupports the organisation of learning events by helping to coordinate logistics, schedules, and communication with attendees.\nSupports the collection and organisation of data on learning and development activities to assist in evaluating their effectiveness.",
+    "level_4": "Contributes to the development and maintenance of a catalogue of learning and development resources. \nUses data to analyse and evaluate the effectiveness of learning/educational activities. \nBooks and organises learning events. \nUpdates and controls training records, including attainment of certificates and accreditations.",
+    "level_5": "Manages the provision of learning and development, ensuring optimum use of resources. \nMaintains, publicises and promotes a catalogue of learning and development activities. Ensures courses are up to date and accredited (when required). \nArranges facilities and schedules with learning and development providers as appropriate. \nUses data to assess and improve the effectiveness of learning or educational activities.",
+    "level_6": "Determines the learning and development programme and delivery mechanisms needed to grow staff skills in line with business needs.\nIdentifies appropriate accreditation and qualification paths applicable to individuals within the organisation.\nEvaluates learning outcomes. \nManages the development and provision of all learning, taking account of the strategic aims of the employing organisation.",
+    "level_7": "Directs the development and implementation of a learning and development strategy for the organisation aligned to business needs. \nLeads the provision of learning and development expertise, guidance and systems needed to execute strategic and operational plans. \nSecures organisational resources to execute the learning and development strategy. \nIdentifies opportunities for strategic relationships with suppliers and partners."
+  }
+}

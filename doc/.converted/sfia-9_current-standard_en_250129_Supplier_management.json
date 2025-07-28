@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Supplier management', 'row': 133, 'skill_code': 'SUPP', 'category': 'Relationships and engagement', 'subcategory': 'Stakeholder management'}
+# Content Length: 3865 characters
+
+================================================================================
+
+{
+  "skill_name": "Supplier management",
+  "code": "SUPP",
+  "url": "https://sfia-online.org/en/skillcode/9/SUPP",
+  "category": "Relationships and engagement",
+  "subcategory": "Stakeholder management",
+  "overall_description": "Aligning the organisation’s supplier performance objectives and activities with sourcing strategies and plans, balancing costs, efficiencies and service quality.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nestablishing working relationships based on collaboration, trust and open communication\nencouraging co-innovation and service improvement with suppliers\nproactively engaging with suppliers for mutual benefit to resolve operational incidents, problems, unsatisfactory performance and other sources of conflict\nimplementing clear escalation paths for discussing and resolving issues\nmanaging performance and risks across multiple suppliers (internal and external) using a set of agreed metrics\nensuring compliance to legislation\ncommercial governance and supply chain management\nmanaging risks associated with security, continuity and integrity of supply\nincorporating supplier management practices tailored to cloud-based services\nimplementing policies for selection of suppliers and bench-marking supplier performance.",
+  "level_descriptions": {
+    "level_2": "Assists in the collection and reporting of supplier performance data.\nAssists with the routine day-to-day communication between the organisation and suppliers.",
+    "level_3": "Acts as the routine contact point between the organisation and suppliers.\nSupports resolution of supplier-related incidents, problems, or unsatisfactory performance.\nCollects and reports on supplier performance data.",
+    "level_4": "Collects supplier performance data and investigates problems. \nMonitors and reports on supplier performance, customer satisfaction, adherence to security requirements and market intelligence. Validates that suppliers' performance is in accordance with contract terms. \nEngages proactively and collaboratively with suppliers to resolve incidents, problems, or unsatisfactory performance. \nImplements supplier management-related service improvement initiatives and programmes.",
+    "level_5": "Manages suppliers to meet key performance indicators and agreed targets. \nManages the operational relationships between suppliers and ensures potential disputes or conflicts  are raised and resolved. \nPerforms bench-marking and makes use of supplier performance data to ensure performance is adequately monitored and regularly reviewed. Use suppliers' expertise to support and inform development roadmaps.\nManages implementation of supplier service improvement actions. Identifies constraints and opportunities when negotiating or renegotiating contracts.",
+    "level_6": "Develops organisational policies, standards and guidelines to ensure effective supplier management across the integrated supply chain. \nDefines the approach for commercial communications and the management of relationships with suppliers. Establishes a positive and effective working environment with suppliers for mutual benefit. \nEnsures resources and tools are in place to conduct bench-marking. Reviews supplier analysis and assesses effectiveness across the supply chain. \nManages risks and assures the quality of the services delivered by suppliers.",
+    "level_7": "Determines overall supplier management strategy, embracing effective management and operational relationships at all levels. \nLeads collaborative supplier partnerships. Aligns supplier performance and relationship management with business objectives and sourcing strategies.\nEstablishes frameworks for supplier governance and service monitoring.\nEnsures commercial value from contracts and represents the organisation in significant supplier disputes."
+  }
+}

@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'User experience design', 'row': 79, 'skill_code': 'HCEV', 'category': 'Development and implementation', 'subcategory': 'User centred design'}
+# Content Length: 3468 characters
+
+================================================================================
+
+{
+  "skill_name": "User experience design",
+  "code": "HCEV",
+  "url": "https://sfia-online.org/en/skillcode/9/HCEV",
+  "category": "Development and implementation",
+  "subcategory": "User centred design",
+  "overall_description": "Producing design concepts and prototypes for user interactions and experiences of a product, system or service.",
+  "guidance_notes": "This skill is inclusive of a full range of user tasks not just digital tasks. The skill can be applied in various contexts, such as, but not limited to customer experience, products, services, applications, devices, learning experience and employee experience.\nActivities may include, but are not limited to:\n\nunderstanding and addressing design goals, usability and accessibility requirements\nusing an iterative design process to enhance user satisfaction by improving usability and accessibility \ndesigning digital and offline tasks, interactions and interfaces\nrefining designs based on user experience evaluation \ncommunicating the design to those responsible for design, development and implementation of products, systems and services\ncreating design artefacts such as sketches, ideas, storyboards, static wireframes, dynamic and workable prototypes\ndeveloping alternative design and evaluating advantages, disadvantages, constraints and trade-offs\nconsidering and integrating appropriate visual design and branding elements into user experience design.",
+  "level_descriptions": {
+    "level_2": "Assists in creating user experience elements under routine supervision. \nFollows established procedures and guidelines. \nHelps create and maintain documentation.",
+    "level_3": "Applies standard techniques and tools for designing user interactions with and experiences of selected system, product or service components. \nReviews design goals and agreed security, usability and accessibility requirements. Creates design artefacts to communicate ideas. \nContributes to overall user experience design as part of a team.\nAssists in evaluating design options and trade-offs. Considers and applies visual design and branding guidelines consistently when appropriate.",
+    "level_4": "Selects appropriate tools, methods and design patterns to design user interactions with and experiences of a product, system or service.\nTranslates concepts into outputs and prototypes for user feedback and evaluation.\nEvaluates alternative design options and recommends designs taking into account performance, security, usability and accessibility requirements. \nConsiders and integrates appropriate visual design and branding elements in user experience designs.",
+    "level_5": "Plans and drives user experience design activities.\nProvides expert advice and guidance to support the adoption of agreed approaches. Determines the approaches to be used to design user experiences. \nUses iterative approaches to incorporate user feedback or evaluation rapidly into designs. \nEnsures appropriate consideration and integration of visual design and branding elements into user experience design.",
+    "level_6": "Obtains organisational commitment to strategies to deliver required user experience, usability, accessibility and security. \nDefines organisational policies, standards and techniques for user experience design. \nPlans and leads user experience design activities for strategic, large or complex programmes.\nPromotes the value of user-centred design across the organisation."
+  }
+}

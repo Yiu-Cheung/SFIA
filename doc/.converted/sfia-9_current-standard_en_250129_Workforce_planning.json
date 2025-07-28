@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Workforce planning', 'row': 123, 'skill_code': 'WFPL', 'category': 'People and skills', 'subcategory': 'People management'}
+# Content Length: 3413 characters
+
+================================================================================
+
+{
+  "skill_name": "Workforce planning",
+  "code": "WFPL",
+  "url": "https://sfia-online.org/en/skillcode/9/WFPL",
+  "category": "People and skills",
+  "subcategory": "People management",
+  "overall_description": "Strategically projecting the demand for people and skills and proactively planning the workforce supply to meet organisational needs.",
+  "guidance_notes": "Workforce planning typically takes an enterprise-wide view, assessing capabilities across the organisation rather than just a single team. The scope is more strategic than tactical resource allocation to projects or operational work schedules.\nActivities may include, but are not limited to:\n\nassessing the current state of the workforce\nassessing organisation-wide data over extended time periods to discover multi-year trends\nidentifying critical capabilities needed to compete and meet strategic goals, not just immediate resource allocation gaps\nidentifying the workforce required for current and future activities \nadopting or developing a skills and capabilities framework\ndeveloping plans to close gaps between current state and future state using actions such as, but not limited to: external recruitment, internal development, re-skilling, sourcing external partners, organisational design or outplacement \ninfluencing organisational policies and practices to align recruitment, learning, promotion, and recognition and reward to support the development of an inclusive and diverse workforce \nadhering to relevant regulations and ethical standards concerning employment practices and organisational policies, including requirements related to layoffs and restructuring.",
+  "level_descriptions": {
+    "level_4": "Gathers, maintains and analyses organisation-wide workforce capability data.\nPerforms gap analysis to identify workforce strengths and shortfalls with reference to business strategy and specific future needs. \nContributes to the development of organisation-wide workforce plans to meet current and future demand. \nCoordinates and schedules ongoing workforce planning activities. Assists in maintaining a skills and capability inventory.",
+    "level_5": "Leads the development of workforce plans to ensure the availability of appropriately skilled resources to meet organisational objectives and commitments.\nContributes to the development of the strategic workforce planning approach. Oversees and reviews the implementation of workforce plans. \nDevelops current-state assessment of workforce skills, capabilities and potential. Forecasts future workforce demand for skills based on broad organisation-wide plans and external factors. \nMaintains a skills and capability inventory and identifies options for closing gaps.",
+    "level_6": "Defines an integrated strategic workforce planning approach connecting organisational business goals to future skill needs.\nCommunicates the workforce planning approach and obtains organisational commitment. Selects frameworks to be used for the organisation's skills and capability inventory. \nInterprets business strategy to direct workforce demand forecasting (skills and numbers) for the organisation. Monitors the external environment in relation to supply and emerging trends. \nInfluences people management policies and practices to align with workforce plans. Integrates with resourcing strategies and plans. Monitors execution of workforce plans."
+  }
+}

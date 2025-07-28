@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Budgeting and forecasting', 'row': 12, 'skill_code': 'BUDF', 'category': 'Strategy and architecture', 'subcategory': 'Financial and value management'}
+# Content Length: 3307 characters
+
+================================================================================
+
+{
+  "skill_name": "Budgeting and forecasting",
+  "code": "BUDF",
+  "url": "https://sfia-online.org/en/skillcode/9/BUDF",
+  "category": "Strategy and architecture",
+  "subcategory": "Financial and value management",
+  "overall_description": "Developing and managing financial budgets and forecasts to enable effective decision-making and resource allocation.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ngathering and analysing financial data to prepare budgets and forecasts\nselecting and applying appropriate budgeting and forecasting methodologies and tools\nincorporating scenario planning, sensitivity analysis and risk assessment into the budgeting and forecasting process\npresenting budget and forecast information to stakeholders and facilitating data-driven decision-making\ndeveloping and implementing budgeting and forecasting strategies, policies and processes aligned with organisational objectives\ndriving the adoption of good practices \nproviding strategic insights and recommendations based on budget and forecast analysis\nensuring compliance with accounting standards, governance, legal and regulatory requirements\napplying budgeting and forecasting to cloud computing and FinOps contexts, such as consumption-based pricing, rapid scalability, and the need for real-time cost-visibility and optimisation.",
+  "level_descriptions": {
+    "level_2": "Assists in gathering financial data and preparing basic budget templates under supervision. \nSupports the budgeting and forecasting process by completing assigned tasks.",
+    "level_3": "Performs specified tasks in the budgeting and forecasting process, including data analysis and report preparation, using standard methods. \nIdentifies and resolves routine budgeting and forecasting issues. \nCommunicates budget and forecast information to relevant stakeholders.",
+    "level_4": "Contributes to the development of budgets and forecasts for specific areas of responsibility.\nGathers and analyses financial data and prepares budget templates and reports.\nSupports stakeholder communication and collaboration in the budgeting and forecasting process.",
+    "level_5": "Leads the development of budgets and forecasts for a department or function.\nProvides authoritative advice and guidance on budgeting and forecasting practices. Selects and applies appropriate budgeting and forecasting methodologies and tools.\nIncorporates scenario planning, sensitivity analysis and risk assessment into the budgeting and forecasting process.\nCollaborates with stakeholders to align budgets and forecasts with organisational objectives and business metrics.",
+    "level_6": "Develops and implements budgeting and forecasting strategies, policies and processes aligned with overall organisational objectives and business metrics. \nDrives the adoption of good working practices across the organisation.\nOversees the development of complex financial models and scenario analyses to support strategic decision-making. Provides insights and recommendations to optimise investments and resource allocation.\nCollaborates with senior leaders to ensure budgets and forecasts support long-term organisational goals and drive value creation. Sets the vision and direction for budgeting and forecasting practices."
+  }
+}

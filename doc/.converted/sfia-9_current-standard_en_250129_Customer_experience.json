@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Customer experience', 'row': 76, 'skill_code': 'CEXP', 'category': 'Development and implementation', 'subcategory': 'User centred design'}
+# Content Length: 3543 characters
+
+================================================================================
+
+{
+  "skill_name": "Customer experience",
+  "code": "CEXP",
+  "url": "https://sfia-online.org/en/skillcode/9/CEXP",
+  "category": "Development and implementation",
+  "subcategory": "User centred design",
+  "overall_description": "Ensuring the delivery of high-quality interactions and experiences that meet customer expectations across all touchpoints and channels.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nengaging with customers through various research methods to understand needs, preferences and expectations\ncreating and optimising customer journeys to enhance satisfaction, loyalty and overall experience\ndeveloping and implementing data-driven customer experience strategies aligned with business goals\ncontinuously monitoring, measuring and acting upon customer feedback using appropriate metrics and systems\napplying market research and segmentation insights to personalise customer experiences\nleading cross-functional initiatives to ensure consistent, integrated experiences across all channels and touchpoints\nevaluating and leveraging appropriate technologies to enhance and innovate customer experiences\nensuring compliance with relevant standards, regulations and policies in customer experience practices.",
+  "level_descriptions": {
+    "level_2": "Assists in the creation of customer journey maps and identifies key touchpoints for improvement.\nFollows established procedures to document customer feedback and support the implementation of minor improvements.",
+    "level_3": "Analyses research to gather detailed insights into customer needs and preferences. \nUses appropriate tools and methods for data collection. Participates in the design and optimisation of customer journeys. \nCollaborates with team members to implement customer experience improvements. \nDocuments findings and supports the analysis process.",
+    "level_4": "Uses customer research findings to gain a comprehensive understanding of customer needs and expectations.\nEnables the creation of visual representations of customer journeys to enhance cross-functional collaboration. Designs and refines customer journeys, working with cross-functional teams to enhance touchpoints and interactions. \nDevelops and implements designs to improve customer experience. Recommends and applies appropriate technologies and segmentation insights to enhance customer experiences.\nMonitors metrics and feedback to assess effectiveness and drive continuous improvement.",
+    "level_5": "Plans and oversees customer experience initiatives. \nEnsures alignment with business goals and customer expectations.\nEstablishes frameworks for monitoring and measuring customer experience. Uses data-driven insights to guide improvements.\nEnsures customer experience designs leverage customer insights and emerging technologies for personalised experiences. Works with senior stakeholders to develop and implement customer experience strategies. Drives collaboration across teams to ensure a consistent experience.",
+    "level_6": "Champions customer experience at an organisational level. \nLeads strategic initiatives to enhance customer experience, including the evaluation and adoption of innovative technologies and approaches. Aligns efforts with business objectives and customer needs.\nMonitors industry trends and innovations in customer experience. \nDevelops policies and standards to guide customer experience practices. Ensures adoption of good practices and continuous improvement within the organisation."
+  }
+}

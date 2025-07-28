@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Data modelling and design', 'row': 67, 'skill_code': 'DTAN', 'category': 'Development and implementation', 'subcategory': 'Data and analytics'}
+# Content Length: 2543 characters
+
+================================================================================
+
+{
+  "skill_name": "Data modelling and design",
+  "code": "DTAN",
+  "url": "https://sfia-online.org/en/skillcode/9/DTAN",
+  "category": "Development and implementation",
+  "subcategory": "Data and analytics",
+  "overall_description": "Developing models and diagrams to represent, communicate and manage data requirements and data assets.",
+  "guidance_notes": "Data modelling supports activities such as, but not limited to:\n\nhelping organisations understand their data assets, develop software systems and map relationships between real-world entities\nengaging with stakeholders to gather requirements and ensure data models align with business objectives\nfacilitating data engineering, integration and interoperability\nenhancing data retrieval\nsupporting data governance and master data management\nincorporating industry reference data standards to ensure consistency, interoperability and compliance.\n\nData models typically include components such as entities, relationships, attributes and domains. There are various types of data models, including relational, object-oriented, NoSQL and time-based.\nData models communicate different levels of detail, including conceptual, logical and physical.",
+  "level_descriptions": {
+    "level_2": "Establishes, modifies or maintains simple data structures and associated components. \nUses specific data modelling and design techniques under guidance.",
+    "level_3": "Applies standard data modelling and design techniques based upon a detailed understanding of organisational requirements. \nEstablishes, modifies and maintains data structures and associated components. \nCommunicates and explain the details of data structures and components to others.",
+    "level_4": "Investigates enterprise data requirements where there is some complexity and ambiguity.  \nPlans data modelling and design activities, selecting appropriate techniques and levels of detail to meet objectives. \nProvides advice and guidance to others using the data structures and associated components.",
+    "level_5": "Sets standards for data modelling and design tools and techniques, advises on their application and ensures compliance. \nManages the investigation of enterprise data requirements based on a detailed understanding of information requirements. \nCoordinates the application of analysis, design and modelling techniques to establish, modify or maintain data structures and their associated components. \nManages the iteration, review and maintenance of data requirements and data models."
+  }
+}

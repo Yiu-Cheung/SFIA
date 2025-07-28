@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Brand management', 'row': 143, 'skill_code': 'BRMG', 'category': 'Relationships and engagement', 'subcategory': 'Marketing'}
+# Content Length: 2544 characters
+
+================================================================================
+
+{
+  "skill_name": "Brand management",
+  "code": "BRMG",
+  "url": "https://sfia-online.org/en/skillcode/9/BRMG",
+  "category": "Relationships and engagement",
+  "subcategory": "Marketing",
+  "overall_description": "Managing brand strategy to establish and enhance brand identity and value aligned with organisational goals.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nconducting brand research and analysis to inform brand strategy development\ndefining brand positioning, values, personality and value proposition\ncreating and managing brand identity elements, such as logos, colour palettes and typography\ndeveloping brand guidelines and ensuring consistent application across all touchpoints\nmanaging brand portfolios, architecture and extensions\nmonitoring and analysing brand performance metrics and consumer perceptions\ncollaborating with internal stakeholders to align brand strategy with overall business objectives\npartnering with external agencies and vendors to execute brand initiatives and campaigns\nusing creative strategies to differentiate the brand and drive commercial success\nprotecting and enhancing brand value to contribute to overall commercial outcomes\ncontinuously refining and adapting brand strategy based on market trends and insights.",
+  "level_descriptions": {
+    "level_4": "Contributes to the development and implementation of brand identity elements and guidelines. \nSupports brand research and analysis. \nEnsures consistent application of brand standards across assigned projects. \nMonitors brand performance metrics and reports on key findings.",
+    "level_5": "Leads the development and execution of brand strategies and plans. \nDefines brand positioning, values and value proposition. Applies principles of brand architecture to manage brand portfolio. \nConducts in-depth brand performance analysis and provides strategic recommendations. \nUses creative approaches to differentiate the brand. Collaborates with internal and external stakeholders to align brand initiatives with business objectives.",
+    "level_6": "Establishes the overall brand vision, strategy and governance for the organisation. \nOversees brand research, analysis and strategic planning. \nEvaluates brand performance and equity, making decisions to enhance brand value and organisational outcomes. Ensures alignment of brand strategy with organisational goals and market dynamics. \nGoverns the application of visual identity and distinctive brand assets across the organisation."
+  }
+}

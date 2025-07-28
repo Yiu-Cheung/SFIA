@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Quality assurance', 'row': 27, 'skill_code': 'QUAS', 'category': 'Strategy and architecture', 'subcategory': 'Governance, risk and compliance'}
+# Content Length: 3614 characters
+
+================================================================================
+
+{
+  "skill_name": "Quality assurance",
+  "code": "QUAS",
+  "url": "https://sfia-online.org/en/skillcode/9/QUAS",
+  "category": "Strategy and architecture",
+  "subcategory": "Governance, risk and compliance",
+  "overall_description": "Assuring, through ongoing and periodic assessments and reviews, that the organisation’s quality objectives are being met.",
+  "guidance_notes": "Quality assurance provides confidence to internal and external stakeholders that quality requirements will be fulfilled.\nQuality assurance provides confidence to internal and external stakeholders that quality requirements will be fulfilled. It may relate to any area where quality standards are applied, including products, data, services and business processes.\nActivities may include, but are not limited to:\n\nplanning and conducting quality assessments and quality audits\nreviewing processes, products and services against defined quality criteria\nidentifying and reporting on quality issues and non-conformances\nrecommending corrective actions and improvements\nverifying the implementation and effectiveness of corrective actions\npromoting quality awareness throughout the organisation.",
+  "level_descriptions": {
+    "level_2": "Assists with quality assurance tasks under routine supervision.\nSupports the collection of data and evidence related to quality assurance. \nAssists in reviewing records to ensure compliance with quality standards.\nHelps identify and report quality issues and discrepancies.",
+    "level_3": "Contributes to the collection of evidence and the conduct of formal audits or reviews of activities.\nExamines records for evidence that appropriate testing and other quality control activities have taken place. \nDetermines compliance with organisational directives, standards and procedures and identifies non-compliances, non-conformances and abnormal occurrences.",
+    "level_4": "Plans, organises and conducts assessment activity and determines whether appropriate quality control has been applied.\nConducts formal assessments or reviews for given domain areas, suppliers or parts of the supply chain. Collates, collects and examines records, analyses the evidence and drafts all or part of formal compliance reports.\nDetermines the risks associated with findings and non-compliance and proposes corrective actions.\nProvides advice and guidance in the use of organisational standards.",
+    "level_5": "Plans, organises and conducts formal reviews and assessments of complex domains areas, cross-functional areas and across the supply chain.\nEvaluates, appraises and identifies non-compliances with organisational standards and determines the underlying reasons for non-compliance.\nPrepares and reports on assessment findings and associated risks. Ensures appropriate owners for corrective actions are identified. Identifies opportunities to improve organisational control mechanisms.\nOversees the assurance activities of others, providing advice and expertise to support assurance activity.",
+    "level_6": "Leads, develops and is accountable for an organisational approach and commitment to quality assurance.\nEnsures quality assurance processes and activities are robust and reliable, and appropriately tailored to the organisation’s quality objectives. Plans and resources the organisational quality assurance activities, using internal or third-party resources.\nConsiders the implications of emerging technology, approaches, trends, regulations and legislation.\nMonitors and reports on quality assurance activities, levels of compliance and improvement opportunities."
+  }
+}

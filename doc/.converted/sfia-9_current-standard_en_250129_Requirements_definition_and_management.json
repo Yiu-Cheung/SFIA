@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Requirements definition and management', 'row': 38, 'skill_code': 'REQM', 'category': 'Change and transformation', 'subcategory': 'Change analysis'}
+# Content Length: 3942 characters
+
+================================================================================
+
+{
+  "skill_name": "Requirements definition and management",
+  "code": "REQM",
+  "url": "https://sfia-online.org/en/skillcode/9/REQM",
+  "category": "Change and transformation",
+  "subcategory": "Change analysis",
+  "overall_description": "Managing requirements through the entire delivery and operational lifecycle.",
+  "guidance_notes": "Requirements may be related to software, systems, data, processes, products or services.\nActivities may include, but are not limited to:\n\neliciting and analysing requirements, both functional and non-functional\nensuring customer requirements, priorities and acceptance criteria are accurately captured and validated\norganising and prioritising requirements using techniques such as, but not limited to, product roadmaps, epics, user stories and backlogs\nspecifying and validating requirements, constraints and acceptance criteria to a level that enables effective development and operations of new or changed software, systems, processes, products or services\nnegotiating trade-offs that are acceptable to key stakeholders and within budgetary, technical, regulatory and other constraints\nadopting and adapting requirements management lifecycle models.\n\nThe requirements lifecycle approach will be based on the context of the work and may be selected from predictive (plan-driven) or adaptive (iterative/agile) approaches.",
+  "level_descriptions": {
+    "level_2": "Uses standard techniques to elicit, specify and document requirements for simple subject areas with clearly-defined boundaries. \nAssists in the definition and management of requirements.  \nAssists in the creation of a requirements baseline/backlog.\nAssists in investigating and applying changes to requirements.",
+    "level_3": "Defines and manages scoping, requirements definition and prioritisation activities for small-scale changes and assists with more complex change initiatives.\nFollows agreed standards and applies appropriate techniques to elicit and document detailed requirements. Provides constructive challenge to stakeholders as required. Reviews requirements for errors and omissions. \nPrioritises requirements and documents traceability to source. \nProvides input to the requirements baseline/backlog. Investigates, manages and applies requests for changes to requirements, in line with change management policy.",
+    "level_4": "Defines and manages scoping, requirements definition and prioritisation activities for initiatives of medium size and complexity. \nContributes to selecting the requirements approach. \nFacilitates input from stakeholders, provides constructive challenge and enables effective prioritisation of requirements. \nEstablishes requirements baselines or backlogs, obtains appropriate agreement to requirements and ensures traceability to source.",
+    "level_5": "Plans and drives scoping, requirements definition and prioritisation activities for large, complex initiatives. \nSelects, adopts and adapts appropriate requirements definition and management methods, tools and techniques. Contributes to the development of organisational methods and standards for requirements management.\nObtains input and agreement to requirements from a diverse range of stakeholders. Negotiates with stakeholders to manage competing priorities and conflicts. \nEstablishes requirements baselines or backlogs. Ensures changes to requirements are investigated and managed.",
+    "level_6": "Champions the importance and value of requirements management principles and selecting effective requirements management lifecycle models. \nDevelops organisational policies, standards and guidelines for requirements definition and management. \nPlans and leads scoping, requirements definition and priority setting for complex, strategic programmes.\nDrives adoption of, and adherence to, policies and standards. Develops new methods and organisational capabilities for requirements management."
+  }
+}

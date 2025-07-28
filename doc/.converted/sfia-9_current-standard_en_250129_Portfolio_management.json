@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Portfolio management', 'row': 31, 'skill_code': 'POMG', 'category': 'Change and transformation', 'subcategory': 'Change implementation'}
+# Content Length: 2886 characters
+
+================================================================================
+
+{
+  "skill_name": "Portfolio management",
+  "code": "POMG",
+  "url": "https://sfia-online.org/en/skillcode/9/POMG",
+  "category": "Change and transformation",
+  "subcategory": "Change implementation",
+  "overall_description": "Developing and applying a management framework to define and deliver a portfolio of programmes, projects and/or ongoing services.",
+  "guidance_notes": "Activities include, but are not limited to:\n\nalignment of investment with specific business strategies and objectives\nensuring governance frameworks guide strategic investment appraisal and decision-making processes\nassessment of cost, risk, inter-dependencies and impact on existing business activities\nidentifying issues with portfolio structure, cost, risk, inter-dependencies, impact on current business activities and the strategic benefits to be realised\nimplementing portfolio management practices that support iterative/agile working\nmeasurement and objective evaluation of potential changes and the benefits to be realised\nprioritisation of resource utilisation and changes to be implemented\nregular review of portfolios\nmanagement of the service pipeline (proposed or in development), service catalogue (live or available for deployment) and retired services.",
+  "level_descriptions": {
+    "level_5": "Ensures programme/project leads and/or service owners adhere to the agreed portfolio management and governance frameworks.\nExplains what information is needed and ensures they provide this information to agreed targets of timelines and accuracy. \nProduces reports as appropriate for portfolio governance, including making recommendations for changes to the portfolio.",
+    "level_6": "Engages and influences senior managers to ensure the portfolio will deliver the agreed business objectives. \nLeads the definition, planning, scheduling and monitoring of portfolio activities, ensuring alignment with governance standards. \nEnsures each portfolio component contributes to the overall objectives. Identifies and addresses portfolio-related issues, recommending and monitoring corrective actions. \nCollects and summarises portfolio measures, reporting on status and ensuring compliance with governance frameworks.",
+    "level_7": "Authorises the structure of portfolios and aligns the portfolio with strategies, objectives, governance frameworks and emerging opportunities. \nLeads the definition, implementation and review of the organisation’s portfolio management framework.  Sets parameters for the prioritisation of resources and the changes to be implemented. \nRecommends and implements corrective action by engaging and influencing senior management. \nLeads the on-going monitoring and review of portfolios for impact on current business activities and the strategic benefits to be realised. Implements portfolio governance arrangements and effective reporting."
+  }
+}

@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Stakeholder relationship management', 'row': 135, 'skill_code': 'RLMT', 'category': 'Relationships and engagement', 'subcategory': 'Stakeholder management'}
+# Content Length: 3379 characters
+
+================================================================================
+
+{
+  "skill_name": "Stakeholder relationship management",
+  "code": "RLMT",
+  "url": "https://sfia-online.org/en/skillcode/9/RLMT",
+  "category": "Relationships and engagement",
+  "subcategory": "Stakeholder management",
+  "overall_description": "Systematically analysing, managing and influencing stakeholder relationships to achieve mutually beneficial outcomes through structured engagement.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nidentifying stakeholders and analysing the relationships\nagreeing on mutually beneficial outcomes\nmanaging, monitoring and improving stakeholder relationships \ndetermining the relationship management approach to take - including roles and responsibilities, governance, policies, processes, tools and support mechanisms\ngetting commitment to action through consultation and consideration of impacts\ncombining formal and informal communication channels to achieve the desired result\noperational management of stakeholder relationships and communications.\n\nThe focus of this skill is a systematic and planned approach. This skill is not intended for general communication and developing productive working relationships. Those factors are described in SFIA's generic attributes and levels of responsibility.",
+  "level_descriptions": {
+    "level_4": "Deals with problems and issues, managing resolutions, corrective actions, lessons learned and the collection and dissemination of relevant information. \nImplements stakeholder engagement/communications plans.  Collects and uses feedback from customers and stakeholders to help measure the effectiveness of stakeholder management. \nHelps develop and enhance customer and stakeholder relationships.",
+    "level_5": "Identifies the communications and relationship needs of stakeholder groups. Translates communications/stakeholder engagement strategies into specific activities and deliverables. \nFacilitates open communication and discussion between stakeholders. \nActs as a single point of contact by developing, maintaining and working to stakeholder engagement strategies and plans.  Provides informed feedback to assess and promote understanding. \nFacilitates business decision-making processes. Captures and disseminates technical and business information.",
+    "level_6": "Leads the development of comprehensive stakeholder management strategies and plans. \nEstablishes and builds long-term, strategic relationships with key stakeholders to support service delivery and change initiatives. \nActs as a principal point of contact, ensuring effective communication and alignment. Negotiates and ensures agreements meet stakeholder needs.\nOversees the monitoring of stakeholder relationships, capturing lessons learned and providing feedback. Leads initiatives to enhance communication and relationships, promoting collaboration and understanding between all parties.",
+    "level_7": "Determines the strategic approach to understanding stakeholder objectives and requirements. \nWorks with all interested parties to identify stakeholders and establish effective relationships. Establishes and promotes the overall vision for how stakeholder objectives are met and determines organisational roles and alignment. \nActively manages relationships with the most senior stakeholders and is the ultimate escalation point for issue resolution."
+  }
+}

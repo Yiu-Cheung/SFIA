@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Delivery management', 'row': 35, 'skill_code': 'DEMG', 'category': 'Change and transformation', 'subcategory': 'Change implementation'}
+# Content Length: 3580 characters
+
+================================================================================
+
+{
+  "skill_name": "Delivery management",
+  "code": "DEMG",
+  "url": "https://sfia-online.org/en/skillcode/9/DEMG",
+  "category": "Change and transformation",
+  "subcategory": "Change implementation",
+  "overall_description": "Ensuring successful delivery of new or updated products and services through effective leadership and collaboration within defined delivery cycles.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nselecting, tailoring and guiding teams in the use of delivery approaches\nestablishing and managing collaborative delivery teams, ensuring they have the necessary resources and skills\nmaintaining delivery momentum through effective processes, including change control and risk management\nconducting reviews, facilitating continuous improvement and monitoring quality and performance\ncommunicating with technical and non-technical stakeholders, using visual techniques for tracking and reporting progress\nmanaging and prioritising work items, planning deliveries and coordinating with stakeholders to align deliverables and milestones\nensuring closure and transition of delivered products/services.",
+  "level_descriptions": {
+    "level_3": "Manages the routine delivery of small products or services, or specific parts of a larger product or service.\nFollows delivery methodologies, tools, and quality processes. Monitors the team’s adherence to these practices.\nCoordinates team planning processes based on the established priorities of work items. Tracks and reports on delivery progress, risks and issues.\nSupports a collaborative and productive working environment, demonstrating appropriate behaviours. Contributes to continuous improvement of delivery processes within the team.",
+    "level_4": "Manages the delivery of products or services for small to medium-sized initiatives.\nApplies appropriate delivery methodologies and tools. Establishes and leads delivery teams, creating a collaborative and productive working environment.\nManages the prioritisation of work items, leads iteration planning processes and ensures value is delivered incrementally throughout the delivery cycle. Communicates delivery progress, risks and issues to stakeholders.\nEnsures the quality of deliverables. Participates in reviews and contributes to the continuous improvement of delivery processes within the scope of the team or initiative.",
+    "level_5": "Leads delivery of products or services for large or complex initiatives.\nAdapts delivery approaches based on the context and complexity of the initiative. Provides leadership and guidance to multiple delivery teams. Collaborates with stakeholders to align delivery objectives with business goals. Proactively manages risks, dependencies and changes that may impact delivery.\nEnsures optimal allocation of resources and skills across teams. Monitors key delivery metrics, ensuring transparency and visibility.\nDrives the continuous improvement of delivery processes and practices across the organisation.",
+    "level_6": "Defines and oversees the delivery strategy for multiple products or services.\nAligns delivery strategy with organisational goals and customer needs. Ensures effective allocation of resources and budget.\nMonitors and reports on performance of product and service delivery, ensuring alignment with objectives. Identifies and mitigates systemic risks and issues.\nSets the direction and standards for delivery management across the organisation. Leads the development of a culture focused on continuous improvement and customer-centricity."
+  }
+}

@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Resourcing', 'row': 124, 'skill_code': 'RESC', 'category': 'People and skills', 'subcategory': 'People management'}
+# Content Length: 3594 characters
+
+================================================================================
+
+{
+  "skill_name": "Resourcing",
+  "code": "RESC",
+  "url": "https://sfia-online.org/en/skillcode/9/RESC",
+  "category": "People and skills",
+  "subcategory": "People management",
+  "overall_description": "Acquiring, deploying and onboarding resources.",
+  "guidance_notes": "Resources include, but are not limited to, salaried employees, temporary staff, consultants and contractors. Resourcing may be undertaken for departments, teams, projects, or individual roles. Resourcing should be attributed to those whose role is the specialised practice of acquiring and integrating resources into the organisation.\nActivities may include, but are not limited to:\n\nrecruiting, selecting, deploying, onboarding and transitioning resources\nassessing candidates using methods such as, but not limited to, interviews, assessment centres, CV/resume review, tests and exercises\nensuring compliance with relevant statutory or external regulations and codes of good practice\nenhancing recruitment using workforce and process analytics\nproactively building talent pipelines aligned to future strategic skills\nadapting sourcing approaches to attract candidates for hard-to-fill needs\nmeasuring the effectiveness of resourcing approaches using methods such as, but not limited to, retention analysis, media and supplier assessment, customer satisfaction and validation of selection methods.",
+  "level_descriptions": {
+    "level_2": "Assists with resourcing tasks under routine supervision.\nHelps with recruiting and onboarding new employees.\nSupports the documentation and tracking of resourcing activities.",
+    "level_3": "Supports managers and teams in resourcing and recruitment activities. \nUses recommended tools for planning, scheduling and tracking resourcing activity. \nProvides guidance on resource management and recruitment software, procedures, processes, tools and techniques.",
+    "level_4": "Facilitates and supports the execution of resourcing activities in collaboration with managers and teams.\nAnalyses resource requests to determine tasks, skills and effort required. Creates and communicates open positions internally and externally. Conducts interviews and assessments using a planned format and structure.\nImplements internal resource allocation matching skills to tasks. Contributes to transitioning of resources, complying with relevant statutory or external regulations and codes of practice.",
+    "level_5": "Plans and manages the acquisition and deployment of resources to meet specific needs and ongoing demand.\nDefines and manages the implementation of resourcing processes and tools. Advises on available options and customises resourcing approach to meet requirements. Adheres to standards, statutory or external regulations and codes of practice and ensures compliance. \nEngages with external parties in support of resourcing plans.\nMeasures effectiveness of resourcing processes and implements improvements.",
+    "level_6": "Defines resourcing approach for a significant part of the organisation in line with workforce plans and strategic business goals.\nCommunicates resourcing approach and obtains organisational commitment. Advises on standards, regulations and codes of practice and ensures compliance.\nMaintains a strong external network and supplier framework to support sourcing and acquiring resources.\nLeads development of plans and budget to ensure the organisation has appropriately skilled resources to meet organisational objectives and commitments. Reviews the ongoing success and effectiveness of resource management processes."
+  }
+}

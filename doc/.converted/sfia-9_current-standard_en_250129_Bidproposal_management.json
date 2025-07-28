@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Bid/proposal management', 'row': 138, 'skill_code': 'BIDM', 'category': 'Relationships and engagement', 'subcategory': 'Sales and bid management'}
+# Content Length: 3291 characters
+
+================================================================================
+
+{
+  "skill_name": "Bid/proposal management",
+  "code": "BIDM",
+  "url": "https://sfia-online.org/en/skillcode/9/BIDM",
+  "category": "Relationships and engagement",
+  "subcategory": "Sales and bid management",
+  "overall_description": "Managing preparation and submission of bids and proposals for contracts, grants, projects, or services.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nassessing requirements, conditions and customer needs relevant to the proposal or bid\ndeveloping and implementing bid and proposal strategies, including competitive positioning\nleading multidisciplinary teams in crafting detailed, high-quality and persuasive proposal documents\nmanaging bid and proposal teams, resources, risks and issues throughout the proposal lifecycle\noverseeing compliance with legal, accessibility, customer and organisational requirements\ncoordinating stakeholder engagement, communication and proposal reviews/approvals\nadvocating for effective practices and innovative approaches in proposal development\nnegotiating and closing deals with customers and stakeholders.\n\nThis skill is applicable in diverse contexts, such as commercial organisations bidding for contracts and public sector entities seeking funding. In commercial settings, it emphasises competitive positioning and market strategies. In the public sector, it focuses on aligning with policy objectives and demonstrating public value. The core activities are consistent across different environments.",
+  "level_descriptions": {
+    "level_3": "Supports the development of proposals by engaging in document analysis and internal review. \nUnderstands and analyses bid documents and requirements, preparing initial response drafts that align with the organisation's capabilities and stakeholder needs. \nCommunicates with internal stakeholders to gather necessary information and clarify proposal requirements. \nEnsures proposal responses meet basic compliance standards and align with the specified requirements and organisational capabilities.",
+    "level_4": "Leads the creation of small to medium proposals, integrating technical analysis and broader context. \nCoordinates team efforts, shapes the proposal structure and addresses financial aspects including budgeting and pricing strategies. \nIdentifies and manages proposal risks, ensuring timely compliance with stakeholder expectations. \nEngages with stakeholders and shapes proposal structure and content based on in-depth discussions and feedback.",
+    "level_5": "Leads the formulation and execution of significant proposals, managing the process from initial evaluation to final submission. \nOversees significant proposals, aligning them with organisational strategies and managing the process from inception to submission. \nCollaborates with high-level stakeholders, negotiates with key stakeholders and secures advantageous partnerships. \nRefines and optimises the proposal development process for efficiency and effectiveness.",
+    "level_6": "Directs major proposal initiatives, devising engagement strategies and promoting excellence in proposal practices throughout the organisation. \nInfluences organisational policies and strategies in proposal management, setting standards and expectations."
+  }
+}

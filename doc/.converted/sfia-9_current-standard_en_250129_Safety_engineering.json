@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Safety engineering', 'row': 62, 'skill_code': 'SFEN', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 2961 characters
+
+================================================================================
+
+{
+  "skill_name": "Safety engineering",
+  "code": "SFEN",
+  "url": "https://sfia-online.org/en/skillcode/9/SFEN",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Applying appropriate methods to assure safety during all lifecycle phases of safety-related systems developments.",
+  "guidance_notes": "Safety-critical systems are those in which a system failure could harm human life, other living things, physical structures, or the environment. \nActivities may include, but are not limited to:\n\nsafety hazard and risk analysis\nsafety requirements specification\nsafety-related systems architectural design\nformal method design\nsafety validation and verification\nsafety case preparation\napplying generic safety standards such as IEC 61508, IEC 61511 or industry-specific safety standards.\n\nSystem safety is engineered and measured by safety levels based on hazard and risk analysis.",
+  "level_descriptions": {
+    "level_2": "Assists with safety engineering tasks under routine supervision.\nSupports the documentation of hazard and risk analysis activities.\nHelps collect safety assurance evidence using agreed methods and procedures.",
+    "level_3": "Contributes to hazard and risk analysis during system development and implementation using agreed methods and procedures. \nDocuments the results of hazard and risk analysis activities.\nContributes to the collection of safety assurance evidence using appropriate methods and tools. \nUndertakes all work in accordance with agreed safety, technical and quality standards.",
+    "level_4": "Contributes to identifying, analysing and documenting hazards and safety risks using agreed methods and procedures.\nContributes to the specification of safety requirements. \nAnalyses and documents safety validation results during system development and implementation.\nContributes to developing and maintaining project safety assurance plans. Gathers safety assurance evidence for safety case preparation.",
+    "level_5": "Identifies and analyses hazards and contributes to identifying and evaluating risk reduction measures, ensuring these are adequately documented. \nSpecifies safety-related systems architectures for defined safety levels. \nDevelops and maintains project safety assurance plans. Monitors implementation and compliance. Ensures safety assurance evidence is gathered for safety case preparation.\nWorks with system architects, designers and developers to assure safety requirements implementation.",
+    "level_6": "Takes full responsibility for hazard analysis and risk evaluation, safety-related systems architectural design and safety compliance planning.\nLeads the definition and allocation of safety requirements for the system, according to the system's nature and required safety level.  \nTakes responsibility for the safety-related aspects of multiple complex or high safety integrity level projects."
+  }
+}

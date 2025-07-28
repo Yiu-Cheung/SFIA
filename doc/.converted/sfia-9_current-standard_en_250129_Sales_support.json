@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Sales support', 'row': 140, 'skill_code': 'SSUP', 'category': 'Relationships and engagement', 'subcategory': 'Sales and bid management'}
+# Content Length: 3171 characters
+
+================================================================================
+
+{
+  "skill_name": "Sales support",
+  "code": "SSUP",
+  "url": "https://sfia-online.org/en/skillcode/9/SSUP",
+  "category": "Relationships and engagement",
+  "subcategory": "Sales and bid management",
+  "overall_description": "Providing advice and support to the sales force, customers and sales partners.",
+  "guidance_notes": "Sales support can be delivered to a range of roles, such as, but not limited to, the sales force, sales agents, reseller/distributor staff and existing or prospective customers.\nThis skill includes the provision of technical advice and assistance either in support of customer development or sales activity or in fulfilment of sales obligations.\nActivities may include, but are not limited to:\n\nproviding technical information about products and services\nassisting in the preparation of sales proposals and presentations\nconducting product demonstrations\nresponding to customer queries and providing solutions\nsupporting the sales team in understanding customer requirements\ncollaborating with other departments to resolve customer issues\nmaintaining customer relationship management (CRM) systems\nassisting in post-sale support and customer onboarding.",
+  "level_descriptions": {
+    "level_1": "Communicates effectively with customers to provide basic information about products and services.\nSeeks assistance from colleagues for the resolution of more complex customer service queries and complaints. \nUses sales support systems to retrieve and enter data.",
+    "level_2": "Communicates effectively with customers by telephone and in person. \nAssists in providing customer service, including technical advice and guidance on the successful use of products and services. \nAssists in devising solutions to customer requirements and solves straightforward problems.",
+    "level_3": "Helps customers to clarify their requirements and documents the conclusions reached. \nContributes to preparing and supporting bids and sales proposals. \nProvides customer service, including technical advice and guidance on the successful use of complex products and services.",
+    "level_4": "Works closely with the sales team to help prospects to clarify their requirements. \nDevises solutions and assesses their feasibility and practicality. \nDemonstrates technical feasibility using physical or simulation models. Resolves technical problems.\nProduces estimates of cost and risk and initial project plans to inform sales proposals.",
+    "level_5": "Works closely with the sales team to ensure customers are assisted and advised appropriately. \nEnsures reliable cost, effort and risk estimates and project plans are produced. \nManages all sales support activities, taking full responsibility for the technical content of bids and sales proposals. \nEstablishes metrics to provide data on performance and support continual improvement of sales support activities.",
+    "level_6": "Leads the organisation's sales-related customer service activities to ensure they are aligned with corporate objectives and policy. \nApproves proposals and initiates the implementation of development activity in customer services and systems."
+  }
+}

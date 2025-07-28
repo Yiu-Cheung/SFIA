@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Cybercrime investigation', 'row': 113, 'skill_code': 'CRIM', 'category': 'Delivery and operation', 'subcategory': 'Security services'}
+# Content Length: 4095 characters
+
+================================================================================
+
+{
+  "skill_name": "Cybercrime investigation",
+  "code": "CRIM",
+  "url": "https://sfia-online.org/en/skillcode/9/CRIM",
+  "category": "Delivery and operation",
+  "subcategory": "Security services",
+  "overall_description": "Investigates cybercrimes, collects evidence, determines incident impacts and collaborates with legal teams to protect digital assets.",
+  "guidance_notes": "Cybercrime investigation focuses on identifying, tracking, and building cases against those engaged in criminal activities in cyber/digital environments.\nThis involves using investigative techniques to uncover criminal patterns, assess cybercrime impacts, and support prosecution efforts.\nActivities may include, but are not limited to:\n\ninvestigating suspicious activities and alleged cyber/digital crimes\ncollecting evidence from public networks, private systems, and hard-to-access environments like the deep and dark web\ngathering and analysing data from systems, networks and devices\ncollecting and examining physical evidence such as documents, hardware devices and signs of physical interference\nidentifying clues indicating unauthorised access and evaluating target vulnerabilities\nconducting victim and witness interviews and suspect interrogations to gather information\nassessing the credibility and authenticity of evidence, and collaborating with legal teams to identify incidents requiring legal action and ensure evidence admissibility\ndocumenting findings and preparing detailed investigative reports for stakeholders\ncoordinating responses to significant cybercrime incidents\nanalysing cybercrime trends and developing strategies to combat emerging threats and participating in cybercrime task forces and information sharing initiatives.",
+  "level_descriptions": {
+    "level_2": "Assists in cybercrime investigations under routine supervision. \nSupports the collection of evidence related to cybercrime investigations. \nParticipates in monitoring suspicious activities.\nHelps maintain evidence integrity and assists in preliminary interviews. Follows established protocols and guidelines.",
+    "level_3": "Conducts cybercrime investigations using standard procedures. \nCollects and preserves various forms of evidence in cybercrime cases. Assesses credibility and checks for compliance with relevant investigative standards. \nAnalyses basic cyber threats and incidents, and prepares investigative reports. Identifies incidents that may have legal implications. \nConducts interviews and assists in interrogations.",
+    "level_4": "Oversees mid-level investigations, coordinating evidence collection and forensic analyses.\nAssesses target vulnerabilities and operational impacts of cyber incidents.\nProvides comprehensive reports and expert analysis for stakeholders. \nConducts interviews and interrogations, identifying potential legal implications and collaborating with legal professionals.",
+    "level_5": "Manages complex cybercrime investigations, overseeing all stages from detection to resolution. \nEvaluates incidents involving advanced threats or significant breaches. \nDevelops and implements procedures for evidence handling and documentation. Collaborates with legal teams to ensure evidence supports potential legal proceedings. \nLeads the development of response strategies, assessing vulnerabilities and operational capabilities. Oversees the implementation of tools and automation to enhance investigative processes.",
+    "level_6": "Defines the organisational strategy for cybercrime investigations.\nEstablishes policies and standards for handling various forms of evidence in cybercrime cases, including the adoption and integration of tools and automation to improve efficiency and accuracy.\nOversees high-risk or sensitive investigations, managing cross-disciplinary teams. Conducts high-level interviews and interrogations, providing strategic insights on cybersecurity threats and vulnerabilities.\nEngages with external stakeholders, including regulatory bodies and legal entities, to ensure compliance with legal and ethical standards."
+  }
+}

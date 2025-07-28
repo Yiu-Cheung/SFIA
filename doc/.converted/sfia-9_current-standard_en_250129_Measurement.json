@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Measurement', 'row': 16, 'skill_code': 'MEAS', 'category': 'Strategy and architecture', 'subcategory': 'Financial and value management'}
+# Content Length: 3127 characters
+
+================================================================================
+
+{
+  "skill_name": "Measurement",
+  "code": "MEAS",
+  "url": "https://sfia-online.org/en/skillcode/9/MEAS",
+  "category": "Strategy and architecture",
+  "subcategory": "Financial and value management",
+  "overall_description": "Developing and operating a measurement capability to support agreed organisational information needs.",
+  "guidance_notes": "Measurement can be applied to organisations, projects, processes and work products.\nActivities may include, but are not limited to:\n\nplanning, implementation and control of activities to measure attributes of processes, products and services\nusing measures to assess performance and progress and provide indications and insights to actual or potential problems, issues and risks\nidentifying requirements for measurement\nimplementing measurement to support iterative/agile working practices\nselecting measures and measurement scales, setting target values and thresholds\nestablishing data collection and analysis methods, including automation\nreal-time and near-real-time measurement.\n\nThe measurement skill has diverse applications across industries, including customer experience, IT systems and services, marketing, supply chain, software development, finance, healthcare and project management.",
+  "level_descriptions": {
+    "level_2": "Assists in the collection and maintenance of data for measurement purposes under routine supervision.\nUses standard procedures for measuring attributes of processes, products and services. \nHelps generate and distribute measurement reports.",
+    "level_3": "Applies standard techniques to support the specification of measures and the collection and maintenance of data for measurement. \nGenerates, produces and distributes reports. \nUses measurement tools for routine analysis of data. \nIdentifies and implements improvements to data collection methods.",
+    "level_4": "Identifies and prioritises appropriate measures, scales and targets. \nSupports projects, functions or teams in the development of measurement methods. \nSpecifies base and derived measures which support agreed information needs. Specifies how to collect and store the data for each required measure. Provides guidance on collection of data. \nDesigns reports and reporting formats.",
+    "level_5": "Establishes measurement objectives and the scope of measurement for functions, teams and projects. \nPlans and implements improvements to measurement capability. Provides advice and guidance for effective use of measures and measurement.  \nSelects measures appropriate to the context and organisational objectives. Reviews data collection and storage mechanisms to support measurement.\nContributes to organisational policies, standards and guidelines for measurement.",
+    "level_6": "Leads the development of organisational capabilities for measurement (including automation). \nCreates the measurement framework and aligns measurement objectives with business objectives. \nDevelops organisational policies, standards and guidelines for measurement. \nProvides resources to ensure adoption and adherence to policies and standards."
+  }
+}

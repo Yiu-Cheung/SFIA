@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Solution architecture', 'row': 4, 'skill_code': 'ARCH', 'category': 'Strategy and architecture', 'subcategory': 'Strategy and planning'}
+# Content Length: 3351 characters
+
+================================================================================
+
+{
+  "skill_name": "Solution architecture",
+  "code": "ARCH",
+  "url": "https://sfia-online.org/en/skillcode/9/ARCH",
+  "category": "Strategy and architecture",
+  "subcategory": "Strategy and planning",
+  "overall_description": "Developing and communicating a multi-dimensional solution architecture to deliver agreed business outcomes.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndefining the planned operation and maintenance of the solution within a production environment, including changes to services, processes, organisation and operating models as well as technology \nensuring existing and planned solution components are compatible with relevant architectures, strategies, policies, standards and practices \nconsidering requirements for security, privacy and testing of solutions\ntaking account of relevant architectures, strategies, policies, standards and practices \nidentifying appropriate cloud services, evaluating their cost implications and optimising for cost-efficiency\ndeveloping roadmaps to migrate components to cloud services\ndeveloping and communicating an implementation roadmap \nproviding guidance and risk-based governance to support solution implementation including managing requests for changes and deviations from specifications.",
+  "level_descriptions": {
+    "level_4": "Contributes to the development of solution architectures in specific business, infrastructure or functional areas. \nIdentifies and evaluates alternative architectures and the trade-offs in cost, performance and scalability. Determines and documents architecturally significant decisions. \nProduces specifications of cloud-based or on-premises components, tiers and interfaces, for translation into detailed designs using selected services and products. \nSupports projects or change initiatives through the preparation of technical plans and application of design principles. Aligns solutions with enterprise and solution architecture standards (including security).",
+    "level_5": "Leads the development of solution architectures in specific business, infrastructure or functional areas. \nLeads the preparation of technical plans and ensures appropriate technical resources are made available. Ensures appropriate tools and methods are available, understood and employed in architecture development.\nProvides technical guidance and governance on solution development and integration. Evaluates requests for changes and deviations from specifications and recommends actions.\nEnsures relevant technical strategies, policies, standards and practices (including security and cost management) are applied correctly.",
+    "level_6": "Leads the development of architectures for complex solutions ensuring consistency with agreed requirements. \nEstablishes policies, principles and practices for the selection of solution architecture components. \nManages trade-offs and balances functional, service quality, cost efficiency and systems management requirements within a significant area of the organisation. Communicates proposed decisions to stakeholders.\nCoordinates and manages the target architecture across multiple projects or initiatives.  Maintains a stable, viable architecture and ensures consistency of design and adherence to appropriate standards across multiple projects or initiatives."
+  }
+}

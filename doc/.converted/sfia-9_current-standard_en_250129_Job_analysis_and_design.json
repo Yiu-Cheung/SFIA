@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Job analysis and design', 'row': 43, 'skill_code': 'JADN', 'category': 'Change and transformation', 'subcategory': 'Change planning'}
+# Content Length: 3385 characters
+
+================================================================================
+
+{
+  "skill_name": "Job analysis and design",
+  "code": "JADN",
+  "url": "https://sfia-online.org/en/skillcode/9/JADN",
+  "category": "Change and transformation",
+  "subcategory": "Change planning",
+  "overall_description": "Planning, analysing and designing job roles and structures to align with organisational requirements, goals and culture.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ngathering information and insights for current and future job requirements through methods such as surveys, interviews, workforce analytics and reviewing existing job documentation\nconducting task analysis to break down jobs into component roles and responsibilities, skills and competencies\nanalysing workflow processes to design jobs that optimise efficiency, employee engagement and job satisfaction\ndesigning roles that support rapid team reconfiguration, upskilling and evolving in response to changing organisational needs and market demands\ncreating or updating job architectures, job descriptions and specifications based on comprehensive analysis, organisational requirements and skills-based frameworks\nintegrating new technologies, processes, or operational needs into job design, including the consideration of artificial intelligence and digital tools\ndeveloping career pathways that align with professional development opportunities and organisational needs to aid staff retention.\n\nThe scope of job analysis and design can range from single roles to multi-layered organisational structures.",
+  "level_descriptions": {
+    "level_3": "Gathers data regarding job roles and responsibilities from various sources. \nAssists in mapping tasks and competencies using established skills-based frameworks. Contributes to the creation of preliminary job descriptions and performance metrics. \nWorks under direction to align job roles with organisational strategies, workplace practices and evolving requirements. \nProvides support in the assessment of job changes and their impact on workflows and employee satisfaction. Participates in the process of revising job documentation to reflect updated role definitions and responsibilities.",
+    "level_4": "Performs detailed job analyses, breaking down roles using data-driven insights. \nCreates or revises job descriptions with consideration of required skills, competencies and organisational culture. \nEvaluates the impact of job role changes on workflows, employee engagement and overall workplace practices. \nProvides insights into aligning job roles with emerging organisational needs, including technology integration and adaptive strategies. Collaborates with stakeholders to ensure job designs are effective, responsive to changing business needs and aligned with skills-based approaches.",
+    "level_5": "Leads job architecture and design initiatives, ensuring alignment with organisational strategies and evolving workplace practices. \nDevelops comprehensive role definitions that encompass necessary skills, competencies and alignment with the organisation's culture and goals.\nAssesses and suggests modifications to existing roles to improve effectiveness and address new challenges. \nProvides authoritative advice on the adaptation of job architecture and job design to reflect changes in organisational strategy, technology, workplace practices and skills-based approaches."
+  }
+}

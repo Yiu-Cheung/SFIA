@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Content design and authoring', 'row': 81, 'skill_code': 'INCA', 'category': 'Development and implementation', 'subcategory': 'Content management'}
+# Content Length: 3980 characters
+
+================================================================================
+
+{
+  "skill_name": "Content design and authoring",
+  "code": "INCA",
+  "url": "https://sfia-online.org/en/skillcode/9/INCA",
+  "category": "Development and implementation",
+  "subcategory": "Content management",
+  "overall_description": "Planning, designing and creating content that meets user-centred and organisational needs, encompassing textual information, graphical content and multimedia elements.",
+  "guidance_notes": "Content design and authoring encompasses a wide range of content types to meet user-centred and organisational needs. This includes textual information, graphical content and multimedia elements. Specific content types, include but are not limited to: website and mobile app content, user interface text, chatbot scripts, interactive content, social media content, email marketing, blog posts, online advertising copy and video scripts.\nActivities may include, but are not limited to:\n\nunderstanding the requirements of the intended audience\ncollaborating with stakeholders and audience representatives to refine content needs\napplying tools and technologies to enhance content creation efficiency and quality\nimplementing user-centred principles in content design, authoring and presentation\nconsidering information architecture, including how content is presented, identified and searched for\nmanaging the content design and authoring process\ncoordinating with editorial and publication processes\ngathering source information and creating draft content\nidentifying and integrating appropriate illustrations, graphics and multimedia elements\nunderstanding and applying copyright rules and related legal issues\ncreating and using guidelines for clear, concise and accurate information presentation\ndesigning content collections across multiple media, including digital services and marketing materials.",
+  "level_descriptions": {
+    "level_1": "Contributes, under instruction, to the generation of content and the configuration of content items and files. \nExecutes pre-planned testing activities under supervision and records findings.",
+    "level_2": "Works with colleagues and stakeholders to understand audience needs and to assimilate source material. \nCreates draft content to meet the requirements of the audience as clearly, simply and quickly as possible. \nApplies guidelines and standards to moderate content from others, escalating where appropriate.",
+    "level_3": "Produces information artefacts that are accurate, current, relevant and easily understood by the intended audience. \nClarifies detailed content requirements with clients and representatives of the intended audience. \nDesigns, creates, controls and evaluates moderately complex subject matter. \nMakes informed decisions about the best way to present information to an audience. Applies moderation and editing processes to content supplied by others.",
+    "level_4": "Designs the content and appearance of complex information artefacts. \nControls, monitors and evaluates content to ensure quality, consistency and accessibility of messages and optimal use of chosen media. Understands and manages risks associated with publishing content.\nModerates content and ensures content can be re-purposed appropriately. \nReviews work of others and takes responsibility for ensuring appropriate publication.",
+    "level_5": "Provides overall editorial control across the team or teams of content designers and authors. \nAdvises on appropriate content formats and mediums. \nDevelops and maintains content plans showing how the identified audience needs will be met. \nOversees the review and approval of materials to enable requirements to be satisfied.",
+    "level_6": "Obtains organisational commitment to policies, standards and strategies to create required content. \nSpecifies design standards and methods to meet organisational objectives for content creation. \nPlans and leads content creation for strategic, large and complex programmes."
+  }
+}

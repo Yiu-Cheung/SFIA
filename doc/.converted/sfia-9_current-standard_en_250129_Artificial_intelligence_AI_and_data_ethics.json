@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Artificial intelligence (AI) and data ethics', 'row': 24, 'skill_code': 'AIDE', 'category': 'Strategy and architecture', 'subcategory': 'Governance, risk and compliance'}
+# Content Length: 3062 characters
+
+================================================================================
+
+{
+  "skill_name": "Artificial intelligence (AI) and data ethics",
+  "code": "AIDE",
+  "url": "https://sfia-online.org/en/skillcode/9/AIDE",
+  "category": "Strategy and architecture",
+  "subcategory": "Governance, risk and compliance",
+  "overall_description": "Implementing and promoting ethical practices in the design, development, deployment and use of AI and data technologies.",
+  "guidance_notes": "Includes principles such as fairness, accountability, transparency and privacy. Ethical considerations encompass issues like bias in algorithms, data privacy, the impact of automation on employment and the societal implications of emerging technologies.\nActivities may include, but are not limited to:\n\nproviding expert advice on ethical policies, procedures and governance\ndesigning AI and data systems that embed ethical considerations\nconducting ethical impact assessments to identify risks and ensure responsible use of technology\nresponding to ethical dilemmas and incidents\nkeeping up to date with ethical standards, regulations and recommended practices\ncreating ethical risk models and frameworks\ncollaborating with experts in fields such as legal, public relations, data science and AI\npromoting a culture of ethical awareness and responsibility within the organisation.",
+  "level_descriptions": {
+    "level_3": "Supports ethical reviews and conducts basic impact assessments under direction. \nGathers and analyses information for assessments. Reports on ethical issues and compliance with guidance from others. Documents findings from audits and reviews. \nAssists with documentation and communication of ethical policies.  \nSupports others in responding to incidents.",
+    "level_4": "Engages stakeholders to communicate ethical considerations and influence design decisions. \nConducts detailed impact assessments and makes recommendations. Manages ethical reviews to ensure compliance with standards. \nEvaluates risks and proposes measures to address ethical concerns. Leads discussions with stakeholders on ethical issues. \nDesigns and executes ethical impact assessments. Prepares reports based on audit findings.",
+    "level_5": "Provides expert advice to integrate ethics into AI and data projects and programmes. \nOversees governance and assurance activities. Reviews and approves impact assessments and audits. \nPromotes awareness of ethical principles and their application across the organisation. \nContributes to the development of policy, standards and guidelines related to AI and data ethics.",
+    "level_6": "Sets direction for ethics in AI and data initiatives. Defines governance processes to ensure compliance with ethical standards. \nEngages with industry bodies and experts to develop and drive industry recommended practices. \nDevelops and implements strategic ethical frameworks. Leads high-level reviews and decision-making processes. \nAllocates resources to support the organisation’s commitment to ethical practices. Ensures the organisation has resources and skills for ethical assurance."
+  }
+}

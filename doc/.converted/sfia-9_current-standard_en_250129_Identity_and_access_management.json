@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Identity and access management', 'row': 110, 'skill_code': 'IAMT', 'category': 'Delivery and operation', 'subcategory': 'Security services'}
+# Content Length: 4330 characters
+
+================================================================================
+
+{
+  "skill_name": "Identity and access management",
+  "code": "IAMT",
+  "url": "https://sfia-online.org/en/skillcode/9/IAMT",
+  "category": "Delivery and operation",
+  "subcategory": "Security services",
+  "overall_description": "Manages identity verification and access permissions within organisational systems and environments.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nimplementing identity and access management (IAM) frameworks in line with organisational goals and compliance with regulations like GDPR, HIPAA, or SOX\nstreamlining user authentication with single sign-on solutions and enhancing security with multi-factor authentication\nmanaging user access rights from onboarding to offboarding, including integration with cloud services, enterprise applications and directory services like LDAP or Active Directory\nusing role-based and attribute-based access controls to manage user privileges and access, aligning with organisational roles and attributes\nimplementing privileged access management tools for secure monitoring and control of critical asset access\nhandling incident responses related to access issues, like unauthorised access or identity theft\nregularly auditing access to maintain security and compliance\nconducting identity governance and administration to enforce policies, managing digital identities including user accounts, groups and roles.",
+  "level_descriptions": {
+    "level_1": "Performs basic identity and access management tasks, including user account lifecycle management, under supervision.\nMaintains accurate records and follows established identity and access management protocols.",
+    "level_2": "Provides assistance for identity and access management operations, including automated role allocation and access control management.\nEngages in user identity lifecycle management, including account creation and deletion.\nFacilitates operation of identity and access management tools and self-service portals.",
+    "level_3": "Administers standard identity and access management services, implementing policies and resolving related issues. \nManages monitoring, audits and logging for identity and access management systems. Investigates minor security breaches in accordance with established procedures related to identity and access management.\nAssists users in defining their access rights and privileges. Designs and implements simple identity and access management solutions, enhancing user access security. Contributes to the enhancement and optimisation of existing identity and access management processes and systems.",
+    "level_4": "Designs and implements complex identity and access management solutions, focusing on automated access control and role allocation. \nOversees the integration of identity and access management services with new technologies.\nProvides specialised support for complex identity and access management operations and supports implementation of policies and standards.\nCollaborates with stakeholders to align identity and access management with business objectives and emerging security trends.",
+    "level_5": "Offers authoritative advice on identity and access management, ensuring services align with and support evolving business needs and security protocols.\nManages large-scale identity and access management initiatives and oversees the integration of identity and access management services with new technologies, enhancing security and operational efficiency.\nLeads operational planning for identity and access management, anticipating future trends and preparing the organisation for scalable growth.\nEnsures compliance of identity and access management systems and oversees advanced monitoring and audit processes.",
+    "level_6": "Shapes and defines organisation-wide identity and access management policies, ensuring alignment with business strategies and security requirements.\nChampions good practices, advocating for robust and innovative identity and access management solutions across the organisation.\nInfluences and guides organisational governance, integrating emerging technologies and regulatory compliance into identity and access management strategies.\nReviews and advises on identity and access management aspects and implications of new business initiatives."
+  }
+}

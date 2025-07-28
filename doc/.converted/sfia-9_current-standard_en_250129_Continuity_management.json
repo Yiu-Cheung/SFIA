@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Continuity management', 'row': 102, 'skill_code': 'COPL', 'category': 'Delivery and operation', 'subcategory': 'Service management'}
+# Content Length: 3242 characters
+
+================================================================================
+
+{
+  "skill_name": "Continuity management",
+  "code": "COPL",
+  "url": "https://sfia-online.org/en/skillcode/9/COPL",
+  "category": "Delivery and operation",
+  "subcategory": "Service management",
+  "overall_description": "Developing, implementing and testing a business continuity framework.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nidentifying potential threats and assessing their business impact\ndeveloping plans and procedures to respond to an incident\nensuring critical business functions can continue with a planned level of disruption\nensuring an acceptable level of service can be restored after a disruption\ndeveloping organisational resilience\nassuring that continuity is being designed into systems, processes and ways of working\nimplementing continuity management practices for cloud-based services\nenabling continuous delivery, deployment and integration of applications and infrastructure without adverse impact or disruption to service\ncollaborating with external partners and suppliers to ensure continuity across the supply chain\nusing technologies and tools for enhanced risk assessment, monitoring and decision-making\nregularly communicating and training staff on their roles and responsibilities during disruptive events.\n\nIncidents have a variety of causes, including, but not limited to: cyber-attacks, data breaches, organised crime, fires, floods, natural disasters, pandemics, health emergencies and supply chain failure.",
+  "level_descriptions": {
+    "level_2": "Maintains records of all related testing and training and ensures the availability of all documentation.\nRecords the actions taken and the consequences following an incident or live testing of a continuity plan for a lessons-learned report.",
+    "level_3": "Applies a structured approach to develop and document the detail for a continuity plan. \nMaintains documentation of business continuity and disaster recovery plans. \nSupports the development of a test plan and implementation of continuity management exercises.",
+    "level_4": "Contributes to the development of continuity management plans. \nIdentifies information and communication systems that support critical business processes. \nCoordinates the business impact analysis and the assessment of risks.  \nCoordinates the planning, designing and testing of contingency plans.",
+    "level_5": "Manages the development, implementation and testing of continuity management plans.  \nManages the relationship with individuals and teams who have authority for critical business processes and supporting systems. \nEvaluates the critical risks and identifies priority areas for improvement. \nTests continuity management plans and procedures to ensure they address exposure to risk and that agreed levels of continuity can be maintained.",
+    "level_6": "Sets the strategy for continuity management across the organisation. \nSecures organisational commitment, funding and resources for continuity management. \nLeads continuity management exercises. \nCommunicates the policy, governance, scope and roles involved in continuity management. Has defined authority and accountability for the actions and decisions for continuity management"
+  }
+}

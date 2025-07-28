@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'High-performance computing', 'row': 87, 'skill_code': 'HPCC', 'category': 'Development and implementation', 'subcategory': 'Computational science'}
+# Content Length: 2954 characters
+
+================================================================================
+
+{
+  "skill_name": "High-performance computing",
+  "code": "HPCC",
+  "url": "https://sfia-online.org/en/skillcode/9/HPCC",
+  "category": "Development and implementation",
+  "subcategory": "Computational science",
+  "overall_description": "Using advanced computer systems and special programming techniques to solve complex computational problems.",
+  "guidance_notes": "High-performance computing (HPC) is the use of super computers and parallel processing techniques for solving complex computational problems. HPC technology focuses on developing parallel processing algorithms and systems.\nHigh-performance computing is typically used for solving advanced problems and performing research activities through computer modelling, simulation and analysis. Activities may include, but are not limited to:\n\ndesigning and optimising parallel algorithms\nmanaging and maintaining HPC infrastructures\ndeveloping software for HPC environments\nconducting performance analysis and optimisation of HPC applications\ncollaborating with researchers to translate scientific problems into HPC solutions.\n\nHPC technology is implemented in a variety of disciplines including, but not limited to:\n\nbiosciences and molecular modelling\ngeographical data\noil and gas exploration\nclimate modelling and weather forecasting\nphysical simulations\ncryptanalysis.\n\nThe terms high-performance computing and supercomputing are sometimes used interchangeably.",
+  "level_descriptions": {
+    "level_4": "Develops moderately complex solutions that use high-performance computing environments to address real-world problems. \nApplies a range of high-performance computing techniques with sensitivity to the limitations of the techniques. Uses input and feedback from experts as appropriate. \nAnalyses the complexity, scalability and performance of algorithms, including massively parallel implementations, and makes or recommends improvements.",
+    "level_5": "Creates, tests and improves complex high-performance computing solutions to address real-world problems. \nCollaborates with stakeholders to ensure high-performance computing solutions are effective at addressing their problems. \nGuides development teams in the appropriate and effective use of high-performance computing resources",
+    "level_6": "Initiates the creation, testing, improvement and application of algorithms that solve real-world problems in high-performance computing environments. \nSets standards and strategies for the use of high-performance computing. \nLeads the implementation of organisational capabilities to ensure appropriate, consistent and effective usage of high-performance computing.",
+    "level_7": "Directs the creation and review of a cross-functional, enterprise-wide approach and culture for high-performance computing.\nLeads the development of the organisation’s high-performance computing capabilities and champions its use in solving real-world problems."
+  }
+}

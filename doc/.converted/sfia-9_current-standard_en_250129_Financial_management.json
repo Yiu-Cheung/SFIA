@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Financial management', 'row': 9, 'skill_code': 'FMIT', 'category': 'Strategy and architecture', 'subcategory': 'Financial and value management'}
+# Content Length: 3023 characters
+
+================================================================================
+
+{
+  "skill_name": "Financial management",
+  "code": "FMIT",
+  "url": "https://sfia-online.org/en/skillcode/9/FMIT",
+  "category": "Strategy and architecture",
+  "subcategory": "Financial and value management",
+  "overall_description": "Managing the effective use and control of financial resources to support business strategies, compliance and risk mitigation.",
+  "guidance_notes": "This skill typically applies to dedicated financial management roles, not to managers of operational or project budgets.\nFinancial management should align with business strategies and practices in areas such as governance, risk management, portfolio, programme and project management, and asset management.\nActivities may include, but are not limited to:\n\nmanaging financial control and stewardship of assets and resources\nsupporting strategic financial decision-making and business unit collaboration\naligning budgeting, forecasting and accounting practices with organisational goals\nguiding financial management for consumption-based costs like cloud services\npromoting financial practices to support iterative/agile working across the organisation\noverseeing development of service, project and component cost models to meet strategic objectives\ndefining and overseeing charging models for service provision\nensuring compliance with accounting standards, policies and regulatory requirements\nproviding proactive risk management and mitigation strategies\nmonitoring business unit performance against financial targets and KPIs, offering insights and recommendations.",
+  "level_descriptions": {
+    "level_4": "Monitors and maintains financial records to ensure compliance and audit requirements are met.\nProvides general support in financial planning and budgeting by compiling and reporting on financial data.\nSupports decision-making by collating and summarising financial information at a high level.\nCollaborates with business units to gather financial data and understand operational needs.",
+    "level_5": "Provides general advice and guidance on financial planning, budgeting and accounting using recognised practices and standards.\nDevelops high-level financial plans and forecasts to guide organisational strategies and plans.\nMonitors expenditure to ensure alignment with budgetary goals.\nContributes to financial control frameworks and supports strategic decision-making by summarising expenditure trends and variances.",
+    "level_6": "Develops organisational policies, standards and guidelines for financial management to support strategic business goals.\nPromotes financial governance and drives adherence to financial policies and standards. Collaborates with senior leaders and business unit heads to ensure financial strategies support overall business objectives.\nOversees the setting and management of financial budgets and targets at a strategic level.\nLeads high-level reviews of financial performance and implements improvements to align budget usage with organisational priorities."
+  }
+}

@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Service level management', 'row': 99, 'skill_code': 'SLMO', 'category': 'Delivery and operation', 'subcategory': 'Service management'}
+# Content Length: 3421 characters
+
+================================================================================
+
+{
+  "skill_name": "Service level management",
+  "code": "SLMO",
+  "url": "https://sfia-online.org/en/skillcode/9/SLMO",
+  "category": "Delivery and operation",
+  "subcategory": "Service management",
+  "overall_description": "Agreeing targets for service levels and assessing, monitoring and managing the delivery of services against the targets.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nplanning, implementation, control, review and audit of service provision, to meet customer business requirements\ndeveloping and managing both formal Service Level Agreements (SLAs) and less formal service expectations, depending on organisational needs and practices\nnegotiating, implementing and monitoring service level agreements or service expectations\nmanaging operational facilities to provide the agreed levels of service\nidentifying opportunities to improve service delivery\nimplementing service level management practices to support cloud-based services\nidentifying future trends and their impact on service delivery, for example, technical, market, industrial, socioeconomic, legislative or sustainability targets.",
+  "level_descriptions": {
+    "level_2": "Monitors and logs the actual service provided. \nCompares delivered service to service level agreements, identifying any deviations or areas for improvement.",
+    "level_3": "Monitors service delivery performance metrics. \nLiaises with stakeholders to help them plan for a deterioration in service and/or breaches of service level agreements.",
+    "level_4": "Performs defined tasks to monitor service delivery against service level agreements and maintains records of relevant information. \nAnalyses service delivery performance to identify actions required to maintain or improve levels of service.\nInitiates and reports on actions to maintain or improve levels of service.",
+    "level_5": "Ensures service delivery meets agreed service levels. \nNegotiates service level requirements and agreed service levels with customers. \nDiagnoses service delivery problems and initiates actions to maintain or improve levels of service. \nEstablishes and maintains operational methods, procedures and facilities and reviews them regularly for effectiveness and efficiency.",
+    "level_6": "Ensures service delivery is monitored effectively and that identified actions to maintain or improve levels of service are implemented. \nEnsures service level agreements are complete and cost-effective across the catalogue of available services. Ensures operational methods, procedures, facilities and tools are established, reviewed and maintained. Prepares proposals to meet forecast changes in the levels or types of services.\nReviews service delivery to ensure agreed targets are met. \nNegotiates with relevant parties in respect of disruptions and major amendments to the provision of services.",
+    "level_7": "Sets strategies for service delivery that support the strategic needs of the client organisation. \nAuthorises allocation of resources for monitoring service delivery arrangements. \nDevelops relationships with customers at the highest level to identify potential areas of mutual commercial interest for future development. \nMaintains an overview of the contribution of service delivery arrangements to organisational success. Provides leadership within the industry on the identification of future trends."
+  }
+}

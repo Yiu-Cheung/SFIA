@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Sourcing', 'row': 132, 'skill_code': 'SORC', 'category': 'Relationships and engagement', 'subcategory': 'Stakeholder management'}
+# Content Length: 4158 characters
+
+================================================================================
+
+{
+  "skill_name": "Sourcing",
+  "code": "SORC",
+  "url": "https://sfia-online.org/en/skillcode/9/SORC",
+  "category": "Relationships and engagement",
+  "subcategory": "Stakeholder management",
+  "overall_description": "Managing, or providing advice on, the procurement or commissioning of products and services.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nproviding policies and standards for procurement\nensuring compliance with commercial governance, legislation and supplier-related information security requirements\nimplementing compliant procurement processes, taking full account of the issues and imperatives of both the commissioning and supplier sides\nclarifying requirements for products and services\nidentifying, evaluating and selecting suppliers \nevaluating tenders\nadvising on build or buy criteria as part of strategic sourcing input\nevaluating and purchasing cloud-based services\nbenchmarking supplier performance \nplacing, monitoring and terminating contracts.",
+  "level_descriptions": {
+    "level_2": "Assists in the preparation of pre-qualification questionnaires and tender invitations in response to business cases. \nAssembles relevant  information for tenders. \nProduces detailed evaluation criteria for simple tender criteria. \nAssists in the evaluation of tenders.",
+    "level_3": "Prepares pre-qualification questionnaires and tender invitations in response to business cases. \nRecognises the difference between open source and proprietary systems options. \nApplies standard procedures and tools to produce detailed evaluation criteria for complex tenders and to evaluate tenders.",
+    "level_4": "Reviews business cases (requirements, potential benefits and options) and determines appropriate procurement routes. \nUsing market knowledge to inform specifications, ensures detailed pre-qualification questionnaires and tender invitations are prepared. \nCollects and collates data to support collaboration and negotiates terms and conditions to reflect the scale of requirements and encourage optimal performance. \nEvaluates tenders based on specification and evaluation criteria, prepares acceptance documentation and advises on contracts and service level agreements.",
+    "level_5": "Plans and manages procurement activities. \nManages tender, evaluation and acquisition processes. Researches suppliers and markets, and maintains a broad understanding of the commercial environment, to inform and develop commercial strategies and sourcing plans. \nAdvises on the business case for alternative sourcing models. Advises on policy and procedures covering tendering, the selection of suppliers and procurement. \nNegotiates with potential partners and suppliers, developing acceptance criteria and procedures. Drafts and places contracts.",
+    "level_6": "Develops policy and procedures for sourcing and procurement activities. \nEstablishes procurement strategies, standards, methods, processes and good practices that ensure compliance with legislation, regulation and information security requirements.\nLeads the procurement process, from clarifying requirements through to placing, monitoring and terminating contracts. Conducts complex negotiations and sets parameters for routine negotiations. Ensures terms and conditions align with organisational requirements, current legislation and policy.\nIdentifies external partners, engaging with professionals in related disciplines as appropriate.",
+    "level_7": "Shapes and leads the organisation's overarching sourcing and procurement strategies, ensuring alignment with the global business vision and long-term objectives.\nAssumes full accountability for all sourcing and procurement activities, guiding the organisation's sourcing vision and strategic procurement decisions.\nStrategically develops, deploys and continually assesses procurement processes to align with dynamic market conditions and organisational goals.\nLeads high-level negotiations for major, organisation-defining contracts, setting negotiation frameworks and strategies that significantly impact the organisation's market position and success."
+  }
+}

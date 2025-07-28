@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Market research', 'row': 142, 'skill_code': 'MRCH', 'category': 'Relationships and engagement', 'subcategory': 'Marketing'}
+# Content Length: 2742 characters
+
+================================================================================
+
+{
+  "skill_name": "Market research",
+  "code": "MRCH",
+  "url": "https://sfia-online.org/en/skillcode/9/MRCH",
+  "category": "Relationships and engagement",
+  "subcategory": "Marketing",
+  "overall_description": "Gathering, analysing and interpreting data about markets, customers and competitors to inform business decisions and strategies.",
+  "guidance_notes": "Market research involves systematically collecting, analysing and interpreting data from various sources to understand market trends, customer needs and preferences and competitive landscapes. This skill applies to both qualitative and quantitative research methods.\nActivities may include, but are not limited to:\n\ndesigning and conducting market research studies using surveys, focus groups, interviews and other methods\nanalysing market data to identify trends, opportunities and challenges\nsegmenting markets and identifying target customers based on research findings\nmonitoring competitor activities and analysing their strategies and performance\ncommunicating research findings and recommendations to stakeholders to inform decision-making and strategy development.",
+  "level_descriptions": {
+    "level_3": "Assists in the design and execution of market research studies. \nCollects and analyses data using standard methods and tools. \nContributes to the preparation of research reports and presentations.",
+    "level_4": "Designs and conducts market research studies independently. \nAnalyses market data to identify trends, opportunities and challenges. \nSegments markets and identifies target customers based on research findings. \nPrepares research reports and presentations to communicate findings and recommendations.",
+    "level_5": "Leads the design and execution of complex market research studies. \nAnalyses and synthesises market data from multiple sources to generate insights and recommendations. \nPresents research findings and strategic recommendations to stakeholders. Advises stakeholders on the implications of research findings for business strategy and decision-making. \nContributes to the development of organisational market research methods and standards.",
+    "level_6": "Sets the overall direction and strategy for market research in the organisation. \nDevelops organisational policies, standards and guidelines for market research. Ensures market research capabilities and resources are aligned with business needs and objectives. \nCommunicates high-level market insights and strategic implications to senior leadership and stakeholders. \nCollaborates with internal and external partners to influence organisational strategy and drive the effective use of market research in decision-making and strategy development."
+  }
+}

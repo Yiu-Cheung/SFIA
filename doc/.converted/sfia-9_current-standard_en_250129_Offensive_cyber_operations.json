@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Offensive cyber operations', 'row': 114, 'skill_code': 'OCOP', 'category': 'Delivery and operation', 'subcategory': 'Security services'}
+# Content Length: 3720 characters
+
+================================================================================
+
+{
+  "skill_name": "Offensive cyber operations",
+  "code": "OCOP",
+  "url": "https://sfia-online.org/en/skillcode/9/OCOP",
+  "category": "Delivery and operation",
+  "subcategory": "Security services",
+  "overall_description": "Plans, executes and manages offensive cybersecurity operations, including target selection, electronic target folders and post-operation analysis.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndeveloping and executing strategies for offensive cyber operations\nselecting and profiling targets using intelligence and operational objectives\ncreating and maintaining electronic target folders to organise target information\ncoordinating and managing cyber operations, ensuring operational security\nevaluating intelligence cost versus operational benefit\nassessing potential collateral damage, including second and third-order effects\nconducting post-operation assessments and impact analysis.\ncollaborating with intelligence and security teams to integrate operations with broader objectives.",
+  "level_descriptions": {
+    "level_2": "Supports offensive cyber operations under supervision. \nAssists in creating electronic target folders based on provided intelligence. \nParticipates in basic operational tasks, following established security protocols.\nAssists in documenting operations and outcomes, contributing to post-operation reviews.",
+    "level_3": "Carries out specific tasks within offensive cyber operations, aligning operational tasks with broader objectives.\nSupports the creation and maintenance of electronic target folders, gathering and verifying target information. \nAssists in the execution of operations, maintaining operational security. \nPrepares detailed reports and participates in post-operation analysis.",
+    "level_4": "Responsible for the execution of offensive cyber operations, including detailed planning and target selection. \nManages the development and updating of electronic target folders, ensuring accuracy and comprehensiveness. Coordinates operational teams, adapting actions based on real-time intelligence. \nEnsures compliance with legal and ethical standards during operations. Evaluates collateral damage from targeting activities, including potential second and third-order effects.\nConducts post-operation analyses, assessing impact and recommending improvements.",
+    "level_5": "Leads complex and high-risk offensive cyber operations, overseeing planning, execution and analysis. \nIntegrates intelligence with operational planning, aligning all actions with organisational objectives. Evaluates the intelligence cost against the operational benefit of engaging targets. Assesses potential collateral damage, including second and third-order effects. \nManages the creation and tactical use of electronic target folders, coordinating with external entities as necessary. \nDevelops policies and standards for offensive operations, ensuring legal and ethical compliance. Provides expert guidance on offensive capabilities and operational tactics.",
+    "level_6": "Sets the strategic direction and policies for offensive cyber operations within the organisation. \nLeads the development and deployment of advanced operational techniques and capabilities. Oversees critical and sensitive operations, ensuring alignment with national or organisational security goals. \nCollaborates with senior leadership and external entities on offensive operations. Evaluates intelligence cost versus operational benefit at a strategic level. Assesses and mitigates potential collateral damage.\nEvaluates and refines the effectiveness of offensive operations, providing recommendations for future initiatives."
+  }
+}

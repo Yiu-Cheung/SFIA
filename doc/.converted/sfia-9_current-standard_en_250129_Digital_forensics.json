@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Digital forensics', 'row': 112, 'skill_code': 'DGFS', 'category': 'Delivery and operation', 'subcategory': 'Security services'}
+# Content Length: 3533 characters
+
+================================================================================
+
+{
+  "skill_name": "Digital forensics",
+  "code": "DGFS",
+  "url": "https://sfia-online.org/en/skillcode/9/DGFS",
+  "category": "Delivery and operation",
+  "subcategory": "Security services",
+  "overall_description": "Recovering and investigating material found in digital devices.",
+  "guidance_notes": "Digital forensics involves the recovery, analysis, and investigation of material found in digital devices. This skill focuses on extracting and preserving digital evidence to support various types of investigations and legal proceedings.\nActivities may include, but are not limited to:\n\ncollecting, processing, and analysing digital evidence from computers and other data storage devices\napplying specialised forensic tools and techniques to recover and examine digital material\nmaintaining the integrity and chain of custody for all digital evidence\nreconstructing digital events and timelines to support investigative efforts\ndocumenting findings in comprehensive, legally defensible forensic reports\npresenting forensic evidence and testifying as an expert witness in legal proceedings\ncollaborating with cybercrime investigators and legal teams to interpret technical evidence\ndeveloping and implementing forensic methodologies for emerging technologies\nensuring compliance with legal and ethical standards in digital evidence handling\nsupporting various types of investigations, including security vulnerability assessments, criminal cases, fraud inquiries, and counterintelligence efforts.",
+  "level_descriptions": {
+    "level_2": "Assists with digital forensic investigations under routine supervision. \nSupports the recovery of damaged, deleted or hidden data from digital devices.\nHelps collect and preserve digital information and evidence according to established protocols.",
+    "level_3": "Applies standard forensic tools and techniques to examine digital devices. \nRecovers and analyses damaged, deleted or hidden data from various digital sources and devices. \nMaintains the integrity of digital evidence and ensures its collection adheres to legal admissibility standards.",
+    "level_4": "Designs and executes complex digital forensic examinations. \nSpecifies requirements for specialised forensic tools and resources. Provides guidance on advanced data recovery techniques and artefact analysis. \nProcesses and analyses digital evidence in line with organisational policies and industry standards. Develops procedures for handling emerging technologies in forensic contexts.\nContributes to forensic reports detailing technical findings.",
+    "level_5": "Leads investigations to correctly gather, analyse and present findings, including digital evidence, to both business and legal audiences.\nCollates conclusions and recommendations and presents forensic findings to stakeholders.\nPlans and manages digital forensics activities within the organisation. Provides expert advice on digital forensics.\nContributes to the development of digital forensics policies, standards and guidelines. Evaluates and selects digital forensics tools and techniques.",
+    "level_6": "Plans and leads the organisation’s approach to digital forensics.\nSets policies, standards and guidelines for how the organisation conducts digital forensic investigations.\nLeads and manages high risk, large or wide-ranging digital forensics investigations engaging additional specialists if required.\nAuthorises the release of formal forensic reports. Engages with external stakeholders on forensic matters."
+  }
+}

@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Quality management', 'row': 26, 'skill_code': 'QUMG', 'category': 'Strategy and architecture', 'subcategory': 'Governance, risk and compliance'}
+# Content Length: 3932 characters
+
+================================================================================
+
+{
+  "skill_name": "Quality management",
+  "code": "QUMG",
+  "url": "https://sfia-online.org/en/skillcode/9/QUMG",
+  "category": "Strategy and architecture",
+  "subcategory": "Governance, risk and compliance",
+  "overall_description": "Defining and operating a management framework of processes and working practices to deliver the organisation's quality objectives.",
+  "guidance_notes": "Quality management involves defining and operating a management framework of processes and working practices to deliver the organisation's quality objectives. \nActivities may include, but are not limited to:\n\nestablishing a quality management system and promoting a quality culture\ndeveloping and maintaining quality standards and procedures\napplying techniques for the monitoring and improving the quality of any aspect of a function, processes, products, services or data\nproviding advice on the application of appropriate quality management techniques\nachieving and maintaining compliance with national and international standards and to internal policies\ndeveloping and implementing quality metrics and key performance indicators (KPIs)\nfacilitating continuous improvement initiatives\nintegrating quality management practices with other management systems (e.g., environmental, health and safety).\n\nInternal or external standards are typically related to areas such as, but not limited to: quality, service, sustainability and security.",
+  "level_descriptions": {
+    "level_2": "Assists with quality management tasks under routine supervision.\nSupports the development, maintenance and distribution of quality standards.\nHelps document and track updates to quality management processes and standards.",
+    "level_3": "Uses appropriate methods and a systematic approach to developing, maintaining, controlling and distributing quality and environmental standards. \nMakes technical changes to and controls the updates and distribution of quality standards. \nDistributes new and revised standards.",
+    "level_4": "Assists in the development of new or improved practices and organisational processes or standards. \nAssists projects, functions or teams in planning the quality management for their area of responsibility. \nFacilitates localised improvements to the quality system or services.",
+    "level_5": "Ensures projects, teams and functions have appropriate practices in place and are meeting required organisational quality levels. \nAdvises on the application of appropriate quality management techniques and standards. \nDetermines areas where existing processes should change after analysing audit findings. Facilitates improvements to processes by changing approaches and working practices, typically using recognised models. \nTakes responsibility for controlling updating and distributing organisational standards.",
+    "level_6": "Achieves and maintains compliance against national and international standards, as appropriate. \nPrioritises areas for quality improvement by considering strategy, business objectives and results from internal and external audits. Initiates the application of appropriate quality management techniques in these areas. \nInitiates improvements to processes by changing approaches and working practices, typically using recognised models. \nIdentifies and plans systematic corrective action to reduce errors and improve the quality of the systems and services.",
+    "level_7": "Determines the quality strategy and secures commitment from executive leadership. \nDevelops policies for approval and adoption by organisational management. Ensures adequate technology, procedures and resources are in place to support the quality system. \nPlans and monitors the performance of the quality management system and the internal quality audit schedule. \nDetermines the extent to which quality policies and quality systems meet organisational needs and reviews as necessary."
+  }
+}

@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Numerical analysis', 'row': 86, 'skill_code': 'NUAN', 'category': 'Development and implementation', 'subcategory': 'Computational science'}
+# Content Length: 2833 characters
+
+================================================================================
+
+{
+  "skill_name": "Numerical analysis",
+  "code": "NUAN",
+  "url": "https://sfia-online.org/en/skillcode/9/NUAN",
+  "category": "Development and implementation",
+  "subcategory": "Computational science",
+  "overall_description": "Creating, analysing, implementing, testing and improving algorithms for numerically solving mathematical problems.",
+  "guidance_notes": "Numerical analysis is the area of mathematics and computer science that creates, analyses and implements algorithms for numerically solving mathematical problems. Numerical analysis is required for applications including, but not limited to:\n\nsimulations of physical systems\nmachine learning\ndata analytics \n\nNumerical analysis is concerned with:\n\nfloating-point arithmetic and the resulting accumulation of rounding errors (integer arithmetic which has different considerations)\nconsideration of the numerical stability, condition numbers, accuracy, computational complexity and usability of algorithms that solve mathematical problems.\n\nActivities may include, but are not limited to:\n\ndeveloping and implementing numerical algorithms\nanalysing and optimising the efficiency of numerical methods\nevaluating and improving the accuracy of computational results\ncollaborating with domain experts to apply numerical solutions to real-world problems\ndocumenting and communicating complex numerical concepts to non-specialists.",
+  "level_descriptions": {
+    "level_4": "Creates moderately complex algorithms using a range of mathematical techniques and with sensitivity to the limitations of the techniques. \nUses sophisticated scientific computing and visualisation environments. \nAssesses the stability, accuracy and efficiency of algorithms and makes or recommends improvements to them. \nIterates and improves models using feedback from experts as appropriate.",
+    "level_5": "Creates, tests and improves complex algorithms that numerically solve real-world problems. \nDevelops mathematical and computational techniques to assist with numerical analysis. \nCommunicates limitations such as uncertainty and systematic errors. \nReviews algorithms for their conformance to design and performance standards.",
+    "level_6": "Initiates the creation, testing, improvement and application of numerical algorithms that solve real-world mathematical problems. \nSets standards and strategies for the application of numerical analysis. \nLeads the implementation of numerical analyses capabilities to ensure appropriate, consistent and effective usage across the organisation.",
+    "level_7": "Directs the creation and review of a cross-functional, enterprise-wide approach and culture for numerical analysis. \nLeads the development of the organisation’s numerical analysis capabilities and champions its use in solving real-world problems."
+  }
+}

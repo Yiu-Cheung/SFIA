@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Problem management', 'row': 105, 'skill_code': 'PBMG', 'category': 'Delivery and operation', 'subcategory': 'Service management'}
+# Content Length: 2053 characters
+
+================================================================================
+
+{
+  "skill_name": "Problem management",
+  "code": "PBMG",
+  "url": "https://sfia-online.org/en/skillcode/9/PBMG",
+  "category": "Delivery and operation",
+  "subcategory": "Service management",
+  "overall_description": "Managing the lifecycle of all problems that have occurred or could occur in delivering a service.",
+  "guidance_notes": "The primary objectives of problem management are to:\n\nproactively prevent problems and resulting incidents from happening\nreactively resolve problems that have already happened\neliminate recurring incidents\nminimise the impact of incidents that cannot be prevented.\n\nActivities may include, but are not limited to:\n\ndetecting and logging problems\nclassifying and prioritising problems\ninitiating actions to resolve problems\ninvestigating and diagnosing problems\nimplementing remedies to prevent future incidents\nreporting on problems.",
+  "level_descriptions": {
+    "level_2": "Assists with problem management tasks under routine supervision.\nHelps document problems and maintain relevant records.\nAssists in detecting, logging, classifying, and prioritising problems in systems, processes, and services.",
+    "level_3": "Investigates problems in systems, processes and services. \nContributes to the implementation of agreed remedies and preventative measures.",
+    "level_4": "Initiates and monitors actions to investigate and resolve problems in systems, processes and services.\nDetermines problem fixes and remedies. \nCollaborates with others to implement agreed remedies and preventative measures.\nSupports analysis of patterns and trends to improve problem management processes.",
+    "level_5": "Ensures appropriate action is taken to anticipate, investigate and resolve problems in systems and services. \nEnsures problems are fully documented within the relevant reporting systems. \nEnables development of problem solutions. Coordinates the implementation of agreed remedies and preventative measures.\nAnalyses patterns and trends and improves problem management processes."
+  }
+}

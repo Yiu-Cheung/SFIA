@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Business modelling', 'row': 39, 'skill_code': 'BSMO', 'category': 'Change and transformation', 'subcategory': 'Change analysis'}
+# Content Length: 4015 characters
+
+================================================================================
+
+{
+  "skill_name": "Business modelling",
+  "code": "BSMO",
+  "url": "https://sfia-online.org/en/skillcode/9/BSMO",
+  "category": "Change and transformation",
+  "subcategory": "Change analysis",
+  "overall_description": "Creating abstract or distilled models of business scenarios, representing processes, data and roles to support decision-making and analysis.",
+  "guidance_notes": "Predominantly focused on the representation of processes, roles, data, organisation and time. Models may be used to represent a subject at varying levels of detail and decomposition.\nBusiness models are typically created to communicate and provide insights into existing, conceptual or proposed scenarios. As such, they are likely to be working models that allow comparisons of alternative outcomes based on changing inputs and parameters.\nActivities may include, but are not limited to:\n\ngathering and analysing business requirements\ncreating visual representations of business workflows, processes and structures\ndeveloping and testing simulation models\nfacilitating workshops to validate and refine models\npresenting models to stakeholders and explaining their implications.\n\nThis skill shouldn't be applied to the creation of all diagrams related to describing and explaining business concepts. Refer to other SFIA skills, including, but not limited to: Business situation analysis, Business process improvement, Data design and modelling, Enterprise and business architecture, Organisation design.",
+  "level_descriptions": {
+    "level_2": "Assists in creating models for simple, well-defined business scenarios under guidance. \nUses established techniques, as directed, to model simple subject areas with clearly-defined boundaries.\nSupports more complex modelling activities under the guidance of others by organising information and helping to apply relevant techniques.",
+    "level_3": "Produces models for straightforward business scenarios with clear boundaries, selecting suitable techniques to meet assigned objectives. \nEngages with subject matter experts to ensure models are accurate and meet business requirements. Applies established techniques to meet objectives, modelling business processes, roles and data.\nCollaborates with stakeholders to address issues and ensure models provide clarity and insight. \nTests models and makes improvements as needed, ensuring accuracy and relevance to the business context.",
+    "level_4": "Develops models for complex and ambiguous business scenarios. \nSelects appropriate techniques and approaches to ensure models capture the necessary business elements. Independently plans modelling activities, ensuring alignment with business objectives.\nCollaborates with operational stakeholders to validate and refine models based on feedback, and to gain agreement on modelling results and their implications. \nAdvises stakeholders interpreting and applying models for decision-making and business improvements.",
+    "level_5": "Manages the development of models that support strategic business objectives.\nWorks on complex and ambiguous scenarios, applying advanced techniques and methods. Creates bespoke models for non-standard contexts and ensures their alignment with overall business strategy.\nEnsures the quality of business modelling work. \nEngages and collaborates with a wide range of stakeholders providing guidance on selecting and applying appropriate modelling techniques. Influences decision-making by presenting models that highlight key business insights.",
+    "level_6": "Defines organisational standards for business modelling, ensuring models align with strategic business objectives. \nOversees the creation and maintenance of models across multiple functions and departments, ensuring they are used effectively.\nLeads organisation-wide initiatives to improve business modelling, introducing new techniques where necessary. \nEngages with senior stakeholders to gain agreement on strategic models and the decisions they inform."
+  }
+}

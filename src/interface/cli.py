@@ -71,33 +71,21 @@ def main() -> None:
         document_service = DocumentService(document_store)
         qa_service = QAService(document_store, llm_generator)
         
-        # Check if we should use page-by-page Excel processing
-        if args.doc_folder and any(f.endswith(('.xlsx', '.xls')) for f in os.listdir(args.doc_folder)):
-            excel_files = [f for f in os.listdir(args.doc_folder) if f.endswith(('.xlsx', '.xls'))]
-            if excel_files:
-                excel_file_path = os.path.join(args.doc_folder, excel_files[0])
-                print(f"Processing Excel file page by page: {excel_files[0]}")
-                print()
-                
-                # Use page-by-page processing
-                response = qa_service.ask_question_excel_page_by_page(args.query, excel_file_path)
-                
-                # Handle debug mode
-                if args.debug:
-                    print(f"\n[DEBUG] Sheets processed: {response.metadata.get('sheets_processed', 0)}")
-                    print(f"[DEBUG] Total sheets: {response.metadata.get('total_sheets', 0)}")
-                
-                # Print response
-                print(f"\nAnswer: {response.content}")
-                return
-        
-        # Fallback to regular document processing
+        # Load documents first (this will use the new Haystack converter)
         if args.doc_folder:
             documents = document_service.load_from_folder(args.doc_folder)
             if not documents:
                 print(f"No .txt or Excel files found in {args.doc_folder}")
                 return
             print(f"Loaded {len(documents)} documents from {args.doc_folder}")
+            
+            # Check if we have Excel files and show conversion info
+            excel_files = [f for f in os.listdir(args.doc_folder) if f.endswith(('.xlsx', '.xls'))]
+            if excel_files:
+                print(f"Excel files processed using Haystack converter: {excel_files}")
+                print()
+        
+        # Ask question using the loaded documents
         
         # Ask question
         response = qa_service.ask_question(args.query, top_k=args.top_k)

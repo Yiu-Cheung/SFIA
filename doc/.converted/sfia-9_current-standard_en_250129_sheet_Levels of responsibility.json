@@ -1,0 +1,54 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Levels of responsibility', 'rows': 3, 'columns': 8}
+# Content Length: 2402 characters
+
+================================================================================
+
+{
+  "sheet_name": "Levels of responsibility",
+  "rows": 3,
+  "columns": 8,
+  "column_names": [
+    "Level",
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "data": [
+    {
+      "Level": "Guiding phrase",
+      "1": "Follow",
+      "2": "Assist",
+      "3": "Apply",
+      "4": "Enable",
+      "5": "Ensure, advise",
+      "6": "Initiate, influence",
+      "7": "Set strategy, inspire, mobilise"
+    },
+    {
+      "Level": "Essence of the level",
+      "1": "Essence of the level: Performs routine tasks under close supervision, follows instructions, and requires guidance to complete their work. Learns and applies basic skills and knowledge.",
+      "2": "Essence of the level: Provides assistance to others, works under routine supervision, and uses their discretion to address routine problems. Actively learns through training and on-the-job experiences.",
+      "3": "Essence of the level: Performs varied tasks, sometimes complex and non-routine, using standard methods and procedures. Works under general direction, exercises discretion, and manages own work within deadlines. Proactively enhances skills and impact in the workplace.",
+      "4": "Essence of the level: Performs diverse complex activities, supports and guides others, delegates tasks when appropriate, works autonomously under general direction, and contributes expertise to deliver team objectives.",
+      "5": "Essence of the level: Provides authoritative guidance in their field and works under broad direction. Accountable for delivering significant work outcomes, from analysis through execution to evaluation.",
+      "6": "Essence of the level: Has significant organisational influence, makes high-level decisions, shapes policies, demonstrates leadership, promotes organisational collaboration, and accepts accountability in key areas.",
+      "7": "Essence of the level: Operates at the highest organisational level, determines overall organisational vision and strategy, and assumes accountability for overall success."
+    },
+    {
+      "Level": "URL",
+      "1": "https://sfia-online.org/en/lor/9/1",
+      "2": "https://sfia-online.org/en/lor/9/2",
+      "3": "https://sfia-online.org/en/lor/9/3",
+      "4": "https://sfia-online.org/en/lor/9/4",
+      "5": "https://sfia-online.org/en/lor/9/5",
+      "6": "https://sfia-online.org/en/lor/9/6",
+      "7": "https://sfia-online.org/en/lor/9/7"
+    }
+  ]
+}

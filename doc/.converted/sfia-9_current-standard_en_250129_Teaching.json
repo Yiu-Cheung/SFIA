@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Teaching', 'row': 130, 'skill_code': 'TEAC', 'category': 'People and skills', 'subcategory': 'Skills management'}
+# Content Length: 3977 characters
+
+================================================================================
+
+{
+  "skill_name": "Teaching",
+  "code": "TEAC",
+  "url": "https://sfia-online.org/en/skillcode/9/TEAC",
+  "category": "People and skills",
+  "subcategory": "Skills management",
+  "overall_description": "Delivering and assessing curricula in a structured and systematic education environment.",
+  "guidance_notes": "Teaching focuses on:\n\ndeveloping an understanding of the principles, approaches and practices that underpin a specified topic or knowledge area\nthe methods, techniques and practice of teaching (pedagogy).\n\nThis skill is generic and can be applied to the teaching of any topic or knowledge area. In the context of the SFIA framework, this includes:\n\nthe topics and knowledge areas supporting any of the skills described in the SFIA framework\nand the application of these topics and knowledge areas to other disciplines and practices.\n\nIn the context of computing and IT curricula, the topics addressed are typically:\n\ncommon digital skills needed to safely benefit from, participate in and contribute to the digital world for everyday life and work\nfundamental and more advanced aspects of specific topics and knowledge areas including emerging technologies and new applications for existing technologies\nthe ideas of computational thinking and the application of computational concepts to everyday life and professional working practices.",
+  "level_descriptions": {
+    "level_2": "Contributes to the delivery of aspects of computing and IT curricula in a formal educational context. \nApplies good practice in learning content design, development and delivery.\nAssesses student performance in aspects of a curriculum area, providing support to enhance student understanding as needed.",
+    "level_3": "Delivers the majority of a curriculum. \nApplies good practice in learning content design, development and delivery. Maintains awareness of relevant pedagogical and domain research.\nAssesses student performance across a curriculum. Provides feedback and support to help students improve their understanding.",
+    "level_4": "Delivers a curriculum. \nApplies good practice supported by pedagogical research to learning content design, development and delivery. \nAssesses student performance and reviews cohort performance. Advises and assists students to enable the achievement of learning objectives.",
+    "level_5": "Leads the teaching and assessment of a curriculum or learning pathway.  \nImplements enhancement strategies for teaching and assessment. Reviews pedagogical research and practices relevant to topics in the curricula. Applies good teaching practices in learning content design, development and delivery.\nContributes to the development and implementation of specialist teaching practices needed by the curriculum.  \nEvaluates and monitors student achievements and the effectiveness of teaching activities across the curriculum.  Advises on the use of appropriate pedagogies and assessment approaches.",
+    "level_6": "Leads the teaching, assessment and enhancement of a range of curricula or learning pathways.\nReviews and critically evaluates pedagogical research and practices relevant to the curricula. Develops and leads the introduction of advanced or specialist teaching practices. \nLeads and supports others in the development of good practice in learning content design, development and delivery. \nMonitors, evaluates and reports the performance of teaching and assessment activities within their areas of responsibility.",
+    "level_7": "Authorises teaching, assessment and enhancement strategies for a broad range of curricula or learning pathways.\nDirects the definition, implementation and monitoring of teaching to satisfy relevant statutory and professional benchmarks and frameworks.\nSecures resources to deliver the organisation's teaching commitments.\nMonitors and evaluates relevant domain and pedagogical research to identify and implement improvements to the delivery of the curricula."
+  }
+}

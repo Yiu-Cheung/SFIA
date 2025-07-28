@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Certification scheme operation', 'row': 129, 'skill_code': 'CSOP', 'category': 'People and skills', 'subcategory': 'Skills management'}
+# Content Length: 3909 characters
+
+================================================================================
+
+{
+  "skill_name": "Certification scheme operation",
+  "code": "CSOP",
+  "url": "https://sfia-online.org/en/skillcode/9/CSOP",
+  "category": "People and skills",
+  "subcategory": "Skills management",
+  "overall_description": "Designing, developing and operating certification schemes, accreditations and credentials, including digital credentials or badges.",
+  "guidance_notes": "The overall purpose of certification for individuals is to recognise their competence to perform a specific task or job, or to determine whether they have met certain knowledge criteria.\nKnowledge and competence are distinct and the two terms should not be confused. A certification body is responsible for ensuring that only individuals who demonstrate competence are awarded certification.Certification of individuals provides value by building public confidence and trust. This confidence relies on a valid assessment of competence by a third party, which is reconfirmed at defined intervals. The certification body must act responsibly to provide confidence to interested parties in its competence, impartiality and integrity.\nActivities may include, but are not limited to:\n\nverifying, upon request, whether an individual holds a valid certificate and the scope of that certification, except where legal restrictions apply\ndocumenting security policies and procedures, including non-disclosure agreements or other measures to prevent the release of confidential examination materials or involvement in fraudulent practices\nimplementing procedures for certified individuals to inform the certification body of any changes that could affect their ability to continue meeting certification requirements.",
+  "level_descriptions": {
+    "level_2": "Processes applications for certification. \nLogs complaints.\nAssists with the preparation and organisation of credential materials.\nSupports the creation and maintenance of credentials or certificates and helps resolve routine problems during the certification lifecycle.",
+    "level_3": "Issues certifications or credentials and maintains and retains certification records. \nMaintains information on the certification scheme and a general description of the certification process. \nDesigns, creates, develops, customises and maintains credentials or certificates. \nResponds to public information requests. Analyses and acts on complaints or issues.",
+    "level_4": "Documents instructions for all personnel involved in certification, including legally enforceable agreements with any third parties involved in the process. \nIdentifies threats to impartiality by analysing, mitigating or eliminating potential conflict of interests arising from certification activities. \nImplements the procedures for certification of individuals for the delivery of training. \nDetermines the merits of complaints and any remedial actions required.",
+    "level_5": "Defines a certification or accreditation scheme, including organisation structure, duties, responsibilities and authorities. \nDetermines necessary competence to perform certification functions. Designs and implements the examiner or assessor selection and approval process. \nMonitors performance and judgements, and agrees corrective actions. Plans and provides adequate premises, equipment and resources. \nDocuments policies and procedures for maintenance and release of information, including consideration of any legal agreements for confidentiality.",
+    "level_6": "Sets policies and standards for the operation of a certification scheme, including segregation of duties and addressing impartiality. \nDevelops and maintains a description of the code of ethics and professional practices required. \nAligns certification schemes with relevant external standards, frameworks such as SFIA and established industry practices. \nObtains approval from accreditation scheme owners or governance bodies."
+  }
+}

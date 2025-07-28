@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Software configuration', 'row': 60, 'skill_code': 'PORT', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 3409 characters
+
+================================================================================
+
+{
+  "skill_name": "Software configuration",
+  "code": "PORT",
+  "url": "https://sfia-online.org/en/skillcode/9/PORT",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Designing and deploying software product configurations into software environments or platforms.",
+  "guidance_notes": "This skill is typically applied to the design and deployment of configurations of large, complex software.\nThis includes, but is not limited to:\n\nenterprise resource planning (ERP) and customer relationship management (CRM) software\nserver/mainframe operating systems\nsoftware as a service (SaaS) solutions\nintegration platforms/suites\ntools provided by infrastructure as a service (IaaS) and platform as a service (PaaS) providers.\n\nActivities may include, but are not limited to:\n\nporting software configurations across different environments or platforms\nrefactoring complex or overlapping configurations across different software modules and capabilities\ndesigning and implementing configurations that use architectures and services like microservices, serverless and containers\noptimising configurations for performance, scalability and cost-efficiency\nmanaging configurations across multiple environments and ensuring interoperability\napplying infrastructure as code principles to automate configuration deployment and management.\n\nDepending on requirements and the characteristics of the project or assigned work, software configuration methods and lifecycles can be predictive (plan-driven) approaches or adaptive (iterative/agile) approaches.",
+  "level_descriptions": {
+    "level_2": "Assists with software configuration tasks.\nSupports the setup and customisation of software environments and platforms.\nHelps document and report on configuration changes and deployments.\nReviews own work.",
+    "level_3": "Designs, verifies, documents, amends and refactors moderately complex software configurations for deployment. \nApplies agreed standards and tools, to achieve a well-engineered result. \nCollaborates in reviews of work with others as appropriate.",
+    "level_4": "Designs, verifies, documents, amends and refactors complex software configurations for deployment. \nContributes to the selection of the software configuration methods, tools and techniques.\nApplies agreed standards and tools, to achieve well-engineered outcomes. \nParticipates in reviews of own work and leads reviews of colleagues' work.",
+    "level_5": "Takes technical responsibility across all stages and iterations of configuration development and deployment. \nPlans and drives software configuration activities. Adopts and adapts appropriate software configuration methods, tools and techniques. \nMeasures and monitors the application of standards for configuration design and deployment including software security. \nContributes to the development of organisational policies, standards and guidelines for software configuration design and deployment.",
+    "level_6": "Develops organisational policies, standards and guidelines for software configuration design, deployment and refactoring. \nPlans and leads software configuration and deployment activities for strategic, large and complex deployment projects. \nDevelops new methods and organisational capabilities and drives adoption of and adherence to policies and standards."
+  }
+}

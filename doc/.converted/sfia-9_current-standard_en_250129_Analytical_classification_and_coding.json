@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Analytical classification and coding', 'row': 117, 'skill_code': 'ANCC', 'category': 'Delivery and operation', 'subcategory': 'Data and records operations'}
+# Content Length: 3063 characters
+
+================================================================================
+
+{
+  "skill_name": "Analytical classification and coding",
+  "code": "ANCC",
+  "url": "https://sfia-online.org/en/skillcode/9/ANCC",
+  "category": "Delivery and operation",
+  "subcategory": "Data and records operations",
+  "overall_description": "Interpreting information and assigning classifications or labels based on domain-specific knowledge, standards and guidelines to enable data analysis and use.",
+  "guidance_notes": "This skill is applied in contexts where consistent categorisation of information is required to enable the data to be used reliably and effectively. This may include, but is not limited to, clinical coding, data labelling for machine learning, legal coding/indexing and market research coding.\nActivities may include, but are not limited to:\n\nanalysing and interpreting information based on domain-specific knowledge\nassigning codes, labels or categories based on specific standards, guidelines or frameworks\nensuring accuracy and consistency of coding/labelling through quality assurance activities\ncollaborating with subject matter experts to clarify ambiguous cases and improve coding/labelling guidelines\nproviding guidance and training to others on coding/labelling practices\ncontributing to the development and improvement of coding/labelling systems, guidelines and processes.",
+  "level_descriptions": {
+    "level_2": "Accurately assigns classifications/labels to low complexity information under supervision. \nUnderstands and applies relevant classification/labelling systems, standards and guidelines. \nParticipates in quality assurance activities such as peer review or supervisor checks.",
+    "level_3": "Independently assigns accurate classifications/labels to a broad range of information. \nInterprets complex information and chooses appropriate classifications/labels. \nParticipates in team quality improvement initiatives. \nAdvises and guides others on classification/labelling practices.",
+    "level_4": "Assigns classifications/labels to highly complex information. \nPerforms quality assurance checks on the work of others. Investigates and corrects complex classification/labelling errors. \nDelivers training to team members. \nContributes to the development of classification/labelling processes and guidelines.",
+    "level_5": "Leads team quality assurance and training for information classification/labelling. \nDevelops and implements audit methodologies for assessing classification and labelling accuracy and consistency.\nCollaborates with subject matter experts to improve source information quality. Analyses and reports on classification/labelling quality. \nContributes to organisational information classification/labelling strategy.",
+    "level_6": "Sets organisational information classification/labelling standards, policies and procedures. \nDesigns and oversees quality audit programmes. \nLeads strategic interventions to improve information classification/labelling. \nEngages with industry bodies and collaborates to define and improve standards and working practices."
+  }
+}

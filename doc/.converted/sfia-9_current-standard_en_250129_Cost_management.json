@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Cost management', 'row': 14, 'skill_code': 'COMG', 'category': 'Strategy and architecture', 'subcategory': 'Financial and value management'}
+# Content Length: 3033 characters
+
+================================================================================
+
+{
+  "skill_name": "Cost management",
+  "code": "COMG",
+  "url": "https://sfia-online.org/en/skillcode/9/COMG",
+  "category": "Strategy and architecture",
+  "subcategory": "Financial and value management",
+  "overall_description": "Planning, controlling and analysing costs to enable the effective use of financial resources.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndeveloping and implementing cost management strategies, policies and procedures\nanalysing costs, identifying trends, and recommending corrective actions\nconducting cost-benefit analyses and supporting stakeholder collaboration in the cost management process\noverseeing the development of complex cost models and reporting frameworks\npresenting cost management insights to stakeholders and facilitating data-driven decision-making\npromoting a culture of cost awareness and ongoing improvement throughout the organisation\nimplementing cost management processes and tools to support cloud computing and FinOps in areas such as consumption-based pricing, rapid scalability, and real-time cost visibility and optimisation.",
+  "level_descriptions": {
+    "level_2": "Assists in gathering cost data and preparing basic cost reports under supervision. \nSupports the cost management process by completing assigned tasks and seeking guidance when needed.",
+    "level_3": "Applies standard cost management techniques and processes to monitor and report on costs within a specific area of responsibility.\nIdentifies and escalates cost variances and supports the implementation of cost-saving initiatives. Collaborates with stakeholders to gather cost data and provide reports.",
+    "level_4": "Develops and implements cost management processes and procedures for a department or function.\nMonitors actual performance against budget and identifies variances.\nAnalyses costs, identifies trends and recommends corrective actions.\nProvides guidance and advice on cost management techniques and tools.",
+    "level_5": "Leads the development and implementation of cost management strategies, policies and procedures for a significant area of the organisation.\nProvides authoritative advice and guidance on cost optimisation techniques and recognised good practices. Oversees the development of complex cost models and reporting frameworks.\nPresents cost management insights to senior stakeholders and facilitates data-driven decision-making. Promotes a culture of cost consciousness and continuous improvement.",
+    "level_6": "Defines and leads the organisation's overall approach to cost management, aligning it with strategic objectives and financial goals.\nDevelops and implements enterprise-wide cost management policies, standards and processes. Collaborates with senior leaders to identify and drive cost optimisation initiatives.\nProvides strategic insights and recommendations to optimise cost performance and drive long-term value creation. Sets the vision and direction for cost management across the organisation."
+  }
+}

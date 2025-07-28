@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Change control', 'row': 106, 'skill_code': 'CHMG', 'category': 'Delivery and operation', 'subcategory': 'Service management'}
+# Content Length: 2773 characters
+
+================================================================================
+
+{
+  "skill_name": "Change control",
+  "code": "CHMG",
+  "url": "https://sfia-online.org/en/skillcode/9/CHMG",
+  "category": "Delivery and operation",
+  "subcategory": "Service management",
+  "overall_description": "Assessing risks associated with proposed changes and ensuring changes to products, services or systems are controlled and coordinated.",
+  "guidance_notes": "Change control is applied to all elements impacting live products, services or systems. This includes: applications, infrastructure, documentation, processes, configuration items and suppliers.\nActivities may include, but are not limited to:\n\nmanaging the change request lifecycle: registering, assessing, authorising, planning and deploying\nassessing risks and reducing risks to the availability, performance, security and compliance of the products and services impacted by the change\ndeveloping processes for standard, normal or emergency changes\ndeveloping methods and tools to automate change control processes to enable continuous integration.",
+  "level_descriptions": {
+    "level_2": "Administers, tracks, logs, reports on change requests, using appropriate tools, techniques and processes.\nProvides assistance to implement standard low-risk changes, in accordance with defined change control procedures.",
+    "level_3": "Develops, documents and implements changes based on requests for change. \nApplies change control processes and procedures. \nApplies tools, techniques and processes to manage and report on change requests.",
+    "level_4": "Assesses, analyses, develops, documents and implements changes based on requests for change. \nEnsures operational processes and procedures are in place for effective change control. \nDevelops, configures and maintains tools to manage and report on the lifecycle of change requests.  \nIdentifies problems and issues and recommend corrective actions.",
+    "level_5": "Leads the assessment, analysis, development, documentation and implementation of changes.\nDevelops implementation plans for complex requests for change. \nReviews proposed implementations and evaluates the risks to the integrity of the product and service environment. Ensures appropriate change approval is applied to changes. \nReviews the effectiveness of change implementation.  Identifies, evaluates and manages the adoption of appropriate tools, techniques and processes for change control.",
+    "level_6": "Sets the organisation's policy for the management of change in live services and test environments.\nEnsures effective control and treatment of risk. \nLeads the development of new and improved practices for change control. \nMeasures and monitors adherence to standards and ensures consistent execution of the process across the organisation."
+  }
+}

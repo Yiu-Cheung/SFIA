@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Database design', 'row': 68, 'skill_code': 'DBDS', 'category': 'Development and implementation', 'subcategory': 'Data and analytics'}
+# Content Length: 2445 characters
+
+================================================================================
+
+{
+  "skill_name": "Database design",
+  "code": "DBDS",
+  "url": "https://sfia-online.org/en/skillcode/9/DBDS",
+  "category": "Development and implementation",
+  "subcategory": "Data and analytics",
+  "overall_description": "Specifying, designing and maintaining mechanisms for storing and accessing data across various environments and platforms.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndesigning operational databases, data warehouses, data lakes, or data stores for on-premise, cloud-based, or hybrid environments\ndefining physical or virtual structures required to support applications, analytics, machine learning, business intelligence or other data-driven services\ndesigning operational data stores to integrate data from multiple sources to support data pipelines and enable additional operations on the data\naligning designs with data architectures, enterprise architectures, standards, policies and regulations\nconsidering scalability, performance, availability, recovery and other operational requirements.",
+  "level_descriptions": {
+    "level_2": "Assists in creating and documenting detailed database designs under routine supervision. \nFollows established procedures and guidelines. \nHelps create and maintain documentation.",
+    "level_3": "Interprets installation standards to meet project needs and produces database or data warehouse component specifications. \nDevelops physical database or data warehouse design elements, within set policies, to meet data requirements.",
+    "level_4": "Implements physical database designs to support transactional data requirements for performance and availability. \nDevelops and maintains specialist knowledge of database and data warehouse concepts, design principles, architectures, software and facilities. \nAssesses proposed changes to object/data structures and evaluates alternative options. \nImplements data warehouse designs that support business intelligence and data analytics.",
+    "level_5": "Provides specialist expertise in the design characteristics of database management systems or data warehouse products/services. \nProvides expert guidance in the selection, provision and use of database and data warehouse architectures, software and facilities. \nEnsures design policies optimise transactional data systems for performance and availability while meeting the needs of business intelligence and analytics platforms."
+  }
+}

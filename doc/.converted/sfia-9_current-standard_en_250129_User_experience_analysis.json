@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'User experience analysis', 'row': 78, 'skill_code': 'UNAN', 'category': 'Development and implementation', 'subcategory': 'User centred design'}
+# Content Length: 2638 characters
+
+================================================================================
+
+{
+  "skill_name": "User experience analysis",
+  "code": "UNAN",
+  "url": "https://sfia-online.org/en/skillcode/9/UNAN",
+  "category": "Development and implementation",
+  "subcategory": "User centred design",
+  "overall_description": "Understanding the context of use for systems, products and services and specifying user experience requirements and design goals.",
+  "guidance_notes": "This skill is inclusive of a full range of user tasks not just digital tasks. The skill can be applied in various contexts, such as: customer experience, products, services, applications, devices, learning experience and employee experience.\nActivities may include, but are not limited to:\n\nidentifying, analysing, clarifying and communicating the context in which the product or service will be used\ndescribing users’ goals, tasks and the environment within which the systems, products, services or devices will be used\ncreating and describing personas to represent key user segments\ndeveloping user stories or requirements to describe features or capabilities \nagreeing user experience design goals\nanalysing and prioritising user experience needs with stakeholders\nunderstanding and specifying user experience and user accessibility requirements for all potential users.",
+  "level_descriptions": {
+    "level_2": "Assists with user experience analysis tasks under routine supervision.\nSupports the collection and documentation of user requirements.\nHelps organise and structure user experience data for analysis.",
+    "level_3": "Applies standard techniques and tools for developing user stories and eliciting user experience requirements. \nOrganises and structures user experience analysis. \nWorks with stakeholders to prioritise requirements and resolve conflicts.",
+    "level_4": "Selects appropriate techniques and tools to develop user stories and elicit user experience requirements in complex situations. \nIdentifies and describes the design goals for systems, products, services and devices. \nIdentifies the roles of affected stakeholder groups. Resolves potential conflicts between differing user requirements. \nSpecifies measurable criteria for the required usability and accessibility of systems, products, services and devices.",
+    "level_5": "Determines the approaches to be used for user experience analysis. \nPlans and manages user experience and accessibility analysis activities. \nProvides expert advice and guidance to support the adoption and adaptation of agreed approaches.  \nDevelops user experience tools, techniques and standards as part of the organisation's framework for user-centred design"
+  }
+}

@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Business intelligence', 'row': 72, 'skill_code': 'BINT', 'category': 'Development and implementation', 'subcategory': 'Data and analytics'}
+# Content Length: 2929 characters
+
+================================================================================
+
+{
+  "skill_name": "Business intelligence",
+  "code": "BINT",
+  "url": "https://sfia-online.org/en/skillcode/9/BINT",
+  "category": "Development and implementation",
+  "subcategory": "Data and analytics",
+  "overall_description": "Developing, producing and delivering regular and one-off management information to provide insights and aid decision-making.",
+  "guidance_notes": "Typically applied in supporting operational needs through management and governance processes. May be one-off or regular activities aligned with the organisation's planning and reporting cycles.\nActivities may include, but are not limited to:\n\nunderstanding business needs and objectives\nidentifying and validating internal and external data sets generated from a diverse range of business and operational processes\ntransforming the results of analysis into information that can be communicated to stakeholders using dashboards and reports\ninterpreting and analysing data, comparative analysis, benchmarking, trend analysis\nbringing data together to communicate clear themes and trends\nfocusing on data quality to provide confidence for making decisions on a single version of the truth.",
+  "level_descriptions": {
+    "level_2": "Assists with the creation of regular business intelligence reports using standard tools. \nSupports data preparation from existing sources.",
+    "level_3": "Sources and prepares data for analysis and performs standard business intelligence analysis activities. \nChecks the integrity and validity of data sources. Creates and delivers standard reports in accordance with stakeholder needs and conforming to agreed standards. \nInvestigates the need for new or revised business intelligence analysis.  \nContributes to the recommendation of improvements. Engages with stakeholders under direction.",
+    "level_4": "Supports business intelligence needs of specific management or governance processes or operational areas. \nInvestigates the need for business intelligence reporting and analysis where there is some complexity and ambiguity. \nSelects and applies non-standard business intelligence tools and techniques to provide insights and aid decision-making. Selects, acquires and integrates data for analysis and verifies the data's quality and integrity.\nIdentifies opportunities to digitise and streamline operational data handling and optimise business intelligence capabilities.",
+    "level_5": "Plans and manages business intelligence activities. \nEnsures business intelligence processes, procedures and practices are robust, efficient and fit for purpose, focusing on automation, key controls and data quality. Advises on the available standards, procedures, methods, tools and techniques.\nManages reviews of the benefits and value of business intelligence techniques and tools and recommends improvements. \nContributes to the development of analytics policies, standards and guidelines."
+  }
+}

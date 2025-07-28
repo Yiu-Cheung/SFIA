@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Business administration', 'row': 137, 'skill_code': 'ADMN', 'category': 'Relationships and engagement', 'subcategory': 'Stakeholder management'}
+# Content Length: 3731 characters
+
+================================================================================
+
+{
+  "skill_name": "Business administration",
+  "code": "ADMN",
+  "url": "https://sfia-online.org/en/skillcode/9/ADMN",
+  "category": "Relationships and engagement",
+  "subcategory": "Stakeholder management",
+  "overall_description": "Managing and performing administrative services and tasks to enable individuals, teams and organisations to succeed in their objectives.",
+  "guidance_notes": "The application of this skill varies widely depending on role and organisation context.\nBusiness administration tasks may include: communication management, information organisation, scheduling and coordination with internal and external stakeholders using various digital tools and platforms.\nManagement-level business administration tasks focus on planning, managing and coordinating the activities of individuals and teams to enable them to achieve their objectives efficiently and effectively.\nActivities may include, but are not limited to:\n\nmanaging calendars and scheduling meetings\norganising and maintaining filing systems (physical and digital)\npreparing reports, presentations and correspondence\ncoordinating travel arrangements and expense management\nmanaging office supplies and equipment\nfacilitating internal and external communications\nsupporting project management activities\nassisting with budget preparation and monitoring\nimplementing and maintaining administrative processes and procedures.",
+  "level_descriptions": {
+    "level_1": "Performs routine administrative tasks in a structured environment. \nFollows clear procedures. Uses common office software and equipment. \nOrganises and maintains information following agreed procedures.\nAssists with basic coordination activities.",
+    "level_2": "Assists with administrative tasks for a team. \nMaintains systems for organising information and documents. \nCoordinates team activities and acts as a point of contact for internal and external contacts.\nUses relevant digital tools and platforms.",
+    "level_3": "Provides administrative support function to teams and meetings.\nTakes an active part in team discussions. \nSets up and maintains systems for organising information and documents. Compiles and distributes reports. \nProvides guidance on administrative software, procedures, processes, tools and techniques.",
+    "level_4": "Assists the teams and managers in ensuring they have the information and resources needed to support ongoing processes. \nAssists in planning for meetings. Liaises and organises across functions. \nSets up and provides detailed guidance on software, procedures, processes, tools and techniques for administration and workplace productivity.\nContributes to the development and maintenance of organisational policies, procedures and documentation.",
+    "level_5": "Manages the delivery of business administration services. \nManages and prioritises the schedules and communication of senior managers and leadership teams to ensure efficient use of time and resources.\nHandles sensitive, confidential information. \nEnsures managers have the information and resources needed to support ongoing processes and changes in processes.",
+    "level_6": "Leads and coordinates strategic initiatives working across departmental or functional boundaries. \nDesigns, plans and coordinates high-level meetings and events, ensuring alignment with strategic objectives and desired outcomes.\nProvides direction and receives progress updates from members of an executive team. Meets collectively or individually with members of a leadership management team to follow up on action points, issues and risks. Reports on progress and resolves issues. \nManages highly sensitive and confidential issues and information."
+  }
+}

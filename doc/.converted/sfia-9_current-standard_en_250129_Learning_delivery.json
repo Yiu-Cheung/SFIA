@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Learning delivery', 'row': 127, 'skill_code': 'ETDL', 'category': 'People and skills', 'subcategory': 'Skills management'}
+# Content Length: 3445 characters
+
+================================================================================
+
+{
+  "skill_name": "Learning delivery",
+  "code": "ETDL",
+  "url": "https://sfia-online.org/en/skillcode/9/ETDL",
+  "category": "People and skills",
+  "subcategory": "Skills management",
+  "overall_description": "Transferring knowledge, developing skills and changing behaviours using a range of techniques, resources and media.",
+  "guidance_notes": "Learning delivery uses a variety of techniques, resources and media including: face-to-face learning, e-learning, online virtual environments, fieldwork and projects, self-assessment, peer-assisted learning and simulation. \nTypically, a blend of techniques will be used which can incorporate both formal and informal learning activities.\nActivities may include, but are not limited to:\n\ndelivering learning content across various formats and platforms\nfacilitating interactive learning sessions and workshops\nassessing learner progress and providing constructive feedback\nadapting delivery methods to suit different learning styles and needs\nincorporating new technologies and innovative approaches in learning delivery\nevaluating the effectiveness of learning delivery methods\npromoting a positive learning environment and encouraging learner engagement\ncollaborating with subject matter experts and instructional designers.",
+  "level_descriptions": {
+    "level_2": "Performs a range of learning activities under direction to support the delivery of learning objectives. \nAssists in the preparation of learning environments. \nObserves learners performing practical activities and work, providing assistance with routine enquiries and escalating where needed.",
+    "level_3": "Delivers learning activities to various audiences using prepared materials aligned with established learning objectives. \nFollows established guidelines to prepare the learning environment. Assists in developing and maintaining relevant examples and case studies.\nUses a range of delivery techniques to develop learner skills and knowledge. \nObserves learners performing practical activities and work. Advises and assists where necessary. Provides detailed instruction where necessary and responds to questions, seeking advice in exceptional conditions beyond own experience.",
+    "level_4": "Prepares and delivers learning activities tailored to various audiences and specific learning objectives.\nContributes to the design and selection of appropriate environments. Uses a broad range of learning delivery techniques to build learner skills and knowledge. Develops and updates examples and case study materials.\nObserves and evaluates learner performance, offering guidance and tailored instruction. \nAdjusts delivery approaches and materials to enhance learner experience, responding to specialised queries and ensuring objectives are met.",
+    "level_5": "Manages the delivery of programmes of learning to ensure learning objectives are met. \nPlans and schedules the delivery of learning activities. Leads the design and selection of appropriate environments to support and enhance the learning experience. Customises learning activities incorporating relevant scenarios and case studies. \nDelivers learning activities to specialist audiences requiring the application of advanced technical and professional principles to unpredictable situations. Advises others in learning delivery techniques and options.\nEvaluates and monitors the performance of learning delivery activities."
+  }
+}

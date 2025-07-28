@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Facilities management', 'row': 98, 'skill_code': 'DCMA', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 2810 characters
+
+================================================================================
+
+{
+  "skill_name": "Facilities management",
+  "code": "DCMA",
+  "url": "https://sfia-online.org/en/skillcode/9/DCMA",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Planning, designing and managing the buildings, space and facilities which, collectively, make up the IT estate.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nimplementing and overseeing data centre management tools\nprovisioning and managing the physical environment, including power, space and cooling\nensuring adherence to established safety, security and quality standards\nensuring compliance with mandatory health and safety regulations in the workplace\ndeveloping and enforcing electrical safety policies\ndeveloping and enforcing physical access control policies\nanalysing environmental data and energy usage statistics to inform decision-making\nformulating sustainability strategies for it infrastructure\nevaluating and integrating emerging good practices in data centre management",
+  "level_descriptions": {
+    "level_2": "Assists with the tasks related to granting, monitoring and reporting on physical access controls under routine supervision. \nFollows established procedures and guidelines to support the maintenance of the physical environment. \nHelps create and maintain documentation.",
+    "level_3": "Monitors compliance against agreed processes and investigates, assesses and resolves incidents of non-compliance, escalating where necessary. \nProcesses physical access requests, monitors access control systems and reports on access-related activities.",
+    "level_4": "Uses data centre management tools to produce management information on power, cooling and space and investigate issues where necessary. \nCarries out routine audit and checks to ensure adherence to policies and procedures. \nFacilitates the implementation of mandatory electrical safety testing.",
+    "level_5": "Develops and maintains the standards, processes and documentation for data centres. \nOptimises efficiency in the population of data centre space. Ensures adherence to all relevant policies and processes. \nUses data centre management tools to plan, record and manage installed infrastructure, power, space and cooling capabilities. \nMonitors  usage and actions to meet sustainability targets.",
+    "level_6": "Sets organisational policies for managing the IT estate, ensuring alignment with recognised industry practices. \nDevelops strategies to forecast and fulfil future data centre space requirements.\nTakes overall responsibility for adherence to health and safety regulations and electrical safety policies.\nIdentifies and implements recognised industry practices to align future plans with corporate sustainability targets."
+  }
+}

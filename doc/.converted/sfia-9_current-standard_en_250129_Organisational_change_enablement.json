@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Organisational change enablement', 'row': 46, 'skill_code': 'OCEN', 'category': 'Change and transformation', 'subcategory': 'Change planning'}
+# Content Length: 2844 characters
+
+================================================================================
+
+{
+  "skill_name": "Organisational change enablement",
+  "code": "OCEN",
+  "url": "https://sfia-online.org/en/skillcode/9/OCEN",
+  "category": "Change and transformation",
+  "subcategory": "Change planning",
+  "overall_description": "Facilitates cultural and behavioural change by enabling individuals and teams to embed new ways of working and adapt to changes.",
+  "guidance_notes": "Organisational change enablement is focused on the human and cultural aspects of change and supporting individuals and teams adapting to new work practices.\nThe key elements are: stakeholder engagement for commitment, ongoing support for embedding changes and tailored communication addressing behavioural impacts and emotional readiness.\nActivities may include, but are not limited to:\n\nfacilitating engagement sessions with leaders and managers to secure commitment to change initiatives\ndefining communication strategies that address behavioural impacts and emotional readiness\nsupporting individuals and teams in adopting new ways of working, providing resources for skill and behaviour development\naddressing and resolving issues during the implementation of change initiatives to ensure minimal disruption\ncreating and managing networks of change agents to support and drive change\nadvising leaders on monitoring and supporting behavioural change and addressing challenges\nestablishing feedback processes to analyse the impact and effectiveness of change initiatives.",
+  "level_descriptions": {
+    "level_4": "Supports teams in adopting new practices, providing ongoing resources and guidance. \nFacilitates a safe environment for exploring challenges related to change. \nAssists with engagement sessions to secure leadership commitment, focusing on the behavioural aspects of change.\nAddresses issues that arise during implementation, ensuring minimal disruption.",
+    "level_5": "Develops and implements cultural change plans across teams, ensuring alignment with long-term success. \nCoordinates cross-functional teams to support the adoption of new behaviours. Communicates how changes align with business goals and long-term success, focusing on emotional and behavioural impacts. Supports leaders and employees in exploring challenges associated with adopting new practices. \nEnables employees to develop the necessary skills and behaviours for sustained change.",
+    "level_6": "Champions new ways of working that align with strategic opportunities. \nInfluences and engages with senior executives to gain their support for change initiatives. \nGuides the development of strategies and roadmaps to drive long-term behavioural change.  Reviews progress, addresses challenges and ensures the sustainability of change initiatives.\nProvides guidance to change leaders, focusing on the human aspects of organisational change."
+  }
+}

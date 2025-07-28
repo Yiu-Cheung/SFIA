@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Professional development', 'row': 122, 'skill_code': 'PDSV', 'category': 'People and skills', 'subcategory': 'People management'}
+# Content Length: 2542 characters
+
+================================================================================
+
+{
+  "skill_name": "Professional development",
+  "code": "PDSV",
+  "url": "https://sfia-online.org/en/skillcode/9/PDSV",
+  "category": "People and skills",
+  "subcategory": "People management",
+  "overall_description": "Facilitating the professional development of individuals in line with their career goals and organisational requirements.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nnegotiating, reviewing, monitoring and validating each individual's professional development plans\nproviding professional development advice and support for individuals\nidentifying appropriate learning and development or career-enhancing activities\nliaising with internal and external providers of learning and development\nadopting a suitable framework for skills, knowledge and competencies such as SFIA\nadopting or defining professional career pathways\ncreating accreditation and qualification approaches or adopting industry frameworks\nevaluating the benefits of continual professional development activities.",
+  "level_descriptions": {
+    "level_4": "Assists practitioners with creating personal development plans. \nAdvises on suitable development activities such as specific learning or experience to be gained. \nMonitors practitioners’ continuing professional development records. \nEnsures achievements and enhanced capabilities are recorded and referenced to personal and organisational objectives.",
+    "level_5": "Determines development needs for a professional practice area. \nAligns development activities with organisational priorities, learning and development strategies and career pathways. \nGuides practitioners in creating development plans. Advises and supports assigned practitioners, ensuring alignment with professional development plans and career opportunities. \nEnsures practitioners record evidence of continuing professional development. Contributes to practitioners' performance appraisals, when required.",
+    "level_6": "Develops and defines a professional development framework for one or more professional disciplines. \nDetermines and maintains organisational development needs in line with business needs and strategic direction. Generates development strategies to achieve required change. \nDevelops and leads communities of practice, including defining career pathways. \nDefines the approach to identifying suitable individuals to provide career advice and support.  Monitors progress and evaluates business benefits achieved from continual professional development."
+  }
+}

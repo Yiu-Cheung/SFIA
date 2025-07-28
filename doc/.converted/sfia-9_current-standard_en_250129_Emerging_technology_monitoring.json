@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Emerging technology monitoring', 'row': 6, 'skill_code': 'EMRG', 'category': 'Strategy and architecture', 'subcategory': 'Strategy and planning'}
+# Content Length: 2180 characters
+
+================================================================================
+
+{
+  "skill_name": "Emerging technology monitoring",
+  "code": "EMRG",
+  "url": "https://sfia-online.org/en/skillcode/9/EMRG",
+  "category": "Strategy and architecture",
+  "subcategory": "Strategy and planning",
+  "overall_description": "Identifying and assessing new and emerging technologies, products, services, methods and techniques.",
+  "guidance_notes": "This skill involves systematically tracking, assessing and reporting on emerging technologies and their potential impact on the organisation.\nActivities may include, but are not limited to:\n\nconducting regular technology landscape scans\nevaluating potential benefits and risks of new technologies\npreparing reports and briefings for stakeholders on emerging trends\nrecommending pilot projects or proofs of concept for promising technologies\ncollaborating with research and development (R&D) teams to explore innovative applications\nattending industry conferences and engaging with technology vendors\ndeveloping frameworks for assessing technology readiness and organisational fit\nadvising on the strategic implications of adopting emerging technologies.",
+  "level_descriptions": {
+    "level_4": "Supports monitoring of the external environment and assessment of emerging technologies. \nContributes to the creation of reports, technology roadmapping and the sharing of knowledge and insights.",
+    "level_5": "Monitors the external environment to gather intelligence on emerging technologies. \nAssesses and documents the impacts, threats and opportunities to the organisation. \nCreates reports and technology roadmaps and shares knowledge and insights with others.",
+    "level_6": "Plans and leads the identification and assessment of emerging technologies and the evaluation of potential impacts, threats and opportunities.\nCreates technology roadmaps that align organisational plans with emerging technology solutions. Engages with, and influences, relevant stakeholders to obtain organisational commitment to technology roadmaps. \nDevelops organisational guidelines for monitoring emerging technologies. \nCollaborates with internal and external parties to facilitate intelligence gathering."
+  }
+}

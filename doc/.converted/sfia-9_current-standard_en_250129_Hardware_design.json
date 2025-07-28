@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Hardware design', 'row': 54, 'skill_code': 'HWDE', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 3933 characters
+
+================================================================================
+
+{
+  "skill_name": "Hardware design",
+  "code": "HWDE",
+  "url": "https://sfia-online.org/en/skillcode/9/HWDE",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Specifying and designing hardware systems and components to meet defined requirements by following agreed design principles and standards.",
+  "guidance_notes": "The scope encompasses a wide range of hardware systems and components, including but not limited to processors, specialised computing units, embedded systems, control systems and various sensor and actuator devices. The hardware design should factor in integration needs with IT infrastructures, networking environments, as well as systems architectures such as cloud service models, edge computing and cyber-physical systems.\nActivities may include, but are not limited to:\n\ndefining how hardware components fit into the system architecture and integrate with software, firmware and other systems\nselecting, designing, specifying, integrating and prototyping hardware components and subsystems\nconsidering target environments, performance, security, safety, reliability, sustainability and compatibility requirements\nadhering to industry standards including compatibility, safety, security, reliability and sustainability.",
+  "level_descriptions": {
+    "level_2": "Assists in designing simple hardware components or subsystems under guidance.\nFollows established design principles, patterns and methodologies as directed. Participates in translating logical designs into physical implementations.\nTests hardware components or subsystems against provided specifications and documents results. Contributes to the documentation of hardware designs using required standards, methods and tools.\nSeeks guidance and support for deviations from standard practices or when facing unfamiliar scenarios.",
+    "level_3": "Follows selected standard approaches and design patterns to design simple hardware components. \nSeeks guidance when deviating from established design patterns. Takes account of target environment, performance, security, safety, reliability and sustainability requirements.\nTranslates logical designs into physical designs. Tests the performance of prototypes and production output against specification.\nSubmits hardware designs for approval. Documents all work using required standards, methods and tools.",
+    "level_4": "Designs hardware components, taking account of target environment, performance, security, safety, reliability and sustainability requirements. \nTranslates logical designs into physical designs and delivers technical prototypes of proposed components for approval and production. \nDesigns the tests to measure the performance of prototypes and production output against specification and inform iterative development.",
+    "level_5": "Specifies and designs complex hardware components/systems. \nSelects appropriate design standards, methods and tools, consistent with agreed policies and ensures they are applied effectively. \nUndertakes impact analysis on major design options. Assesses and manages associated risks. Ensures hardware designs balance functional, quality, safety, security, systems management, reliability and sustainability requirements. \nReviews designs created by others to ensure selection of appropriate technology, efficient use of resources and effective integration of multiple systems and technology. Contributes to policy for selection of components.",
+    "level_6": "Provides overall direction and leadership in the hardware design practice within an organisation. \nInfluences industry-based models for the development of new technology and  components. \nDevelops effective procurement strategies, consistent with business needs. \nDevelops, drives adoption and ensures adherence to organisational policies, strategies and standards for hardware design."
+  }
+}

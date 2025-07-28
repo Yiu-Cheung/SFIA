@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Deployment', 'row': 96, 'skill_code': 'DEPL', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 3016 characters
+
+================================================================================
+
+{
+  "skill_name": "Deployment",
+  "code": "DEPL",
+  "url": "https://sfia-online.org/en/skillcode/9/DEPL",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Transitioning software from development to live usage, managing risks and ensuring it works as intended.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nmoving new or changed components to testing, staging and live environments\nmanaging deployments using suitable approaches, such as phased rollouts or continuous delivery\nmaintaining secure locations for components awaiting deployment \nusing deployment tools and techniques to ensure consistent and repeatable deployments, supporting governance, audit and change management\nmonitoring and troubleshooting deployment processes\nrolling back deployments in case of issues or failures\nensuring the availability, performance and security of deployed components\ncollaborating with release management and other teams \nconsidering supplier-controlled deployments and their impact on the organisation's environment.",
+  "level_descriptions": {
+    "level_2": "Assists in deploying software releases and updates under routine supervision.\nExecutes defined deployment processes and procedures using deployment tools and techniques.\nMonitors deployed applications and reports issues. Assists in rolling back deployments when necessary.",
+    "level_3": "Deploys software releases and updates to production environments.\nUses deployment tools and techniques to ensure consistent deployments. Monitors and troubleshoots deployment processes.\nPerforms rollbacks of deployments in case of issues or failures.\nCollaborates with release management and operations teams.",
+    "level_4": "Plans and executes deployments of complex software releases and updates.\nManages continuous deployment using automation tools and techniques. Develops and maintains deployment processes, procedures and scripts.\nMonitors and optimises deployment processes for efficiency and reliability. Ensures the availability, performance and security of deployed applications.\nCollaborates with cross-functional teams.",
+    "level_5": "Designs and implements deployment approaches, processes and automation tools for the organisation.\nOversees the deployment of critical and large-scale software. Ensures deployment processes align with organisational standards and recommended practices.\nContinuously improves deployment processes and automation capabilities.\nDefines monitoring and alert strategies for deployed applications.",
+    "level_6": "Defines organisational deployment strategies, policies and standards.\nAligns deployment practices with overall operations and service delivery goals.\nEnsures the availability of resources and tools for effective deployment.\nDrives the adoption of new deployment techniques and technologies. Collaborates with senior stakeholders to ensure deployments meet business strategies and objectives."
+  }
+}

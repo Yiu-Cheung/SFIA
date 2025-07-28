@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Real-time/embedded systems development', 'row': 61, 'skill_code': 'RESD', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 4101 characters
+
+================================================================================
+
+{
+  "skill_name": "Real-time/embedded systems development",
+  "code": "RESD",
+  "url": "https://sfia-online.org/en/skillcode/9/RESD",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Designing and developing reliable real-time software typically within embedded systems.",
+  "guidance_notes": "Embedded systems provide dedicated functionality within a larger mechanical or electronic system, often with constraints related to real-time performance, safety, security, and reliability. These systems typically interface with hardware, sensors, and actuators, supporting critical operations in industrial, automotive, aerospace, medical, or robotic equipment, as well as in IoT (Internet of Things) devices and intelligent systems.\nThese systems usually perform essential functions and have strict requirements for integrity, reliability, safety, security, and power consumption.\nActivities may include, but are not limited to:\n\ndefining non-functional system requirements such as performance, reliability, safety, and security, as well as constraints like power, cost, physical space, or response time\nbuilding in fail-safe or secure characteristics to support graceful degradation\napplying specialised techniques to ensure systems meet their critical attributes\nemploying comprehensive methods for validation, verification, and testing\nusing virtual or model-based development approaches to simulate, test, and optimise systems throughout the development lifecycle\nusing specialised tools for real-time program and system analysis, validation, and debugging.",
+  "level_descriptions": {
+    "level_2": "Designs, builds and tests simple real-time/embedded components as part of an overall larger systems design. \nUses appropriate programming languages to drive simple sensors and actuators. \nApplies specialised tools for real-time program analysis and system debugging.",
+    "level_3": "Designs, builds and integrates medium-complexity real-time/embedded components as part of an overall larger systems design. \nFollows agreed standards and uses specialised tools for system analysis and optimisation.\nDrives specialist hardware, typically sensors and actuators, and optimises component code for performance. \nApplies a range of approaches to the verification and testing of real-time components.",
+    "level_4": "Designs, builds and integrates complex real-time/embedded components and sub-systems.\nDesigns physical layouts that reflect the connection between system components to test and optimise performance. \nBuilds system prototypes and simulations to aid development and enable debugging, testing and troubleshooting of embedded software. \nApplies a range of approaches to the validation, verification, and testing of real-time components and sub-systems, using a variety of specialist tools for system analysis and optimisation.",
+    "level_5": "Designs and develops real-time/embedded architectures and systems to meet agreed system requirements.\nPlans and manages the development of complex real-time/embedded systems and selects the approaches and techniques to be used. \nAnalyses design options and trade-offs between hardware and software, makes recommendations and assesses and manages associated risks. Ensures effective validation, verification and testing is undertaken throughout development.\nOversees the integration of multiple sub-systems into the overall system.",
+    "level_6": "Provides overall direction and leadership in the development of real-time/embedded systems. \nDevelops organisational policies, standards and guidelines for real-time/embedded systems architectures and designs. \nPlans and leads strategic, large and complex real-time/embedded system developments.  Identifies opportunities to exploit new technologies and improve existing technologies and practices.  \nDrives adherence to technical strategies, systems architectures and the implementation of risk-based verification, validation and testing. Develops effective implementation and procurement strategies."
+  }
+}

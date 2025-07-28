@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Scientific modelling', 'row': 85, 'skill_code': 'SCMO', 'category': 'Development and implementation', 'subcategory': 'Computational science'}
+# Content Length: 3117 characters
+
+================================================================================
+
+{
+  "skill_name": "Scientific modelling",
+  "code": "SCMO",
+  "url": "https://sfia-online.org/en/skillcode/9/SCMO",
+  "category": "Development and implementation",
+  "subcategory": "Computational science",
+  "overall_description": "Applying computer simulation and other forms of computation to solve real-world problems in scientific disciplines.",
+  "guidance_notes": "Scientific modelling involves applying computer simulation and other forms of computation to solve real-world problems in scientific disciplines.\nActivities may include, but are not limited to:\n\nidentifying relevant mathematical principles and scientific theory within a computational model\ncreating, testing and tuning scientific models through the application of computing\nvalidating and interpreting computational models against the reality which the models attempt to represent\ncollaborating with domain experts to ensure models accurately represent scientific phenomena\ncommunicating model results and implications to both technical and non-technical audiences\ncontinuously refining models based on new data or scientific understanding\napplying models to predict outcomes or test hypotheses in scientific research.\n\nScientific modelling is used across various fields, including physics, chemistry, biology, environmental science and social sciences, to simulate complex systems and processes.",
+  "level_descriptions": {
+    "level_4": "Analyses the real-world problem, then selects appropriate physical and mathematical models to approximate the phenomena under investigation. \nApplies relevant mathematical techniques to simulate the problem. \nConducts quality and performance assessments on computational model outputs and makes improvements to the models. \nProvides advice and guidance to the users of these models.",
+    "level_5": "Investigates real-world problems to assess whether existing scientific models provide effective solutions.\nCreates new mathematical representations of the underlying science that can be implemented in a computational model. Applies advanced programming techniques to implement scientific models and apply these for problem-solving. \nAnalyses the functioning of existing computational models to improve accuracy and performance. \nCommunicates limitations such as uncertainty and systematic errors. Ensures appropriate usage of computational models.",
+    "level_6": "Initiates the creation, testing, improvement and application of mathematical model frameworks representing real-world systems and scientific theories. \nSets standards and approaches for the application of scientific modelling. \nOversees the representation of science and mathematics principles and theories in models to ensure appropriate, consistent and effective usage. \nDevelops or introduces new mathematical techniques where necessary.",
+    "level_7": "Directs the creation and review of a cross-functional, enterprise-wide approach and culture for scientific modelling. \nLeads the development of the organisation’s scientific modelling capabilities and champions its use in solving real-world problems."
+  }
+}

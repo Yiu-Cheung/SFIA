@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Investment appraisal', 'row': 10, 'skill_code': 'INVA', 'category': 'Strategy and architecture', 'subcategory': 'Financial and value management'}
+# Content Length: 2390 characters
+
+================================================================================
+
+{
+  "skill_name": "Investment appraisal",
+  "code": "INVA",
+  "url": "https://sfia-online.org/en/skillcode/9/INVA",
+  "category": "Strategy and architecture",
+  "subcategory": "Financial and value management",
+  "overall_description": "Assessing the attractiveness of possible investments or projects.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nselecting and using appropriate techniques to compare financial investments and returns\nusing recognised investment appraisal techniques to compare investment and returns include payback period, accounting rate of return, discounted cash flow (net present value and internal rate of return)\ncollecting data using appropriate top-down or bottom-up approaches\nincluding other factors into the appraisal approach, such as legal considerations, environmental or social impact, operational benefits and risk\ndeveloping scoring methods to allow for subjective benefits or dis-benefits and to aggregate the results of multiple appraisal methods to help compare options\ndocumenting and presenting the results of investment appraisals\nestablishing investment appraisal as a tool for selecting projects/initiatives for further investigation\nidentifying possible sources of funding and the impact on the investment appraisal.",
+  "level_descriptions": {
+    "level_4": "Develops and documents investment appraisals for a range of different projects. \nIdentifies suitable appraisal techniques based on the characteristics of a project. \nCollects the information required to create an investment appraisal in collaboration with internal and external stakeholders. Presents findings of investment appraisals to selected stakeholders. \nRefines and maintains investment appraisals.",
+    "level_5": "Advises on investment appraisal approaches and tailors organisational standards to the context of portfolios/programmes.  \nLeads investment appraisal activities for simple portfolios and programmes and complex projects.",
+    "level_6": "Develops organisational policies, standards and guidelines for investment appraisals. \nLeads activities to establish consistent appraisal across the component projects and programmes within a portfolio. \nReviews investment appraisals for high-value initiatives to assure their quality. \nLeads investment appraisal activities for complex programmes of work and portfolios."
+  }
+}

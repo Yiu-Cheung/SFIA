@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Contract management', 'row': 134, 'skill_code': 'ITCM', 'category': 'Relationships and engagement', 'subcategory': 'Stakeholder management'}
+# Content Length: 4394 characters
+
+================================================================================
+
+{
+  "skill_name": "Contract management",
+  "code": "ITCM",
+  "url": "https://sfia-online.org/en/skillcode/9/ITCM",
+  "category": "Relationships and engagement",
+  "subcategory": "Stakeholder management",
+  "overall_description": "Managing and operating formal contracts, addressing supplier and client needs in product and service provision.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\noverseeing contracts from initiation and negotiation to renewal or termination\nensuring effective communication and collaboration with internal teams, suppliers and clients\nmaintaining alignment with laws, regulations and organisational policies\nevaluating contract performance against agreed metrics and key performance indicators (KPIs)\nmanaging contract variations and adjustments in response to evolving business needs or market conditions\nassessing and mitigating risks associated with contractual agreements\nintegrating sustainability and ethical considerations into contract management\nusing contract management software and tools for improved efficiency and accuracy\nincorporating contract management practices tailored to cloud-based services.",
+  "level_descriptions": {
+    "level_2": "Assists in collecting contract performance data. \nProduces standard reports on contract performance under routine supervision.",
+    "level_3": "Acts as a routine contact point between the organisation and counterparties concerning contract management. \nSupports the collection of contract performance data. Creates standard reports on contract performance.",
+    "level_4": "Sources and collects contract performance data (such as pricing and supply chain costs), and monitors performance against key performance indicators. \nMonitors progress against business objectives specified in the business case. Proactively manages risk and reward mechanisms in the contract. \nIdentifies and reports under-performance and develops opportunities for improvement. Monitors compliance with terms and conditions and takes appropriate steps to address non-compliance. \nIdentifies where change is required and plans for variations. Ensures, in consultation with stakeholders, that change management protocols are implemented.",
+    "level_5": "Oversees and measures the fulfilment of contractual obligations. \nUses key performance indicators to monitor and challenge performance and identify opportunities for continual improvement. Develops strategies to address under-performance and compliance failures, including the application of contract terms. \nIdentifies where changes are required, evaluates the impact, and advises stakeholders about the implications and consequences. Negotiates variations and seeks appropriate authorisation. \nActively supports and engages with experts and stakeholders to ensure continual improvements are identified through review and benchmarking processes. Develops and implements change management protocols.",
+    "level_6": "Negotiates and resolves contractual issues, including failure to meet contractual obligations. \nPromotes change control processes and leads variation negotiations when necessary. Champions continual improvement programmes, jointly developing strategies and incentives to enhance performance. Undertakes comprehensive financial evaluations. \nEnsures due diligence and legal vetting underpin all procurement processes, affirming risk assessment and compliance in contractual engagements. Ensures lessons learned from reviews are documented and promoted to all stakeholders. \nLeads the advancement and application of effective contract management practices within a specific business domain or category.",
+    "level_7": "Leads the strategic direction and governance of contract management processes across the organisation. Advises executive leadership on contract management risks and strategies.\nImplements contract management strategies aligned with organisational goals and market dynamics, including oversight of significant contracts and associated legal risks. Acts as the escalation point for major disputes. \nPromotes operational excellence in contract management, driving supply chain contracting improvements and innovation. \nEstablishes strategic partnerships, aligning organisational and supplier goals. Represents the organisation in key negotiations, ensuring strategic, compliant outcomes."
+  }
+}

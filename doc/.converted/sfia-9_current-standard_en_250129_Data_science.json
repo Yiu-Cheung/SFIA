@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Data science', 'row': 70, 'skill_code': 'DATS', 'category': 'Development and implementation', 'subcategory': 'Data and analytics'}
+# Content Length: 4214 characters
+
+================================================================================
+
+{
+  "skill_name": "Data science",
+  "code": "DATS",
+  "url": "https://sfia-online.org/en/skillcode/9/DATS",
+  "category": "Development and implementation",
+  "subcategory": "Data and analytics",
+  "overall_description": "Applying mathematics, statistics, data mining and predictive modelling techniques to gain insights, predict behaviours and generate value from data.",
+  "guidance_notes": "Data science is typically used for analysing high volume, high velocity and high variety data (numbers, symbols, text, sound and image).\nActivities may include, but are not limited to:\n\nintegrating methods from mathematics, statistics and probability modelling using specialised programming languages, tools and techniques\nsourcing and preparing data for analysis\nidentifying, validating and exploiting internal and external data sets generated from a diverse range of processes\ndeveloping forward-looking, predictive, real-time, model-based insights to create value and drive effective decision-making\nfinding, selecting, acquiring and ingesting data sources\nintegrating and cleansing data to make it fit for purpose\ndeveloping hypotheses and exploring data using models and analytics sandboxes\nrefining requirements, validating, training and evolving models over time to discover deeper insights, make predictions or generate recommendations\nusing advanced analytic techniques including, but not limited to: data/text mining, machine learning, pattern matching, forecasting, visualisation, semantic analysis, sentiment analysis, network and cluster analysis, multivariate statistics, graph analysis, simulation, complex event processing and neural networks.",
+  "level_descriptions": {
+    "level_2": "Under routine supervision, applies specified data science techniques to data.\nAnalyses and reports findings and addresses simple issues, using algorithms included within standard software frameworks and tools.",
+    "level_3": "Applies standard data science techniques to new problems and datasets using specialised programming techniques.\nIdentifies and selects appropriate data sources and prepares data to be used by data science models.\nEvaluates the outcomes and performance of data science models. Identifies and implements opportunities to train and improve models and the data they use. \nPublishes and reports on model outputs to meet customer needs and conform to agreed standards.",
+    "level_4": "Investigates problems and datasets to assess the usefulness of data science solutions. \nApplies diverse data science techniques and specialised programming languages. Understands and applies rules and guidelines specific to the industry and business, and anticipates risks and other implications of modelling.\nSelects, acquires and integrates data for analysis. Formulates hypotheses and evaluates data science models. Advises on the effectiveness of specific techniques based on analysis findings and research. \nContributes to the development, evaluation, monitoring and deployment of data science solutions.",
+    "level_5": "Plans, coordinates and drives all stages of the development of data science solutions. \nProvides expert advice to evaluate the problems to be solved and the need for data science solutions. Identifies and justifies what data sources to use or acquire. \nSpecifies and applies appropriate data science techniques and specialised programming languages.\nCritically reviews the benefits and value of data science techniques and tools and recommends improvements. Contributes to developing policy, standards and guidelines for developing, evaluating, monitoring and deploying data science solutions.",
+    "level_6": "Champions and leads the introduction and use of data science to drive innovation and business value. \nDevelops and drives adoption of and adherence to organisational policies, standards, guidelines and methods for data science.\nSets direction and leads in the introduction and use of data science techniques, methodologies and tools. Leads the development of organisational capabilities for data science. \nPlans and leads strategic, large and complex data science initiatives to generate insights, create value and drive decision-making."
+  }
+}

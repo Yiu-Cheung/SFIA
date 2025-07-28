@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Threat intelligence', 'row': 21, 'skill_code': 'THIN', 'category': 'Strategy and architecture', 'subcategory': 'Security and privacy'}
+# Content Length: 2889 characters
+
+================================================================================
+
+{
+  "skill_name": "Threat intelligence",
+  "code": "THIN",
+  "url": "https://sfia-online.org/en/skillcode/9/THIN",
+  "category": "Strategy and architecture",
+  "subcategory": "Security and privacy",
+  "overall_description": "Developing and sharing actionable insights on current and potential security threats to the success or integrity of an organisation.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ngathering data from a variety of open or proprietary intelligence sources\nprocessing and classifying threat data to make it useful and actionable by others\npackaging the data for use by consumers of the information\nenabling the use of the data automatically by security tools\nproviding threat intelligence to help others mitigate vulnerabilities or to respond to security incidents\ncollaborating with internal teams and external partners to enhance threat detection capabilities\nanalysing trends in cyber threats to predict future attack vectors\ndeveloping threat intelligence frameworks and methodologies.",
+  "level_descriptions": {
+    "level_2": "Contributes to routine threat intelligence gathering tasks. \nMonitors and detects potential security threats and escalates in accordance with relevant procedures and standards.",
+    "level_3": "Performs routine threat intelligence gathering tasks. \nTransforms collected information into a data format that can be used for operational security activities.\nCleans and converts quantitative information into consistent formats.",
+    "level_4": "Collates and analyses information for threat intelligence requirements from a variety of sources.\nContributes to reviewing, ranking and categorising qualitative threat intelligence information. \nCreates threat intelligence reports. \nEvaluates the value, usefulness and impact of threat intelligence sources.",
+    "level_5": "Plans and manages threat intelligence activities. \nIdentifies the most impactful threat categories and types of information that can help defend against them. Reviews, ranks and categorises qualitative threat intelligence information.\nProvides expert advice on threat intelligence activities. \nLeads the production and editing of threat intelligence reports that enhance the intelligence production workflow. Distributes information and obtains feedback about the value, usefulness and impact of the data.",
+    "level_6": "Sets direction, plans and leads the organisation’s approach to threat intelligence, including the use of suppliers.\nIdentifies requirements for threat intelligence based on the assets to be protected and the types of intelligence that can help protect those assets. \nEngages with and influences relevant stakeholders to communicate results of research and the required response. \nEnsures quality and accuracy of threat intelligence information. Reviews threat intelligence capabilities."
+  }
+}

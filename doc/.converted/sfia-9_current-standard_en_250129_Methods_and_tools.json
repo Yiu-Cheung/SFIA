@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Methods and tools', 'row': 30, 'skill_code': 'METL', 'category': 'Strategy and architecture', 'subcategory': 'Advice and guidance'}
+# Content Length: 3537 characters
+
+================================================================================
+
+{
+  "skill_name": "Methods and tools",
+  "code": "METL",
+  "url": "https://sfia-online.org/en/skillcode/9/METL",
+  "category": "Strategy and architecture",
+  "subcategory": "Advice and guidance",
+  "overall_description": "Leads the adoption, management and optimisation of methods and tools, ensuring effective use and alignment with organisational objectives.",
+  "guidance_notes": "There is a wide range of methods and tools supporting areas such as, but not limited to, planning, development, testing, operation, management and maintenance of systems.\nThe focus is on ensuring these methods and tools are not just available but are appropriately managed, refined and applied across the organisation to enhance efficiency, quality and consistency.\nActivities may include, but are not limited to:\n\nassessing, selecting and implementing methods and tools\nstewardship of methods and tools to enable effective use by others\nmeasuring, tailoring, improving and automating the use of methods and tools\ndeveloping and maintaining documentation and user guides for methods and tools\nproviding guidance, support and training for the adoption of new methods and tools\nevaluating the effectiveness of implemented methods and tools\nstaying informed about industry developments related to methods and tools\naligning methods and tools with organisational standards and good practices.",
+  "level_descriptions": {
+    "level_2": "Provide routine support using agreed guidelines on the use of well-established methods and tools. \nAssists in configuring and maintaining methods and tools under routine supervision. \nSupports the creation and updating of documentation related to methods and tools.",
+    "level_3": "Provides support on the use of existing methods and tools. \nConfigures and maintains methods and tools within a known context. \nCreates and updates the documentation of methods and tools.\nIdentifies and resolves basic issues related to tool usage.",
+    "level_4": "Engages with stakeholders to understand requirements and recommends appropriate solutions. \nProvides advice and guidance to support the adoption of methods and tools and adherence to policies and standards. \nTailors processes to meet specific needs while ensuring they align with established standards and are informed by evaluations of methods and tools.\nReviews and improves usage and application of methods and tools.",
+    "level_5": "Provides authoritative advice and leadership to promote adoption of methods and tools and adherence to policies and standards. \nEvaluates and selects appropriate methods and tools in line with agreed policies and standards. Contributes to organisational policies, standards and guidelines for methods and tools.\nImplements methods and tools at programme, project and team levels including selection and tailoring in line with agreed standards. \nManages reviews of the benefits and value of methods and tools. Identifies and recommends improvements that support broader organisational goals.",
+    "level_6": "Develops organisational policies, standards and guidelines for methods and tools. \nSets direction and leads in the introduction and use of techniques, methodologies and tools, to meet business requirements. \nLeads the development of organisational capabilities for methods and tools to ensure consistent adoption and adherence to policies and standards.\nSecures organisational commitment and resources to methods and tools. Drives continuous improvement and innovation in methods and tools."
+  }
+}

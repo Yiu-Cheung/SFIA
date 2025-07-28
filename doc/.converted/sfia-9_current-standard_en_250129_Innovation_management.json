@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Innovation management', 'row': 5, 'skill_code': 'INOV', 'category': 'Strategy and architecture', 'subcategory': 'Strategy and planning'}
+# Content Length: 2564 characters
+
+================================================================================
+
+{
+  "skill_name": "Innovation management",
+  "code": "INOV",
+  "url": "https://sfia-online.org/en/skillcode/9/INOV",
+  "category": "Strategy and architecture",
+  "subcategory": "Strategy and planning",
+  "overall_description": "Identifying, prioritising, incubating and exploiting opportunities provided by information, communication and digital technologies.",
+  "guidance_notes": "This skill focuses on a systematic, organisational approach to innovation. It is not describing personal behaviours, such as creativity.\nActivities may include, but are not limited to:\n\ndeveloping and implementing processes, tools and infrastructures to support innovation\nimplementing innovation practices to support iterative/agile working\nfacilitating internal and external communities, employees, commercial partners, customers, users and other stakeholders in the innovation process\nproviding a framework for governance, monitoring and reporting on the innovation process\nbuilding a culture of experimentation and calculated risk-taking\nadopting strategies to incorporate external ideas and technologies to enhance and accelerate the organisation's innovation efforts\nusing data analytics to drive evidence-based innovation.\ndeveloping metrics to measure innovation impact and return on investment.",
+  "level_descriptions": {
+    "level_5": "Manages the innovation pipeline and executes innovation processes. \nDevelops and adapts innovation tools, processes and infrastructures to drive the process of innovation. Identifies resources and capabilities needed to support innovation. \nEncourages and motivates innovation communities, teams and individuals to share creative ideas and learn from failures. \nManages and facilitates the communication and open flow of creative ideas between interested parties and the set-up of innovation networks and communities.",
+    "level_6": "Obtains organisational commitment to innovation. \nDevelops organisational capabilities to drive innovation. \nLeads and plans the development of innovation capabilities and implementation of innovation processes, tools and frameworks. \nLeads the communication and an open flow of creative ideas between interested parties and the set-up of innovation networks and communities.",
+    "level_7": "Leads development of a culture that encourages innovation, risk-taking and collaboration. \nEmbeds innovation processes throughout business units and links strategy execution with innovation. \nAligns organisational and individual objectives, measures and rewards with innovation."
+  }
+}

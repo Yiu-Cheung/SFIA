@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Accessibility and inclusion', 'row': 77, 'skill_code': 'ACIN', 'category': 'Development and implementation', 'subcategory': 'User centred design'}
+# Content Length: 3183 characters
+
+================================================================================
+
+{
+  "skill_name": "Accessibility and inclusion",
+  "code": "ACIN",
+  "url": "https://sfia-online.org/en/skillcode/9/ACIN",
+  "category": "Development and implementation",
+  "subcategory": "User centred design",
+  "overall_description": "Driving accessibility and inclusion in services and products.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nproviding expert advice and guidance on accessibility and inclusion \ndefining policies, standards and guidelines for accessible design, development, user research, auditing and testing\nconducting accessibility impact assessments and audits to identify potential barriers and areas for improvement\nkeeping up-to-date with the latest industry trends, regulatory developments and established practices related to accessibility\ncollaborating with subject matter experts in areas such as usability, user experience, content design, assistive technology and disability rights\nadvising teams on budgeting appropriately for accessibility activities throughout the service or product development lifecycle\npromoting a culture of shared responsibility for accessibility by embedding it into the roles and responsibilities of others, such, as designers, developers, researchers and managers.",
+  "level_descriptions": {
+    "level_2": "Assists with basic accessibility testing and gathering information for accessibility reviews. \nSupports team members in executing predefined accessibility tests. \nDocuments test results and contributes to accessibility audit reports.",
+    "level_3": "Analyses accessibility requirements and technical information. \nDesigns and executes accessibility tests under direction. Reports findings in a structured way and makes initial recommendations for compliance. \nSupports accessibility reviews and audits.\nEscalates complex issues to senior colleagues.",
+    "level_4": "Engages with stakeholders to explain accessibility factors. Influences designs to improve accessibility. \nProvides detailed accessibility analysis to inform decisions throughout the product or service lifecycle.\nPlans and manages accessibility testing to meet agreed standards. \nEvaluates compliance with accessibility regulations. Assesses risks based on test outcomes.",
+    "level_5": "Leads accessibility governance and assurance activities. \nInterprets complex systems to identify opportunities for improved accessibility. Provides expert advice to drive accessibility compliance across products, services and projects. \nDefines organisational accessibility testing approaches, aligned with regulations and standards. \nPromotes awareness of accessibility and inclusion principles.",
+    "level_6": "Sets the organisation's strategic direction for accessibility and inclusion in products and services. \nDefines and oversees governance processes to ensure compliance. Leads the development of accessibility policies, standards and guidelines. \nEngages with industry bodies and experts to develop and implement good working practices.\nDrives a culture of proactive accessibility consideration in design and development. Ensures adequate resources and skills for accessibility assurance."
+  }
+}

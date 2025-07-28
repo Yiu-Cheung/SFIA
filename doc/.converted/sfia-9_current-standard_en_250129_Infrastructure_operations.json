@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Infrastructure operations', 'row': 90, 'skill_code': 'ITOP', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 4045 characters
+
+================================================================================
+
+{
+  "skill_name": "Infrastructure operations",
+  "code": "ITOP",
+  "url": "https://sfia-online.org/en/skillcode/9/ITOP",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Provisioning, deploying, configuring, operating and optimising technology infrastructure across physical, virtual and cloud-based environments.",
+  "guidance_notes": "Technology infrastructure encompasses a wide range of components including, but not limited to, physical devices, virtual resources, cloud services, infrastructure-related software, middleware, network services and data storage solutions.\nInfrastructure operations also involves implementing automation, cybersecurity measures and the adoption of cloud technologies to enhance efficiency, security and agility.\nThese components may be on-premises, outsourced to third parties, or provisioned through cloud services.\nActivities may include, but are not limited to:\n\nprovisioning and adapting infrastructure components to meet the evolving needs of users and service providers\nmanaging virtual, cloud and hybrid/multi-cloud environments\nautomating tasks through scripting, coding, orchestration tools and infrastructure as code (IaC) practices\nensuring infrastructure security through regular updates, patch management and adherence to cybersecurity policies and established industry practices\nmonitoring infrastructure performance and its impact on efficiency, performance, security posture and sustainability\ncollaborating with development teams (DevOps) \nusing containerisation technologies to enhance application deployment and scalability.",
+  "level_descriptions": {
+    "level_1": "Supports routine infrastructure tasks and basic troubleshooting under close supervision.\nMonitors infrastructure health and reports on component status to support operational continuity.",
+    "level_2": "Executes operational procedures, runs automation scripts and performs routine maintenance, installation and monitoring of infrastructure components. \nAdjusts automation tasks as instructed to meet operational standards.\nReports on infrastructure performance and security events, addressing issues directly when possible or escalating them to others for resolution.",
+    "level_3": "Provisions, deploys and configures infrastructure services and components.\nMonitors infrastructure for load, performance and security events. Reports metrics and resolves operational issues.\nExecutes standard operational procedures, including backups and restorations. \nCarries out agreed system software maintenance tasks. Automates routine system administration tasks to specifications using standard tools and basic scripting.",
+    "level_4": "Applies technical expertise to maintain and optimise technology infrastructure, executing updates and employing automation tools. Configures tools and/or creates scripts to automate infrastructure tasks. \nMaintains operational procedures and checks that they are followed, including adherence to security policies. Uses infrastructure management tools to monitor load, performance, and security metrics.\nInvestigates and enables the resolution of operational and security-related issues. Provides reports and proposals for improvement to stakeholders.\nContributes to the planning and implementation of infrastructure maintenance and updates. Implements agreed infrastructure changes and maintenance routines.",
+    "level_5": "Provides technical leadership to optimise the performance of the technology infrastructure. \nDrives the adoption of tools and automated processes for effective operational management and delivery.\nOversees the planning, installation, maintenance and acceptance of new and updated infrastructure components and infrastructure-based services. Aligns to service expectations, security requirements and other quality standards. \nEnsures operational procedures and documentation are current and effective, tracks and addresses operational issues and reports to stakeholders."
+  }
+}

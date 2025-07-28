@@ -20,15 +20,16 @@ class OllamaGenerator:
     
     def __init__(
         self,
-        model: str = "deepseek-r1:1.5b",
+        model: str = "llama3.2:latest",
         url: str = "http://localhost:11434",
         generation_kwargs: Dict[str, Any] = None
     ) -> None:
         """Initialize the Ollama generator."""
         if generation_kwargs is None:
             generation_kwargs = {
-                "num_predict": 5120,
-                "temperature": 0.9,
+                "num_predict": 1024,
+                "num_ctx": 8192,
+                "temperature": 0.7,
             }
         
         self._generator = HaystackOllamaGenerator(

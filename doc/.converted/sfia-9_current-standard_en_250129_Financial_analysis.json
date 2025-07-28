@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Financial analysis', 'row': 13, 'skill_code': 'FIAN', 'category': 'Strategy and architecture', 'subcategory': 'Financial and value management'}
+# Content Length: 3245 characters
+
+================================================================================
+
+{
+  "skill_name": "Financial analysis",
+  "code": "FIAN",
+  "url": "https://sfia-online.org/en/skillcode/9/FIAN",
+  "category": "Strategy and architecture",
+  "subcategory": "Financial and value management",
+  "overall_description": "Conducting in-depth analysis of financial data to derive insights and support decision-making.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\npreparing financial insights, dashboards and visualisations to support decision-making\ndeveloping and maintaining financial models for scenario planning and sensitivity analysis\nproviding authoritative advice on financial analysis practices and techniques\npresenting findings to stakeholders\ndefining the organisation's approach to financial analysis, aligning it with objectives\nimplementing financial analysis policies, standards and processes\ndeveloping a culture of data-driven decision-making and continuous improvement\nproviding strategic insights based on comprehensive financial analysis\nevaluating investments, projects and services using financial analysis techniques\napplying financial analysis to cloud computing, such as consumption-based pricing and cost optimisation.",
+  "level_descriptions": {
+    "level_2": "Assists in collecting and organising financial data and preparing basic reports under supervision. \nSupports the financial analysis process by completing assigned tasks and seeking guidance when needed.",
+    "level_3": "Applies established financial analysis techniques and processes to carry out specific tasks such as detailed data analysis, report generation and interpretation of financial metrics. \nContributes to the development of actionable insights for decision-making.\nCommunicates financial analysis findings to relevant stakeholders.",
+    "level_4": "Performs financial analysis for specific areas, using standard techniques and tools. \nPrepares reports and provides insights to support decision-making. Conducts cost-benefit analyses and supports stakeholder collaboration in the cost management process. \nCollaborates with stakeholders to understand requirements and deliver relevant analysis. \nSupports the development and maintenance of financial models.",
+    "level_5": "Leads financial analysis activities for a department or function, applying advanced techniques and tools. Develops and maintains complex financial models.\nConducts scenario planning and sensitivity analysis to support decision-making. Provides authoritative advice and guidance on recommended financial analysis practices.\nPresents findings and recommendations to senior stakeholders, linking financial performance to business outcomes. Collaborates with stakeholders to align analysis with organisational objectives.",
+    "level_6": "Defines and leads the organisation's approach to financial analysis, aligning it with strategic objectives and business value creation.\nDevelops and implements enterprise-wide financial analysis policies, standards and processes. Drives a culture of data-driven decision-making and continuous improvement in financial management.\nProvides strategic insights and recommendations based on comprehensive financial analysis, linking performance to business strategy."
+  }
+}

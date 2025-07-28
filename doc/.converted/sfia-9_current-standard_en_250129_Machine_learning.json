@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Machine learning', 'row': 71, 'skill_code': 'MLNG', 'category': 'Development and implementation', 'subcategory': 'Data and analytics'}
+# Content Length: 4008 characters
+
+================================================================================
+
+{
+  "skill_name": "Machine learning",
+  "code": "MLNG",
+  "url": "https://sfia-online.org/en/skillcode/9/MLNG",
+  "category": "Development and implementation",
+  "subcategory": "Data and analytics",
+  "overall_description": "Developing systems that learn from data and experience, improving performance, accuracy and adaptability in dynamic environments.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nassessing the suitability of machine learning for business problems\nselecting and applying appropriate machine learning techniques, algorithms and tools to solve business problems\npreparing data for machine learning, including cleansing, transformation and feature engineering\ndesigning, training, optimising and retraining models using supervised, unsupervised or reinforcement learning\nmanaging MLOps for model deployment, monitoring and lifecycle management\nevaluating models for performance, robustness, fairness and bias, and selecting metrics to assess outcomes\ndiagnosing and resolving issues before and after deployment\nanticipating organisational implications, including ethics, bias, privacy, sustainability and data protection\nestablishing traceability for outcomes produced by machine learning systems\nimplementing continuous learning mechanisms to ensure models adapt to new data and changing environments, including real-time adaptation to new inputs and evolving conditions.",
+  "level_descriptions": {
+    "level_2": "Assists in data preparation, model training and evaluation tasks under routine supervision. \nUses standard machine learning frameworks and tools to develop basic models for well-defined problems. \nDocuments results and contributes to maintaining machine learning solutions.",
+    "level_3": "Applies established machine learning techniques and algorithms to solve business problems. \nSelects and prepares data for model training and evaluation. \nTrains, optimises and validates machine learning models using standard tools and frameworks. \nDeploys models into production and monitors their performance. Communicates results and limitations to stakeholders.",
+    "level_4": "Assesses the suitability of machine learning and designs and develops solutions for a range of business problems.\nSelects and applies appropriate techniques and algorithms based on data characteristics and business requirements. Provides guidance to others.\nEngineers features and optimises model performance. Implements algorithms and contributes to development, evaluation, monitoring and deployment. Applies industry-specific rules and guidelines, anticipating risks and implications.\nCollaborates with cross-functional teams to integrate machine learning models into production systems. Conducts in-depth performance analysis and troubleshoots issues.",
+    "level_5": "Leads the development and implementation of machine learning solutions for complex, high-impact business problems.\nArchitects end-to-end machine learning pipelines and systems, incorporating MLOps practices. Evaluates and selects tools, frameworks and infrastructure for machine learning projects. \nEstablishes practices and standards for machine learning development and operations. Provides expert advice and guidance on machine learning techniques and applications.\nCollaborates with stakeholders to align machine learning initiatives with organisational goals.",
+    "level_6": "Sets the strategic direction and roadmap for machine learning adoption and innovation within the organisation. \nEstablishes governance frameworks and recommended protocols for responsible, ethical and sustainable development and use of machine learning. \nLeads the development of organisational capabilities, policies, standards and guidelines in machine learning. \nCollaborates with senior stakeholders to identify high-impact opportunities for machine learning and drives their implementation. Follows research and industry trends and integrates them into organisational practices."
+  }
+}

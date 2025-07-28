@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Data visualisation', 'row': 74, 'skill_code': 'VISL', 'category': 'Development and implementation', 'subcategory': 'Data and analytics'}
+# Content Length: 2787 characters
+
+================================================================================
+
+{
+  "skill_name": "Data visualisation",
+  "code": "VISL",
+  "url": "https://sfia-online.org/en/skillcode/9/VISL",
+  "category": "Development and implementation",
+  "subcategory": "Data and analytics",
+  "overall_description": "Facilitating understanding of data by displaying concepts, ideas and facts using graphical representations.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ncondensing and encapsulating data characteristics, making it easier to surface opportunities, identify risks, analyse trends and drive effective decision-making\npresenting findings and data insights in creative ways to facilitate the understanding of data across a range of technical and non-technical audiences\ndeveloping narratives and storytelling around data to enhance understanding and support decision-making.\n\nThe skill is typically put into practice by using specialist analytics tools. Specialisation in this skill implies a requirement to use more than just standard office software to create graphical representations of simple data.",
+  "level_descriptions": {
+    "level_2": "Creates standard data visuals using established products, tools and techniques, under routine supervision.\nAssists in updating and refining existing data visualisations to maintain effective representation of concepts, ideas and facts.",
+    "level_3": "Uses visualisation products, as guided, to design and create data visuals. \nSelects appropriate visualisation techniques from the options available. \nEngages with the target user to prototype and refine specified visualisations.\nAssists in developing narratives around data sets to support understanding and decision-making.",
+    "level_4": "Applies a variety of visualisation techniques and designs the content and appearance of data visuals. \nOperationalises and automates activities for efficient and timely production of data visuals. \nSelects appropriate visualisation approaches from a range of applicable options. Develops narratives around data sets to guide decision-making processes and enhance understanding of key insights.\nContributes to exploration and experimentation in data visualisation.",
+    "level_5": "Leads exploration of new approaches for data visualisation. Establishes the purpose and parameters of the data visualisation. \nOversees the use of data visualisation tools and techniques. Communicates results using appropriate methods for the target audience.\nAdvises on the use of data visualisation approaches for different purposes and contexts to satisfy requirements.  Develops plans to meet user needs.\nCollaborates with stakeholders to identify key insights and create compelling narratives that effectively communicate the story behind the data to drive decision-making processes."
+  }
+}

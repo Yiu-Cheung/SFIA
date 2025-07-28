@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Data engineering', 'row': 73, 'skill_code': 'DENG', 'category': 'Development and implementation', 'subcategory': 'Data and analytics'}
+# Content Length: 3729 characters
+
+================================================================================
+
+{
+  "skill_name": "Data engineering",
+  "code": "DENG",
+  "url": "https://sfia-online.org/en/skillcode/9/DENG",
+  "category": "Development and implementation",
+  "subcategory": "Data and analytics",
+  "overall_description": "Designing, building, operationalising, securing and monitoring data pipelines, stores and real-time processing systems for scalable and reliable data management.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nidentifying data sources, data processing concepts and methods\nevaluating, designing and implementing on-premise, cloud-based and hybrid data engineering solutions\nstructuring and storing data for analytics, machine learning, data mining and sharing with applications and organisations\nharvesting structured and unstructured data\nintegrating, consolidating and cleansing data\nimplementing real-time and batch data processing pipelines\nensuring compliance with data governance, security and privacy standards, including encryption and secure multi-tenancy\nmanaging continuous integration, deployment and monitoring of data pipelines (DataOps)\nmigrating and converting data\napplying ethical principles in handling data\nensuring data storage aligns with relevant legislation\nbuilding in security, compliance, scalability, efficiency, reliability, fidelity, flexibility and portability to data engineering solutions.",
+  "level_descriptions": {
+    "level_2": "Assists in developing and implementing data pipelines and data stores. \nPerforms administrative tasks to provide data accessibility, retrievability, security and protection.\nSupports the monitoring of data pipeline operations, identifying issues and escalating as needed. \nParticipates in data migration and conversion tasks under routine supervision.",
+    "level_3": "Follows standard approaches and established design patterns to create and implement simple data pipelines and data stores to acquire and prepare data. \nApplies data engineering standards and tools to create and maintain data pipelines and perform extract, transform and load (ETL) processes, incorporating security and data integrity practices.\nContributes to data migration and conversion projects, ensuring data integrity and consistency.\nConducts routine data quality checks and remediation.",
+    "level_4": "Designs, implements and maintains complex data engineering solutions to acquire and prepare data. \nCreates and maintains data pipelines to connect data across data stores, applications and organisations.  Builds in compliance with data governance and security standards.\nSupports the development of continuous integration and deployment practices.  Monitors and optimises pipeline performance and scalability. \nConducts complex data quality checking and remediation. Leads data migration and data conversion activities.",
+    "level_5": "Plans and drives the development of data engineering solutions, balancing functional and non-functional requirements. \nMonitors application of data standards, architectures and security, ensuring compliance and scalability.\nDevelops and promotes continuous integration, deployment and monitoring practices.\nContributes to organisational policies, standards and guidelines for data engineering.",
+    "level_6": "Leads the selection and development of data engineering methods, tools and techniques. \nDevelops organisational policies, standards and guidelines for the development and secure operation of data services and products. \nEnsures adherence to technical strategies and architectures. \nPlans and leads data engineering for strategic, high-impact, large and complex programmes ensuring alignment with organisational objectives and industry practices."
+  }
+}

@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Security operations', 'row': 109, 'skill_code': 'SCAD', 'category': 'Delivery and operation', 'subcategory': 'Security services'}
+# Content Length: 4344 characters
+
+================================================================================
+
+{
+  "skill_name": "Security operations",
+  "code": "SCAD",
+  "url": "https://sfia-online.org/en/skillcode/9/SCAD",
+  "category": "Delivery and operation",
+  "subcategory": "Security services",
+  "overall_description": "Manages and administers security measures, using tools and intelligence to protect assets, ensuring compliance and operational integrity.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nproviding advice and guidance on the implementation and enforcement of security controls across all technological environments, including on-premise, cloud-based and automated systems\nusing security tools such as Security Information and Event Management (SIEM), Intrusion Detection/Prevention Systems (IDS/IPS) and firewalls, alongside the use of automation to streamline security operations\nacting on threat intelligence to proactively address potential security threats\nconducting routine vulnerability assessments, monitoring and analysing relevant logs, alerts and events, and responding to incidents submitted via tickets or phone\nperforming rapid analysis and remediation of security issues\nensuring compliance with relevant legislation, adherence to security policies and maintaining standard security operating procedures\nkeeping accurate security records and documentation\nimplementing, managing and monitoring cryptographic and certificate management activities to protect data, ensure compliance and manage cryptographic keys securely\nusing advanced reporting techniques for comprehensive security oversight and informed decision-making.",
+  "level_descriptions": {
+    "level_1": "Performs simple security administration tasks. \nMaintains relevant records and documentation, contributing to overall data integrity.",
+    "level_2": "Receives and responds to routine requests for security support. Maintains records and effectively communicates actions taken.\nAssists in the investigation and resolution of issues relating to security systems using basic diagnostic tools and techniques.\nDocuments incident and event information and generates reports on exceptions and security events. Contributes to management reporting processes.",
+    "level_3": "Investigates minor security breaches using established procedures, incorporating analytical tools and techniques.\nPerforms non-standard operational security tasks adapting to evolving technologies and threat landscapes.\nAddresses and resolves a variety of security events to maintain system integrity and operational continuity.",
+    "level_4": "Maintains and optimises operational security processes. Checks that all requests for support are dealt with according to established protocols, including for cloud-based and automated systems.\nProvides advice on implementing and managing physical, procedural and technical security encompassing both physical and digital assets.\nInvestigates security breaches in accordance with established procedures using advanced tools and techniques and recommends necessary corrective actions. \nEnables effective implementation of recommended security measures and monitors their performance.",
+    "level_5": "Oversees security operations procedures, ensuring adherence and effectiveness, including cloud security practices and automated threat responses.\nReviews actual or potential security breaches and vulnerabilities and ensures they are promptly and thoroughly investigated. Recommends actions and appropriate control improvements.\nEnsures the integrity and completeness of security records, ensuring timely support and adherence to established procedures.\nContributes to the creation and maintenance of security policies, standards and procedures integrating new compliance requirements and technology advances.",
+    "level_6": "Develops comprehensive policies, standards, processes and guidelines for organisational security across the entire digital landscape.\nEnsures the ongoing relevance and effective implementation of security policies and standards, adapting to emerging technologies and threats.\nReviews and advises on security aspects of new business initiatives considering implications in the evolving digital landscape.\nLeads strategic planning for security operations, integrating advanced threat intelligence and automation to enhance organisational resilience."
+  }
+}

@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Audit', 'row': 25, 'skill_code': 'AUDT', 'category': 'Strategy and architecture', 'subcategory': 'Governance, risk and compliance'}
+# Content Length: 3899 characters
+
+================================================================================
+
+{
+  "skill_name": "Audit",
+  "code": "AUDT",
+  "url": "https://sfia-online.org/en/skillcode/9/AUDT",
+  "category": "Strategy and architecture",
+  "subcategory": "Governance, risk and compliance",
+  "overall_description": "Delivering independent, risk-based assessments of the effectiveness of processes, the controls and the compliance environment of an organisation.",
+  "guidance_notes": "Audit activity is conducted with appropriate independence from the organisation’s management and may be conducted internally or for a third-party client organisation.\nActivities may include, but are not limited to:\n\nplanning and conducting risk-based assessments\nevaluating the effectiveness of controls and compliance measures\ndocumenting and reporting audit findings and recommendations\nproviding assurance on the integrity of processes and systems\ncollaborating with management to develop corrective action plans\nconducting follow-up reviews to ensure implementation of recommendations\nstaying current with relevant regulations and industry standards.",
+  "level_descriptions": {
+    "level_2": "Assists in collecting evidence and conducting audit activities under routine supervision. \nMaintains documentation and audit trails. \nHelps identify and report issues and discrepancies.",
+    "level_3": "Adopts a structured approach to executing and documenting audit fieldwork, following agreed standards. \nMaintains integrity of records to support and satisfy audit trails.\nIdentifies typical risk indicators and explains prevention measures.",
+    "level_4": "Contributes to planning and executing of risk-based audit of existing and planned processes, products, systems and services.\nIdentifies and documents risks in detail.\nIdentifies the root cause of issues during an audit and communicates these effectively as risk insights.\nCollates evidence regarding the interpretation and implementation of control measures. Prepares and communicates reports to stakeholders, providing a factual basis for findings.",
+    "level_5": "Plans, organises and conducts audits of complex domains areas, cross-functional areas and across the supply chain.\nConfirms the scope and objectives of specific audit activities with management. Aligns with the scope of the audit programme and organisational policies.\nDetermines appropriate methods of investigation to achieve the audit objectives. Presents audit findings to management describing the effectiveness and efficiency of control mechanisms.\nProvides general and specific audit advice. Collaborates with professionals in related specialisms to develop and integrate findings.",
+    "level_6": "Leads and manages complex audits and programmes of audit activity.\nObtains and manages appropriate specialist expertise to contribute highly specialised technical knowledge and experience.\nDevelops organisational policies, standards and guidelines for the conduct of audits. Ensures the objectivity and impartiality of the audit process.\nIdentifies areas of risk and specifies audit programmes. Ensures audit coverage is sufficient to provide the business with assurance of adequacy and integrity. Authorises the issue of formal reports to management on the effectiveness and efficiency of control mechanisms.",
+    "level_7": "Directs the definition and implementation of the organisation's audit function, and oversees its communication to stakeholders.\nDefines audit strategy, plans audit cycles and ensures appropriate coverage across the organisation. Ensures the audit function adds value. Liaises with stakeholders to ensure audit coverage is relevant and understood.\nDirects use of risk analysis to identify areas for review. Ensures appropriate resources are available to deliver organisational requirements for audits.\nReports to the most senior level on findings, relevance and recommendations for improvement of audit activity."
+  }
+}

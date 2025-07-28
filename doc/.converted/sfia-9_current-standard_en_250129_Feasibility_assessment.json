@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Feasibility assessment', 'row': 37, 'skill_code': 'FEAS', 'category': 'Change and transformation', 'subcategory': 'Change analysis'}
+# Content Length: 3152 characters
+
+================================================================================
+
+{
+  "skill_name": "Feasibility assessment",
+  "code": "FEAS",
+  "url": "https://sfia-online.org/en/skillcode/9/FEAS",
+  "category": "Change and transformation",
+  "subcategory": "Change analysis",
+  "overall_description": "Defining, evaluating and describing business change options for financial, technical and business feasibility and strategic alignment.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ngenerating and defining options\nensuring options align with the organisation’s vision, mission, objectives, strategy and tactics\nengaging with relevant stakeholders and specialists\nevaluating options for financial, technical and business feasibility.\n\nFeasibility assessment is multi-dimensional. Options for change must be evaluated from several dimensions including, but not limited to: financial, technical, organisational capability and culture, strategic context, economic and/or commercial environment.\nFeasibility assessment typically results in a documented business case used to support organisational decision-making about proposed investments. This skill is focused on the generation, analysis and documentation of investment options.",
+  "level_descriptions": {
+    "level_2": "Assists in feasibility assessment tasks under routine supervision. \nHelps gather information required for feasibility assessments. \nSupports the identification and documentation of options for business change.",
+    "level_3": "Supports option identification and feasibility assessment.\nSelects and employs standard techniques to get the information required for feasibility assessment. \nSupports identification of tangible costs and benefits, and development of business cases.",
+    "level_4": "Selects relevant feasibility assessment approaches and techniques. \nIdentifies the range of possible options. Undertakes short-listing of options and feasibility assessment. \nEngages with internal and external stakeholders to get the information required for feasibility assessment. \nSupports preparation of business cases including cost/benefit, impact and risk analysis for each option.",
+    "level_5": "Manages investigative work to enable feasibility assessments. \nCollaborates with stakeholders and specialists to get the information required for feasibility assessment. \nAdvises on the selection of feasibility assessment approaches and techniques relevant to the business situation and options. \nPrepares business cases, including cost/benefit, impact and risk analysis for each option.",
+    "level_6": "Establishes an organisational framework and standards for feasibility assessment and business case development. \nDirects and leads feasibility assessments for initiatives that will have a significant impact on the organisation. \nEngages with senior stakeholders to clarify the strategic context for investment options. Directs and leads the selection of feasibility assessment approaches and techniques that are relevant to the business situation and options. \nPresents feasibility assessments and business cases to senior stakeholders and supports decision-making regarding investment options."
+  }
+}

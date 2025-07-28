@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Customer engagement and loyalty', 'row': 144, 'skill_code': 'CELO', 'category': 'Relationships and engagement', 'subcategory': 'Marketing'}
+# Content Length: 2870 characters
+
+================================================================================
+
+{
+  "skill_name": "Customer engagement and loyalty",
+  "code": "CELO",
+  "url": "https://sfia-online.org/en/skillcode/9/CELO",
+  "category": "Relationships and engagement",
+  "subcategory": "Marketing",
+  "overall_description": "Developing and executing strategies to attract, engage and retain customers through targeted communications and loyalty initiatives.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndeveloping customer engagement and loyalty strategies\nestablishing customer lifecycle communication strategies\ncreating and managing customer loyalty programmes and initiatives\nmanaging customer data acquisition and profile augmentation\nanalysing customer data to inform personalised communications and experiences\ndeveloping customer journeys and segmentation strategies\nassessing and using marketing technology tools for customer engagement\nmeasuring and reporting on customer engagement and loyalty metrics\ncollaborating with cross-functional teams to improve customer retention and satisfaction.",
+  "level_descriptions": {
+    "level_3": "Assists in implementing customer engagement and loyalty initiatives. \nUses marketing technologies for customer engagement tasks. Sets up campaigns in lifecycle management tools.\nCollects and analyses customer data to support personalised communications. \nMonitors and reports on customer engagement metrics.",
+    "level_4": "Develops and executes customer engagement and loyalty initiatives. \nCreates and manages loyalty programmes. \nAnalyses customer data to inform targeted communications and experiences. Develops customer segmentation approaches.\nApplies appropriate marketing technologies to support initiatives. Measures and reports on the effectiveness of engagement and loyalty efforts.",
+    "level_5": "Leads the development and implementation of comprehensive customer engagement and loyalty plans. \nOversees the creation and management of loyalty programmes and initiatives. Develops comprehensive plans for customer communications across all lifecycle stages.\nUses advanced analytics to optimise personalised customer experiences. Provides recommendations based on customer engagement and loyalty insights.\nCollaborates with cross-functional teams to improve customer retention and satisfaction. Evaluates and recommends marketing technologies for customer engagement.",
+    "level_6": "Defines organisational vision and strategy for customer engagement and loyalty. \nDrives innovation in loyalty programme development and implementation. Aligns customer engagement strategies with overall business objectives. \nLeads the assessment and adoption of advanced marketing technologies. Directs the development of customer journeys and database management strategies. \nEnsures integration of customer engagement initiatives across all business functions."
+  }
+}

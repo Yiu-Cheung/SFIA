@@ -1,0 +1,20 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Programme management', 'row': 32, 'skill_code': 'PGMG', 'category': 'Change and transformation', 'subcategory': 'Change implementation'}
+# Content Length: 2525 characters
+
+================================================================================
+
+{
+  "skill_name": "Programme management",
+  "code": "PGMG",
+  "url": "https://sfia-online.org/en/skillcode/9/PGMG",
+  "category": "Change and transformation",
+  "subcategory": "Change implementation",
+  "overall_description": "Identifying, planning and coordinating a set of related projects and activities in support of specific business strategies and objectives.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nmanaging interdependencies in support of specific business strategies and objectives\nmaintaining a strategic view over the set of projects\nproviding the framework for implementing business initiatives, or large-scale change\nimplementing programme management practices to support iterative/agile working\nensuring programme activities adhere to organisational governance standards and practices\nconceiving, maintaining and communicating a vision of the programme's outcomes and associated benefits\nagreeing business requirements and translating requirements into operational plans\ndetermining, monitoring and reviewing programme scope, costs, schedule and expected benefits\nscheduling programme resources, inter-dependencies and programme risk.",
+  "level_descriptions": {
+    "level_6": "Plans, directs and co-ordinates activities to manage and implement a programme from initiation to final transition into operational, business-as-usual management. \nPlans, schedules, monitors and reports on programme-related activities. Establishes and maintains appropriate and effective governance and risk management frameworks. \nEnsures comprehensive reporting and communication policies are in place and followed. Maintains an awareness of current technical developments that may provide opportunities to the programmes. \nEnsures programmes are managed to realise agreed business benefits within agreed timescales.",
+    "level_7": "Sets organisational strategy governing programme management, including the application of appropriate methodologies. \nPlans, directs and co-ordinates activities to manage and implement complex programmes from initiation to full integration with operational, business-as-usual management. Aligns programme objectives with business goals and authorises related projects and activities. \nPlans, schedules, monitors and reports on programme activities, supported by comprehensive reporting and communication strategies.\nEnsures governance and risk management frameworks are in place to support strategic decision-making and programme execution."
+  }
+}

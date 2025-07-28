@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Asset management', 'row': 107, 'skill_code': 'ASMG', 'category': 'Delivery and operation', 'subcategory': 'Service management'}
+# Content Length: 2816 characters
+
+================================================================================
+
+{
+  "skill_name": "Asset management",
+  "code": "ASMG",
+  "url": "https://sfia-online.org/en/skillcode/9/ASMG",
+  "category": "Delivery and operation",
+  "subcategory": "Service management",
+  "overall_description": "Managing the full lifecycle of assets from acquisition, operation, maintenance to disposal.",
+  "guidance_notes": "Assets include hardware, software, data, networks, cloud services, devices, IP, licences, agreements and warranties.\nThe full lifecycle includes: acquisition, storage, distribution, movement and disposal of assets.\nAsset management involves financial, legal and technical considerations.\nActivities may include, but are not limited to:\n\nadvising on value optimisation, cost control, risk management, decision support and regulatory or contractual compliance\nmanaging hardware, software licences, intellectual property and contractual obligations\nusing international standards for asset management\nintegrating with security, change and configuration management\nresolving issues and risks with unauthorised assets such as: unlicensed copies of software, cloud services, devices.",
+  "level_descriptions": {
+    "level_2": "Uses agreed procedures to create and maintain an accurate register of assets. \nPerforms activities related to the administration of assets. \nProduces routine reports to assist asset management activities and decision-making.",
+    "level_3": "Applies tools, techniques and processes to create and maintain an accurate asset register. \nProduces reports and analysis to support asset management activities and aid decision-making.",
+    "level_4": "Controls assets in one or more significant areas ensuring administration of full lifecycle of assets is carried out. \nProduces and analyses registers and histories of authorised assets and verifies that all of these assets are in a known state and location. \nActs to highlight and resolve potential instances of unauthorised assets.",
+    "level_5": "Manages and maintains the service compliance of  IT and service assets in line with business and regulatory requirements. \nIdentifies, assesses and communicates associated risks. \nEnsures asset controllers, infrastructure teams and the business co-ordinate and optimise value, maintain control and maintain appropriate legal compliance.",
+    "level_6": "Sets the strategy for asset management across the organisation. \nCommunicates the policy, governance, scope and roles involved in asset management. \nPromotes awareness of and commitment to the role of asset management in the continuing economic and effective provision of services. Provides information and advice on complex asset management issues.\nInitiates impact assessment arising from decisions to obtain, change or continue the possession or use of an asset, system or service."
+  }
+}

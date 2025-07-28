@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Digital marketing', 'row': 146, 'skill_code': 'DIGM', 'category': 'Relationships and engagement', 'subcategory': 'Marketing'}
+# Content Length: 3482 characters
+
+================================================================================
+
+{
+  "skill_name": "Digital marketing",
+  "code": "DIGM",
+  "url": "https://sfia-online.org/en/skillcode/9/DIGM",
+  "category": "Relationships and engagement",
+  "subcategory": "Marketing",
+  "overall_description": "Planning and executing activities to promote products, services and brands through digital channels and technologies.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nplanning and executing digital marketing activities aligned with overall business objectives\ncreating and optimising content for various digital platforms including websites, social media, email\nmanaging paid digital advertising campaigns across search, social and display networks\nimplementing and optimising search engine optimisation (SEO) practices\nusing marketing automation tools to personalise and streamline marketing efforts\nanalysing digital marketing metrics and using insights to guide decision-making and tactics\nconducting A/B and multivariate testing to optimise digital marketing performance\nmanaging relationships with digital marketing vendors, agencies and platform representatives\nstaying informed about emerging digital marketing trends, technologies and recognised good practices\nensuring digital marketing activities comply with relevant regulations and platform policies\ncollaborating with cross-functional teams to align digital marketing efforts with other business initiatives.",
+  "level_descriptions": {
+    "level_2": "Performs basic digital marketing tasks under routine supervision. \nAssists in the implementation of digital marketing campaigns across various platforms. \nCollects and organises basic performance data from digital marketing activities. \nContributes to the creation and distribution of digital marketing content following established guidelines.",
+    "level_3": "Implements digital marketing activities across multiple channels. \nMonitors campaign performance and makes basic optimisations. \nAssists in the development of digital marketing content. Follows procedures to comply with regulatory requirements and platform policies.\nContributes to the analysis of marketing metrics and prepares reports. Supports the planning and execution of marketing performance improvement initiatives.",
+    "level_4": "Plans and executes digital marketing activities across various platforms. \nAnalyses detailed marketing data to derive insights and improve campaign performance. Recommends and implements improvements to digital marketing activities based on performance data.\nManages relationships with digital marketing vendors and platform representatives. \nLeads the implementation of marketing automation processes. Applies organisational guidelines and uses appropriate tools to ensure digital marketing activities adhere to relevant regulations and platform policies.",
+    "level_5": "Leads the development and implementation of comprehensive digital marketing plans. \nOversees the integration with broader marketing and business objectives. Manages budgets and resources for digital marketing initiatives. \nProvides guidance on recognised good practices for digital marketing and emerging trends to stakeholders across the organisation. Evaluates and recommends new digital marketing technologies and approaches. Establishes and maintains strategic relationships with digital marketing vendors and platform representatives. \nDevelops standards and procedures for compliant digital marketing practices."
+  }
+}

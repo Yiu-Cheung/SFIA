@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Employee experience', 'row': 120, 'skill_code': 'EEXP', 'category': 'People and skills', 'subcategory': 'People management'}
+# Content Length: 2464 characters
+
+================================================================================
+
+{
+  "skill_name": "Employee experience",
+  "code": "EEXP",
+  "url": "https://sfia-online.org/en/skillcode/9/EEXP",
+  "category": "People and skills",
+  "subcategory": "People management",
+  "overall_description": "Enhancing employee engagement and ways of working, empowering employees and supporting their health and wellbeing.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nproviding opportunities for personal growth and learning\nproviding sufficient personal freedom to decide how to achieve work objectives, with support available when needed\nsupporting different views, working styles and behaviours within the work environment\nproviding a safe and secure working environment with the resources needed to do the job\nproviding transparent communications and building trust in leadership\nproviding a holistic approach in support of mental and physical wellbeing.\n\nNote that the term employee is not limited to specific terms of employment. Depending on the employer it may include temporary and contract staff as well as salaried employees.",
+  "level_descriptions": {
+    "level_4": "Supports assigned co-workers by providing guidance on areas such as organisational contacts, communication channels, processes, job expectations and manager relations.\nHelps individuals navigate areas of uncertainty, offering practical advice and connecting them with the appropriate resources when needed.",
+    "level_5": "Implements working practices that motivate employees and support their health and wellbeing. \nProvides guidance to individuals on long-term development goals and career opportunities, considering an individual's strengths and preferences. \nCommunicates business direction, policy and purpose where these may drive or affect employee engagement. Ensures clear communication of delegated tasks and provides sufficient autonomy to motivate and empower individuals.\nMaintains awareness of the physical and emotional welfare of employees, and provides counselling when required.",
+    "level_6": "Leads on the implementation of organisational strategies for employee engagement.\nEnsures managers provide a productive working environment that motivates employees and supports their health and wellbeing. \nInitiates productive working practices for remote, virtual and onsite working and ensures the availability of support for employees. \nCommunicates and promotes policies for employee health and wellbeing."
+  }
+}

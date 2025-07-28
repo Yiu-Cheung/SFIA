@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Programming/software development', 'row': 55, 'skill_code': 'PROG', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 3349 characters
+
+================================================================================
+
+{
+  "skill_name": "Programming/software development",
+  "code": "PROG",
+  "url": "https://sfia-online.org/en/skillcode/9/PROG",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Developing software components to deliver value to stakeholders.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nidentifying, creating and applying software development and security standards and processes\nplanning and designing software components\nestimating time and effort required for software development\nconstructing, amending, and verifying software components, ensuring security is embedded\napplying test-driven development and ensuring appropriate test coverage\nusing peer review techniques such as pair programming\ndocumenting software components\nunderstanding and obtaining agreement to the value of the software components to be developed\nselecting appropriate development methods and lifecycles\napplying recovery techniques to ensure the software being developed is not lost \nimplementing appropriate change control to software development practices\nresolving operational problems with software and fixing bugs\n\nDepending on requirements and the characteristics of the project or assigned work, software development methods and lifecycles can be predictive (plan-driven) approaches or adaptive (iterative/agile) approaches.",
+  "level_descriptions": {
+    "level_2": "Designs, codes, verifies, tests, documents, amends and refactors simple programs/scripts. \nApplies agreed standards, tools and basic security practices to achieve a well-engineered result.\nReviews own work.",
+    "level_3": "Designs, codes, verifies, tests, documents, amends and refactors moderately complex programs/scripts. \nApplies agreed standards, tools and security measures to achieve a well-engineered result.\nMonitors and reports on progress. Identifies issues related to software development activities. Proposes practical solutions to resolve issues.\nCollaborates in reviews of work with others as appropriate.",
+    "level_4": "Designs, codes, verifies, tests, documents, amends and refactors complex programs/scripts and integration software services. \nContributes to the selection of the software development methods, tools, techniques, and security practices.\nApplies agreed standards, tools, and security measures to achieve well-engineered outcomes.\nParticipates in reviews of own work and leads reviews of colleagues' work.",
+    "level_5": "Takes technical responsibility across all stages and iterations of software development. \nPlans and drives software construction activities. Adopts and adapts appropriate software development methods, tools and techniques. \nMeasures and monitors applications of project/team standards for software construction, including software security. \nContributes to the development of organisational policies, standards and guidelines for software development.",
+    "level_6": "Develops organisational policies, standards and guidelines for software construction and refactoring. \nPlans and leads software construction activities for strategic, large and complex development projects. \nAdapts or develops new methods and organisational capabilities and drives adoption of, and adherence to, policies and standards."
+  }
+}

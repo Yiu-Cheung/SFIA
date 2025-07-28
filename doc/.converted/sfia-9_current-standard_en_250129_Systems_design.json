@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Systems design', 'row': 50, 'skill_code': 'DESN', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 3941 characters
+
+================================================================================
+
+{
+  "skill_name": "Systems design",
+  "code": "DESN",
+  "url": "https://sfia-online.org/en/skillcode/9/DESN",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Designing systems to meet specified requirements and agreed systems architectures.",
+  "guidance_notes": "A system is a structured arrangement of components, both physical and digital, designed to work together to meet specific requirements, considering factors such as scalability, security, human interaction and adherence to organisational and regulatory standards.\nSystems design activities may include, but are not limited to:\n\nusing design concepts to develop a systems design and provide the basis for systems construction and verification\ndesigning or selecting system components\ndesigning systems compatible with contemporary computing architectures and selection of components such as cloud computing service models and edge computing\ndesigning cyber-physical systems that integrate computational and physical components\nconsidering human factors and socio-technical aspects when designing systems that involve significant human interaction\ndeveloping a complete set of detailed models, properties and/or characteristics described in a form suitable for implementation\nadopting and adapting of system design lifecycle models based on the context of the work using predictive (plan-driven) approaches or adaptive (iterative/agile) approaches for system design\nadhering to regulatory requirements and organisational standards including security.",
+  "level_descriptions": {
+    "level_2": "Assists in the creation and documentation of system design elements under routine supervision. \nFollows established procedures and guidelines. \nHelps create and maintain documentation.",
+    "level_3": "Follows standard approaches and established design patterns to create new designs for simple systems or system components.\nIdentifies and resolves minor design issues. \nIdentifies alternative design options and seeks guidance when deviating from established design patterns.",
+    "level_4": "Designs system components using appropriate modelling techniques following agreed architectures, design standards, patterns and methodology. \nIdentifies and evaluates alternative design options and trade-offs. Creates multiple design views to address the concerns of the different stakeholders and to handle functional and non-functional requirements. \nModels, simulates or prototypes the behaviour of proposed system components to enable approval by stakeholders. \nProduces detailed design specifications to form the basis for the construction of systems. Reviews, verifies and improves own designs against specifications.",
+    "level_5": "Designs large or complex systems and undertakes impact analysis on major design options and trade-offs. \nEnsures the system design balances functional and non-functional requirements. \nReviews systems designs and ensures appropriate methods, tools and techniques are applied effectively. Makes recommendations and assesses and manages associated risks. \nAdopts and adapts system design methods, tools and techniques. Contributes to development of system design policies, standards and selection of architecture components.",
+    "level_6": "Develops and drives adoption of and adherence to organisational policies, standards, guidelines and methods for system design. \nChampions the importance and value of system design principles and the selection of appropriate systems design lifecycle models. \nLeads system design activities for strategic, large and complex systems development programmes. Develops effective implementation strategies consistent with specified requirements, architectures and constraints of performance and feasibility. \nDevelops system design requiring the introduction of new technologies or new uses for existing technologies."
+  }
+}

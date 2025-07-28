@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Sustainability', 'row': 8, 'skill_code': 'SUST', 'category': 'Strategy and architecture', 'subcategory': 'Strategy and planning'}
+# Content Length: 1808 characters
+
+================================================================================
+
+{
+  "skill_name": "Sustainability",
+  "code": "SUST",
+  "url": "https://sfia-online.org/en/skillcode/9/SUST",
+  "category": "Strategy and architecture",
+  "subcategory": "Strategy and planning",
+  "overall_description": "Advising and leading sustainability initiatives to reduce environmental impact and ensure compliance with relevant standards and regulations.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndeveloping policies, standards and guidelines to minimise the environmental impact of IT operations and assets.\nproviding advice on sustainability regulations and standards.\nestablishing and monitoring sustainability metrics and benchmarks.\npromoting and communicating sustainability policies and programmes.\noverseeing the implementation of sustainable practices in hardware, software, networks, storage, power supply, maintenance and asset disposal.",
+  "level_descriptions": {
+    "level_4": "Assesses and reports on how different tactical decisions affect sustainability. \nEvaluates factors and risks (political, legislative, technological, economic, social) that impact on operational processes and strategic direction.\nEvaluates and reports on the implementation of sustainability measures in specific areas.",
+    "level_5": "Provides expert advice and guidance on planning, designing and implementing sustainability solutions. \nEvaluates and selects sustainability methods, tools and practices to be used in line with agreed policies and standards. \nIdentifies and recommends improvements to the organisation's approach to sustainability.",
+    "level_6": "Develops and promotes organisational strategies, policies, standards and guidelines for sustainability. \nLeads the introduction and use of sustainability techniques, methodologies and tools."
+  }
+}

@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Consultancy', 'row': 28, 'skill_code': 'CNSL', 'category': 'Strategy and architecture', 'subcategory': 'Advice and guidance'}
+# Content Length: 3610 characters
+
+================================================================================
+
+{
+  "skill_name": "Consultancy",
+  "code": "CNSL",
+  "url": "https://sfia-online.org/en/skillcode/9/CNSL",
+  "category": "Strategy and architecture",
+  "subcategory": "Advice and guidance",
+  "overall_description": "Providing advice and recommendations, based on expertise and experience, to address client needs.",
+  "guidance_notes": "Consultancy may focus on a specific subject area, or encompass a wide range of strategic business issues. It may also include support for the implementation of agreed solutions.\nActivities include, but are not limited to:\n\nleading and managing a consultancy practice\nleading and managing consultancy teams and/or consultancy assignments\ndelivering consultancy assignments\nengaging with clients and maintaining client relationships\nestablishing and managing consultancy agreements or contracts\noverseeing the growth and development of a consultancy practice\nmanaging proposals, sales and account management within a consultancy practice.\n\nThe Consultancy skill defined in SFIA applies to the delivery of consultancy as part of formal or informal consultancy agreements. \nGeneral advice, guidance, or problem-solving related to an individual's responsibilities is covered by the SFIA generic attributes and by specific SFIA professional skill descriptions that include providing advice and guidance.",
+  "level_descriptions": {
+    "level_4": "Takes responsibility for specific elements of a consulting engagement within a defined scope.\nCollaborates with clients as part of formal or informal consultancy engagements. Understands client requirements by collecting data and delivering analysis. \nEnsures proposed solutions are correctly understood and effectively applied.\nSupports the broader consultancy engagement by contributing insights and assisting with problem-solving, always within the established boundaries of responsibility.",
+    "level_5": "Takes full responsibility for understanding client requirements including data collection, analysis and resolving issues.\nManages the scope and delivery of consultancy engagements to meet agreed objectives. Identifies, evaluates and recommends options. \nCollaborates with, and facilitates, stakeholder groups, as part of formal or informal consultancy agreements. Seeks to fully address client needs and implements solutions if required. \nEnhances the capabilities and effectiveness of clients by ensuring proposed solutions are fully understood and appropriately exploited.",
+    "level_6": "Leads and manages the provision of consultancy services and/or a team of consultants. \nProvides expert advice and guidance in own areas of expertise to both consultants and clients.\nEngages with clients at a strategic level, establishing consultancy agreements or contracts and maintaining long-term relationships. Manages the completion of engagements, ensuring strategic alignment with client needs and overseeing the transition from consultancy delivery to operational adoption. \nOversees the development and delivery of consultancy services within the agreed strategic framework.",
+    "level_7": "Directs the strategic direction and operations of a significant consultancy practice. \nEngages with key stakeholders at the highest levels to ensure consultancy services drive strategic outcomes. \nManages overall client relationships and the development of long-term consultancy partnerships, maintaining high standards of service delivery and ethical practice.\nOversees practice development, proposals, sales, account management and the delivery of consultancy services across diverse topics."
+  }
+}

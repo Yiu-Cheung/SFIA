@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Organisational capability development', 'row': 42, 'skill_code': 'OCDV', 'category': 'Change and transformation', 'subcategory': 'Change planning'}
+# Content Length: 3393 characters
+
+================================================================================
+
+{
+  "skill_name": "Organisational capability development",
+  "code": "OCDV",
+  "url": "https://sfia-online.org/en/skillcode/9/OCDV",
+  "category": "Change and transformation",
+  "subcategory": "Change planning",
+  "overall_description": "Providing leadership, advice and implementation support to assess organisational capabilities and to identify, prioritise and implement improvements.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nselecting, adopting and integrating appropriate industry frameworks and models to guide improvements\nusing capability maturity assessments, metrics, process definition and process management\nbuilding repeatable and reliable capabilities through a process of trial, feedback, learning and continual evolution\ndeveloping appropriate techniques, tools and enhanced skills\ndesigning and delivering integrated people, process and technology solutions to deliver improved organisational performance in line with strategic plans and objectives\nidentifying organisational priorities for enhancing performance, satisfying new business opportunities or responding to external drivers.\n\nThe scope of improvement is typically organisation-wide but may also be highly focused on areas such as, but not limited to, business agility, software development, systems development, project delivery, service integration and management, service delivery, information and cyber-security.",
+  "level_descriptions": {
+    "level_5": "Contributes to identifying new areas of capability improvement within the organisation which may be enhancements to skills, technology or processes. \nDevelops and maintains a detailed knowledge of capability improvement approaches and techniques and selects appropriate approaches for the organisation. \nConducts capability improvement assignments, such as maturity or performance assessments, to identify strengths and weaknesses. Selects and prioritises improvement opportunities, generates buy-in and plans improvement activities justified by measurable organisational benefits. \nOffers support, guidance, advice and suggestions to help continual improvement activities.",
+    "level_6": "Seeks out, identifies, proposes and initiates capability improvement activities within the organisation. \nLeads substantial improvement programmes. Plans and manages the evaluation or assessment of organisational capabilities. Selects frameworks, approaches and techniques for use. \nTakes action to exploit opportunities to deliver measurable, beneficial impacts upon operational effectiveness. Devises solutions and leads change initiatives, including communication, transition and implementation activities. \nMonitors international, national and sector trends to establish the needed capability.",
+    "level_7": "Represents and leads organisational capability improvement at the highest level. \nDetermines the need for strategic organisation-level capability improvement to satisfy the organisation's strategic goals and long-term objectives.\nLiaises with the organisation's functions to establish requirements and identifies, proposes, initiates and leads significant organisational capability improvement programmes.\nManages the quality and appropriateness of the work performed and delivers measurable business benefits. Adopts and/or modifies existing capability improvement approaches as necessary."
+  }
+}

@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Enterprise and business architecture', 'row': 3, 'skill_code': 'STPL', 'category': 'Strategy and architecture', 'subcategory': 'Strategy and planning'}
+# Content Length: 3729 characters
+
+================================================================================
+
+{
+  "skill_name": "Enterprise and business architecture",
+  "code": "STPL",
+  "url": "https://sfia-online.org/en/skillcode/9/STPL",
+  "category": "Strategy and architecture",
+  "subcategory": "Strategy and planning",
+  "overall_description": "Aligning an organisation's technology strategy with its business mission, strategy and processes and documenting this using architectural models.",
+  "guidance_notes": "Enterprise architecture is typically considered across four domains: business, data, applications and infrastructure technologies. It may also include information security or legal and regulatory compliance.\nActivities may include, but are not limited to:\n\ntranslating business strategies and objectives into an operating model\nassessing current capabilities and identifying required changes to achieve objectives\ndeveloping and maintaining roadmaps to guide the transition from the current state to the future state\ndescribing the interrelationships between people, organisation, services, processes, data, information, technology and the external environment\ncreating, iterating and maintaining architectural models and views that embody key principles for the organisation's future state and evolution\nimplementing enterprise architecture working practices to support and enable iterative/agile working\ninterpreting business goals and drivers\ndocumenting and communicating constraints, standards and guiding principles necessary to define, assure and govern the required evolution\nusing architectural models and processes to facilitate changes in the organisation's structure, business processes, information or data, business systems and infrastructure\ndescribing where and why the enterprise will benefit from cloud-based services.",
+  "level_descriptions": {
+    "level_5": "Develops models and plans to drive the execution of the business strategy, taking advantage of opportunities to improve business performance. \nContributes to creating and reviewing a systems capability strategy which meets the business's strategic requirements. \nCreates and maintains roadmaps to guide the execution of business strategy and capability improvements.\nDetermines requirements and specifies effective business processes, through improvements in technology, information or data practices, organisation, roles, procedures and equipment.",
+    "level_6": "Develops enterprise-wide architecture and processes to embed strategic change management within the organisation. \nLeads the creation and review of a systems capability strategy aligned with business requirements. Develops roadmaps for enterprise architecture and initiatives, ensuring stakeholder buy-in. \nCaptures and prioritises market and environmental trends, business strategies and objectives, identifying alternative strategies.  Develops business cases for approval, funding and prioritisation of high-level initiatives.\nSets strategies, policies, standards and practices to ensure compliance between business strategies, technology strategies and enterprise transformation activities.",
+    "level_7": "Directs the development of enterprise-wide architecture and processes to embed the strategic application of change in the management of the organisation. \nDirects the creation and review of an enterprise capability strategy to support the strategic requirements of the business. Oversees the creation and implementation of roadmaps to guide long-term enterprise transformation and strategic alignment.\nIdentifies the business benefits of alternative strategies.\nEnsures compliance between business strategies, enterprise transformation activities and technology directions, setting strategies, policies, standards and practices."
+  }
+}

@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Marketing campaign management', 'row': 145, 'skill_code': 'MKCM', 'category': 'Relationships and engagement', 'subcategory': 'Marketing'}
+# Content Length: 2014 characters
+
+================================================================================
+
+{
+  "skill_name": "Marketing campaign management",
+  "code": "MKCM",
+  "url": "https://sfia-online.org/en/skillcode/9/MKCM",
+  "category": "Relationships and engagement",
+  "subcategory": "Marketing",
+  "overall_description": "Executing, monitoring and optimising marketing campaigns across various channels to engage target audiences and achieve desired outcomes.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndeveloping campaign strategies and selecting appropriate channels and tools\nwriting creative briefs and evaluating creative concepts\ncollaborating with internal teams and external agencies to develop compelling marketing content\nimplementing and monitoring multi-channel marketing campaigns\nselecting appropriate tools and channels to reach target audiences\ndeveloping and distributing marketing content and materials\norganising and participating in marketing events and initiatives\nanalysing campaign performance and optimising for better results.",
+  "level_descriptions": {
+    "level_3": "Assists in the execution of marketing campaigns. \nUses selected tools and channels to engage target audiences. \nMonitors campaign performance and collects data for analysis. \nParticipates in marketing events and initiatives.",
+    "level_4": "Plans and executes marketing campaigns across multiple channels. \nSelects appropriate tools and platforms to reach desired audiences. \nCreates and distributes engaging marketing content and materials. Writes campaign briefs and contributes to creative evaluation.\nAnalyses campaign performance and makes recommendations for optimisation.",
+    "level_5": "Develops and oversees complex, multi-channel marketing campaign strategies. \nSelects optimal channels, tools and creative partners. Leads creative briefings and evaluates concepts.\nManages stakeholders and ensures brand consistency.\nMonitors campaign performance and adjusts tactics as needed. Analyses campaign results and reports on key metrics and outcomes."
+  }
+}

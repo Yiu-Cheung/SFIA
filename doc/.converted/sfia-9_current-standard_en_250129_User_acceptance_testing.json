@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'User acceptance testing', 'row': 40, 'skill_code': 'BPTS', 'category': 'Change and transformation', 'subcategory': 'Change analysis'}
+# Content Length: 3713 characters
+
+================================================================================
+
+{
+  "skill_name": "User acceptance testing",
+  "code": "BPTS",
+  "url": "https://sfia-online.org/en/skillcode/9/BPTS",
+  "category": "Change and transformation",
+  "subcategory": "Change analysis",
+  "overall_description": "Validating systems, products, business processes or services to determine whether the acceptance criteria have been satisfied.",
+  "guidance_notes": "Activities include, but are not limited to:\n\nsetting and applying standards for user acceptance testing (UAT)\nplanning, identifying, designing, managing, executing and reporting on the outcomes of acceptance tests\ncollaborating with a range of relevant stakeholders\ndefining clear entry and exit criteria for UAT\nrequesting and enabling formal acceptance of systems, products or services\ncreating measurable acceptance criteria related to functional and non-functional requirements, features, business processes, user stories and business rules\ndevising test cases and scenarios from acceptance criteria\nenabling exploratory testing to discover unexpected behaviours\ndeploying model office testing to simulate real-world usage\nensuring appropriate training for users involved in UAT\nproviding input on UAT resource requirements, including necessary skills and availability.\n\nThe acceptance testing approach will be based on the context of the work and may be selected from predictive (plan-driven) or adaptive (iterative/agile) approaches.",
+  "level_descriptions": {
+    "level_2": "Assists in planning and preparing acceptance tests for systems, products, business processes or services.\nAssists in collecting feedback from acceptance testing.",
+    "level_3": "Follows agreed standards and techniques to devise test cases and scenarios based on pre-defined acceptance criteria. \nAnalyses and reports on test activities, results, issues and risks.",
+    "level_4": "Develops acceptance criteria related to functional and non-functional requirements, business processes, features, user stories and business rules. \nDesigns and specifies test cases and scenarios to test that systems, products and services fulfil the acceptance criteria and deliver the predicted business benefits. \nCollaborates with project colleagues and stakeholders involved in the analysis, development and operation of products, systems or services to ensure accuracy and comprehensive test coverage. \nAnalyses and reports on test activities, results, issues and risks including the work of others.",
+    "level_5": "Plans and manages user acceptance testing activity.\nSpecifies the testing environment. Manages the creation of test cases and scenarios, ensuring they reflect realistic operational conditions and coverage needs. \nEnsures entry and exit criteria are set and met before user acceptance testing starts or ends. Specifies required user resources. Ensures users receive appropriate training and support.\nEnsures tests and results are documented, analysed and reported, highlighting issues and risks to stakeholders. Provides authoritative advice on acceptance testing planning and execution.",
+    "level_6": "Leads the organisation's approach to user acceptance testing.\nEngages senior stakeholders to secure organisational commitment and resources for effective acceptance testing. \nIntegrates entry and exit criteria into user acceptance testing planning and execution. Provides input on required resources, including skills and availability, for user acceptance testing activities. Reports on any significant risks and issues, recommending actions as needed. \nDevelops organisational policies, standards and guidelines for acceptance testing. Develops acceptance testing capabilities and methods for the organisation."
+  }
+}

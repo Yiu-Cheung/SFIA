@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Benefits management', 'row': 11, 'skill_code': 'BENM', 'category': 'Strategy and architecture', 'subcategory': 'Financial and value management'}
+# Content Length: 2540 characters
+
+================================================================================
+
+{
+  "skill_name": "Benefits management",
+  "code": "BENM",
+  "url": "https://sfia-online.org/en/skillcode/9/BENM",
+  "category": "Strategy and architecture",
+  "subcategory": "Financial and value management",
+  "overall_description": "Forecasting, planning and monitoring the emergence and effective realisation of anticipated benefits from projects and programmes.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nimplementing a benefits management framework and approach\nidentifying and implementing the actions needed to optimise the business impact of individual and combined benefits\nconfirming the achievement of expected benefits\nadapting benefits management practices for agile projects\nusing data-driven analysis for benefits identification, tracking and reporting\nengaging stakeholders to embed a value-driven culture.",
+  "level_descriptions": {
+    "level_3": "Supports the identification and tracking of benefits for projects and programmes.  \nCollects data to measure benefits realisation.",
+    "level_4": "Contributes to the development and implementation of benefits management plans for projects and programmes. \nEngages with stakeholders to identify and quantify benefits and to establish metrics and mechanisms for tracking benefits realisation. \nMonitors and reports on progress towards benefits realisation. \nIdentifies risks and issues that may impact benefits delivery and escalates as appropriate. Supports the embedding of benefits management practices across the organisation.",
+    "level_5": "Leads activities required in the realisation of the benefits of each part of the change programme. \nIdentifies specific metrics and mechanisms to measure benefits and plans to activate these mechanisms at the required time. Monitors benefits against what was predicted in the business case. \nEnsures all participants are engaged throughout the change programme and fully prepared to exploit the new operational business environment. \nSupports operational managers to ensure all plans, work packages and deliverables are aligned with the expected benefits.",
+    "level_6": "Works with operational managers to ensure maximum improvements are made as groups of projects deliver their products into operational use. \nCommunicates the change programme vision to staff at all levels of the business and keeps a focus on business objectives. \nMaintains the business case for funding the programme and confirms continuing business viability of the programme at regular intervals."
+  }
+}

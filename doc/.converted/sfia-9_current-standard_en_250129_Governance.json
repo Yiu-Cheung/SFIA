@@ -1,0 +1,20 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Governance', 'row': 22, 'skill_code': 'GOVN', 'category': 'Strategy and architecture', 'subcategory': 'Governance, risk and compliance'}
+# Content Length: 3084 characters
+
+================================================================================
+
+{
+  "skill_name": "Governance",
+  "code": "GOVN",
+  "url": "https://sfia-online.org/en/skillcode/9/GOVN",
+  "category": "Strategy and architecture",
+  "subcategory": "Governance, risk and compliance",
+  "overall_description": "Defining and operating frameworks for decision-making, risk management, stakeholder relationships and compliance with organisational and regulatory obligations.",
+  "guidance_notes": "Governance can be applied to specific activities or may be a single integrated framework across an organisation.\nSpecialisms include, but are not limited to, security, information, technology, architectures, enterprise IT and service management.\nAn organisation’s obligations may be external or internal including, but not limited to: legislative, regulatory, contractual and adherence to agreed standards/policies or ethical frameworks. \nActivities may include, but are not limited to:\n\ndefining and operating the system of rules, practices and processes by which an organisation makes decisions, manages stakeholders’ relationships and identifies legitimate authority\nintegrating risk management into governance frameworks to support informed decision-making\ndetermining how to direct, evaluate and monitor an organisation’s activities\ndeveloping and operating strategic and operational frameworks, policies, decision-making, business processes and plans to meet stakeholder requirements\nensuring alignment between governance practices and organisational strategy\nestablishing and maintaining governance committees and reporting structures.\n\nGovernance is explicitly referenced in many SFIA skills. Professionals may contribute specialist knowledge to governance processes, reviews and developments, but that does not imply they need the SFIA skill of Governance.",
+  "level_descriptions": {
+    "level_6": "Implements the governance framework to enable governance activity to be conducted. \nWithin a defined area of accountability, determines the requirements for appropriate governance reflecting the organisation's values, ethics, risk appetite and wider governance frameworks. Communicates delegated authority, benefits, opportunities, costs and risks. \nLeads reviews of governance practices with appropriate and sufficient independence from management activity. \nActs as the organisation's contact for relevant regulatory authorities and ensures proper relationships between the organisation and external stakeholders.",
+    "level_7": "Directs the definition, implementation and monitoring of the governance framework to meet organisational obligations under regulation, law, or contracts. \nProvides leadership, direction and oversight for governance activities.  Integrates risk management into frameworks, aligning with strategic objectives and risk appetite.\nSecures resources required to execute activities to achieve the organisation’s governance goals with effective transparency. \nProvides assurance to stakeholders that the organisation can deliver its obligations with an agreed balance of benefits, opportunities, costs and risks."
+  }
+}

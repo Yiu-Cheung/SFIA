@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Systems development management', 'row': 48, 'skill_code': 'DLMG', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 3606 characters
+
+================================================================================
+
+{
+  "skill_name": "Systems development management",
+  "code": "DLMG",
+  "url": "https://sfia-online.org/en/skillcode/9/DLMG",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Planning, estimating and executing systems development work to time, budget and quality targets.",
+  "guidance_notes": "Systems development include the delivery of projects, initiatives, enhancement requests and the maintenance of existing systems.\nActivities may include, but are not limited to:\n\nplanning and estimating work\nadopting and adapting systems development lifecycle models based on the context of the work and selecting appropriately from predictive (plan-driven) approaches or adaptive (iterative/agile) approaches\ncollaboration and open communication with stakeholders with a focus on delivering value from systems development\nmanaging risks and allowing for timely adjustment of plans and deliverables to continue to meet customer requirements and deliver value\nensuring systems development work meets the required quality standards\naligning systems development activity and deliverables with architectures and standards and ensuring quality, security and privacy are built in\ndeveloping roadmaps to communicate systems development plans\nidentifying, allocating and managing resources (including staff, equipment and budgets) and how demand will be met with a supply capacity\ncontinuous improvement to refine and optimise systems development processes.",
+  "level_descriptions": {
+    "level_4": "Contributes to the planning and management of systems development work.\nAdopts and applies appropriate systems development methods, tools and techniques in line with agreed standards. \nEngages with stakeholders to ensure systems development deliverables meet requirements and quality expectations. Manages risks and issues related to systems development activities, escalating as needed. \nContributes to the continuous improvement of systems development processes and practices.",
+    "level_5": "Plans and drives systems development work to deliver the organisation's objectives and plans. \nSelects, adopts and adapts appropriate systems development methods, tools and techniques. Ensures stakeholders are aware of required resources and that they are made available. Facilitates availability and optimum utilisation of resources. \nMonitors and reports on the progress of development projects. Ensures projects are carried out in accordance with agreed architectures, standards, methods and tools and addresses security and privacy requirements. \nDevelops roadmaps to communicate future development activity.",
+    "level_6": "Sets policy and drives adherence to standards for systems development. \nLeads activities to make security and privacy integral to systems development. \nIdentifies and manages the resources necessary for all stages of systems development projects. \nEnsures technical, financial and quality targets are met.",
+    "level_7": "Directs the definition, implementation and continual improvement of the organisation’s systems development management framework. \nAligns systems development to business strategies and objectives and with emerging technology and digital opportunities. Maintains an overview of the contribution of systems development programmes to organisational success.\nAuthorises the structure of systems development functions and platforms. \nSets strategy for resource management within systems development and authorises the allocation of resources for systems development programmes."
+  }
+}

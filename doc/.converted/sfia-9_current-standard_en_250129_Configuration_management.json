@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Configuration management', 'row': 94, 'skill_code': 'CFMG', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 3833 characters
+
+================================================================================
+
+{
+  "skill_name": "Configuration management",
+  "code": "CFMG",
+  "url": "https://sfia-online.org/en/skillcode/9/CFMG",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Planning, identifying, controlling, accounting for and auditing of configuration items (CIs) and their interrelationships.",
+  "guidance_notes": "Configuration items (CIs) can include a wide variety of components (objects) such as, but not limited to, source code, software, products, systems, hardware, networks, buildings, suppliers, process definitions and documents. A coherent set of CIs forms a configuration.\nActivities may include, but are not limited to:\n\nidentifying and documenting the functional and physical characteristics of CIs\nidentifying the relationships and maintain coherence between CIs for specific configurations\nidentifying the associated configuration(s), status, version and other characteristics of CIs at distinct points in time\ncontrolling changes to CI characteristics, recording and reporting change processing and implementation status\nsystematically controlling changes to a configuration and maintaining the integrity, coherence and traceability of that configuration throughout the project, system and/or service lifecycle\nadhering to established safety, security and quality standards\nverifying and auditing CI records for data quality and compliance with specified internal and external requirements.",
+  "level_descriptions": {
+    "level_2": "Applies tools, techniques and processes to administer, track, log, report on and correct configuration items, components and changes. \nAssists with audits to check the accuracy of the information and undertakes any necessary corrective action under direction.",
+    "level_3": "Applies tools, techniques and processes to track, log and correct information related to configuration items. \nVerifies and approves changes to protect assets and components from unauthorised change, diversion and inappropriate use. \nSupports user compliance with identification standards for object types, environments, processes, lifecycles, documentation, versions, formats, baselines, releases and templates. \nPerforms audits to check the accuracy of the information and undertakes any necessary corrective action under direction.",
+    "level_4": "Proposes and agrees the configuration items (CIs) to be uniquely identified with naming conventions. \nPuts in place operational processes for secure configuration, classification and management of CIs and for verifying and auditing  configuration records. \nDevelops, configures and maintains tools (including automation) to identify, track, log and maintain accurate, complete and current information. \nReports on the status of configuration management. Identifies problems and issues and recommend corrective actions.",
+    "level_5": "Plans the capture and management of CIs and related information. \nAgrees scope of configuration management processes and the configuration items (CIs) and related information to be controlled. \nIdentifies, evaluates and manages the adoption of appropriate tools, techniques and processes (including automation) for configuration management. \nContributes to the development of configuration management strategies, policies, standards and guidelines.",
+    "level_6": "Develops configuration management strategies, policies, standards and guidelines. \nChampions the importance and value of configuration management and develops new methods and organisational capabilities (including automation) for configuration management. \nProvides resources to drive adoption of, and adherence to, policies and standards. \nMeasures and monitors adherence to standards and ensures consistent execution of the process across the organisation."
+  }
+}

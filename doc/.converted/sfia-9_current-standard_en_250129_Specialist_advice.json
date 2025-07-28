@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Specialist advice', 'row': 29, 'skill_code': 'TECH', 'category': 'Strategy and architecture', 'subcategory': 'Advice and guidance'}
+# Content Length: 3157 characters
+
+================================================================================
+
+{
+  "skill_name": "Specialist advice",
+  "code": "TECH",
+  "url": "https://sfia-online.org/en/skillcode/9/TECH",
+  "category": "Strategy and architecture",
+  "subcategory": "Advice and guidance",
+  "overall_description": "Providing authoritative, professional advice and direction in a specialist area.",
+  "guidance_notes": "This skill entails developing and using specialist knowledge to offer authoritative advice and direction, distinct from general guidance or troubleshooting.\nProfessional advice is the provision of expert, objective and evidence-based recommendations, guidance and solutions to address specific challenges or opportunities, drawing upon the advisor's in-depth knowledge, skills and experience. \nExpertise may cover a particular aspect of information or communications technology, digital practices, methodologies, or application areas and can extend to applying knowledge from other disciplines, such as legal, finance, public relations, ethics or human resources, to technology-related topics.\nActivities include, but are not limited to:\n\nresearch and analysis to stay current with the latest developments in the specialist area\nproviding subject matter expert advice and recommendations based on thorough understanding of the subject\ncollaborating with other specialists to ensure comprehensive and cohesive advice\nclearly communicating complex information to non-experts\ncreating guidelines, standards and recommended practices related to the specialist area\nproviding mentorship and guidance to support the development of specialist knowledge within the organisation.",
+  "level_descriptions": {
+    "level_4": "Provides detailed and specific advice to support the organisation's planning and operations, typically related to the immediate area of responsibility.\nActively maintains recognised expert level knowledge in one or more identifiable specialisms. \nRecognises and identifies the boundaries of their own specialist knowledge. \nWhere appropriate, collaborates with other specialists to ensure advice given is professionally sound and appropriate to the organisation's needs.",
+    "level_5": "Provides professional advice that informs operational leadership and influences the translation of strategy into operations in their specialist area.\nOversees the provision of specialist advice by others. Consolidates expertise from multiple sources, including third-party experts, to provide coherent and professionally sound advice to further organisational objectives.\nSupports and promotes the development and sharing of specialist knowledge within the organisation.",
+    "level_6": "Leads and promotes the development and application of specialist knowledge across the organisation, delivering professional advice that shapes direction and high-level decisions.\nMaintains a network of recognised experts (inside and/or outside the organisation) who can deliver expert advice in relevant areas. \nActively influences professional development planning across a significant part of the organisation to further the development of appropriate expertise and provision of high-quality professional advice."
+  }
+}

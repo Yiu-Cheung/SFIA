@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Risk management', 'row': 23, 'skill_code': 'BURM', 'category': 'Strategy and architecture', 'subcategory': 'Governance, risk and compliance'}
+# Content Length: 3447 characters
+
+================================================================================
+
+{
+  "skill_name": "Risk management",
+  "code": "BURM",
+  "url": "https://sfia-online.org/en/skillcode/9/BURM",
+  "category": "Strategy and architecture",
+  "subcategory": "Governance, risk and compliance",
+  "overall_description": "Planning and implementing processes for managing risk across the enterprise, aligned with organisational strategy and governance frameworks.",
+  "guidance_notes": "Risk management can be applied to many enterprise functions as well as technical and engineering specialisms, such as, but not limited to, information and technology systems, operations, environmental, information and cyber-security, safety, energy supply. Risk is also explicitly referenced in many SFIA skills. \nActivities may include, but are not limited to:\n\nidentifying, classifying and prioritising risks based on impact and probability and required mitigation\ndeveloping and implementing risk management strategies that align with organisational goals and governance frameworks\nintegrating risk management into decision-making processes to ensure alignment with the organisation’s risk appetite\ndeveloping and implementing organisational goals and governance frameworks\ncommunicating and reporting on risks and mitigation actions to key stakeholders, ensuring transparency and informed decision-making\nadapting risk management practices to reflect changes in the organisational and external environment.",
+  "level_descriptions": {
+    "level_2": "Assists in collecting and reporting data to support risk management activities under routine supervision. \nHelps create and maintain documentation of risks and risk management activities. \nHelps identify and report issues and discrepancies.",
+    "level_3": "Undertakes basic risk management activities. \nMaintains documentation of risks, threats, vulnerabilities and mitigation actions.",
+    "level_4": "Carries out risk management activities within a specific function, technical area or project of medium complexity. \nIdentifies risks and vulnerabilities, assesses their impact and probability, develops mitigation strategies and reports to the business. \nInvolves specialists and domain experts as necessary.",
+    "level_5": "Plans and implements complex and substantial risk management activities within a specific function, technical area, project or programme. \nEstablishes consistent risk management processes and reporting mechanisms aligned with governance frameworks.\nEngages specialists and domain experts as necessary. \nAdvises on the organisation's approach to risk management.",
+    "level_6": "Plans and manages the implementation of organisation-wide risk management processes, integrating tools and techniques aligned with governance frameworks.\nConsiders organisation-wide risk and mitigation activities within the context of business risk as a whole and the organisation’s appetite for risk.\nProvides leadership on risk management, ensuring practices support strategic decision-making and compliance with organisational policies.",
+    "level_7": "Establishes the organisation's risk management strategy, defining and communicating the risk appetite in alignment with governance and strategic objectives.\nDefines and communicates the organisation's appetite for risk. \nProvides resources to implement the organisation's risk strategy. \nDelegates authority for detailed planning and execution of risk management activities across the organisation."
+  }
+}

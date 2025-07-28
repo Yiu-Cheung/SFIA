@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Service catalogue management', 'row': 100, 'skill_code': 'SCMG', 'category': 'Delivery and operation', 'subcategory': 'Service management'}
+# Content Length: 2485 characters
+
+================================================================================
+
+{
+  "skill_name": "Service catalogue management",
+  "code": "SCMG",
+  "url": "https://sfia-online.org/en/skillcode/9/SCMG",
+  "category": "Delivery and operation",
+  "subcategory": "Service management",
+  "overall_description": "Providing a source of consistent information about available services and products to customers and users.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\npublishing and maintaining information about available services\ntracking the list of available services as new services are introduced and current services are amended or retired\nmaking the catalogue useful and easy to use\ncustomising the information published for specific audiences, such as for users, for customers, for service providers\nsupporting discussion of standard and non-standard service offerings\nenabling automation of service requests and service fulfilment where appropriate.\n\nThe information documented in the service catalogue includes, but is not limited to, service names and descriptions, features, value propositions, costs, service support levels and availability.",
+  "level_descriptions": {
+    "level_2": "Assists with service catalogue management tasks under routine supervision.\nSupports the collection and updating of service and product information.\nHelps maintain the accuracy and relevance of the service catalogue.",
+    "level_3": "Collates information needed to populate the service catalogue. \nEdits and maintains service and product descriptions and keeps the list of available services up to date. \nActs as a contact point, receiving and handling routine updates to the service catalogue. \nIdentifies opportunities to improve service catalogue management processes.",
+    "level_4": "Contributes to the design and implementation of a service catalogue.\nEnables automation of service requests and order fulfilment. \nProvides advice and guidance on the information to be included in the service catalogue. \nContributes to reviews and improvement of the catalogue and of service catalogue management processes.",
+    "level_5": "Manages the creation and maintenance of a catalogue of services. \nEnsures the service catalogue is complete and current. Works with service owners to ensure consistency and accuracy of the service catalogue entries. \nCompletes regular reviews of the catalogue with stakeholders to ensure relevance to business needs and requirements. \nManages the service catalogue management processes."
+  }
+}

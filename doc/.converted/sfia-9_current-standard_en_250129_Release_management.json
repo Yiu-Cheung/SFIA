@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Release management', 'row': 95, 'skill_code': 'RELM', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 3244 characters
+
+================================================================================
+
+{
+  "skill_name": "Release management",
+  "code": "RELM",
+  "url": "https://sfia-online.org/en/skillcode/9/RELM",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Managing the release of new and updated services into production, ensuring alignment with business objectives and compliance standards.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nplanning and scheduling releases in line with business requirements, considering the size, scope and content of each release\ncoordinating release activities across multiple teams and stakeholders, including third-party suppliers\nmanaging the release lifecycle, including build, testing, deployment and post-implementation review\nensuring releases meet quality, security and compliance standards\ncommunicating release plans, progress and outcomes to stakeholders\nconducting post-release reviews and identifying areas for improvement\nmaintaining release processes, procedures and documentation\nmanaging staged releases, pilot releases, blue/green releases or feature flags as appropriate.",
+  "level_descriptions": {
+    "level_2": "Assists with release management tasks under routine supervision.\nSupports the collection of data and information for release planning and scheduling.\nAssists in the preparation of release materials and resources. Helps document and maintain records of release activities.\nParticipates in basic testing and quality assurance tasks and issue resolution.",
+    "level_3": "Supports the planning and scheduling of releases.\nCoordinates release activities with relevant teams. Follows defined release processes and procedures.\nParticipates in testing and quality assurance activities to ensure releases meet standards. Identifies and resolves issues related to the release process.\nDocuments and reports on release outcomes and communicates findings to stakeholders.",
+    "level_4": "Plans and schedules releases in line with business requirements and objectives.\nCoordinates release activities across multiple teams and stakeholders. Manages the release lifecycle, ensuring timely and quality deliverables.\nEnsures releases meet defined quality, security and compliance standards.\nCommunicates release plans, progress and outcomes to stakeholders. Conducts post-release reviews and identifies areas for improvement.",
+    "level_5": "Develops and maintains release approaches, processes and automation tools.\nOversees the planning and scheduling of complex, large-scale releases. Coordinates release activities across multiple projects and programmes.\nEnsures release processes and procedures are applied and that releases can be rolled back as needed. \nCommunicates release approaches and outcomes. Conducts post-release analysis and drives continuous improvement.",
+    "level_6": "Defines organisational release management strategies, policies and standards.\nAligns release management with overall business strategies and objectives. Ensures the availability of resources and tools for effective release management.\nCommunicates release strategies and outcomes to stakeholders.\nDrives the adoption of new release management techniques and technologies."
+  }
+}

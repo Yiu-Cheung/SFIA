@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Application support', 'row': 89, 'skill_code': 'ASUP', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 2425 characters
+
+================================================================================
+
+{
+  "skill_name": "Application support",
+  "code": "ASUP",
+  "url": "https://sfia-online.org/en/skillcode/9/ASUP",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Delivering management, technical and administrative services to support and maintain live applications.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ninvestigating and resolving issues\nimplementing working practices to support iterative/agile development and/or cloud-based applications\nmonitoring performance and maintaining the security of applications\nproviding guidance or training to users, including enhanced levels of support following new/updated software releases\ndevising permanent or temporary corrections, workarounds for faults, and applying patches when necessary\nadhering to established safety, security and quality standards\ncapturing user feedback for subsequent analysis to inform future application development\nimplementing general or site-specific modifications\nupdating documentation\nmaintaining application data\ndefining enhancements.\n\nSupport typically involves close collaboration with application developers and other specialist areas. Application maintenance and support services may be delivered directly to users of the systems or to service delivery functions.",
+  "level_descriptions": {
+    "level_2": "Assists with specified maintenance procedures. \nAssists in the investigation and resolution of issues relating to applications.",
+    "level_3": "Follows agreed procedures to identify and resolve issues with applications. \nUses application management software and tools to collect agreed performance statistics. \nCarries out agreed applications maintenance tasks.",
+    "level_4": "Maintains application support processes and checks that all requests for support are dealt with according to agreed procedures. \nUses application management software and tools to investigate issues, collect performance statistics and create reports.",
+    "level_5": "Ensures all requests for support are dealt with according to set standards and procedures. \nDrafts and maintains procedures and documentation for applications support, incorporating security considerations.\nManages application enhancements to improve business performance. \nAdvises on application security, licensing, upgrades, backups and disaster recovery needs."
+  }
+}

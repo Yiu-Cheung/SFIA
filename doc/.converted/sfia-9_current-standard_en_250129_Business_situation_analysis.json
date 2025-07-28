@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Business situation analysis', 'row': 36, 'skill_code': 'BUSA', 'category': 'Change and transformation', 'subcategory': 'Change analysis'}
+# Content Length: 2885 characters
+
+================================================================================
+
+{
+  "skill_name": "Business situation analysis",
+  "code": "BUSA",
+  "url": "https://sfia-online.org/en/skillcode/9/BUSA",
+  "category": "Change and transformation",
+  "subcategory": "Change analysis",
+  "overall_description": "Investigating business situations to define recommendations for improvement action.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nplanning for business situation analysis\nestablishing the investigative approach \nengaging with relevant stakeholders\nreviewing the strategic context, including the organisation’s vision, mission, objectives, strategy and tactics and external business environment\ndefining problems and analysing root causes\nidentifying potential changes to address problems or to take advantage of opportunities\ngaining agreement to conclusions and recommendations.",
+  "level_descriptions": {
+    "level_2": "Assists in investigating business situations to help identify and analyse problems and opportunities, under routine supervision. \nHelps collect and organise data and information to support recommendations.",
+    "level_3": "Investigates straightforward business situations to identify and analyse problems and opportunities. \nContributes to the recommendation of improvements. \nFollows agreed standards and techniques to investigate, analyse and document business situations. \nEngages with stakeholders under direction.",
+    "level_4": "Investigates business situations where there is some complexity and ambiguity. \nAdopts holistic view to identify and analyse problems and opportunities. \nContributes to the selection of the approach and techniques to be used for business situation analysis. \nConducts root cause analysis and identifies recommendations for improvements. Engages and collaborates with operational stakeholders.",
+    "level_5": "Plans, manages and investigates business situation analysis where there is significant ambiguity and complexity. \nAdvises on the approach and techniques to be used for business situation analysis. Ensures holistic view adopted to identify and analyse wide-ranging problems and opportunities. \nEngages and collaborates with a wide range of stakeholders, including those at the management level. Gains agreement from stakeholders to conclusions and recommendations. \nContributes to definition of organisational standards and guidelines for business situation analysis.",
+    "level_6": "Initiates and leads business situation analysis where there is extensive ambiguity, complexity and potentially significant organisational impacts. \nEstablishes and promotes the need for holistic business situation analysis prior to change programme initiation. \nEngages with stakeholders at executive level and advises on recommended change initiatives. \nDefines organisational policies, standards and techniques for business situation analysis."
+  }
+}

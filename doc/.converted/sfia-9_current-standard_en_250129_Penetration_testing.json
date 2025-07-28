@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Penetration testing', 'row': 115, 'skill_code': 'PENT', 'category': 'Delivery and operation', 'subcategory': 'Security services'}
+# Content Length: 3226 characters
+
+================================================================================
+
+{
+  "skill_name": "Penetration testing",
+  "code": "PENT",
+  "url": "https://sfia-online.org/en/skillcode/9/PENT",
+  "category": "Delivery and operation",
+  "subcategory": "Security services",
+  "overall_description": "Testing the effectiveness of security controls by emulating the tools and techniques of likely attackers.",
+  "guidance_notes": "Penetration testing may be a stand-alone activity or an aspect of acceptance testing prior to an approval to operate.\nActivities include, but are not limited to:\n\nethical hacking (using the same tools and techniques as an adversary to safely exploit security weaknesses)\ndemonstrating how an adversary can subvert security goals or achieve specific adversarial objectives\nevaluating the effectiveness of current/planned defences or mitigation controls\nassuring the security of networks, systems and applications\nassessing the strength and effectiveness of cryptographic implementations\nidentifying insights into the business risks of various vulnerabilities\ntesting network, infrastructure, web and mobile applications for weaknesses\nchecking patch levels and configurations\nsocial engineering.",
+  "level_descriptions": {
+    "level_2": "Assists with penetration testing tasks under routine supervision.\nSupports the execution of standard penetration tests on systems, networks and applications.\nHelps document and report on test results, findings and potential security risks.",
+    "level_3": "Follows standard approaches to design and execute penetration testing activities.\nResearches and investigates attack techniques and recommends ways to defend against them. \nAnalyses and reports on penetration testing activities, results, issues and risks.",
+    "level_4": "Selects appropriate testing approaches using in-depth technical analysis of risks and typical vulnerabilities. \nProduces test scripts, materials and test packs and tests new and existing networks, systems or applications. Provides advice on penetration testing to support others.\nRecords and analyses actions and results and modifies tests if necessary. \nProvides reports on progress, anomalies, risks and issues associated with the overall project.",
+    "level_5": "Plans and drives penetration testing within a defined area of business activity. \nDelivers objective insights into the existence of vulnerabilities, the effectiveness of defences and mitigating controls. \nTakes responsibility for the integrity of testing activities and coordinates the execution of these activities. Provides authoritative advice and guidance on all aspects of penetration testing. \nIdentifies needs and implements new approaches for penetration testing. Contributes to security testing standards.",
+    "level_6": "Determines penetration testing policy and owns the supporting processes. \nManages all penetration testing activities within the organisation. Assesses and advises on the practicality of testing process alternatives. \nEstablishes capability for continual improvement and invention in penetration testing and leads the implementation of new approaches. \nAssesses suppliers' development and testing capabilities. Manages client relationships with respect to penetration testing."
+  }
+}

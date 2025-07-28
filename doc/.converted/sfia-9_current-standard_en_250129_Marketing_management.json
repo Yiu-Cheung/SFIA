@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Marketing management', 'row': 141, 'skill_code': 'MKTG', 'category': 'Relationships and engagement', 'subcategory': 'Marketing'}
+# Content Length: 2881 characters
+
+================================================================================
+
+{
+  "skill_name": "Marketing management",
+  "code": "MKTG",
+  "url": "https://sfia-online.org/en/skillcode/9/MKTG",
+  "category": "Relationships and engagement",
+  "subcategory": "Marketing",
+  "overall_description": "Developing, implementing and managing marketing strategies and plans to achieve organisational objectives and drive business growth.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndefining marketing strategy, goals and target customers\ncreating and executing comprehensive marketing plans\nmanaging marketing budgets and resources\naligning marketing activities with business objectives\nmeasuring and analysing marketing effectiveness and return on investment (ROI)\nsupporting business development and growth initiatives\nevaluating and optimising marketing activities\ndeveloping creative solutions to brand and business challenges\nadapting strategies based on market insights and performance data\ncollaborating with stakeholders to inform and execute strategies.",
+  "level_descriptions": {
+    "level_4": "Contributes to the development and execution of marketing plans. \nApplies recognised good practices to analyse marketing effectiveness and ROI. \nAssists in defining target customers and brand positioning. Implements solutions to marketing challenges within established guidelines. Collaborates with team members to execute marketing activities.",
+    "level_5": "Develops and manages comprehensive marketing plans aligned with business objectives. \nImplements strategies to maximise marketing effectiveness given organisational goals. Leads the definition of target customers and brand positioning.\nAnalyses complex data to inform marketing decisions. Creates innovative solutions to marketing challenges. \nCoordinates with other teams to execute integrated marketing approaches.",
+    "level_6": "Defines and oversees the execution of  marketing strategies to achieve organisational goals. \nEnsures alignment of marketing plans with business objectives and market insights. Evaluates and optimises marketing effectiveness and budget allocation to drive outcomes.\nIdentifies and addresses current and future marketing capability needs. \nCollaborates with senior leadership to integrate marketing strategies with organisational vision.",
+    "level_7": "Leads the creation of long-term marketing strategies aligned with organisational vision. \nDirects the marketing function, ensuring integration of marketing plans with business goals. Oversees the evaluation and optimisation of marketing activities, ensuring maximum impact and efficiency. \nProvides strategic advice to senior leadership on marketing trends and opportunities. \nPromotes a culture of creativity and continuous improvement within the marketing team. Ensures the marketing function adapts to changing market conditions and business needs."
+  }
+}

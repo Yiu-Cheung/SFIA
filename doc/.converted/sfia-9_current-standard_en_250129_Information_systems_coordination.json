@@ -1,0 +1,20 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Information systems coordination', 'row': 1, 'skill_code': 'ISCO', 'category': 'Strategy and architecture', 'subcategory': 'Strategy and planning'}
+# Content Length: 2145 characters
+
+================================================================================
+
+{
+  "skill_name": "Information systems coordination",
+  "code": "ISCO",
+  "url": "https://sfia-online.org/en/skillcode/9/ISCO",
+  "category": "Strategy and architecture",
+  "subcategory": "Strategy and planning",
+  "overall_description": "Coordinating information and technology strategies where the adoption of a common approach would benefit the organisation.",
+  "guidance_notes": "This skill is typically applied in large organisations with devolved information, data, technology, digital, cybersecurity functions or in collaborative enterprises of independent organisations.\nActivities may include, but are not limited to:\n\ndeveloping and implementing strategies for coordinated deployment across multiple business units, such as, standardising hardware procurement, aligning software licensing and unifying cloud adoption approaches\nfacilitating communication and collaboration between autonomous units\nidentifying opportunities for shared services and integration\ncoordinating enterprise-wide cybersecurity strategies and practices\naligning initiatives with overall business objectives\npromoting standardisation of processes and technologies where beneficial\nmanaging cross-functional projects and initiatives\nevaluating and recommending enterprise-wide solutions\ndeveloping governance frameworks for coordinated management of digital, data and technology.",
+  "level_descriptions": {
+    "level_6": "Maintains awareness of the global needs of the organisation. \nPromotes the benefits that a common approach to technology deployment will bring to the entire organisation.\nCoordinates and collaborates with others on the promotion, acquisition, development and implementation of information systems and services.",
+    "level_7": "Establishes the organisation's strategy for managing information and communicates the policies, standards, procedures and methods necessary to implement the strategy. \nCoordinates all aspects of management of the lifecycle of information systems. \nRepresents the interests of the entire organisation to general management and external bodies on matters relating to information strategy."
+  }
+}

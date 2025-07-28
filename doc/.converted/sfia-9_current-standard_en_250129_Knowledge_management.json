@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Knowledge management', 'row': 83, 'skill_code': 'KNOW', 'category': 'Development and implementation', 'subcategory': 'Content management'}
+# Content Length: 3814 characters
+
+================================================================================
+
+{
+  "skill_name": "Knowledge management",
+  "code": "KNOW",
+  "url": "https://sfia-online.org/en/skillcode/9/KNOW",
+  "category": "Development and implementation",
+  "subcategory": "Content management",
+  "overall_description": "Systematically capturing, developing and leveraging vital knowledge to create value and enhance organisational performance.",
+  "guidance_notes": "Knowledge management aims to improve performance, support decision-making and mitigate risks. \nActivities may include, but are not limited to:\n\nsystematically capturing, sharing, developing and exploiting the collective knowledge of the organisation\ntailoring knowledge management practices to fit organisational needs and culture\ndeveloping a supportive and collaborative knowledge-sharing culture, integrating both human and technological aspects\nproviding access to informal, tacit knowledge as well as formal, documented, explicit knowledge\nfacilitating internal and external collaboration and communications\nestablishing and supporting communities of practice\ncapturing, organising and developing information, knowledge and stories from employees, customers and external partners\nexternal benchmarking.",
+  "level_descriptions": {
+    "level_2": "Maintains a knowledge management database. \nLeverages knowledge of a specialism to capture and classify content, taking expert advice when required.",
+    "level_3": "Maintains knowledge management systems and content to meet business needs.\nSupports others to enable them to complete knowledge management activities and form knowledge management habits. Supports changes to work practices to enable capture and use of knowledge.\nReports on the progress of knowledge management activities. \nConfigures and develops knowledge management systems and standards.",
+    "level_4": "Organises knowledge assets and oversees the lifecycle of identifying, capturing, classifying, storing and maintaining assets. \nFacilitates sharing, collaboration and communication of knowledge. Implements specific knowledge management initiatives.\nMonitors the  use and impact of knowledge. \nInterrogates existing knowledge content to identify issues, risks and opportunities.",
+    "level_5": "Develops and implements knowledge management processes, practices and behaviours. \nProvides advice, guidance and support to help people to adopt and embed knowledge management. Contributes to the definition of policies, standards and guidelines for knowledge management.\nEvaluates and selects knowledge management methods and tools. Promotes collaborative technologies, processes and behaviours to facilitate sharing of ideas and work-knowledge. \nShares ideas and examples of existing practices. Implements knowledge management at programme, project and team level.",
+    "level_6": "Develops organisational policies, standards and guidelines for knowledge management. \nChampions and leads in the development of an organisational knowledge management approach. Shares different approaches for knowledge sharing across communities of practice, business units and networks.\nPromotes knowledge-sharing through operational business processes and systems. Monitors and evaluates knowledge-sharing initiatives. \nManages reviews of the benefits and value of knowledge management. Identifies and recommends improvements.",
+    "level_7": "Develops an organisation-wide knowledge management strategy and leads the creation of a knowledge management culture. \nEmbeds knowledge management across business units and develops strategic knowledge management capabilities. \nReinforces the importance of knowledge sharing by aligning individual and organisational objectives and rewards. \nIdentifies opportunities for strategic relationships or partnerships with customers, suppliers and partners."
+  }
+}

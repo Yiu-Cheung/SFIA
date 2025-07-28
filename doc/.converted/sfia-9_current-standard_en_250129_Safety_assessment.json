@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Safety assessment', 'row': 63, 'skill_code': 'SFAS', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 1817 characters
+
+================================================================================
+
+{
+  "skill_name": "Safety assessment",
+  "code": "SFAS",
+  "url": "https://sfia-online.org/en/skillcode/9/SFAS",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Assessing safety-related software and hardware systems to determine compliance with standards and required levels of safety integrity.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nmaking professional judgements on software and hardware engineering approaches\nassessing the suitability of design, testing and validation and verification methods\nidentifying and evaluating risks and how they can be reduced\nestablishing, maintaining and managing a safety assessment framework and practices\nusing techniques such as failure modes effects analysis, hazard and operability studies, component failure impact analysis, fault tree analysis, event tree analysis and criticality analysis.",
+  "level_descriptions": {
+    "level_4": "Collects safety assurance evidence using appropriate methods and tools. \nUndertakes all work in accordance with agreed safety, technical and quality standards.",
+    "level_5": "Undertakes safety analyses using agreed techniques to verify or validate that safety requirements are implemented. \nParticipates in system safety assessments.\nCreates safety assessment reports and recommends and defines how a system's safety requirements can be satisfied.",
+    "level_6": "Champions and promotes safety practices in the organisation. \nLeads safety assessments according to organisational safety policies and standards.\nDefines and implements organisational policies and standards for system safety assessment.\nAssures compliance with defined standards and policies and oversees overall safety lifecycle assessment activities."
+  }
+}

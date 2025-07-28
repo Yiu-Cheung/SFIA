@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Information assurance', 'row': 18, 'skill_code': 'INAS', 'category': 'Strategy and architecture', 'subcategory': 'Security and privacy'}
+# Content Length: 4046 characters
+
+================================================================================
+
+{
+  "skill_name": "Information assurance",
+  "code": "INAS",
+  "url": "https://sfia-online.org/en/skillcode/9/INAS",
+  "category": "Strategy and architecture",
+  "subcategory": "Security and privacy",
+  "overall_description": "Protecting against and managing risks related to the use, storage and transmission of data and information systems.",
+  "guidance_notes": "Activities include, but are not limited to:\n\nmanagement of risk in a pragmatic and cost-effective manner to ensure stakeholder confidence\nformal system certification and accreditation\nassessing the effectiveness of cryptographic controls\ntechnical assessment and evaluation to determine control effectiveness.\n\nInformation and data are typically protected by following five principles:\n\navailability - ensuring authorised users can easily access the information they need\nintegrity - protecting information from unauthorised modification, retrieval or deletion\nauthenticity - validating the identity of users and devices\nconfidentiality - restricting access to authorised users only\nnon-repudiation - preventing possible denial that an action occurred by ensuring data is true to its origin.",
+  "level_descriptions": {
+    "level_2": "Assists with information assurance activities under routine supervision.\nHelps perform basic risk assessments and supports the implementation of information assurance measures.\nAssists in maintaining records and documentation related to information assurance.",
+    "level_3": "Follows standard approaches for the technical assessment of information systems against information assurance policies and business objectives. \nMakes routine accreditation decisions. Recognises decisions that are beyond their scope and responsibility level and escalates according.\nReviews and performs risk assessments and risk treatment plans. Identifies typical risk indicators and explains prevention measures.\nMaintains integrity of records to support and justify decisions.",
+    "level_4": "Performs technical assessments and/or accreditation of complex or higher-risk information systems. \nIdentifies risk mitigation measures required in addition to the standard organisation or domain measures. \nEstablishes the requirement for accreditation evidence from delivery partners and communicates accreditation requirements to stakeholders.  \nContributes to planning and organisation of information assurance and accreditation activities. Contributes to development of and implementation of information assurance processes.",
+    "level_5": "Interprets information assurance and security policies and applies these to manage risks. \nProvides advice and guidance to ensure adoption of and adherence to information assurance architectures, strategies, policies, standards and guidelines. \nPlans, organises and conducts information assurance and accreditation of complex domains areas, cross-functional areas and across the supply chain. \nContributes to the development of policies, standards and guidelines.",
+    "level_6": "Develops information assurance policy, standards and guidelines. \nContributes to the development of organisational strategies that address the evolving business risk and information control requirements. \nDrives adoption of and adherence to policies and standards. Ensures architectural principles are followed, requirements are defined and rigorous security testing is applied. Ensures accreditation processes support and enable organisational objectives.\nMonitors environmental and market trends and assesses any impact on organisational strategies, benefits and risks.",
+    "level_7": "Directs the creation and review of an enterprise information assurance strategy to support the strategic requirements of the business.\nEnsures compliance between business strategies and information assurance by setting strategies, policies, standards and practices. \nLeads the provision of information assurance expertise, advice and guidance across all of the organisation's information and information systems."
+  }
+}

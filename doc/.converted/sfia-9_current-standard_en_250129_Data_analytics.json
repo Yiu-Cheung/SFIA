@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Data analytics', 'row': 69, 'skill_code': 'DAAN', 'category': 'Development and implementation', 'subcategory': 'Data and analytics'}
+# Content Length: 4223 characters
+
+================================================================================
+
+{
+  "skill_name": "Data analytics",
+  "code": "DAAN",
+  "url": "https://sfia-online.org/en/skillcode/9/DAAN",
+  "category": "Development and implementation",
+  "subcategory": "Data and analytics",
+  "overall_description": "Enabling data-driven decision making by extracting, analysing and communicating insights from structured and unstructured data.",
+  "guidance_notes": "Data analytics focuses on delivering actionable insights from data to drive better decision making. \nActivities may include, but are not limited to:\n\ncollecting, processing and analysing data from various sources\nensuring the validity and integrity of data being processed and analysed\nidentifying trends, patterns and insights using a range of analytical and statistical techniques\ndeveloping and validating predictive models\ncommunicating findings to stakeholders\nensuring data quality, integrity and governance\ncollaborating with teams to align analytics initiatives with business objectives\ndesigning and implementing data analytics solutions and processes\nproviding actionable recommendations based on domain expertise\nstaying current with emerging trends and techniques in data analytics\nstrategic leadership for data analytics and related disciplines such as data science\ncontributing to data governance policies, standards and good practices.\n\nData analytics has diverse applications across industries, including customer segmentation, sales forecasting, fraud detection, supply chain optimisation, predictive maintenance, healthcare analytics, financial risk management, HR analytics, social media analytics and public sector analytics.",
+  "level_descriptions": {
+    "level_2": "Assists in data preparation and analysis activities under direction. \nProcesses and validates data to support analytics. \nGenerates standard reports and insights using established tools and methods.",
+    "level_3": "Supports data analytics by gathering and preparing data from multiple sources. \nApplies analytical and statistical methods and software tools to analyse data and develop reports. \nAssists in identifying trends, patterns and insights that inform business decisions. \nCollaborates with team members to refine analysis techniques and maintain data quality.",
+    "level_4": "Conducts end-to-end data analysis, defining data requirements and ensuring data integrity. \nApplies advanced analytical and statistical techniques to extract meaningful insights and develop predictive models.\nCommunicates complex findings to stakeholders in an understandable manner. \nContributes to the development of data analytics processes and standards. Identifies opportunities for improving data analytics practices.",
+    "level_5": "Manages data analytics activities, establishing frameworks and methodologies aligned with business objectives and data governance policies. \nLeads the implementation of data analytics solutions. Translates business needs into analytics requirements and identifies data-driven solutions. \nGuides the selection and application of advanced analytical techniques. \nCommunicates insights and recommendations to senior stakeholders, influencing strategic decisions.",
+    "level_6": "Develops organisational strategies and roadmaps for data analytics. \nSets policies, standards and recommended practices for the use of data and data analytical techniques.\nLeads initiatives to build data analytics capabilities and develop a data-driven culture.\nOversees the delivery of analytics projects and programmes. Promotes the ethical use of data and data analytics.",
+    "level_7": "Directs the creation and review of a cross-functional, enterprise-wide approach and culture for generating value from data analytics and data science. \nDrives the identification, evaluation and adoption of data analytics and data science capabilities to transform organisational performance. Leads the provision of the organisation’s data analytics and data science capabilities.\nEnsures the strategic application of data analytics and data science is embedded in the governance and leadership of the organisation. \nAligns business strategies, enterprise transformation and data analytics and data science strategies."
+  }
+}

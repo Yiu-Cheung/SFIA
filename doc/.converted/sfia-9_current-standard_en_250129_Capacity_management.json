@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Capacity management', 'row': 103, 'skill_code': 'CPMG', 'category': 'Delivery and operation', 'subcategory': 'Service management'}
+# Content Length: 3710 characters
+
+================================================================================
+
+{
+  "skill_name": "Capacity management",
+  "code": "CPMG",
+  "url": "https://sfia-online.org/en/skillcode/9/CPMG",
+  "category": "Delivery and operation",
+  "subcategory": "Service management",
+  "overall_description": "Ensuring service components have the capacity and performance to meet current and planned business needs.",
+  "guidance_notes": "Service components include, but are not limited to, hardware, software, network resources and software/infrastructure as a service.\nActivities may include, but are not limited to:\n\nplanning, design and management of the capability, performance, functionality and sustainability of service components to meet business needs\napplying data-driven insights to model long-term changes and short-term variations in the level of capacity required to execute the service \nimplementing capacity management practices to support cloud-based services and ensure flexible and scalable capacity\ndeploying techniques to control the demand and add/reduce capacity in a cost-effective, timely manner to meet changes in demand\ncollaborating closely with other processes and teams to ensure a holistic approach to capacity management\nconsidering external factors, such as regulatory requirements and market trends, when planning and managing capacity\ncontinuously monitoring and optimising resource utilisation to identify cost-saving opportunities and ensure efficient use of resources",
+  "level_descriptions": {
+    "level_2": "Assists in monitoring service component capacity and performance under routine guidance and supervision.\nCollects and reports data on resource utilisation and capacity metrics. \nSupports the implementation of capacity management procedures and practices.",
+    "level_3": "Monitors service component capacity and performance, identifying potential issues and escalating as necessary. \nApplies standard procedures to manage demand and capacity. \nParticipates in capacity modelling and forecasting activities, providing input and recommendations. \nSupports the implementation of capacity management tools and techniques.",
+    "level_4": "Monitors service component capacity and initiates actions to resolve any shortfalls according to agreed procedures. \nApplies techniques to control the demand upon a particular resource or service. \nContributes to capacity modelling and planning using data-driven insights.\nSupports the design of service component capacity.",
+    "level_5": "Manages capacity modelling and forecasting activities, using data-driven insights.\nProactively reviews information in conjunction with service level agreements to identify any capacity issues and specifies any required changes. Provides advice to support the design of service components, including designing in flexible and scalable capacity. \nWorks with business representatives to agree and implement short- and medium-term modifications to capacity. \nDrafts and maintains standards and procedures for service component capacity management. Ensures the correct implementation of standards and procedures.",
+    "level_6": "Leads the development and implementation of policy and strategies for capacity and performance management to meet business needs. \nLeads capacity modelling and forecasting over the organisation’s planning or budgeting cycle using data-driven insights. Considers external factors and industry trends.\nEnsures policies and standards for capacity management are fit for purpose, current and correctly implemented. Drives continuous improvement in capacity management practices, focusing on cost-effectiveness and resource optimisation.\nReviews new business proposals and provides specialist advice on capacity issues."
+  }
+}

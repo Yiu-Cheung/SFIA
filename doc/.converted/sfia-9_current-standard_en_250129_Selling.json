@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Selling', 'row': 139, 'skill_code': 'SALE', 'category': 'Relationships and engagement', 'subcategory': 'Sales and bid management'}
+# Content Length: 3390 characters
+
+================================================================================
+
+{
+  "skill_name": "Selling",
+  "code": "SALE",
+  "url": "https://sfia-online.org/en/skillcode/9/SALE",
+  "category": "Relationships and engagement",
+  "subcategory": "Sales and bid management",
+  "overall_description": "Finding prospective customers and working with them to identify needs, influence purchase decisions and enhance future business opportunities.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nidentifying, qualifying and prospecting sales leads through appropriate channels\ndeveloping customer interest by building rapport, understanding needs, and proposing solutions\npreparing, executing and monitoring sales of products or services in external or internal markets\nconducting value analysis, delivering presentations, and negotiating terms to close sales\ncollaborating with bid/proposal management teams to support sales efforts\nmanaging and growing relationships with existing customers, including identifying upselling and cross-selling opportunities\nconducting regular account reviews and needs assessments to ensure ongoing customer satisfaction.",
+  "level_descriptions": {
+    "level_3": "Identifies new leads and prospects and communicates them to the sales manager. \nResponds to assigned sales leads. Assists in maintaining relationships with existing customers and identifies potential opportunities for additional sales or services.\nApplies agreed standards and tools to perform simple sales tasks or support complex sales processes. \nMonitors and reports on assigned sales quota, performance, customer satisfaction, market intelligence and competitors.",
+    "level_4": "Identifies and qualifies new sales leads and prospects with a view to developing a pipeline of potential opportunities. \nManages existing sales leads. \nCollects and uses information to achieve sales objectives. \nUnderstands customers and their needs, and develops and enhances customer relationships before, during and after the conclusion of agreements/contracts. Identifies opportunities for upselling and cross-selling within the existing customer base.",
+    "level_5": "Designs and implements sales strategies and works with senior management to implement sales plans. \nDevelops and maintains effective customer relationships at executive levels and qualifies new sales leads. Collaborates with bid teams to align sales strategies.\nAgrees and signs contracts. Maintains customer contact during and after sales to pre-empt issues and identify opportunities. Develops strategies for account growth and retention. Implements initiatives to ensure long-term value and loyalty.\nPlans, monitors and controls sales teams. Contributes to the development of sales teams and product/service development.",
+    "level_6": "Oversees the organisation's sales activities to align with business objectives.\nApproves sales proposals and targets. Develops sales policy and strategy, and contributes to the marketing strategy. Works with bid management to ensure sales strategies are effectively represented in major proposals.\nNegotiates with senior customer representatives on technical and contractual issues. Agrees and signs contracts.\nCollaborates on evolving services, products, systems and contracts to meet future customer needs. Implements strategies for lifetime customer value and partnerships. Oversees key account management programmes."
+  }
+}

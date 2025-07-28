@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Service acceptance', 'row': 108, 'skill_code': 'SEAC', 'category': 'Delivery and operation', 'subcategory': 'Service management'}
+# Content Length: 3377 characters
+
+================================================================================
+
+{
+  "skill_name": "Service acceptance",
+  "code": "SEAC",
+  "url": "https://sfia-online.org/en/skillcode/9/SEAC",
+  "category": "Delivery and operation",
+  "subcategory": "Service management",
+  "overall_description": "Managing the process to obtain formal confirmation that service acceptance criteria have been met.",
+  "guidance_notes": "Service acceptance criteria are used to ensure a service meets the defined service requirements, including functionality, operational support, performance, safety, security and quality requirements. Acceptance criteria include both utility/functional and warranty/non-functional tests.\nActivities may include, but are not limited to:\n\ndefining and documenting service acceptance criteria\nconducting service acceptance testing and evaluating test results against defined criteria\nensuring the service provider is ready to operate the new service when it has been deployed\nproviding feedback to service providers on necessary improvements\ndocumenting and reporting on service acceptance outcomes\nensuring operational readiness for new or changed services\nimplementing service acceptance practices to support iterative/agile working\nengaging with stakeholders to validate service readiness such as, but not limited to: external service providers, technical design, software development, DevOps and project management.",
+  "level_descriptions": {
+    "level_3": "Applies standard service acceptance criteria and participates in service acceptance testing. \nCollaborates with delivery teams to ensure service deliverables meet the required standards. \nDocuments and communicates the outcomes of service acceptance activities. \nIdentifies and reports issues or non-conformances, assisting with their resolution.",
+    "level_4": "Engages with delivery teams to confirm that products developed meet the service acceptance criteria and are to the required standard. \nAssesses risks related to service acceptance and suggests actions to address identified risks. \nFacilitates the communication of acceptance criteria across teams to maintain alignment and consistency throughout the process.\nProvides input into change control processes.",
+    "level_5": "Engages with delivery teams to ensure correct products are produced in a timely fashion. \nLeads the assessment of complex or critical service deliverables, ensuring they meet both current and future operational needs. Leads comprehensive risk evaluations identifying and prioritising risks that may impact service readiness. \nProvides authoritative advice on service acceptance practices. Provides recommendations for enhancing service readiness and improving service acceptance processes.\nEvaluates the quality of project outputs against agreed service acceptance criteria.",
+    "level_6": "Develops the organisation's approach for service acceptance, owns the transition process and defines the acceptance criteria for service transitions.\nEnsures risk management activities are aligned with the organisation's broader risk management framework. Promotes and monitors project quality outputs to ensure they are fit for purpose and fit for use within operational services. \nActively engages with stakeholders to promote awareness and compliance with service transition quality plans and processes. \nAgrees the service acceptance criteria with delivery teams."
+  }
+}

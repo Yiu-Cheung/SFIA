@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Organisational facilitation', 'row': 121, 'skill_code': 'OFCL', 'category': 'People and skills', 'subcategory': 'People management'}
+# Content Length: 2961 characters
+
+================================================================================
+
+{
+  "skill_name": "Organisational facilitation",
+  "code": "OFCL",
+  "url": "https://sfia-online.org/en/skillcode/9/OFCL",
+  "category": "People and skills",
+  "subcategory": "People management",
+  "overall_description": "Supporting workgroups to implement principles and practices for effective teamwork across organisational boundaries and professional specialisms.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndeveloping and implementing team principles and practices for decision-making, prioritisation and problem-solving\nhelping teams adopt new/contemporary working practices and behaviours including, but not limited to, specific agile methodologies, processes, tools and ceremonies\nhelping teams plan and prioritise their workload based on their capacity and track record of working\nremoving barriers or impediments to teams achieving their mission and objectives\nproviding guidance and suggestions to support team members in adopting self-management and cross-functional working\nreviewing team effectiveness, identifying what went well, what could be improved, and what might be added or removed from their working practices.\n\nWorkgroups may be focused on project, product or process management or may be focused on specific problems or deliverables.\nWorkshop facilitation tools and techniques form part of applying this skill but are not sufficient. This skill describes a broader set of responsibilities.",
+  "level_descriptions": {
+    "level_4": "Facilitates a series of group activities or workshops in situations of complexity and ambiguity and competing stakeholder needs.\nDesigns a structured sequence of meetings, events or workshops to solve complex problems.\nUnderstands required outcomes and outputs from teams and facilitates the team to deliver these.\nHelps to improve team processes and performance in meetings, events or workshops.",
+    "level_5": "Facilitates workgroups to deliver defined goals and outcomes. \nProvides support, guidance and suggestions to workgroups and teams to learn collaborative problem solving and improve their team performance.  Creates shared responsibilities and sustainable agreements with the team.\nImplements and improves agreed team principles, practices, processes & ceremonies.\nRecognises and works with the strengths and constraints of team dynamics.",
+    "level_6": "Facilitates cross-functional leadership teams to deliver organisational goals and outcomes.\nDesigns repeatable, systematic or ad hoc team processes for decision-making, prioritisation and problem-solving at the highest level. Guides leadership teams in developing shared responsibilities and making decisions that enable sustainable agreements.\nAsks questions and raises awareness of leadership team performance. Provides suggestions to encourage teams to learn and improve how they work together.\nChampions the development of self-organising workgroups across the organisation."
+  }
+}

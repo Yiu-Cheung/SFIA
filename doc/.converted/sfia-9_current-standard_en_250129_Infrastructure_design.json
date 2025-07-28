@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Infrastructure design', 'row': 53, 'skill_code': 'IFDN', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 3822 characters
+
+================================================================================
+
+{
+  "skill_name": "Infrastructure design",
+  "code": "IFDN",
+  "url": "https://sfia-online.org/en/skillcode/9/IFDN",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Designing technology infrastructure to meet business requirements, ensuring scalability, reliability, security and alignment with strategic objectives.",
+  "guidance_notes": "Technology infrastructure encompasses a wide range of components including, but not limited to: physical devices, virtual resources, cloud services, infrastructure-related software, middleware, network services and data storage solutions.\nThe skill involves defining the components and services that make up the technology environment, their connections, interrelationships and operating parameters, which together ensure infrastructure solutions support current and future business needs.\nActivities may include, but are not limited to:\n\ndeveloping detailed infrastructure design specifications and diagrams\nensuring compatibility and integration between different infrastructure components\ndesigning infrastructure for scalability, performance, reliability and security from the outset\nensuring designs adhere to industry standards, regulatory requirements and security protocols\ncollaborating with stakeholders to align infrastructure design with business objectives\nmaintaining comprehensive documentation of the design process and decisions\nintegrating cloud services into the infrastructure design.",
+  "level_descriptions": {
+    "level_2": "Assists in developing preliminary infrastructure design specifications under routine supervision. \nUses established standards and security protocols to contribute to infrastructure design activities. \nHelps draft design documents and diagrams. Documents design-related issues.",
+    "level_3": "Performs varied infrastructure design tasks, including complex and non-routine assignments, using standard methods. \nDevelops design specifications and diagrams for infrastructure components, integrating hardware, software, network elements, and cloud services, and addressing security requirements.\nCollaborates with others to align infrastructure design with organisational objectives and resolve design issues. \nSuggests improvements to enhance infrastructure performance and reliability.",
+    "level_4": "Leads the design of complex infrastructure systems to deliver comprehensive design solutions. \nDevelops detailed architectural frameworks and ensures integration of all infrastructure components, including cloud services.\nProvides guidance on recommended practices and design standards. Reviews and validates design specifications and documentation. \nChecks that designs are scalable, reliable and secure, aligning with business and technical requirements.",
+    "level_5": "Manages the design of infrastructure from analysis to execution and evaluation. \nAccountable for achieving design objectives and ensuring alignment with organisational goals and the effective integration of infrastructure components and systems. Provides authoritative guidance on design practices and methodologies.\nEvaluates new technologies and their applicability to the organisation's needs. Develops and enforces design standards and recommended practices, ensuring consistent and high-quality design outcomes.",
+    "level_6": "Develops and drives adoption of and adherence to organisational policies, standards, guidelines and methods for infrastructure design.\nCollaborates with senior stakeholders to align design projects with organisational objectives. \nProvides strategic oversight and guidance, ensuring infrastructure designs are forward-looking, scalable and secure. \nAccountable for the overall success of infrastructure design initiatives."
+  }
+}

@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Data management', 'row': 66, 'skill_code': 'DATM', 'category': 'Development and implementation', 'subcategory': 'Data and analytics'}
+# Content Length: 3507 characters
+
+================================================================================
+
+{
+  "skill_name": "Data management",
+  "code": "DATM",
+  "url": "https://sfia-online.org/en/skillcode/9/DATM",
+  "category": "Development and implementation",
+  "subcategory": "Data and analytics",
+  "overall_description": "Developing and implementing plans, policies and practices that control, protect and optimise the value and governance of data assets.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndeveloping and enforcing data governance policies to ensure data quality, compliance and ethical usage\ndeveloping plans, policies and practices related to areas including, but not limited to, classification, storage, security, quality, sharing, availability, retrieval, retention and publishing\nmanaging data in all its forms, ensuring alignment with business objectives and regulatory requirements\nanalysing information structures, including logical analysis of taxonomies, ontologies, data, metadata and industry reference data\nensuring data is appropriately stored and archived, in line with relevant legislation\nimplementing data management practices for cloud-based services\napplying ethical principles when handling data.\ndeveloping innovative ways to manage data assets\nintegrating data from multiple sources to support data pipelines and enable additional operations on the data.",
+  "level_descriptions": {
+    "level_2": "Assists in implementing data management activities under close guidance and supervision.\nHelps create and maintain documentation of data management activities. \nHelps identify and report issues and discrepancies.",
+    "level_3": "Implements standard data management practices based on detailed organisational requirements.\nMonitors and maintains data quality through regular reviews and validation checks.    \nCommunicates the details of data management procedures to others, helping with their understanding and compliance.",
+    "level_4": "Devises and implements data governance and master data management processes for specific subsets of data. \nAssesses the integrity of data from multiple sources. \nAdvises on transformation of data between formats or media. Maintains and implements data handling procedures. \nEnables data availability, integrity and searchability through formal data and metadata structures and protection measures.",
+    "level_5": "Devises and implements data governance and master data management processes. \nDerives data management structures and metadata to support consistent data retrieval, integration, analysis, pattern recognition and interpretation across the organisation.\nIndependently validates external information from multiple sources.  Plans effective data storage, sharing and publishing practices within the organisation.\nIdentifies and addresses issues preventing optimal use of information assets. Provides expert advice to maximise data asset value, ensuring data quality and compliance.",
+    "level_6": "Leads the strategic direction for data management and data governance, establishing policies and frameworks that align with business and regulatory requirements. Derives an overall strategy of master data management that supports the development and secure operation of data and digital services. \nCreates organisational policies, standards and guidelines for data management, ensuring ethical principles are applied.\nPlans, establishes and manages processes for regular and consistent access to external data sources, ensuring their validation and integration."
+  }
+}

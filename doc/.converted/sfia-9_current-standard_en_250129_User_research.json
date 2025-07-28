@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'User research', 'row': 75, 'skill_code': 'URCH', 'category': 'Development and implementation', 'subcategory': 'User centred design'}
+# Content Length: 3617 characters
+
+================================================================================
+
+{
+  "skill_name": "User research",
+  "code": "URCH",
+  "url": "https://sfia-online.org/en/skillcode/9/URCH",
+  "category": "Development and implementation",
+  "subcategory": "User centred design",
+  "overall_description": "Identifying users' behaviours, needs and motivations using observational research methods.",
+  "guidance_notes": "This skill is inclusive of a full range of user tasks not just digital tasks. The skill can be applied in various contexts, such as, but not limited to customer experience, products, services, applications, devices, learning experience and employee experience.\nUser research has a different set of responsibilities to academic research or user requirements elicitation. User research incorporates significant involvement of users to generate deep understanding and uncover new opportunities for systems, products, services or devices. \nActivities may include, but are not limited to: \n\nusing ethnography, observation techniques, task analysis and other methodologies that incorporate both the social and technological context\nquantifying different user populations and their needs\nidentifying target users and segments to maximise the chances of design success for systems, products, services or devices\nanalysing and synthesising research data to generate actionable insights\ncommunicating research findings effectively to various stakeholders\nincluding a range of users in research activities to capture the diversity of users' behaviours, needs and motivations.",
+  "level_descriptions": {
+    "level_2": "Assists with user research tasks under routine supervision.\nSupports the collection and documentation of user research.\nHelps organise and share the outcomes of user research activities.\nParticipates in basic user-centred design activities as directed.",
+    "level_3": "Applies standard methods to support user research initiatives.\nEngages effectively with users and customer representatives to generate high-quality research. \nDocuments and shares the outcomes of user research.\nContributes to research design and analysis tasks under guidance.",
+    "level_4": "Conducts generative research for the development of systems, products, services or devices. \nPlans own user research activities. Facilitates input from users and stakeholders. \nIdentifies appropriate user research methods for specific questions and contexts. \nCollects and analyses user research data. Supports synthesis of research and the creation of insights, reports and presentations.",
+    "level_5": "Plans and drives user research activities providing expert advice and guidance to support the adoption of agreed approaches. \nSelects and implements appropriate methods for engaging users in generative research activities.\nLeads the collection and analysis of user research data. Synthesises research, develops insights and presents conclusions to inform decision-making and drive actions. \nLeads complex user research initiatives and identifies emerging user needs and trends. Contributes to the development of organisational methods and standards for user research.",
+    "level_6": "Sets the overall vision and direction for user research activities.\nChampions user-centred design and secures organisational commitment to the significant involvement of users in research. \nDevelops organisational policies, standards and guidelines for user research. \nDevelops or sources organisational resources and capabilities to facilitate the adoption and exploitation of user research. Collaborates with internal and external partners to facilitate effective user research."
+  }
+}

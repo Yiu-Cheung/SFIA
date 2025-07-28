@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Organisational change management', 'row': 45, 'skill_code': 'CIPM', 'category': 'Change and transformation', 'subcategory': 'Change planning'}
+# Content Length: 3906 characters
+
+================================================================================
+
+{
+  "skill_name": "Organisational change management",
+  "code": "CIPM",
+  "url": "https://sfia-online.org/en/skillcode/9/CIPM",
+  "category": "Change and transformation",
+  "subcategory": "Change planning",
+  "overall_description": "Planning, designing and implementing activities to transition the organisation and people to the required future state.",
+  "guidance_notes": "Organisational change management focuses on the structured, procedural aspects of transitioning an organisation to a desired future state. It involves planning, designing and implementing change initiatives that are aligned with organisational goals. This skill is responsible for the technical and process-driven components of change, including stakeholder communication focused on procedural updates and assessing readiness from a structured change implementation perspective.\nActivities may include, but are not limited to:\n\ndeveloping a business change implementation plan to identify required changes to processes, procedures, systems, structures and ways of working\nusing a structured process and set of tools for managing the people side of change \nassessing readiness and capacity to change, aligning with business cycles and project timelines\ncreating and executing communication plans that focus on procedural updates and logistics\nmonitoring the impact of change management efforts and sustaining the change\nassessing and developing change management capabilities \ncoaching change sponsors and aligning their roles with structured change processes.",
+  "level_descriptions": {
+    "level_2": "Assists with organisational change management tasks under routine supervision.\nSupports the collection and analysis of data related to change readiness and impact.\nHelps document and communicate change management plans and activities.",
+    "level_3": "Follows standard techniques to investigate and analyse the size, nature and impact of changes to operational activities. \nContributes to change management plans and actions, focusing on the procedural execution of change. \nSupports implementation and engages with stakeholders under direction.",
+    "level_4": "Conducts readiness assessments to assess the size, nature and impact of organisational change. \nDefines tactics to use considering the challenges to be addressed. Provides guidance and makes suggestions to support individuals responsible for operational implementation of change management activities.\nGathers feedback to analyse the impact and effectiveness of the change management activities being deployed. Takes corrective action as required.\nDevelops and communicates tailored change management plans. Establishes and builds relationships with the project sponsors and key stakeholders.",
+    "level_5": "Develops the change management approach and a change management plan in collaboration with sponsors, users and project teams. \nCreates and implements action plans to ensure readiness for change before going live. Acquires change management resources and develops their capabilities to deliver the required changes.\nGathers feedback to allow timely improvements to the change management plan and approach. Assesses risks and takes preventative action. \nDevelops and communicates tailored change management plans for senior stakeholder groups. Provides guidance to support change sponsors.",
+    "level_6": "Defines and communicates the approach for change management for a significant part of the organisation. \nInitiates, plans and leads strategic, large and complex change management initiatives. Provides guidance to change leaders, emphasising the technical and procedural aspects of change.\nEstablishes feedback processes and leads analyses of change management successes.  \nEnables continual improvements to change management methodology, tools and training necessary to enhance the maturity across the organisation."
+  }
+}

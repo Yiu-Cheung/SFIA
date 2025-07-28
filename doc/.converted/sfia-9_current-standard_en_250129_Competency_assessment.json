@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Competency assessment', 'row': 128, 'skill_code': 'LEDA', 'category': 'People and skills', 'subcategory': 'Skills management'}
+# Content Length: 3304 characters
+
+================================================================================
+
+{
+  "skill_name": "Competency assessment",
+  "code": "LEDA",
+  "url": "https://sfia-online.org/en/skillcode/9/LEDA",
+  "category": "People and skills",
+  "subcategory": "Skills management",
+  "overall_description": "Assessing knowledge, skills, competency and behaviours by any means, whether formal or informal, against frameworks such as SFIA.",
+  "guidance_notes": "Competency assessment is a specialised practice for evaluating skills and competencies, distinct from performance appraisals and general capability understanding. Unlike performance reviews which focus on job performance and contributions, competency assessment objectively measures technical and professional capabilities.\nAssessments may be conducted in various contexts, including: recruitment, career progression, professional development planning, or accreditation/certification.\nActivities may include, but are not limited to:\n\nevaluating and selecting assessment options\nadopting or adapting assessment methods, tools and techniques\nconsidering the context of the assessment and how the results of the assessment will be used\naligning assessments with ethical, legal and regulatory requirements. \n\nEthical, legal and regulatory requirements are essential for ensuring the integrity of assessments and protecting personal data.",
+  "level_descriptions": {
+    "level_2": "Assists in the administration of competency assessments using standard tools and procedures under routine supervision. \nSupports the collection and organisation of assessment data and results using specified methods and tools. \nHelps create and maintain documentation.",
+    "level_3": "Performs routine assessments of knowledge, skills, competencies, or behaviours using specified tools and methods. \nSupports the collection, organisation, and review of assessment data to maintain accurate records.",
+    "level_4": "Performs routine and non-routine assessments of knowledge, skill, competency or behaviour using specified methods. \nProvides advice and guidance to support the adoption of assessment methods and tools. \nModerates assessments conducted by other assessors. \nReviews and improves usage and application of assessment methods and tools.",
+    "level_5": "Provides advice and guidance on selecting, adopting and adapting assessment methods, tools and techniques. \nPlans assessments based on the context of the assessment and how assessment results will be used. \nManages execution of assessments to ensure they deliver the required outcomes with acceptable quality. Monitors and moderates reviews performed by other assessors. \nManages reviews of the benefits and value of assessment methods and tools. Identifies and recommends improvements to assessment methods and tools.",
+    "level_6": "Champions the importance and value of assessment and appropriate assessment methods, tools and techniques. \nDevelops organisational policies, standards and guidelines for assessments. \nLeads in the introduction and use of assessment methodologies and tools.  Establishes an assessment practice and pool of assessors within the organisation. \nEstablishes quality assurance to ensure internal and/or external consistency and reliability of assessment outcomes. Ensures the quality of assessments across different user groups."
+  }
+}

@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Graphic design', 'row': 84, 'skill_code': 'GRDN', 'category': 'Development and implementation', 'subcategory': 'Content management'}
+# Content Length: 3912 characters
+
+================================================================================
+
+{
+  "skill_name": "Graphic design",
+  "code": "GRDN",
+  "url": "https://sfia-online.org/en/skillcode/9/GRDN",
+  "category": "Development and implementation",
+  "subcategory": "Content management",
+  "overall_description": "Creating and applying visual concepts to communicate ideas, enhance aesthetics and improve user experience across digital and print media.",
+  "guidance_notes": "Graphic design encompasses a broad range of activities including typography, colour theory, layout and visual storytelling.\nActivities may include, but are not limited to:\n\ncreating visual elements and layouts for digital and print media\ninterpreting and applying research findings to inform design decisions\napplying design principles to ensure visual consistency and effectiveness and that content is accessible and inclusive to all users\ndeveloping and iterating design prototypes based on feedback and research findings\nensuring designs adhere to brand guidelines and assignment specifications\ncollaborating with stakeholders to understand and meet design requirements\nmaintaining and organising design assets and libraries\ndeveloping and implementing design processes and guidelines\ncreating high-quality graphics and visual elements using design software\nproducing design mock-ups and interactive prototypes\nusing specialised hardware/equipment for design tasks.",
+  "level_descriptions": {
+    "level_1": "Creates simple visual elements under supervision. \nApplies basic design principles. Uses design software to produce simple graphics. Supports the maintenance of design assets and libraries. \nParticipates in design reviews and incorporates feedback. \nHelps with routine tasks such as resizing images, preparing files for print or digital use and organising design assets.",
+    "level_2": "Assists the creation of visual elements and layouts for digital and print media under routine supervision. \nApplies design principles to produce consistent and effective visuals. Uses design software to create and edit graphics, preparing mock-ups and prototypes. Conforms to brand guidelines and assignment specifications. \nResponds to feedback and research findings to revise designs. \nParticipates in research activities to inform design decisions and understand user needs.",
+    "level_3": "Designs visual concepts and layouts for a range of media. \nWorks with stakeholders to understand design requirements. \nProduces high-quality graphics and visual elements using design software. Develops prototypes and iterates based on feedback. Applies brand guidelines and assignment specifications. \nContributes to the development of design standards and recognised good practices.",
+    "level_4": "Designs visual concepts and comprehensive designs for complex assignments.\nEngages with clients and stakeholders to elicit and document design requirements and goals. Manages design assignments from concept to final delivery. \nCreates detailed design mock-ups and interactive prototypes. Reviews and approves design work, ensuring alignment with brand standards and evidence-based practices. \nDevelops and implements design processes, guidelines and recognised good practices to enhance design quality and effectiveness.",
+    "level_5": "Manages graphic design activities for the organisation, ensuring designs are research-driven and aligned with business objectives. \nOversees multiple design initiatives, ensuring high-quality, consistent output. Engages with senior stakeholders to align design goals with business objectives and user needs. \nDevelops research-informed visual solutions to strengthen brand identity and user experience. \nLeads the creation and adoption of design standards, processes and recognised good practices. Provides authoritative advice on visual design trends and evidence-based practices, ensuring designs meet all required specifications and brand guidelines."
+  }
+}

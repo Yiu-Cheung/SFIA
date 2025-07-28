@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Database administration', 'row': 118, 'skill_code': 'DBAD', 'category': 'Delivery and operation', 'subcategory': 'Data and records operations'}
+# Content Length: 3510 characters
+
+================================================================================
+
+{
+  "skill_name": "Database administration",
+  "code": "DBAD",
+  "url": "https://sfia-online.org/en/skillcode/9/DBAD",
+  "category": "Delivery and operation",
+  "subcategory": "Data and records operations",
+  "overall_description": "Installing, configuring, monitoring, maintaining databases and data stores, ensuring performance and security and adapting to evolving technologies.",
+  "guidance_notes": "Database administration involves managing operational databases in production environments as well as supporting databases for development, testing and iterative improvements. The focus is on ensuring database availability, integrity, security and performance across a variety of database types, including relational, NoSQL and cloud-based databases.\nActivities may include, but are not limited to:\n\nidentifying and acting on automation opportunities to improve performance and value from databases, data stores and data pipelines\nusing database management system software and tools including both cloud-based and on-premises solutions\napplying knowledge of the logical database schema\nensuring compliance with data privacy laws and regulations\ndesigning and implementing disaster recovery, backup strategies, and security monitoring protocols\nintegrating and managing databases across hybrid environments, combining on-premises and cloud-based solutions\nmonitoring emerging database technologies and trends, including security features and vulnerabilities.",
+  "level_descriptions": {
+    "level_2": "Executes operational procedures, runs automation scripts and performs routine maintenance and monitoring of databases.\nAdjusts automation tasks as instructed to meet operational standards for databases.\nReports on database performance, addresses issues directly when possible, or escalates to others for resolution.",
+    "level_3": "Provisions, installs, configures and ensures the maintenance and reliability of databases.\nMonitors databases for load, performance and security events. Reports metrics and resolves operational issues.\nExecutes standard operational procedures, including database backups and restorations.\nAutomates routine database administration tasks to specifications using standard scripts and tools.",
+    "level_4": "Applies technical expertise to maintain and optimise databases, executing updates and employing automation tools. Configures tools and/or creates scripts to automate database tasks.\nMaintains operational procedures and checks that they are followed, including compliance with security policies. Uses database management tools to monitor load and performance statistics. \nInvestigates and enables the resolution of database operational and security issues. Provides reports and proposals for improvement to stakeholders.\nContributes to the planning and implementation of database maintenance and updates. Implements agreed database changes and maintenance routines.",
+    "level_5": "Provides technical leadership to optimise the performance of databases.\nDrives the adoption of tools and automated processes for effective database management and delivery.\nOversees the planning, installation, maintenance and acceptance of new and updated database components and database-based services. Ensures alignment to service expectations, security requirements and other quality standards.\nEnsures database operational procedures and documentation are current and effective, tracks and addresses operational issues and reports to stakeholders."
+  }
+}

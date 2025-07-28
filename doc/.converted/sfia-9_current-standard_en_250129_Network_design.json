@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Network design', 'row': 52, 'skill_code': 'NTDS', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 3793 characters
+
+================================================================================
+
+{
+  "skill_name": "Network design",
+  "code": "NTDS",
+  "url": "https://sfia-online.org/en/skillcode/9/NTDS",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Designing communication networks to meet business requirements, ensuring scalability, reliability, security and alignment with strategic objectives.",
+  "guidance_notes": "Network design covers all aspects of the communications infrastructure, including, but not limited to: networks that are wired or wireless, digital or analogue, virtual or physical, local area, wide area, mobile/cellular and any other defined protocols and scales of operation. In the cloud context, network design also includes designing virtual network topologies, hybrid cloud connectivity and leveraging cloud-native networking services to ensure scalability, security and performance. \nActivities may include, but are not limited to:\n\nanalysing business requirements and translating them into network design specifications\ndesigning network topologies, security measures and connectivity solutions for various environments\ndefining network configurations and policies using code\nplanning for network scalability, redundancy and high availability, including in cloud-based networks\ndefining network infrastructure as code to enable automation and streamline provisioning and management\ndesigning disaster recovery and business continuity solutions to ensure network resilience and minimise downtime\ncollaborating with stakeholders to ensure network designs align with business objectives and industry standards.",
+  "level_descriptions": {
+    "level_2": "Assists with defining configurations for networks and network components under routine supervision. \nFollows established network architectures, standards, and security protocols.\nAssists in documenting network configurations and producing detailed network specifications under guidance, incorporating relevant security aspects.",
+    "level_3": "Specifies the technical configurations and components required for a small network or a network segment in a more complex infrastructure.\nFollows organisational architectures, standards, and security guidelines.",
+    "level_4": "Designs specific network components using agreed architectures, design standards, patterns and methodology.\nTranslates logical designs into physical designs that meet specified operational parameters for capacity and performance.\nReviews and verifies network designs against non-functional requirements, including validation and error correction procedures, access, security and audit controls.\nContributes to the development of recovery routines and contingency procedures. Contributes to alternative network architectures, networking topologies and design options.",
+    "level_5": "Produces, or approves network providers', network architectures, topologies and configuration databases for own area of responsibility.\nSpecifies design parameters for network connectivity, capacity, speed, interfacing, security and access, in line with business requirements.\nAssesses network-related risks and specifies recovery routines and contingency procedures.\nCreates multiple design views to address the different stakeholders' concerns and to handle both functional and non-functional requirements.",
+    "level_6": "Takes responsibility for major aspects of network specification, standards, technologies and overall network design models within the organisation.\nProduces network design policies, principles and criteria covering connectivity, capacity, interfacing, security, resilience, recovery and access.\nDevelops and drives adoption of and adherence to organisational policies, standards, guidelines and methods for network design."
+  }
+}

@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Information management', 'row': 2, 'skill_code': 'IRMG', 'category': 'Strategy and architecture', 'subcategory': 'Strategy and planning'}
+# Content Length: 3865 characters
+
+================================================================================
+
+{
+  "skill_name": "Information management",
+  "code": "IRMG",
+  "url": "https://sfia-online.org/en/skillcode/9/IRMG",
+  "category": "Strategy and architecture",
+  "subcategory": "Strategy and planning",
+  "overall_description": "Enabling the effective management and use of information assets.",
+  "guidance_notes": "Information assets represent information deemed valuable by an organisation and may be held in many forms including, but not limited to: digital documents, printed material, microform, e-mail, chats and websites. Information may be structured or unstructured and may be created by internal or external sources.\nSpecific laws and regulations may require organisations to maintain records of certain business activities and transactions for a minimum period.\nActivities may include, but are not limited to:\n\nidentifying, classifying, processing information that is used to support decision-making, business processes and digital services\ndeveloping innovative ways of managing the information assets of the organisation\ngovernance of how information is used to support decision-making, business processes and digital services\nensuring information can be discovered and delivered in line with organisational policies and practices\ndeveloping and promoting strategies and policies for the design of information architectures, structures and taxonomies\nimplementing systems of cataloguing, metadata, indexing and classification standards and methods used to organise information",
+  "level_descriptions": {
+    "level_3": "Supports teams and individuals to identify and organise information assets and repositories in line with policy and practices.\nConducts routine searches for non-sensitive information needed to support organisational decision making.\nSupports users to find and access information resources based on their requirements and approved access.",
+    "level_4": "Enables the organisation to organise, control and discover information assets.\nSupports the organisation to identify, catalogue and categorise information types and information repositories in line with information management strategies and practices.\nEnables users to find information through appropriate use of metadata and search tools.\nProvides advice and guidance to enable good information management practices to be adopted across the organisation.",
+    "level_5": "Ensures implementation of information and records management policies and standard practice.  Communicates the benefits and value of information management. \nPlans effective information storage, sharing and publishing within the organisation. Develops organisational taxonomy for information assets. \nProvides expert advice and guidance to enable the organisation to get maximum value from its information assets. \nAssesses issues that might prevent the organisation from making maximum use of its information assets. Contributes to the development of policy, standards and procedures for compliance with relevant legislation.",
+    "level_6": "Leads and plans activities to communicate and implement information management strategies and policies.  \nDevelops organisational policies, standards and guidelines for information management. \nEnsures the information required to support the organisation is defined. Creates information management processes.  \nCoordinates internal and externally sourced information resources to meet specific business objectives.",
+    "level_7": "Establishes and communicates the organisation's information management strategy. \nSpecifies at a strategic level the information needed to support the business strategy and business functions.  \nDirects information resources to create value for stakeholders. \nAccountable for compliance with regulations, standards and codes of good practice relating to all aspects of information management."
+  }
+}

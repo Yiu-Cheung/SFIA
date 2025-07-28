@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Content publishing', 'row': 82, 'skill_code': 'ICPM', 'category': 'Development and implementation', 'subcategory': 'Content management'}
+# Content Length: 3942 characters
+
+================================================================================
+
+{
+  "skill_name": "Content publishing",
+  "code": "ICPM",
+  "url": "https://sfia-online.org/en/skillcode/9/ICPM",
+  "category": "Development and implementation",
+  "subcategory": "Content management",
+  "overall_description": "Managing processes to collect, assemble and publish content across various channels to meet organisational and audience needs.",
+  "guidance_notes": "Information content may be in structured, unstructured or semi-structured forms.\nActivities may include, but are not limited to:\n\nunderstanding the requirements of the organisation and the target audience\nevaluating different publishing methods and options, and their costs, features and benefits, including open source and proprietary options\ndeveloping and implementing a framework for content publishing, including preferred media, overall information structure and rules for formatting content\nidentifying, briefing and collaborating with content creators\nconverting content into a format suitable for publication\ndelivering content to the user at the point of need\nmanaging copyright, data protection and other legal issues associated with publishing and re-using published information and data\nensuring published material is in a form accessible to all potential users, including those with disabilities\ncoordinating content across different platforms and ensuring consistent content presence across multiple platforms\npublishing new content or archiving outdated material.",
+  "level_descriptions": {
+    "level_1": "Contributes, under instruction, to publication support activities. \nSupports the collation of data. \nUses established publishing processes and procedures following appropriate guidelines.",
+    "level_2": "Uses technical publication concepts, tools, and methods to publish content following agreed procedures and guidelines. \nPrepares and formats content to meet the needs of the target audience and platform.\nObtains and analyses usage data and presents it effectively. \nApplies principles of usability and accessibility to published information.",
+    "level_3": "Coordinates content management processes and procedures to meet the needs of users. \nUses content publishing systems to manage published content across different channels. \nAssists in identifying and working with content creators.\nConsiders all legal issues related to publishing.",
+    "level_4": "Applies organisational guidelines and uses appropriate tools and techniques to provide publishing interfaces to new or existing platforms and applications. \nMaintains and updates content management processes and practices to meet the needs of users. Selects appropriate channels through which content should be published. \nCollaborates with and provides guidance to content creators. Provides advice to users and content authors to leverage the features of the relevant channels and tools used. \nIdentifies the legal implications associated with publishing.",
+    "level_5": "Plans and manages content publishing activities and assignments. \nDevelops standards, processes and practices for consistent content publishing across one or more platforms/channels. Advises on the approach and techniques to be used for content publishing. \nAdvises on approaches for content publishing and creator collaborations. Assures design of the overall content structure and style. \nEnsures publication processes comply with agreed policies and strategies and legal requirements.",
+    "level_6": "Obtains organisational commitment and resources to ensure the appropriate quality of material published by or on behalf of the organisation. \nDefines organisational policies, standards, processes and practices for content publishing, including creator partnerships. \nPlans and leads content publishing activities for strategic, large and complex programmes. \nEnsures policies are implemented and any legal issues related to publishing are adequately managed."
+  }
+}

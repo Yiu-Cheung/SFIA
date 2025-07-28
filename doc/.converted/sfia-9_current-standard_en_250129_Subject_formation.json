@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Subject formation', 'row': 131, 'skill_code': 'SUBF', 'category': 'People and skills', 'subcategory': 'Skills management'}
+# Content Length: 2673 characters
+
+================================================================================
+
+{
+  "skill_name": "Subject formation",
+  "code": "SUBF",
+  "url": "https://sfia-online.org/en/skillcode/9/SUBF",
+  "category": "People and skills",
+  "subcategory": "Skills management",
+  "overall_description": "Specifying, designing and developing curricula within a structured and systematic education environment.",
+  "guidance_notes": "Subject formation focuses on:\n\ndeveloping curricula to support the development of understanding of the principles, approaches and practices that underpin specific topics and knowledge areas \nincorporating significant emerging technologies and techniques for which current students need to be prepared. \n\nThe scope may include curricula for formal education or for independent examination bodies.\nThis skill is generic and can be applied to curriculum design and development for any topic or knowledge area. In the context of the SFIA framework, this includes:\n\nthe topics and knowledge areas that support any skills described in the SFIA framework\nand the application of these topics and knowledge areas to other disciplines and practices.\n\nIn the context of computing and IT curricula, the topics addressed are typically:\n\ncommon digital skills needed to safely benefit from, participate in and contribute to the digital world for everyday life and for work\nfundamental and more advanced aspects of specific topics and knowledge areas including emerging technologies and new applications for existing technologies\nthe ideas of computational thinking and the application of computational concepts to everyday life and professional working practices.",
+  "level_descriptions": {
+    "level_4": "Contributes to curriculum development by selecting or specifying curriculum content or assessment approaches for one or more specialist areas.",
+    "level_5": "Contributes to the specification and development of curricula and assessment in an educational context or for an independent examination body.",
+    "level_6": "Leads the specification and development of curricula and assessment in an educational context or for an independent examination body. \nContributes to the development of a strategy for curriculum evolution. \nEnsures relevant current domain research is represented in the curricula.",
+    "level_7": "Authorises the curriculum and assessment strategies for a broad range of curricula or learning pathways.\nDirects the definition, implementation and monitoring of curricula to satisfy relevant statutory and professional benchmarks and frameworks.\nDevelops strategies for the evolution of curricula over time. Incorporates emerging domain and pedagogical themes into plans for future curricula."
+  }
+}

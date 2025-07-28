@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'System software administration', 'row': 91, 'skill_code': 'SYSP', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 3138 characters
+
+================================================================================
+
+{
+  "skill_name": "System software administration",
+  "code": "SYSP",
+  "url": "https://sfia-online.org/en/skillcode/9/SYSP",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Installing, managing and maintaining operating systems, data management, office automation and utility software across various infrastructure environments.",
+  "guidance_notes": "System software encompasses a wide range of software components that support the functioning and management of technology infrastructure, including operating systems, infrastructure software, data management products, office automation products, middleware and utility software. It may run in cloud, virtual or physical hardware environments and enables applications to run effectively.\nActivities may include, but are not limited to:\n\nmonitoring and optimising the performance of system software\ndeveloping and maintaining diagnostic tools and procedures for system software troubleshooting and performance analysis\nresolving service problems with system software components\nevaluating, provisioning and testing new system software, including cloud based solutions \nreviewing system software updates and upgrades\nprovisioning and testing system software updates and configurations\nadhering to established safety, security and quality standards\nmanaging system software in hybrid and multi-cloud environments.",
+  "level_descriptions": {
+    "level_2": "Assists with system software administration tasks under routine supervision.\nSupports the installation and configuration of system software.\nHelps monitor system performance and resource usage.\nAssists in documenting system software settings and updates.",
+    "level_3": "Monitors operational systems for resource usage and failure rates, to inform and facilitate system software tuning.\nApplies system software settings to optimise performance, enabling maximum throughput and efficient resource utilisation.\nInstalls and tests new versions of system software. \nAssists in creating software implementation procedures, including  fallback contingency plans.",
+    "level_4": "Monitors system software metrics and adjusts configurations for optimum availability and performance.\nApplies technical expertise to investigates and resolve complex system software issues, requesting action from supplier if required. \nAnalyses system software updates and determines which ones require actions. \nDevelops comprehensive software implementation procedures with robust contingency plans.",
+    "level_5": "Ensures system software is provisioned and configured to support the achievement of service objectives. \nDevelops and maintains diagnostic tools and processes for troubleshooting and performance analysis. \nEvaluates new system software and recommends adoption if appropriate. Plans the provisioning and testing of new versions of system software. \nEnsures operational procedures and diagnostics for system software are current, accessible and well understood. Investigates and coordinates the resolution of potential and actual service problems."
+  }
+}

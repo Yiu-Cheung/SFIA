@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Product management', 'row': 47, 'skill_code': 'PROD', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 4246 characters
+
+================================================================================
+
+{
+  "skill_name": "Product management",
+  "code": "PROD",
+  "url": "https://sfia-online.org/en/skillcode/9/PROD",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Managing and developing products or services throughout their full lifecycle, from inception through growth, maturity, and decline, to retirement.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nusing market and/or user research insights to inform product strategies\ndefining product vision, strategy and roadmaps aligned with organisational goals\ndeveloping and implementing pricing/charging strategies and tactics based on competitive analysis, cost analysis and customer insights\ncollaborating with cross-functional teams to develop, launch and manage products over their lifecycle\nmanaging product lifecycle and continuously improving products based on data and feedback\nmonitoring product performance, market trends and competitor activities\napplying product management principles to both internal and customer-facing products.\n\nFor customer-facing products (including government digital services and commercial products), focusing on measures such as customer needs, service quality, public sector objectives, revenue, profitability and cost recovery\nFor internal products, focusing on user needs, operational efficiency and business value\nA product lifecycle typically moves from inception, growth, maturity, decline to retirement. The product development lifecycle model used will be based on the context of the work and may be selected from predictive (plan-driven) or adaptive (iterative/agile) approaches.",
+  "level_descriptions": {
+    "level_2": "Assists with product management tasks under routine supervision. \nHelps create and curate content to support product usage.\nAssists in monitoring results and feedback from product activities.\nSupports problem resolution by collecting and reporting on feedback and usage data.",
+    "level_3": "Creates and curates various content to support the adoption and usage of products or services. \nMonitors results and feedback from product campaigns. \nApplies standard techniques and tools to carry out analysis and performance monitoring activities for specified products. \nSupports problem resolution, resolves issues and acts on feedback for products in use.",
+    "level_4": "Manages one or more lower-value products or services. \nPrioritises product requirements and develops product roadmaps. Owns the product backlog. Manages elements of the product lifecycle to meet customer/user needs and achieve financial or other targets. \nUses insights from market and/or user research, feedback, expert opinion and usage data to understand needs and opportunities. \nFacilitates uptake of products by developing content, supporting and evaluating campaigns and monitoring product performance. Rolls out product trials and product launches.",
+    "level_5": "Manages the full product lifecycle to meet customer/user needs and achieve targets. \nSelects and adapts appropriate product development methods, tools and techniques. \nUses insights from market and/or user research, feedback and usage data to understand needs and opportunities. Develops product propositions and determines positioning and variants for different segments. Prioritises requirements and develops product roadmaps. \nCoordinates customer testing, product launches and supports communications and training. Adapts products based on changing customer/user needs and creates retirement and transition plans.",
+    "level_6": "Oversees the organisation’s product and services portfolio and the delivery of customer value and/or user satisfaction. \nCreates the product lifecycle management framework for internal and external customers and users. Champions the value of product management principles and appropriate product development models. \nAligns the product management objectives with business objectives and authorises the selection and planning of all product management activities. \nInitiates the creation of new products and services. Identifies how developing new products or adapting existing products can create new opportunities."
+  }
+}

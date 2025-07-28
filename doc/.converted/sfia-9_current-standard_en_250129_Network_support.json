@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Network support', 'row': 92, 'skill_code': 'NTAS', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 3889 characters
+
+================================================================================
+
+{
+  "skill_name": "Network support",
+  "code": "NTAS",
+  "url": "https://sfia-online.org/en/skillcode/9/NTAS",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Providing maintenance and support services for communications networks.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\nmonitoring network performance, investigating issues, troubleshooting and testing network devices\nimplementing and managing network security measures, including access control, authentication, encryption and intrusion detection/prevention\nconfiguring and maintaining network solutions across physical, virtual and cloud environments\nautomating network support tasks using scripting, automation tools and orchestration platforms\ncreating and maintaining network documentation, including diagrams, configuration files and procedures\nproviding technical support, advice and guidance to users and collaborating with others to resolve network issues\nanalysing network performance, generating reports and presenting findings and recommendations to stakeholders\ncollaborating with others to ensure seamless integration and operation across all environments.",
+  "level_descriptions": {
+    "level_1": "Supports routine network tasks under close supervision. \nMonitors basic network health and reports on the status of network components. \nAssists with straightforward troubleshooting and follows established procedures to maintain operational continuity. \nEscalates issues as necessary to higher levels of support",
+    "level_2": "Assists in the operational configuration of network components and the investigation and resolution of network problems.\nAssists in the implementation of basic scripting and automation tools to streamline network support tasks.\nAssists with specified maintenance procedures and follows established safety, security and quality standards.\nProvides first-line support and guidance to network users, escalating issues as necessary.",
+    "level_3": "Executes agreed network maintenance tasks and specified operational configuration of network components.\nIdentifies and diagnoses network problems/faults using the required troubleshooting tools and network management software, including addressing security-related issues.\nImplements and maintains scripts, automation tools and orchestration platforms to optimise network support processes.\nCollects performance and traffic statistics and collaborates with others to ensure network effectiveness and resolve issues",
+    "level_4": "Applies technical expertise to maintain and optimise network infrastructure, executing updates and employing automation tools. \nUses network management tools to monitor load, performance, and security statistics. Investigates and enables the resolution of network-related operational and security issues.  Configures tools and/or creates scripts to automate network tasks. \nMaintains operational procedures and checks that they are followed. Provides reports and proposals for improvement to stakeholders.\nContributes to the planning and implementation of network maintenance, updates, and security enhancements. Implements agreed network changes and maintenance routines.",
+    "level_5": "Leads network operations to optimise performance. \nOversees planning, installation, maintenance, and acceptance of network components and services, aligning with service expectations, standards, and security requirements.\nEnsures network support requests are handled according to set standards and procedures.\nDrives the adoption of tools and processes for effective operational management and delivery, ensuring security considerations are addressed. Maintains procedures and documentation. Investigates and resolves complex network problems. Tracks operational issues and reports to stakeholders."
+  }
+}

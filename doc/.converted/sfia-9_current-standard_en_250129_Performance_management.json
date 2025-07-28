@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Performance management', 'row': 119, 'skill_code': 'PEMT', 'category': 'People and skills', 'subcategory': 'People management'}
+# Content Length: 2842 characters
+
+================================================================================
+
+{
+  "skill_name": "Performance management",
+  "code": "PEMT",
+  "url": "https://sfia-online.org/en/skillcode/9/PEMT",
+  "category": "People and skills",
+  "subcategory": "People management",
+  "overall_description": "Improving organisational performance by developing the performance of individuals and workgroups to meet agreed objectives with measurable results.",
+  "guidance_notes": "The term workgroup is used to be inclusive of different organisational structures. A workgroup is a collection of people working together on interdependent tasks to achieve shared objectives. This includes, but is not limited to, permanent/business-as-usual teams, cross-functional teams, squads or workgroups formed to deliver a specific outcome.\nActivities may include, but are not limited to:\n\nsetting workgroup objectives aligned to organisational drivers\nsupporting individual growth to achieve objectives\nforming effective teams\ndeveloping effective working relations within the workgroup\ndeveloping effective working relations with other workgroups, partners and individuals who they collaborate with to achieve workgroup objectives.",
+  "level_descriptions": {
+    "level_4": "Provides operational direction, support and guidance to assigned colleagues. \nAllocates routine tasks or project work, in line with team objectives and individual capabilities. Monitors quality and performance against agreed criteria to make learning recommendations or to escalate concerns. \nCoaches colleagues in developing target skills and capabilities in line with team and personal goals.  \nFacilitates effective working relationships between team members.",
+    "level_5": "Forms, maintains and leads workgroups and individuals to achieve organisational objectives. \nDelegates objectives and responsibilities, including people management tasks. Sets quality, performance and capability targets aligned with organisational goals. \nMonitors performance and working relationships and provides feedback to address individual issues. Encourages skill development in line with team and personal goals. Adjusts workload, targets and team capacity to support individual growth. \nActively participates in formal processes such as recruitment, reward, promotion and disciplinary procedures.",
+    "level_6": "Determines and delegates people management and functional management objectives and responsibilities. \nCreates and sets the direction for multiple workgroups to achieve strategic organisational objectives. Sets strategy for quality and performance measurement in line with organisational goals. \nProvides a work environment and resources that allow individuals and workgroups to perform their tasks efficiently. \nLeads the implementation of formal organisational processes such as recruitment, reward, promotion and disciplinary procedures."
+  }
+}

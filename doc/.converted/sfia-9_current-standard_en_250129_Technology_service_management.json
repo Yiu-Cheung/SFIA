@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Technology service management', 'row': 88, 'skill_code': 'ITMG', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 3086 characters
+
+================================================================================
+
+{
+  "skill_name": "Technology service management",
+  "code": "ITMG",
+  "url": "https://sfia-online.org/en/skillcode/9/ITMG",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Managing the provision of technology-based services to meet defined organisational needs.",
+  "guidance_notes": "Technology-based services may include, but are not limited to, IT infrastructure, audio-visual services, end-user computing, enterprise applications, facilities, communications services and industrial control systems.\nActivities may include, but are not limited to:\n\napproving, preparing, planning and managing new or changed services\nmanaging the performance of systems and services in terms of their contribution to business outcomes, financial costs and sustainability\nend-to-end management of services, whether delivered internally or sourced externally\nintegrating internal and external services as well as delivery options leveraging multiple service delivery capabilities\ndeveloping and implementing continual service improvement plans to ensure the technology services adequately support changing needs.",
+  "level_descriptions": {
+    "level_5": "Takes responsibility for managing the design, procurement, installation, upgrading, operation, control, maintenance and effective use of specific technology services.\nLeads service delivery, ensuring agreed service levels, security requirements and other quality standards are met. Ensures adherence to relevant policies and procedures.\nEnsures processes, procedures and practices are aligned across teams and providers to operate effectively and efficiently. \nMonitors technology services performance. Provides appropriate status and other reports to managers and senior users.",
+    "level_6": "Manages and allocates resources for budgeting, estimating, planning, developing and delivering a portfolio of technology services and systems. \nEngages and influences stakeholders to ensure services are developed and managed to meet agreed service levels, security requirements and quality standards. \nPlans and implements processes, procedures, tools and practices for monitoring and managing the performance of technology services. \nAligns the contribution of specified systems and services with organisational and financial goals. Recommends sourcing options, whether in-house, outsourced, or a combination, ensuring optimal service delivery.",
+    "level_7": "Sets the strategic direction for managing the technology services portfolio, ensuring alignment with organisational strategies, objectives and emerging opportunities. \nPromotes and assesses technology's potential to drive change, evaluating feasibility and impact.\nAuthorises the establishment and integration of new or modified service delivery capabilities, balancing in-house and outsourced options. Oversees resource allocation for planning, developing and delivering technical services and products.\nMaintains a strategic overview of how technology services contribute to organisational success."
+  }
+}

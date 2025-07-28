@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Demand management', 'row': 15, 'skill_code': 'DEMM', 'category': 'Strategy and architecture', 'subcategory': 'Financial and value management'}
+# Content Length: 2602 characters
+
+================================================================================
+
+{
+  "skill_name": "Demand management",
+  "code": "DEMM",
+  "url": "https://sfia-online.org/en/skillcode/9/DEMM",
+  "category": "Strategy and architecture",
+  "subcategory": "Financial and value management",
+  "overall_description": "Analysing and proactively managing business demand for new services or modifications to existing service features or volumes.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ncollaborating with the business to prioritise demand to improve business value\ndeveloping and communicating insights into patterns of demand\nperforming what-if analyses and scenario planning to develop insights and proposals to improve business value\nproposing responses to meet both short-term and long-term demand and facilitating decision-making and planning\nintegrating demand analysis and planning with complementary strategic, operational and change planning processes.",
+  "level_descriptions": {
+    "level_4": "Performs demand management analysis and planning activities within a specific business or operational area. \nMonitors patterns of demand and identifies insights and proposals to improve business value. \nIdentifies and assesses opportunities to prioritise or improve alignment between business demand and capacity to deliver. \nEngages stakeholders to communicate insights, plans and decisions regarding business demand.",
+    "level_5": "Implements demand management analysis and  planning activities. \nProvides advice to help stakeholders adopt and adhere to the agreed demand management approach. Manages the process of integrating demand management  with complementary strategic, operational and change management processes. \nMaintains a register of business requests and routes requests to the right place. Reports on the status of each request.\nReviews new business proposals and provides advice on demand issues. Works with business representatives to agree and implement short-term and medium-term modifications to demand.",
+    "level_6": "Defines the approach and sets policies for discovering, analysing, planning, controlling and documenting demand for services and products. \nOrganises scoping and business priority setting for strategic business changes involving business policymakers and direction setters. \nEngages with and influences senior stakeholders to improve the business value delivered from new or existing services and products. \nLeads the development of demand management capabilities. Leads the integration of demand management with complementary strategic, operational and change management processes."
+  }
+}

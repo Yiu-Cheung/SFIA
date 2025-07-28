@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Systems integration and build', 'row': 56, 'skill_code': 'SINT', 'category': 'Development and implementation', 'subcategory': 'Systems development'}
+# Content Length: 4253 characters
+
+================================================================================
+
+{
+  "skill_name": "Systems integration and build",
+  "code": "SINT",
+  "url": "https://sfia-online.org/en/skillcode/9/SINT",
+  "category": "Development and implementation",
+  "subcategory": "Systems development",
+  "overall_description": "Planning, implementing and controlling activities to integrate system elements, subsystems and interfaces to create operational systems, products or services.",
+  "guidance_notes": "The scope of integration includes system elements, subsystems, interfaces and software components including computing, storage, networking and cloud services.\nSystems integration is used to create systems for testing purposes as well as for operational use by customers and users.\nActivities may include, but are not limited to:\n\ndeveloping organisational capabilities, processes and procedures for automation and continuous integration of build, packaging, testing, security and deployment\nbuilding and operating a continuous integration (CI) capability when required, employing version control of source code and related artefacts\nensuring security and privacy requirements are an essential part of systems integration and build\ncollaborating with development, testing and operations teams to streamline the integration process\ntesting, validation and sign off of integration to satisfy requirements, architectures and design\nmonitoring and controlling integration activities and recording and reporting on the results of integration\nkeeping stakeholders informed and providing feedback into risk management processes\ndeveloping and testing disaster recovery plans and applying incident management processes for major systems integrations.",
+  "level_descriptions": {
+    "level_2": "Produces builds from system components using appropriate build automation tools and processes.\nConducts tests as defined in an integration test specification and records the details of any failures.\nAnalyses and reports on integration test activities and results. Identifies and reports issues and risks.",
+    "level_3": "Defines the modules and components and dependencies needed for an integration build and produces a build definition. Accepts completed modules and components, checking that they meet defined criteria.\nProduces builds from system components for loading onto target environments. \nConfigures the hardware, software and infrastructure environment as required by the system being integrated. \nProduces integration test specifications, conducts tests and records and reports on outcomes. Diagnoses faults and documents the results of tests. Produces system integration reports.",
+    "level_4": "Provides technical expertise to enable the configuration of system components and equipment for systems testing.\nCollaborates with technical teams to develop and agree system integration plans and report on progress. Defines complex/new integration builds. Ensures integration test environments are correctly configured.\nDesigns, performs and reports results of tests of the integration build. Identifies and documents system integration components for recording in the configuration management system.\nRecommends and implements improvements to processes and tools.",
+    "level_5": "Plans and drives activities to develop organisational systems integration and build capabilities including automation and continuous integration.\nIdentifies, evaluates and manages the adoption of tools, techniques and processes to create a robust integration framework. Provides authoritative advice and guidance on any aspect of systems integration.\nLeads integration work in line with the agreed system and service design. Assesses risks and takes preventative action. Measures and monitors applications of standards.\nContributes to the development of organisational policies, standards and guidelines for systems integration.",
+    "level_6": "Leads the development of organisational systems integration and build capabilities including automation and continuous integration.\nDevelops organisational policies, standards and guidelines for systems integration and build.\nProvides resources to ensure systems integration and build can operate effectively and ensures adoption and adherence to policies and standards."
+  }
+}

@@ -1,0 +1,22 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Availability management', 'row': 101, 'skill_code': 'AVMT', 'category': 'Delivery and operation', 'subcategory': 'Service management'}
+# Content Length: 2305 characters
+
+================================================================================
+
+{
+  "skill_name": "Availability management",
+  "code": "AVMT",
+  "url": "https://sfia-online.org/en/skillcode/9/AVMT",
+  "category": "Delivery and operation",
+  "subcategory": "Service management",
+  "overall_description": "Ensuring services deliver agreed levels of availability to meet the current and future needs of the business.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndefining and agreeing availability targets\ndisaster recovery planning and testing\nensuring services can collect data required to measure availability\nmonitoring, analysing and reporting on service availability\nimplementing availability management practices, including those for cloud-based services\nmaintaining and improving the availability of services\ncontrolling and managing service availability to deliver agreed levels of availability in a cost-effective manner.",
+  "level_descriptions": {
+    "level_3": "Performs defined availability management tasks, such as routine monitoring and data collection.\nTests disaster recovery procedures under direction and contributes to the documentation of recovery plans.\nAssists with the operation of availability management tools and processes.\nMonitors service components against agreed performance standards and reports any deviations.",
+    "level_4": "Analyses service and component availability, reliability, maintainability and serviceability. \nContributes to the availability management process and its operation. \nMonitors and maintains services and components to ensure ongoing compliance with agreed performance targets and service levels.\nImplements disaster recovery arrangements and documents recovery procedures. Conducts testing of recovery procedures.",
+    "level_5": "Provides advice and guidance on the planning, design and improvement of service and component availability. \nInvestigates all breaches of availability targets and service non-availability and initiates remedial activities. \nDevelops plans for disaster recovery together with supporting processes. \nManages the testing of disaster recovery plans.",
+    "level_6": "Sets policy and develops strategies, plans and processes to ensure services deliver agreed levels of availability. \nDevelops and implements new availability tools and techniques."
+  }
+}

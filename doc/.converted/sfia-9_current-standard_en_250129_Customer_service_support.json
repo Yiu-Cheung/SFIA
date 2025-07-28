@@ -1,0 +1,24 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Customer service support', 'row': 136, 'skill_code': 'CSMG', 'category': 'Relationships and engagement', 'subcategory': 'Stakeholder management'}
+# Content Length: 3503 characters
+
+================================================================================
+
+{
+  "skill_name": "Customer service support",
+  "code": "CSMG",
+  "url": "https://sfia-online.org/en/skillcode/9/CSMG",
+  "category": "Relationships and engagement",
+  "subcategory": "Stakeholder management",
+  "overall_description": "Managing and operating customer service or service desk functions.",
+  "guidance_notes": "Customer service support can be managed and delivered across a variety of environments, such as physical contact centres, distributed or virtual teams, and through automated systems like chatbots or self-service portals. These functions may be applied in any customer-facing context, including but not limited to contact centres, service desks, and digital customer interaction channels.\nActivities may include, but are not limited to:\n\nmanaging customer service functions and teams\nacting as a point of contact for customers and clients\nresponding to inquiries and issues\nhandling requests for information or assistance\nmanaging access to products, services, or systems\nprocessing and fulfilling service requests\nmaintaining customer satisfaction.",
+  "level_descriptions": {
+    "level_1": "Receives and handles routine customer inquiries and requests, following established procedures.\nAccurately records customer interactions and maintains relevant records.\nEscalates complex issues to appropriate team members or departments.",
+    "level_2": "Responds to common customer service requests, providing information to enable fulfilment or resolution.\nAllocates unresolved calls, requests, or issues to appropriate functions.\nContributes to the maintenance of customer service knowledge bases and documentation.\nAssists in monitoring customer satisfaction metrics.",
+    "level_3": "Acts as a routine contact point for customers, handling a wide range of inquiries and service requests.\nPerforms initial investigation and diagnosis of customer issues, resolving them where possible or escalating as needed.\nContributes to the development of service standards and procedures.\nAssists in analysing service performance data and identifying areas for improvement.",
+    "level_4": "Monitors service delivery across multiple channels and analyses performance data.\nContributes to the development and implementation of service standards and procedures. Provides technical and procedural guidance to team members.\nIdentifies trends in customer inquiries and service issues, recommending process improvements.\nCollaborates with other departments to enhance the overall customer experience.",
+    "level_5": "Manages day-to-day operations of the customer service function, including resource planning and work allocation.\nDevelops and implements service standards, policies and procedures. Analyses service metrics and customer feedback to drive continuous improvement initiatives.\nEnsures the service catalogue is comprehensive, up-to-date and aligned with organisational goals.\nDevelops approaches to enhance customer satisfaction.",
+    "level_6": "Shapes the strategic direction for customer service across the organisation.\nDefines service channels, service levels, standards and the monitoring process for customer service or service desk staff. Champions the service culture required to deliver organisational outcomes.\nLeads the development and implementation of organisational frameworks for complaints, service standards and operational agreements.\nTakes responsibility for business continuity and legal, regulatory and contractual compliance."
+  }
+}

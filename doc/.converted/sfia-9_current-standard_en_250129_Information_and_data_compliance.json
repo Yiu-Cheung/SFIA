@@ -1,0 +1,21 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Information and data compliance', 'row': 19, 'skill_code': 'PEDP', 'category': 'Strategy and architecture', 'subcategory': 'Security and privacy'}
+# Content Length: 2639 characters
+
+================================================================================
+
+{
+  "skill_name": "Information and data compliance",
+  "code": "PEDP",
+  "url": "https://sfia-online.org/en/skillcode/9/PEDP",
+  "category": "Strategy and architecture",
+  "subcategory": "Security and privacy",
+  "overall_description": "Implementing and promoting compliance with information and data management legislation.",
+  "guidance_notes": "Includes legislation regulating the holding, use and disclosure of personal data.\nActivities may include, but are not limited to:\n\nproviding expert advice on policies, procedures and governance\ndesigning privacy-friendly products, services and systems that respect customer privacy and embed data protection\nperforming impact assessments, identify risks whilst enabling prudent use of data and addressing issues with products and services\nresponding to incidents\nfollowing legislative developments\ncreating risk models and frameworks\nworking with subject matter experts in areas such as, but not limited to, legal, public relations, learning and development, procurement, security, data management and architecture.",
+  "level_descriptions": {
+    "level_4": "Supports the implementation of policy, standards and guidelines related to information and data legislation and compliance requirements.\nMonitors the implementation of effective controls for internal delegation, audit and control relating to information management.\nReports on the consolidated status of information controls to inform effective decision-making.\nIdentifies risks around the use of information  and data that is subject to specific legislation. Recommends remediation actions as required.",
+    "level_5": "Contributes to policies, standards and guidelines for information and data compliance. \nProvides authoritative advice on implementing compliance controls in products, services and systems. \nInvestigates breaches and recommends control improvements.  Maintains an inventory of legislated data, conducts risk assessments and specifies necessary changes. \nEnsures formal requests and complaints are handled following procedures. Prepares and submits reports to relevant authorities, ensuring all compliance requirements are met.",
+    "level_6": "Develops strategies for compliance with information and data legislation. \nEnsures that the policy and standards for compliance with information and data legislation are fit for purpose, current and correctly implemented. \nActs as the organisation's contact for the regulatory authorities. \nOperates as a focus for information and data legislation for the organisation, working with specialists to provide authoritative advice and guidance."
+  }
+}

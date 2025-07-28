@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Systems installation and removal', 'row': 93, 'skill_code': 'HSIN', 'category': 'Delivery and operation', 'subcategory': 'Technology management'}
+# Content Length: 2756 characters
+
+================================================================================
+
+{
+  "skill_name": "Systems installation and removal",
+  "code": "HSIN",
+  "url": "https://sfia-online.org/en/skillcode/9/HSIN",
+  "category": "Delivery and operation",
+  "subcategory": "Technology management",
+  "overall_description": "Installing and testing, or decommissioning and removing, systems or system components.",
+  "guidance_notes": "Systems or systems components may include, but are not limited to, hardware, software, cabling, wiring and monitoring equipment.\nActivities may include, but are not limited to:\n\ndeveloping and following plans and instructions in accordance with agreed standards\nadhering to established safety, security and quality standards\ntesting of hardware and software components, resolution of malfunctions and recording of results\ndocumenting the details of hardware and software installed so that configuration management records can be updated\nsafe disconnection, decommissioning and removal of systems or system components.",
+  "level_descriptions": {
+    "level_1": "Follows agreed procedures to perform simple installations, replace consumable items and check the correct working of installations. \nDocuments and reports on work done.",
+    "level_2": "Installs or removes system components using supplied installation instructions and tools.  \nConducts standard tests and contributes to investigations of problems and faults.\nConfirms the correct working of installations. \nDocuments results in accordance with agreed procedures.",
+    "level_3": "Installs or removes hardware and/or software, using supplied installation instructions and tools, including handover to the client. \nUses standard procedures and diagnostic tools to test installations, correct problems, and document results. \nRecords details of all components that have been installed and removed. Assists users and follows agreed procedures for further help or escalation.\nContributes to the development of installation procedures and standards.",
+    "level_4": "Undertakes or supervises complex installations and de-installations of systems or components, including handover to the client. \nDevelops procedures and standards for installation and handover to maintain and improve the installation service. \nSchedules installation work around client priorities and resource availability.  \nEnsures adherence to established safety and quality procedures.",
+    "level_5": "Takes responsibility for installation and/or decommissioning projects. \nProvides effective team leadership, including information flow to and from the customer during project work. \nDevelops and implements quality plans and method statements. \nMonitors the effectiveness of installations and ensures appropriate recommendations for change are made."
+  }
+}

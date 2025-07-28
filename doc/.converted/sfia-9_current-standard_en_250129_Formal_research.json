@@ -1,0 +1,23 @@
+# Converted from: .\doc\sfia-9_current-standard_en_250129.xlsx
+# Format: json
+# Metadata: {'source': '.\\doc\\sfia-9_current-standard_en_250129.xlsx', 'type': 'xlsx', 'format': 'json', 'sheet': 'Skills', 'skill': 'Formal research', 'row': 7, 'skill_code': 'RSCH', 'category': 'Strategy and architecture', 'subcategory': 'Strategy and planning'}
+# Content Length: 4149 characters
+
+================================================================================
+
+{
+  "skill_name": "Formal research",
+  "code": "RSCH",
+  "url": "https://sfia-online.org/en/skillcode/9/RSCH",
+  "category": "Strategy and architecture",
+  "subcategory": "Strategy and planning",
+  "overall_description": "Systematically creating new knowledge by data gathering, innovation, experimentation, evaluation and dissemination.",
+  "guidance_notes": "Activities may include, but are not limited to:\n\ndetermining research goals and the methods by which the research will be conducted\nactively participating in a community of researchers\ncommunicating formally and informally through digital media, conferences, journals, books and seminars.\n\nThe Formal Research skill, as defined in SFIA, encompasses the systematic creation of new knowledge through rigorous methodologies, applicable across various sectors including, but not limited to, commercial research and development, academic institutions, governmental agencies, and non-profit organisations.\nBecause of its name, this skill can be confused with general search and investigation into a topic of interest. In most cases, general investigations are covered by responsibilities described by the SFIA generic attributes. Many of the SFIA professional skills also refer to investigation or similar activity.",
+  "level_descriptions": {
+    "level_2": "Within given research goals, assists in selection and review of credible and reliable resources. \nSearches for relevant material using specialised websites and sources, reads relevant articles to update knowledge of the relevant field. \nReports on work carried out and may contribute sections of publication-quality material. \nCurates, under guidance, a personal collection of relevant material.",
+    "level_3": "Within given research goals, builds on and refines appropriate outline ideas for research, including evaluation, development, demonstration and implementation. \nApplies standard methods to collect and analyse quantitative and qualitative data. Creates research reports to communicate research methodology, findings and conclusions. \nContributes sections of publication-quality material. \nUses available resources to update knowledge of any relevant field and curates a personal collection of relevant material. Participates in research communities.",
+    "level_4": "Builds on and refines appropriate outline ideas for the evaluation, development, demonstration and implementation of research. \nContributes to research goals and funding proposals. Collects and analyses qualitative and quantitative data as required. \nContributes to research plans and identifies appropriate opportunities for publication and dissemination of research findings. Makes an active contribution to research communities.\nPresents papers at conferences, contributes significant sections of publication-quality material and presents reports to clients.",
+    "level_5": "Agrees research goals and methods and performs projects to generate original ideas. \nAttracts and manages external research funding. Maintains a strong external network within own area of specialism. \nProvides advice on performing research. Selects and adapts data collection tools and techniques.  Develops, reviews and constructively criticises the research and ideas of others. Shares demonstrations of research findings.\nTakes part in professional activities outside own employing organisation. Presents papers at significant conferences, writes articles for specialist journals and presents reports to key stakeholders.",
+    "level_6": "Develops the organisation's research policy and supervises the work of research functions. \nPromotes activities externally, attracts and manages significant portfolios of research funding. \nSets research goals and authorises research proposals. Leads strategic and/or interdisciplinary research projects. Maintains a strong external network reaching beyond own immediate area of specialism. \nTakes a leading part in professional activities outside own employing organisation. Presents keynote papers at major conferences, writes articles for high impact journals and presents reports to major clients."
+  }
+}
