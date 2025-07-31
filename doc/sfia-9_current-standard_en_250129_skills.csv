@@ -1,0 +1,433 @@
+#,Levels,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Code,URL,Skill,Category,Subcategory,Overall description,Guidance notes,Level 1 description,Level 2 description,Level 3 description,Level 4 description,Level 5 description,Level 6 description,Level 7 description
+1,,,,4.0,5.0,6,7.0,ITSP,https://sfia-online.org/en/skillcode/9/ITSP,Strategic planning,Strategy and architecture,Strategy and planning,"Creating and maintaining organisational-level strategies to align overall business plans, actions and resources with high-level business objectives.","This skill is primarily focused on enterprise-wide strategic planning and management, rather than developing strategies for specific technical or functional areas. For senior managers or individuals working on their own technical or functional strategies, this skill may be too broad and high-level. Instead, they may require more specific skills related to their particular domain or area of expertise.
+Activities may include, but are not limited to:
+
+conducting environmental analyses to inform strategy development
+collaborating with stakeholders to formulate and implement strategies and action plans
+using data analytics and digital tools to support strategic decision-making and monitor progress
+ensuring agility and flexibility in strategy execution to adapt to changing business needs
+communicating and embedding strategic management through objectives, accountabilities and progress monitoring
+continuously reviewing and iterating strategic plans to maintain alignment with business goals.
+",,,,"Contributes to the collection and analysis of information to support strategy development. 
+Assists in the preparation of reports and insights for strategic planning.
+Supports the communication of strategic plans and related change initiatives to relevant stakeholders. 
+Helps monitor progress against strategic objectives and provides feedback.","Collates information and creates reports and insights to support strategy management processes.
+Ensures all stakeholders are aware of the strategic management approach and timetables. Provides support and guidance to help stakeholders adhere to the approach.
+Develops and communicates plans to drive forward the strategy and related change planning.
+Contributes to the development of policies, standards and guidelines for strategy development and planning.","Sets policies, standards and guidelines for how the organisation conducts strategy development and planning.
+Leads and manages the creation or review of a strategy that meets the requirements of the business. 
+Develops, communicates, implements and reviews the processes which embed strategic management in the operational management of the organisation.","Leads the definition, implementation and communication of the organisation’s strategic management framework. 
+Directs the creation and review of a strategy and plans to support the strategic requirements of the business."
+2,,,,,,6,7.0,ISCO,https://sfia-online.org/en/skillcode/9/ISCO,Information systems coordination,Strategy and architecture,Strategy and planning,Coordinating information and technology strategies where the adoption of a common approach would benefit the organisation.,"This skill is typically applied in large organisations with devolved information, data, technology, digital, cybersecurity functions or in collaborative enterprises of independent organisations.
+Activities may include, but are not limited to:
+
+developing and implementing strategies for coordinated deployment across multiple business units, such as, standardising hardware procurement, aligning software licensing and unifying cloud adoption approaches
+facilitating communication and collaboration between autonomous units
+identifying opportunities for shared services and integration
+coordinating enterprise-wide cybersecurity strategies and practices
+aligning initiatives with overall business objectives
+promoting standardisation of processes and technologies where beneficial
+managing cross-functional projects and initiatives
+evaluating and recommending enterprise-wide solutions
+developing governance frameworks for coordinated management of digital, data and technology.
+",,,,,,"Maintains awareness of the global needs of the organisation. 
+Promotes the benefits that a common approach to technology deployment will bring to the entire organisation.
+Coordinates and collaborates with others on the promotion, acquisition, development and implementation of information systems and services.","Establishes the organisation's strategy for managing information and communicates the policies, standards, procedures and methods necessary to implement the strategy. 
+Coordinates all aspects of management of the lifecycle of information systems. 
+Represents the interests of the entire organisation to general management and external bodies on matters relating to information strategy."
+3,,,3.0,4.0,5.0,6,7.0,IRMG,https://sfia-online.org/en/skillcode/9/IRMG,Information management,Strategy and architecture,Strategy and planning,Enabling the effective management and use of information assets.,"Information assets represent information deemed valuable by an organisation and may be held in many forms including, but not limited to: digital documents, printed material, microform, e-mail, chats and websites. Information may be structured or unstructured and may be created by internal or external sources.
+Specific laws and regulations may require organisations to maintain records of certain business activities and transactions for a minimum period.
+Activities may include, but are not limited to:
+
+identifying, classifying, processing information that is used to support decision-making, business processes and digital services
+developing innovative ways of managing the information assets of the organisation
+governance of how information is used to support decision-making, business processes and digital services
+ensuring information can be discovered and delivered in line with organisational policies and practices
+developing and promoting strategies and policies for the design of information architectures, structures and taxonomies
+implementing systems of cataloguing, metadata, indexing and classification standards and methods used to organise information
+",,,"Supports teams and individuals to identify and organise information assets and repositories in line with policy and practices.
+Conducts routine searches for non-sensitive information needed to support organisational decision making.
+Supports users to find and access information resources based on their requirements and approved access.","Enables the organisation to organise, control and discover information assets.
+Supports the organisation to identify, catalogue and categorise information types and information repositories in line with information management strategies and practices.
+Enables users to find information through appropriate use of metadata and search tools.
+Provides advice and guidance to enable good information management practices to be adopted across the organisation.","Ensures implementation of information and records management policies and standard practice.  Communicates the benefits and value of information management. 
+Plans effective information storage, sharing and publishing within the organisation. Develops organisational taxonomy for information assets. 
+Provides expert advice and guidance to enable the organisation to get maximum value from its information assets. 
+Assesses issues that might prevent the organisation from making maximum use of its information assets. Contributes to the development of policy, standards and procedures for compliance with relevant legislation.","Leads and plans activities to communicate and implement information management strategies and policies.  
+Develops organisational policies, standards and guidelines for information management. 
+Ensures the information required to support the organisation is defined. Creates information management processes.  
+Coordinates internal and externally sourced information resources to meet specific business objectives.","Establishes and communicates the organisation's information management strategy. 
+Specifies at a strategic level the information needed to support the business strategy and business functions.  
+Directs information resources to create value for stakeholders. 
+Accountable for compliance with regulations, standards and codes of good practice relating to all aspects of information management."
+4,,,,,5.0,6,7.0,STPL,https://sfia-online.org/en/skillcode/9/STPL,Enterprise and business architecture,Strategy and architecture,Strategy and planning,"Aligning an organisation's technology strategy with its business mission, strategy and processes and documenting this using architectural models.","Enterprise architecture is typically considered across four domains: business, data, applications and infrastructure technologies. It may also include information security or legal and regulatory compliance.
+Activities may include, but are not limited to:
+
+translating business strategies and objectives into an operating model
+assessing current capabilities and identifying required changes to achieve objectives
+developing and maintaining roadmaps to guide the transition from the current state to the future state
+describing the interrelationships between people, organisation, services, processes, data, information, technology and the external environment
+creating, iterating and maintaining architectural models and views that embody key principles for the organisation's future state and evolution
+implementing enterprise architecture working practices to support and enable iterative/agile working
+interpreting business goals and drivers
+documenting and communicating constraints, standards and guiding principles necessary to define, assure and govern the required evolution
+using architectural models and processes to facilitate changes in the organisation's structure, business processes, information or data, business systems and infrastructure
+describing where and why the enterprise will benefit from cloud-based services.
+",,,,,"Develops models and plans to drive the execution of the business strategy, taking advantage of opportunities to improve business performance. 
+Contributes to creating and reviewing a systems capability strategy which meets the business's strategic requirements. 
+Creates and maintains roadmaps to guide the execution of business strategy and capability improvements.
+Determines requirements and specifies effective business processes, through improvements in technology, information or data practices, organisation, roles, procedures and equipment.","Develops enterprise-wide architecture and processes to embed strategic change management within the organisation. 
+Leads the creation and review of a systems capability strategy aligned with business requirements. Develops roadmaps for enterprise architecture and initiatives, ensuring stakeholder buy-in. 
+Captures and prioritises market and environmental trends, business strategies and objectives, identifying alternative strategies.  Develops business cases for approval, funding and prioritisation of high-level initiatives.
+Sets strategies, policies, standards and practices to ensure compliance between business strategies, technology strategies and enterprise transformation activities.","Directs the development of enterprise-wide architecture and processes to embed the strategic application of change in the management of the organisation. 
+Directs the creation and review of an enterprise capability strategy to support the strategic requirements of the business. Oversees the creation and implementation of roadmaps to guide long-term enterprise transformation and strategic alignment.
+Identifies the business benefits of alternative strategies.
+Ensures compliance between business strategies, enterprise transformation activities and technology directions, setting strategies, policies, standards and practices."
+5,,,,4.0,5.0,6,,ARCH,https://sfia-online.org/en/skillcode/9/ARCH,Solution architecture,Strategy and architecture,Strategy and planning,Developing and communicating a multi-dimensional solution architecture to deliver agreed business outcomes.,"Activities may include, but are not limited to:
+
+defining the planned operation and maintenance of the solution within a production environment, including changes to services, processes, organisation and operating models as well as technology 
+ensuring existing and planned solution components are compatible with relevant architectures, strategies, policies, standards and practices 
+considering requirements for security, privacy and testing of solutions
+taking account of relevant architectures, strategies, policies, standards and practices 
+identifying appropriate cloud services, evaluating their cost implications and optimising for cost-efficiency
+developing roadmaps to migrate components to cloud services
+developing and communicating an implementation roadmap 
+providing guidance and risk-based governance to support solution implementation including managing requests for changes and deviations from specifications.
+",,,,"Contributes to the development of solution architectures in specific business, infrastructure or functional areas. 
+Identifies and evaluates alternative architectures and the trade-offs in cost, performance and scalability. Determines and documents architecturally significant decisions. 
+Produces specifications of cloud-based or on-premises components, tiers and interfaces, for translation into detailed designs using selected services and products. 
+Supports projects or change initiatives through the preparation of technical plans and application of design principles. Aligns solutions with enterprise and solution architecture standards (including security).","Leads the development of solution architectures in specific business, infrastructure or functional areas. 
+Leads the preparation of technical plans and ensures appropriate technical resources are made available. Ensures appropriate tools and methods are available, understood and employed in architecture development.
+Provides technical guidance and governance on solution development and integration. Evaluates requests for changes and deviations from specifications and recommends actions.
+Ensures relevant technical strategies, policies, standards and practices (including security and cost management) are applied correctly.","Leads the development of architectures for complex solutions ensuring consistency with agreed requirements. 
+Establishes policies, principles and practices for the selection of solution architecture components. 
+Manages trade-offs and balances functional, service quality, cost efficiency and systems management requirements within a significant area of the organisation. Communicates proposed decisions to stakeholders.
+Coordinates and manages the target architecture across multiple projects or initiatives.  Maintains a stable, viable architecture and ensures consistency of design and adherence to appropriate standards across multiple projects or initiatives.",
+6,,,,,5.0,6,7.0,INOV,https://sfia-online.org/en/skillcode/9/INOV,Innovation management,Strategy and architecture,Strategy and planning,"Identifying, prioritising, incubating and exploiting opportunities provided by information, communication and digital technologies.","This skill focuses on a systematic, organisational approach to innovation. It is not describing personal behaviours, such as creativity.
+Activities may include, but are not limited to:
+
+developing and implementing processes, tools and infrastructures to support innovation
+implementing innovation practices to support iterative/agile working
+facilitating internal and external communities, employees, commercial partners, customers, users and other stakeholders in the innovation process
+providing a framework for governance, monitoring and reporting on the innovation process
+building a culture of experimentation and calculated risk-taking
+adopting strategies to incorporate external ideas and technologies to enhance and accelerate the organisation's innovation efforts
+using data analytics to drive evidence-based innovation.
+developing metrics to measure innovation impact and return on investment.
+",,,,,"Manages the innovation pipeline and executes innovation processes. 
+Develops and adapts innovation tools, processes and infrastructures to drive the process of innovation. Identifies resources and capabilities needed to support innovation. 
+Encourages and motivates innovation communities, teams and individuals to share creative ideas and learn from failures. 
+Manages and facilitates the communication and open flow of creative ideas between interested parties and the set-up of innovation networks and communities.","Obtains organisational commitment to innovation. 
+Develops organisational capabilities to drive innovation. 
+Leads and plans the development of innovation capabilities and implementation of innovation processes, tools and frameworks. 
+Leads the communication and an open flow of creative ideas between interested parties and the set-up of innovation networks and communities.","Leads development of a culture that encourages innovation, risk-taking and collaboration. 
+Embeds innovation processes throughout business units and links strategy execution with innovation. 
+Aligns organisational and individual objectives, measures and rewards with innovation."
+7,,,,4.0,5.0,6,,EMRG,https://sfia-online.org/en/skillcode/9/EMRG,Emerging technology monitoring,Strategy and architecture,Strategy and planning,"Identifying and assessing new and emerging technologies, products, services, methods and techniques.","This skill involves systematically tracking, assessing and reporting on emerging technologies and their potential impact on the organisation.
+Activities may include, but are not limited to:
+
+conducting regular technology landscape scans
+evaluating potential benefits and risks of new technologies
+preparing reports and briefings for stakeholders on emerging trends
+recommending pilot projects or proofs of concept for promising technologies
+collaborating with research and development (R&D) teams to explore innovative applications
+attending industry conferences and engaging with technology vendors
+developing frameworks for assessing technology readiness and organisational fit
+advising on the strategic implications of adopting emerging technologies.
+",,,,"Supports monitoring of the external environment and assessment of emerging technologies. 
+Contributes to the creation of reports, technology roadmapping and the sharing of knowledge and insights.","Monitors the external environment to gather intelligence on emerging technologies. 
+Assesses and documents the impacts, threats and opportunities to the organisation. 
+Creates reports and technology roadmaps and shares knowledge and insights with others.","Plans and leads the identification and assessment of emerging technologies and the evaluation of potential impacts, threats and opportunities.
+Creates technology roadmaps that align organisational plans with emerging technology solutions. Engages with, and influences, relevant stakeholders to obtain organisational commitment to technology roadmaps. 
+Develops organisational guidelines for monitoring emerging technologies. 
+Collaborates with internal and external parties to facilitate intelligence gathering.",
+8,,2.0,3.0,4.0,5.0,6,,RSCH,https://sfia-online.org/en/skillcode/9/RSCH,Formal research,Strategy and architecture,Strategy and planning,"Systematically creating new knowledge by data gathering, innovation, experimentation, evaluation and dissemination.","Activities may include, but are not limited to:
+
+determining research goals and the methods by which the research will be conducted
+actively participating in a community of researchers
+communicating formally and informally through digital media, conferences, journals, books and seminars.
+
+The Formal Research skill, as defined in SFIA, encompasses the systematic creation of new knowledge through rigorous methodologies, applicable across various sectors including, but not limited to, commercial research and development, academic institutions, governmental agencies, and non-profit organisations.
+Because of its name, this skill can be confused with general search and investigation into a topic of interest. In most cases, general investigations are covered by responsibilities described by the SFIA generic attributes. Many of the SFIA professional skills also refer to investigation or similar activity.",,"Within given research goals, assists in selection and review of credible and reliable resources. 
+Searches for relevant material using specialised websites and sources, reads relevant articles to update knowledge of the relevant field. 
+Reports on work carried out and may contribute sections of publication-quality material. 
+Curates, under guidance, a personal collection of relevant material.","Within given research goals, builds on and refines appropriate outline ideas for research, including evaluation, development, demonstration and implementation. 
+Applies standard methods to collect and analyse quantitative and qualitative data. Creates research reports to communicate research methodology, findings and conclusions. 
+Contributes sections of publication-quality material. 
+Uses available resources to update knowledge of any relevant field and curates a personal collection of relevant material. Participates in research communities.","Builds on and refines appropriate outline ideas for the evaluation, development, demonstration and implementation of research. 
+Contributes to research goals and funding proposals. Collects and analyses qualitative and quantitative data as required. 
+Contributes to research plans and identifies appropriate opportunities for publication and dissemination of research findings. Makes an active contribution to research communities.
+Presents papers at conferences, contributes significant sections of publication-quality material and presents reports to clients.","Agrees research goals and methods and performs projects to generate original ideas. 
+Attracts and manages external research funding. Maintains a strong external network within own area of specialism. 
+Provides advice on performing research. Selects and adapts data collection tools and techniques.  Develops, reviews and constructively criticises the research and ideas of others. Shares demonstrations of research findings.
+Takes part in professional activities outside own employing organisation. Presents papers at significant conferences, writes articles for specialist journals and presents reports to key stakeholders.","Develops the organisation's research policy and supervises the work of research functions. 
+Promotes activities externally, attracts and manages significant portfolios of research funding. 
+Sets research goals and authorises research proposals. Leads strategic and/or interdisciplinary research projects. Maintains a strong external network reaching beyond own immediate area of specialism. 
+Takes a leading part in professional activities outside own employing organisation. Presents keynote papers at major conferences, writes articles for high impact journals and presents reports to major clients.",
+9,,,,4.0,5.0,6,,SUST,https://sfia-online.org/en/skillcode/9/SUST,Sustainability,Strategy and architecture,Strategy and planning,Advising and leading sustainability initiatives to reduce environmental impact and ensure compliance with relevant standards and regulations.,"Activities may include, but are not limited to:
+
+developing policies, standards and guidelines to minimise the environmental impact of IT operations and assets.
+providing advice on sustainability regulations and standards.
+establishing and monitoring sustainability metrics and benchmarks.
+promoting and communicating sustainability policies and programmes.
+overseeing the implementation of sustainable practices in hardware, software, networks, storage, power supply, maintenance and asset disposal.
+",,,,"Assesses and reports on how different tactical decisions affect sustainability. 
+Evaluates factors and risks (political, legislative, technological, economic, social) that impact on operational processes and strategic direction.
+Evaluates and reports on the implementation of sustainability measures in specific areas.","Provides expert advice and guidance on planning, designing and implementing sustainability solutions. 
+Evaluates and selects sustainability methods, tools and practices to be used in line with agreed policies and standards. 
+Identifies and recommends improvements to the organisation's approach to sustainability.","Develops and promotes organisational strategies, policies, standards and guidelines for sustainability. 
+Leads the introduction and use of sustainability techniques, methodologies and tools.",
+10,,,,4.0,5.0,6,,FMIT,https://sfia-online.org/en/skillcode/9/FMIT,Financial management,Strategy and architecture,Financial and value management,"Managing the effective use and control of financial resources to support business strategies, compliance and risk mitigation.","This skill typically applies to dedicated financial management roles, not to managers of operational or project budgets.
+Financial management should align with business strategies and practices in areas such as governance, risk management, portfolio, programme and project management, and asset management.
+Activities may include, but are not limited to:
+
+managing financial control and stewardship of assets and resources
+supporting strategic financial decision-making and business unit collaboration
+aligning budgeting, forecasting and accounting practices with organisational goals
+guiding financial management for consumption-based costs like cloud services
+promoting financial practices to support iterative/agile working across the organisation
+overseeing development of service, project and component cost models to meet strategic objectives
+defining and overseeing charging models for service provision
+ensuring compliance with accounting standards, policies and regulatory requirements
+providing proactive risk management and mitigation strategies
+monitoring business unit performance against financial targets and KPIs, offering insights and recommendations.
+",,,,"Monitors and maintains financial records to ensure compliance and audit requirements are met.
+Provides general support in financial planning and budgeting by compiling and reporting on financial data.
+Supports decision-making by collating and summarising financial information at a high level.
+Collaborates with business units to gather financial data and understand operational needs.","Provides general advice and guidance on financial planning, budgeting and accounting using recognised practices and standards.
+Develops high-level financial plans and forecasts to guide organisational strategies and plans.
+Monitors expenditure to ensure alignment with budgetary goals.
+Contributes to financial control frameworks and supports strategic decision-making by summarising expenditure trends and variances.","Develops organisational policies, standards and guidelines for financial management to support strategic business goals.
+Promotes financial governance and drives adherence to financial policies and standards. Collaborates with senior leaders and business unit heads to ensure financial strategies support overall business objectives.
+Oversees the setting and management of financial budgets and targets at a strategic level.
+Leads high-level reviews of financial performance and implements improvements to align budget usage with organisational priorities.",
+11,,,,4.0,5.0,6,,INVA,https://sfia-online.org/en/skillcode/9/INVA,Investment appraisal,Strategy and architecture,Financial and value management,Assessing the attractiveness of possible investments or projects.,"Activities may include, but are not limited to:
+
+selecting and using appropriate techniques to compare financial investments and returns
+using recognised investment appraisal techniques to compare investment and returns include payback period, accounting rate of return, discounted cash flow (net present value and internal rate of return)
+collecting data using appropriate top-down or bottom-up approaches
+including other factors into the appraisal approach, such as legal considerations, environmental or social impact, operational benefits and risk
+developing scoring methods to allow for subjective benefits or dis-benefits and to aggregate the results of multiple appraisal methods to help compare options
+documenting and presenting the results of investment appraisals
+establishing investment appraisal as a tool for selecting projects/initiatives for further investigation
+identifying possible sources of funding and the impact on the investment appraisal.
+",,,,"Develops and documents investment appraisals for a range of different projects. 
+Identifies suitable appraisal techniques based on the characteristics of a project. 
+Collects the information required to create an investment appraisal in collaboration with internal and external stakeholders. Presents findings of investment appraisals to selected stakeholders. 
+Refines and maintains investment appraisals.","Advises on investment appraisal approaches and tailors organisational standards to the context of portfolios/programmes.  
+Leads investment appraisal activities for simple portfolios and programmes and complex projects.","Develops organisational policies, standards and guidelines for investment appraisals. 
+Leads activities to establish consistent appraisal across the component projects and programmes within a portfolio. 
+Reviews investment appraisals for high-value initiatives to assure their quality. 
+Leads investment appraisal activities for complex programmes of work and portfolios.",
+12,,,3.0,4.0,5.0,6,,BENM,https://sfia-online.org/en/skillcode/9/BENM,Benefits management,Strategy and architecture,Financial and value management,"Forecasting, planning and monitoring the emergence and effective realisation of anticipated benefits from projects and programmes.","Activities may include, but are not limited to:
+
+implementing a benefits management framework and approach
+identifying and implementing the actions needed to optimise the business impact of individual and combined benefits
+confirming the achievement of expected benefits
+adapting benefits management practices for agile projects
+using data-driven analysis for benefits identification, tracking and reporting
+engaging stakeholders to embed a value-driven culture.
+
+",,,"Supports the identification and tracking of benefits for projects and programmes.  
+Collects data to measure benefits realisation.","Contributes to the development and implementation of benefits management plans for projects and programmes. 
+Engages with stakeholders to identify and quantify benefits and to establish metrics and mechanisms for tracking benefits realisation. 
+Monitors and reports on progress towards benefits realisation. 
+Identifies risks and issues that may impact benefits delivery and escalates as appropriate. Supports the embedding of benefits management practices across the organisation.","Leads activities required in the realisation of the benefits of each part of the change programme. 
+Identifies specific metrics and mechanisms to measure benefits and plans to activate these mechanisms at the required time. Monitors benefits against what was predicted in the business case. 
+Ensures all participants are engaged throughout the change programme and fully prepared to exploit the new operational business environment. 
+Supports operational managers to ensure all plans, work packages and deliverables are aligned with the expected benefits.","Works with operational managers to ensure maximum improvements are made as groups of projects deliver their products into operational use. 
+Communicates the change programme vision to staff at all levels of the business and keeps a focus on business objectives. 
+Maintains the business case for funding the programme and confirms continuing business viability of the programme at regular intervals.",
+13,,2.0,3.0,4.0,5.0,6,,BUDF,https://sfia-online.org/en/skillcode/9/BUDF,Budgeting and forecasting,Strategy and architecture,Financial and value management,Developing and managing financial budgets and forecasts to enable effective decision-making and resource allocation.,"Activities may include, but are not limited to:
+
+gathering and analysing financial data to prepare budgets and forecasts
+selecting and applying appropriate budgeting and forecasting methodologies and tools
+incorporating scenario planning, sensitivity analysis and risk assessment into the budgeting and forecasting process
+presenting budget and forecast information to stakeholders and facilitating data-driven decision-making
+developing and implementing budgeting and forecasting strategies, policies and processes aligned with organisational objectives
+driving the adoption of good practices 
+providing strategic insights and recommendations based on budget and forecast analysis
+ensuring compliance with accounting standards, governance, legal and regulatory requirements
+applying budgeting and forecasting to cloud computing and FinOps contexts, such as consumption-based pricing, rapid scalability, and the need for real-time cost-visibility and optimisation.
+",,"Assists in gathering financial data and preparing basic budget templates under supervision. 
+Supports the budgeting and forecasting process by completing assigned tasks.","Performs specified tasks in the budgeting and forecasting process, including data analysis and report preparation, using standard methods. 
+Identifies and resolves routine budgeting and forecasting issues. 
+Communicates budget and forecast information to relevant stakeholders.","Contributes to the development of budgets and forecasts for specific areas of responsibility.
+Gathers and analyses financial data and prepares budget templates and reports.
+Supports stakeholder communication and collaboration in the budgeting and forecasting process.","Leads the development of budgets and forecasts for a department or function.
+Provides authoritative advice and guidance on budgeting and forecasting practices. Selects and applies appropriate budgeting and forecasting methodologies and tools.
+Incorporates scenario planning, sensitivity analysis and risk assessment into the budgeting and forecasting process.
+Collaborates with stakeholders to align budgets and forecasts with organisational objectives and business metrics.","Develops and implements budgeting and forecasting strategies, policies and processes aligned with overall organisational objectives and business metrics. 
+Drives the adoption of good working practices across the organisation.
+Oversees the development of complex financial models and scenario analyses to support strategic decision-making. Provides insights and recommendations to optimise investments and resource allocation.
+Collaborates with senior leaders to ensure budgets and forecasts support long-term organisational goals and drive value creation. Sets the vision and direction for budgeting and forecasting practices.",
+14,,2.0,3.0,4.0,5.0,6,,FIAN,https://sfia-online.org/en/skillcode/9/FIAN,Financial analysis,Strategy and architecture,Financial and value management,Conducting in-depth analysis of financial data to derive insights and support decision-making.,"Activities may include, but are not limited to:
+
+preparing financial insights, dashboards and visualisations to support decision-making
+developing and maintaining financial models for scenario planning and sensitivity analysis
+providing authoritative advice on financial analysis practices and techniques
+presenting findings to stakeholders
+defining the organisation's approach to financial analysis, aligning it with objectives
+implementing financial analysis policies, standards and processes
+developing a culture of data-driven decision-making and continuous improvement
+providing strategic insights based on comprehensive financial analysis
+evaluating investments, projects and services using financial analysis techniques
+applying financial analysis to cloud computing, such as consumption-based pricing and cost optimisation.
+",,"Assists in collecting and organising financial data and preparing basic reports under supervision. 
+Supports the financial analysis process by completing assigned tasks and seeking guidance when needed.","Applies established financial analysis techniques and processes to carry out specific tasks such as detailed data analysis, report generation and interpretation of financial metrics. 
+Contributes to the development of actionable insights for decision-making.
+Communicates financial analysis findings to relevant stakeholders.","Performs financial analysis for specific areas, using standard techniques and tools. 
+Prepares reports and provides insights to support decision-making. Conducts cost-benefit analyses and supports stakeholder collaboration in the cost management process. 
+Collaborates with stakeholders to understand requirements and deliver relevant analysis. 
+Supports the development and maintenance of financial models.","Leads financial analysis activities for a department or function, applying advanced techniques and tools. Develops and maintains complex financial models.
+Conducts scenario planning and sensitivity analysis to support decision-making. Provides authoritative advice and guidance on recommended financial analysis practices.
+Presents findings and recommendations to senior stakeholders, linking financial performance to business outcomes. Collaborates with stakeholders to align analysis with organisational objectives.","Defines and leads the organisation's approach to financial analysis, aligning it with strategic objectives and business value creation.
+Develops and implements enterprise-wide financial analysis policies, standards and processes. Drives a culture of data-driven decision-making and continuous improvement in financial management.
+Provides strategic insights and recommendations based on comprehensive financial analysis, linking performance to business strategy.",
+15,,2.0,3.0,4.0,5.0,6,,COMG,https://sfia-online.org/en/skillcode/9/COMG,Cost management,Strategy and architecture,Financial and value management,"Planning, controlling and analysing costs to enable the effective use of financial resources.","Activities may include, but are not limited to:
+
+developing and implementing cost management strategies, policies and procedures
+analysing costs, identifying trends, and recommending corrective actions
+conducting cost-benefit analyses and supporting stakeholder collaboration in the cost management process
+overseeing the development of complex cost models and reporting frameworks
+presenting cost management insights to stakeholders and facilitating data-driven decision-making
+promoting a culture of cost awareness and ongoing improvement throughout the organisation
+implementing cost management processes and tools to support cloud computing and FinOps in areas such as consumption-based pricing, rapid scalability, and real-time cost visibility and optimisation.
+",,"Assists in gathering cost data and preparing basic cost reports under supervision. 
+Supports the cost management process by completing assigned tasks and seeking guidance when needed.","Applies standard cost management techniques and processes to monitor and report on costs within a specific area of responsibility.
+Identifies and escalates cost variances and supports the implementation of cost-saving initiatives. Collaborates with stakeholders to gather cost data and provide reports.","Develops and implements cost management processes and procedures for a department or function.
+Monitors actual performance against budget and identifies variances.
+Analyses costs, identifies trends and recommends corrective actions.
+Provides guidance and advice on cost management techniques and tools.","Leads the development and implementation of cost management strategies, policies and procedures for a significant area of the organisation.
+Provides authoritative advice and guidance on cost optimisation techniques and recognised good practices. Oversees the development of complex cost models and reporting frameworks.
+Presents cost management insights to senior stakeholders and facilitates data-driven decision-making. Promotes a culture of cost consciousness and continuous improvement.","Defines and leads the organisation's overall approach to cost management, aligning it with strategic objectives and financial goals.
+Develops and implements enterprise-wide cost management policies, standards and processes. Collaborates with senior leaders to identify and drive cost optimisation initiatives.
+Provides strategic insights and recommendations to optimise cost performance and drive long-term value creation. Sets the vision and direction for cost management across the organisation.",
+16,,,,4.0,5.0,6,,DEMM,https://sfia-online.org/en/skillcode/9/DEMM,Demand management,Strategy and architecture,Financial and value management,Analysing and proactively managing business demand for new services or modifications to existing service features or volumes.,"Activities may include, but are not limited to:
+
+collaborating with the business to prioritise demand to improve business value
+developing and communicating insights into patterns of demand
+performing what-if analyses and scenario planning to develop insights and proposals to improve business value
+proposing responses to meet both short-term and long-term demand and facilitating decision-making and planning
+integrating demand analysis and planning with complementary strategic, operational and change planning processes.
+",,,,"Performs demand management analysis and planning activities within a specific business or operational area. 
+Monitors patterns of demand and identifies insights and proposals to improve business value. 
+Identifies and assesses opportunities to prioritise or improve alignment between business demand and capacity to deliver. 
+Engages stakeholders to communicate insights, plans and decisions regarding business demand.","Implements demand management analysis and  planning activities. 
+Provides advice to help stakeholders adopt and adhere to the agreed demand management approach. Manages the process of integrating demand management  with complementary strategic, operational and change management processes. 
+Maintains a register of business requests and routes requests to the right place. Reports on the status of each request.
+Reviews new business proposals and provides advice on demand issues. Works with business representatives to agree and implement short-term and medium-term modifications to demand.","Defines the approach and sets policies for discovering, analysing, planning, controlling and documenting demand for services and products. 
+Organises scoping and business priority setting for strategic business changes involving business policymakers and direction setters. 
+Engages with and influences senior stakeholders to improve the business value delivered from new or existing services and products. 
+Leads the development of demand management capabilities. Leads the integration of demand management with complementary strategic, operational and change management processes.",
+17,,2.0,3.0,4.0,5.0,6,,MEAS,https://sfia-online.org/en/skillcode/9/MEAS,Measurement,Strategy and architecture,Financial and value management,Developing and operating a measurement capability to support agreed organisational information needs.,"Measurement can be applied to organisations, projects, processes and work products.
+Activities may include, but are not limited to:
+
+planning, implementation and control of activities to measure attributes of processes, products and services
+using measures to assess performance and progress and provide indications and insights to actual or potential problems, issues and risks
+identifying requirements for measurement
+implementing measurement to support iterative/agile working practices
+selecting measures and measurement scales, setting target values and thresholds
+establishing data collection and analysis methods, including automation
+real-time and near-real-time measurement.
+
+The measurement skill has diverse applications across industries, including customer experience, IT systems and services, marketing, supply chain, software development, finance, healthcare and project management.",,"Assists in the collection and maintenance of data for measurement purposes under routine supervision.
+Uses standard procedures for measuring attributes of processes, products and services. 
+Helps generate and distribute measurement reports.","Applies standard techniques to support the specification of measures and the collection and maintenance of data for measurement. 
+Generates, produces and distributes reports. 
+Uses measurement tools for routine analysis of data. 
+Identifies and implements improvements to data collection methods.","Identifies and prioritises appropriate measures, scales and targets. 
+Supports projects, functions or teams in the development of measurement methods. 
+Specifies base and derived measures which support agreed information needs. Specifies how to collect and store the data for each required measure. Provides guidance on collection of data. 
+Designs reports and reporting formats.","Establishes measurement objectives and the scope of measurement for functions, teams and projects. 
+Plans and implements improvements to measurement capability. Provides advice and guidance for effective use of measures and measurement.  
+Selects measures appropriate to the context and organisational objectives. Reviews data collection and storage mechanisms to support measurement.
+Contributes to organisational policies, standards and guidelines for measurement.","Leads the development of organisational capabilities for measurement (including automation). 
+Creates the measurement framework and aligns measurement objectives with business objectives. 
+Develops organisational policies, standards and guidelines for measurement. 
+Provides resources to ensure adoption and adherence to policies and standards.",
+18,,2.0,3.0,4.0,5.0,6,7.0,SCTY,https://sfia-online.org/en/skillcode/9/SCTY,Information security,Strategy and architecture,Security and privacy,Defining and operating a framework of security controls and security management strategies.,"Activities may include, but are not limited to:
+
+selecting and adapting security frameworks to protect confidentiality, integrity, and availability of systems
+implementing security controls, including physical, procedural, technical, and compliance measures
+ensuring accountability and adherence to relevant laws and standards
+embedding secure by design principles throughout the system's lifecycle, ensuring security is integrated from the earliest design stages, through development, deployment, and into operations
+identifying and mitigating risks in infrastructure and applications.
+
+Security controls include, but are not limited to:
+
+physical controls - protecting tangible assets and physical environments
+procedural or administrative controls - policies and guidelines governing organisational security practices
+technical or logical controls - hardware and software measures that protect information systems
+legal, regulatory or compliance controls - measures ensuring laws, regulations and industry standards.
+
+These activities are typically performed in collaboration with specialists in other areas including, but not limited to: legal, technical infrastructure, audit, architecture and software engineering.",,"Assists with implementing and monitoring security policies and protocols across different systems.
+Contributes to identifying and addressing potential risks in security governance and compliance.
+Supports the analysis of documented security incidents, escalating where appropriate.
+Assists in the review of access controls and permissions, ensuring adherence to security policies.","Applies and maintains specific security controls as required by organisational policy and local risk assessments.
+Communicates security risks and issues to business managers and others. Performs basic risk assessments for small information systems. 
+Contributes to the identification of risks that arise from potential technical solution architectures. Suggests alternate solutions or countermeasures to mitigate risks. Defines secure systems configurations in compliance with intended architectures.
+Supports investigation of suspected attacks and security breaches.","Provides guidance on the application and operation of elementary physical, procedural and technical security controls. 
+Explains the purpose of security controls and performs security risk and business impact analysis for medium complexity information systems. 
+Identifies risks that arise from potential technical solution architectures. Designs alternate solutions or countermeasures and ensures they manage identified risks. 
+Investigates suspected attacks and supports security incident management.","Provides advice and guidance on security strategies to manage identified risks and ensure adoption and adherence to standards. 
+Contributes to development of information security policy, standards and guidelines. 
+Obtains and acts on vulnerability information and conducts security risk assessments, business impact analysis and accreditation on complex information systems. Investigates major breaches of security and recommends appropriate control improvements. 
+Develops new architectures that manage the risks posed by new technologies and business practices.","Develops and communicates corporate information security policy, standards and guidelines.  
+Ensures architectural principles are applied during design to reduce risk. Drives adoption and adherence to policy, standards and guidelines. 
+Contributes to the development of organisational strategies that address information control requirements. Identifies and monitors environmental and market trends and proactively assesses impact on business strategies, benefits and risks. 
+Leads the provision of authoritative advice and guidance on the requirements for security controls in collaboration with subject matter experts.","Directs the development, implementation, delivery and support of an enterprise information security strategy aligned with the business strategy. 
+Ensures compliance between business strategies and information security. 
+Leads the provision of information security expertise, guidance and systems needed to execute strategic and operational plans.
+Secures organisational resources to execute the information security strategy."
+19,,2.0,3.0,4.0,5.0,6,7.0,INAS,https://sfia-online.org/en/skillcode/9/INAS,Information assurance,Strategy and architecture,Security and privacy,"Protecting against and managing risks related to the use, storage and transmission of data and information systems.","Activities include, but are not limited to:
+
+management of risk in a pragmatic and cost-effective manner to ensure stakeholder confidence
+formal system certification and accreditation
+assessing the effectiveness of cryptographic controls
+technical assessment and evaluation to determine control effectiveness.
+
+Information and data are typically protected by following five principles:
+
+availability - ensuring authorised users can easily access the information they need
+integrity - protecting information from unauthorised modification, retrieval or deletion
+authenticity - validating the identity of users and devices
+confidentiality - restricting access to authorised users only
+non-repudiation - preventing possible denial that an action occurred by ensuring data is true to its origin.
+",,"Assists with information assurance activities under routine supervision.
+Helps perform basic risk assessments and supports the implementation of information assurance measures.
+Assists in maintaining records and documentation related to information assurance.","Follows standard approaches for the technical assessment of information systems against information assurance policies and business objectives. 
+Makes routine accreditation decisions. Recognises decisions that are beyond their scope and responsibility level and escalates according.
+Reviews and performs risk assessments and risk treatment plans. Identifies typical risk indicators and explains prevention measures.
+Maintains integrity of records to support and justify decisions.","Performs technical assessments and/or accreditation of complex or higher-risk information systems. 
+Identifies risk mitigation measures required in addition to the standard organisation or domain measures. 
+Establishes the requirement for accreditation evidence from delivery partners and communicates accreditation requirements to stakeholders.  
+Contributes to planning and organisation of information assurance and accreditation activities. Contributes to development of and implementation of information assurance processes.","Interprets information assurance and security policies and applies these to manage risks. 
+Provides advice and guidance to ensure adoption of and adherence to information assurance architectures, strategies, policies, standards and guidelines. 
+Plans, organises and conducts information assurance and accreditation of complex domains areas, cross-functional areas and across the supply chain. 
+Contributes to the development of policies, standards and guidelines.","Develops information assurance policy, standards and guidelines. 
+Contributes to the development of organisational strategies that address the evolving business risk and information control requirements. 
+Drives adoption of and adherence to policies and standards. Ensures architectural principles are followed, requirements are defined and rigorous security testing is applied. Ensures accreditation processes support and enable organisational objectives.
+Monitors environmental and market trends and assesses any impact on organisational strategies, benefits and risks.","Directs the creation and review of an enterprise information assurance strategy to support the strategic requirements of the business.
+Ensures compliance between business strategies and information assurance by setting strategies, policies, standards and practices. 
+Leads the provision of information assurance expertise, advice and guidance across all of the organisation's information and information systems."
+20,,,,4.0,5.0,6,,PEDP,https://sfia-online.org/en/skillcode/9/PEDP,Information and data compliance,Strategy and architecture,Security and privacy,Implementing and promoting compliance with information and data management legislation.,"Includes legislation regulating the holding, use and disclosure of personal data.
+Activities may include, but are not limited to:
+
+providing expert advice on policies, procedures and governance
+designing privacy-friendly products, services and systems that respect customer privacy and embed data protection
+performing impact assessments, identify risks whilst enabling prudent use of data and addressing issues with products and services
+responding to incidents
+following legislative developments
+creating risk models and frameworks
+working with subject matter experts in areas such as, but not limited to, legal, public relations, learning and development, procurement, security, data management and architecture.
+",,,,"Supports the implementation of policy, standards and guidelines related to information and data legislation and compliance requirements.
+Monitors the implementation of effective controls for internal delegation, audit and control relating to information management.
+Reports on the consolidated status of information controls to inform effective decision-making.
+Identifies risks around the use of information  and data that is subject to specific legislation. Recommends remediation actions as required.","Contributes to policies, standards and guidelines for information and data compliance. 
+Provides authoritative advice on implementing compliance controls in products, services and systems. 
+Investigates breaches and recommends control improvements.  Maintains an inventory of legislated data, conducts risk assessments and specifies necessary changes. 
+Ensures formal requests and complaints are handled following procedures. Prepares and submits reports to relevant authorities, ensuring all compliance requirements are met.","Develops strategies for compliance with information and data legislation. 
+Ensures that the policy and standards for compliance with information and data legislation are fit for purpose, current and correctly implemented. 
+Acts as the organisation's contact for the regulatory authorities. 
+Operates as a focus for information and data legislation for the organisation, working with specialists to provide authoritative advice and guidance.",

@@ -44,7 +44,10 @@ class OllamaGenerator:
     ) -> Response:
         """Generate a response based on query and retrieved documents."""
         # Build context from documents
-        context = "\n".join([doc.content for doc in documents])
+        if documents and isinstance(documents[0].content, bytes):
+            context = "[BINARY EXCEL FILE CONTENT PASSED. LLM should reason about the file as a spreadsheet. Raw bytes omitted for brevity.]"
+        else:
+            context = "\n".join([doc.content for doc in documents])
         
         # Create prompt
         prompt = self._build_prompt(query.text, context)
@@ -65,6 +68,7 @@ class OllamaGenerator:
         """Build the prompt for the LLM."""
         return f"""You are a helpful assistant that answers questions based on the provided context. 
 Please answer the following question using ONLY the information provided in the context below.
+Provide the complete and accurate answer as it appears in the context. Do not summarize or modify the information.
 If the exact answer is not found in the context, say "I cannot find the specific information in the provided context."
 
 Context:

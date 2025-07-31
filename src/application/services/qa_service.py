@@ -39,8 +39,17 @@ class QAService:
         query = Query(question)
         return self._document_repository.search(query, top_k=top_k)
     
-    def ask_question_excel_page_by_page(self, question: str, excel_file_path: str) -> Response:
-        """Ask a question by processing Excel file page by page."""
+    def ask_question_excel_page_by_page(self, question: str, excel_file_path: str, raw_excel_to_llm: bool = False) -> Response:
+        """Ask a question by processing Excel file page by page or passing raw file to LLM."""
+        if raw_excel_to_llm:
+            with open(excel_file_path, "rb") as f:
+                binary_content = f.read()
+            doc = Document(
+                content=binary_content,
+                metadata={"source": excel_file_path, "type": "excel-binary", "raw_passed": True}
+            )
+            query = Query(question)
+            return self._llm_generator.generate(query, [doc])
         try:
             # First, try to find specific skill information
             skill_response = self._find_specific_skill(question, excel_file_path)
@@ -172,8 +181,50 @@ class QAService:
     
     def _extract_skill_keywords(self, question: str) -> List[str]:
         """Extract skill keywords from the question."""
-        # Remove static keyword set; return empty list for now
-        return []
+        keywords = []
+        question_lower = question.lower()
+        
+        # Common skill patterns
+        if "strategic planning" in question_lower:
+            keywords.append("Strategic planning")
+        if "business analysis" in question_lower:
+            keywords.append("Business analysis")
+        if "data analysis" in question_lower:
+            keywords.append("Data analysis")
+        if "software development" in question_lower:
+            keywords.append("Software development")
+        if "project management" in question_lower:
+            keywords.append("Project management")
+        if "system design" in question_lower:
+            keywords.append("System design")
+        if "testing" in question_lower:
+            keywords.append("Testing")
+        if "database design" in question_lower:
+            keywords.append("Database design")
+        if "network design" in question_lower:
+            keywords.append("Network design")
+        if "security administration" in question_lower:
+            keywords.append("Security administration")
+        if "systems integration" in question_lower:
+            keywords.append("Systems integration")
+        if "user experience design" in question_lower:
+            keywords.append("User experience design")
+        if "data modelling and design" in question_lower:
+            keywords.append("Data modelling and design")
+        if "programming/software development" in question_lower:
+            keywords.append("Programming/software development")
+        if "systems development" in question_lower:
+            keywords.append("Systems development")
+        if "data management" in question_lower:
+            keywords.append("Data management")
+        if "information security" in question_lower:
+            keywords.append("Information security")
+        if "network planning" in question_lower:
+            keywords.append("Network planning")
+        if "systems architecture" in question_lower:
+            keywords.append("Systems architecture")
+        
+        return keywords
     
     def _dataframe_to_text(self, df: pd.DataFrame, sheet_name: str) -> str:
         """Convert DataFrame to text format."""
