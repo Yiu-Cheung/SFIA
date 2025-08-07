@@ -42,7 +42,7 @@ def main() -> None:
         "--model", 
         type=str,
         default="llama3.2:latest",
-        help="Ollama model to use (default: llama3.2:latest)"
+        help="Ollama model to use (default: llama3.2:latest). For large files, try smaller models like 'llama3.2:3b' or 'deepseek-r1:1.5b'"
     )
     parser.add_argument(
         "--url", 
@@ -56,6 +56,12 @@ def main() -> None:
         default=10,
         help="Number of documents to retrieve (default: 10)"
     )
+    parser.add_argument(
+        "--timeout", 
+        type=int,
+        default=300,
+        help="Timeout in seconds for processing (default: 300)"
+    )
     
     args = parser.parse_args()
     
@@ -64,7 +70,8 @@ def main() -> None:
         document_store = HaystackDocumentStore()
         llm_generator = OllamaGenerator(
             model=args.model,
-            url=args.url
+            url=args.url,
+            timeout_seconds=args.timeout
         )
         
         # Initialize application services
@@ -77,6 +84,8 @@ def main() -> None:
             if excel_files:
                 excel_file_path = os.path.join(args.doc_folder, excel_files[0])
                 print(f"Processing Excel file page by page: {excel_files[0]}")
+                print(f"Using model: {args.model}")
+                print(f"Timeout: {args.timeout} seconds")
                 print()
                 
                 # Use page-by-page processing
@@ -86,6 +95,7 @@ def main() -> None:
                 if args.debug:
                     print(f"\n[DEBUG] Sheets processed: {response.metadata.get('sheets_processed', 0)}")
                     print(f"[DEBUG] Total sheets: {response.metadata.get('total_sheets', 0)}")
+                    print(f"[DEBUG] Processing time: {response.metadata.get('processing_time', 0):.2f} seconds")
                 
                 # Print response
                 print(f"\nAnswer: {response.content}")

@@ -7,6 +7,7 @@
 # Public API: QAService.ask_question(), QAService.get_retrieved_documents()
 
 import pandas as pd
+import time
 from typing import List, Dict, Any
 
 from ...domain.models.document import Document
@@ -23,6 +24,7 @@ class QAService:
         """Initialize the Q&A service."""
         self._document_repository = document_repository
         self._llm_generator = llm_generator
+        self._timeout_seconds = 300  # 5 minutes timeout
     
     def ask_question(self, question: str, top_k: int = 5) -> Response:
         """Ask a question and get a response."""
@@ -41,6 +43,8 @@ class QAService:
     
     def ask_question_excel_page_by_page(self, question: str, excel_file_path: str) -> Response:
         """Ask a question by processing Excel file page by page."""
+        start_time = time.time()
+        
         try:
             # First, try to find specific skill information
             skill_response = self._find_specific_skill(question, excel_file_path)
@@ -51,16 +55,40 @@ class QAService:
             excel_file = pd.ExcelFile(excel_file_path)
             all_responses = []
             
-            for sheet_name in excel_file.sheet_names:
+            # Limit the number of sheets to process to prevent timeout
+            max_sheets = 10  # Process only first 10 sheets
+            sheets_to_process = excel_file.sheet_names[:max_sheets]
+            
+            print(f"Processing {len(sheets_to_process)} sheets (limited to prevent timeout)...")
+            
+            for i, sheet_name in enumerate(sheets_to_process):
+                # Check timeout
+                if time.time() - start_time > self._timeout_seconds:
+                    return Response(
+                        content=f"Processing timed out after {self._timeout_seconds} seconds. Try a more specific question or use a smaller dataset.",
+                        metadata={"model": "ollama", "timeout": True, "sheets_processed": i}
+                    )
+                
                 # Skip irrelevant sheets
                 if sheet_name.lower() in ['read me notes', 'terms of use']:
                     continue
                 
-                # Read the sheet
-                df = pd.read_excel(excel_file_path, sheet_name=sheet_name)
+                print(f"Processing sheet {i+1}/{len(sheets_to_process)}: {sheet_name}")
+                
+                # Read the sheet with timeout protection
+                try:
+                    df = pd.read_excel(excel_file_path, sheet_name=sheet_name, nrows=1000)  # Limit rows
+                except Exception as e:
+                    print(f"Error reading sheet {sheet_name}: {e}")
+                    continue
                 
                 # Create a document for this sheet
                 sheet_content = self._dataframe_to_text(df, sheet_name)
+                
+                # Limit content size to prevent timeout
+                if len(sheet_content) > 10000:  # 10KB limit
+                    sheet_content = sheet_content[:10000] + "\n[Content truncated due to size limits]"
+                
                 sheet_document = Document(
                     content=sheet_content,
                     metadata={"source": excel_file_path, "type": "excel", "sheet": sheet_name}
@@ -93,26 +121,28 @@ class QAService:
                         "model": "ollama",
                         "sheets_processed": len(all_responses),
                         "total_sheets": len(excel_file.sheet_names),
-                        "final_answer_processed": True
+                        "sheets_limited": len(sheets_to_process),
+                        "final_answer_processed": True,
+                        "processing_time": time.time() - start_time
                     }
                 )
             else:
                 return Response(
-                    content="I could not find any relevant information in the Excel file for your question.",
-                    metadata={"model": "ollama", "sheets_processed": 0}
+                    content="I could not find any relevant information in the Excel file for your question. Try being more specific about the skill or level you're looking for.",
+                    metadata={"model": "ollama", "sheets_processed": 0, "processing_time": time.time() - start_time}
                 )
                 
         except Exception as e:
             return Response(
                 content=f"Error processing Excel file: {str(e)}",
-                metadata={"model": "ollama", "error": str(e)}
+                metadata={"model": "ollama", "error": str(e), "processing_time": time.time() - start_time}
             )
     
     def _find_specific_skill(self, question: str, excel_file_path: str) -> Response:
         """Find specific skill information from the Skills sheet."""
         try:
-            # Read the Skills sheet
-            df = pd.read_excel(excel_file_path, sheet_name='Skills')
+            # Read the Skills sheet with row limit
+            df = pd.read_excel(excel_file_path, sheet_name='Skills', nrows=500)  # Limit to 500 rows
             
             # Extract skill names from the question
             skill_keywords = self._extract_skill_keywords(question)
@@ -172,8 +202,23 @@ class QAService:
     
     def _extract_skill_keywords(self, question: str) -> List[str]:
         """Extract skill keywords from the question."""
-        # Remove static keyword set; return empty list for now
-        return []
+        # Extract skill names from the question
+        skill_keywords = []
+        
+        # Common SFIA skill keywords
+        skill_terms = [
+            "strategy", "planning", "architecture", "development", "testing", "deployment",
+            "security", "data", "analytics", "machine learning", "ai", "cloud", "network",
+            "database", "programming", "software", "system", "business", "management",
+            "leadership", "communication", "stakeholder", "project", "agile", "devops"
+        ]
+        
+        question_lower = question.lower()
+        for term in skill_terms:
+            if term in question_lower:
+                skill_keywords.append(term)
+        
+        return skill_keywords
     
     def _dataframe_to_text(self, df: pd.DataFrame, sheet_name: str) -> str:
         """Convert DataFrame to text format."""

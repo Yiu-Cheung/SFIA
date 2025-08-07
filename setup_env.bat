@@ -4,17 +4,17 @@ echo SFIA - Environment Setup
 echo ========================================
 echo.
 
-REM Check if Python is installed
-python --version >nul 2>&1
+REM Check if py is installed
+py --version >nul 2>&1
 if errorlevel 1 (
-    echo ERROR: Python is not installed or not in PATH
-    echo Please install Python 3.10+ from https://python.org
+    echo ERROR: py is not installed or not in PATH
+    echo Please install py 3.10+ from https://py.org
     pause
     exit /b 1
 )
 
-echo Python found: 
-python --version
+echo py found: 
+py --version
 echo.
 
 REM Check if virtual environment already exists
@@ -32,7 +32,7 @@ if exist ".venv" (
 )
 
 echo Creating virtual environment...
-python -m venv .venv
+py -m venv .venv
 if errorlevel 1 (
     echo ERROR: Failed to create virtual environment
     pause

@@ -21,6 +21,8 @@ src/
 - Question answering using Ollama LLM
 - CLI interface with debug mode
 - Clean, maintainable, and testable code structure
+- Timeout protection for large files
+- Optimized processing for SFIA Excel files
 
 ## Usage
 
@@ -44,6 +46,21 @@ python main.py "Explain quantum computing" --model llama3.1:latest
 
 # Configure Ollama server URL
 python main.py "Hello" --url http://localhost:11434
+
+# Set custom timeout (in seconds)
+python main.py "What is strategy planning?" --doc-folder ./doc --timeout 600
+```
+
+### SFIA Excel File Processing
+
+For large SFIA Excel files, use smaller models to avoid timeouts:
+
+```bash
+# Use a smaller model for faster processing
+python main.py "what is level 5 description of skill Strategy and planning" --doc-folder "./doc" --model "llama3.2:3b"
+
+# Or use the test script to find the best model
+python test_small_model.py
 ```
 
 ### Command Line Options
@@ -51,9 +68,55 @@ python main.py "Hello" --url http://localhost:11434
 - `query`: Question to ask (optional, defaults to "What is your favorite season?")
 - `--doc-folder`: Folder containing documents to load
 - `--debug`: Enable debug mode to show retrieved documents
-- `--model`: Ollama model to use (default: llama3.2:latest)
+- `--model`: Ollama model to use (default: llama3.2:latest). For large files, try smaller models like 'llama3.2:3b' or 'deepseek-r1:1.5b'
 - `--url`: Ollama server URL (default: http://localhost:11434)
 - `--top-k`: Number of documents to retrieve (default: 10)
+- `--timeout`: Timeout in seconds for processing (default: 300)
+
+## Troubleshooting Timeout Issues
+
+### Why Timeouts Occur
+
+1. **Large Excel Files**: SFIA Excel files can be very large with many sheets and rows
+2. **Large Models**: Models like `gpt-oss:20b` are computationally expensive
+3. **Complex Processing**: Each Excel sheet is processed individually and sent to the LLM
+
+### Solutions
+
+1. **Use Smaller Models**:
+   ```bash
+   # Try these models in order of speed
+   python main.py "your question" --model "llama3.2:3b"
+   python main.py "your question" --model "deepseek-r1:1.5b"
+   python main.py "your question" --model "llama3.2:latest"
+   ```
+
+2. **Increase Timeout**:
+   ```bash
+   python main.py "your question" --timeout 600  # 10 minutes
+   ```
+
+3. **Be More Specific**: Ask specific questions about particular skills or levels
+
+4. **Use the Test Script**:
+   ```bash
+   python test_small_model.py
+   ```
+
+5. **Check Ollama Server**:
+   ```bash
+   ollama serve
+   ```
+
+### Performance Optimizations
+
+The system includes several optimizations to prevent timeouts:
+
+- **Sheet Limiting**: Only processes the first 10 sheets by default
+- **Row Limiting**: Limits each sheet to 1000 rows
+- **Content Truncation**: Limits document content to 10KB per sheet
+- **Context Limiting**: Limits LLM context to 8KB
+- **Timeout Protection**: 5-minute default timeout with graceful handling
 
 ## Requirements
 
@@ -114,6 +177,7 @@ SFIA/
 │       └── ml/
 │           └── ollama_generator.py         # Ollama implementation
 ├── main.py                     # Entry point
+├── test_small_model.py         # Test script for timeout issues
 ├── requirements.txt
 └── README.md
 ```

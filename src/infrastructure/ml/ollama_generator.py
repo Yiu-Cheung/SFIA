@@ -6,6 +6,7 @@
 # Responsibility: Implement LLM generation using Ollama
 # Public API: OllamaGenerator.generate()
 
+import time
 from typing import List, Dict, Any
 
 from haystack_integrations.components.generators.ollama import OllamaGenerator as HaystackOllamaGenerator
@@ -22,13 +23,16 @@ class OllamaGenerator:
         self,
         model: str = "deepseek-r1:1.5b",
         url: str = "http://localhost:11434",
-        generation_kwargs: Dict[str, Any] = None
+        generation_kwargs: Dict[str, Any] = None,
+        timeout_seconds: int = 120
     ) -> None:
         """Initialize the Ollama generator."""
         if generation_kwargs is None:
             generation_kwargs = {
-                "num_predict": 5120,
-                "temperature": 0.9,
+                "num_predict": 2048,  # Reduced from 5120 to prevent timeout
+                "temperature": 0.7,    # Reduced from 0.9 for more focused responses
+                "top_k": 40,
+                "top_p": 0.9,
             }
         
         self._generator = HaystackOllamaGenerator(
@@ -36,6 +40,7 @@ class OllamaGenerator:
             url=url,
             generation_kwargs=generation_kwargs
         )
+        self._timeout_seconds = timeout_seconds
     
     def generate(
         self, 
@@ -43,29 +48,58 @@ class OllamaGenerator:
         documents: List[Document]
     ) -> Response:
         """Generate a response based on query and retrieved documents."""
+        start_time = time.time()
+        
         # Build context from documents
         context = "\n".join([doc.content for doc in documents])
+        
+        # Limit context size to prevent timeout
+        if len(context) > 8000:  # 8KB limit
+            context = context[:8000] + "\n[Context truncated due to size limits]"
         
         # Create prompt
         prompt = self._build_prompt(query.text, context)
         
-        # Generate response
-        result = self._generator.run(prompt=prompt)
-        replies = result.get("replies", [])
+        # Check timeout before generation
+        if time.time() - start_time > self._timeout_seconds:
+            return Response(
+                content="Processing timed out. The request was too large or complex. Try a more specific question.",
+                metadata={"model": "ollama", "timeout": True, "processing_time": time.time() - start_time}
+            )
         
-        if not replies:
-            raise RuntimeError("No response generated from Ollama")
-        
-        return Response(
-            content=replies[0],
-            metadata={"model": "ollama", "replies_count": len(replies)}
-        )
+        try:
+            # Generate response with timeout protection
+            result = self._generator.run(prompt=prompt)
+            replies = result.get("replies", [])
+            
+            if not replies:
+                raise RuntimeError("No response generated from Ollama")
+            
+            return Response(
+                content=replies[0],
+                metadata={
+                    "model": "ollama", 
+                    "replies_count": len(replies),
+                    "processing_time": time.time() - start_time
+                }
+            )
+            
+        except Exception as e:
+            # Check if it's a timeout
+            if time.time() - start_time > self._timeout_seconds:
+                return Response(
+                    content="Model inference timed out. The model took too long to respond. Try a simpler question or use a smaller model.",
+                    metadata={"model": "ollama", "timeout": True, "error": str(e), "processing_time": time.time() - start_time}
+                )
+            else:
+                raise RuntimeError(f"Error generating response: {e}")
     
     def _build_prompt(self, query: str, context: str) -> str:
         """Build the prompt for the LLM."""
         return f"""You are a helpful assistant that answers questions based on the provided context. 
 Please answer the following question using ONLY the information provided in the context below.
 If the exact answer is not found in the context, say "I cannot find the specific information in the provided context."
+Keep your answer concise and focused.
 
 Context:
 {context}
